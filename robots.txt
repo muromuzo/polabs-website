@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://polabs.vercel.app/sitemap.xml
