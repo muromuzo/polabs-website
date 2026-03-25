@@ -1109,7 +1109,11 @@
       .stat-cell:last-child, .stat-cell:nth-last-child(2) { border-bottom: none; }
       .cases-grid { grid-template-columns: 1fr; }
       .case-card.featured { grid-column: span 1; }
-      .featured-inner { grid-template-columns: 1fr 1fr; }
+      .featured-inner { grid-template-columns: 1fr !important; }
+      .featured-inner .featured-inner { grid-template-columns: 1fr 1fr !important; }
+      .featured-stat { padding: 14px 10px; }
+      .featured-stat-val { font-size: 1.2rem; }
+      .case-bar-val { font-size: .78rem; }
       .case-value-inner { grid-template-columns: 1fr !important; }
       .core-grid { grid-template-columns: 1fr; }
       .sp-grid { grid-template-columns: 1fr; }
