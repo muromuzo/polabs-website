@@ -386,7 +386,7 @@ strong { font-weight: 700; }
 /* === SEC 1: Revision === */
 .sec-revision {
     background: #fff;
-    padding-top: 250px;
+    padding-top: 300px;
 }
 .revision-content {
     display: flex;
@@ -1490,9 +1490,9 @@ strong { font-weight: 700; }
     line-height: 1.6;
 }
 .faq-answer p {
-    padding-bottom: 22px;
+    padding: 22px;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 30px;
     letter-spacing: -1.3px;
 }
@@ -2059,6 +2059,9 @@ body.loading .kakao-float-btn { transform: translateY(100px); opacity: 0; }
 .sec-portfolio {
     background: #fff;
 }
+.sec-portfolio .section-header {
+    margin-bottom: 100px;
+}
 .portfolio-slider-wrap {
     width: 100%;
     overflow: hidden;
@@ -2196,7 +2199,7 @@ body.loading .kakao-float-btn { transform: translateY(100px); opacity: 0; }
     border-radius: 2px;
 }
 .process-step.active .step-progress {
-    animation: stepProgress 3s linear forwards;
+    animation: stepProgress 2.3s linear forwards;
 }
 @keyframes stepProgress {
     0% { width: 0; }

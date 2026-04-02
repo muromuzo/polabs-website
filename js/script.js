@@ -459,7 +459,7 @@ if (contactForm) {
         cycleInterval = setInterval(() => {
             currentStep = (currentStep + 1) % steps.length;
             activateStep(currentStep);
-        }, 3000);
+        }, 2300);
     }
 
     function stopCycling() {
