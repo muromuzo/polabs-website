@@ -2060,7 +2060,7 @@ body.loading .kakao-float-btn { transform: translateY(100px); opacity: 0; }
     background: #fff;
 }
 .sec-portfolio .section-header {
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 .portfolio-slider-wrap {
     width: 100%;
