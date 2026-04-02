@@ -1660,9 +1660,9 @@ strong { font-weight: 700; }
         flex-direction: column;
         gap: 40px;
     }
-    .contact-intro { padding-top: 0; text-align: center; }
+    .contact-intro { padding-top: 0; }
     .kakao-consult-btn { margin-top: 20px; }
-    .dynamic-main-title { font-size: 2.2rem; }
+    .dynamic-main-title { font-size: 1.92rem; }
     .dynamic-description { font-size: 0.95rem; }
     .process-step.active { transform: scale(1.05); }
     .form-step-title { text-align: center; }
@@ -2310,7 +2310,7 @@ body.loading .kakao-float-btn { transform: translateY(100px); opacity: 0; }
     .desktop-nav { display: none; }
     .mobile-menu-btn { display: flex; }
     .header-inner { height: 90px; padding: 0 20px; }
-    .logo img { height: 80px; }
+    .logo img { height: 110px; }
     .btn-estimate { display: none; }
     .mobile-menu { padding-top: 90px; }
 
@@ -2327,8 +2327,10 @@ body.loading .kakao-float-btn { transform: translateY(100px); opacity: 0; }
     .section-label { font-size: 12px; margin-bottom: 12px; }
     .sub-desc { font-size: 15px; }
 
-    .revision-content { flex-direction: column; gap: 30px; align-items: center; text-align: center; }
-    .revision-badge { width: 90px; height: 90px; }
+    .sec-revision { padding-top: 110px; padding-bottom: 50px; }
+    .revision-content { flex-direction: column; gap: 20px; align-items: stretch; }
+    .revision-text { margin-bottom: 20px; }
+    .revision-badge { width: 90px; height: 90px; margin: 30px auto 0; transform: none !important; }
     .badge-text { font-size: 16px; }
     .revision-text { text-align: left; }
 
@@ -2360,12 +2362,10 @@ body.loading .kakao-float-btn { transform: translateY(100px); opacity: 0; }
     .faq-answer p { font-size: 14px; padding-left: 35px; }
 
     .diff-layout-v2 { flex-direction: column; gap: 30px; }
-    .diff-left-v2 { flex: none; width: 100%; }
+    .diff-left-v2 { flex: none; width: 100%; text-align: center; }
     .physics-container { width: 100%; height: 280px; }
     .diff-cards-grid { grid-template-columns: 1fr; }
     .diff-card-inner { padding: 24px 22px 22px; }
-    .diff-emoji { font-size: 32px; }
-    .diff-card-text { font-size: 15px; }
     .reviews-layout { flex-direction: column; gap: 30px; }
     .reviews-left { flex: none; }
     .reviews-left .section-title { font-size: 26px; }
@@ -2380,9 +2380,13 @@ body.loading .kakao-float-btn { transform: translateY(100px); opacity: 0; }
     .case-metric { font-size: 24px; }
     .evidence-grid { grid-template-columns: repeat(2, 1fr); }
     .diff-card-text { font-size: 18px; }
+    .diff-emoji { position: static; margin-bottom: 12px; }
     .diff-emoji img { width: 60px; height: 60px; }
+    .diff-tags-v2 { justify-content: center; }
 
     .form-options { grid-template-columns: 1fr; }
+    .contact-form-wrap { width: 100%; }
+    .kakao-consult-btn { display: flex; justify-content: center; }
 
     .footer-top { flex-direction: column; gap: 20px; align-items: flex-start; }
     .footer-bottom { flex-direction: column; gap: 15px; align-items: flex-start; }
