@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "jinsul-clone",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8091", "--directory", "/Users/shwanbook/antigravity/polabs-website"],
+      "port": 8091
+    },
+    {
+      "name": "arsea-clone",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8092", "--directory", "/Users/shwanbook/antigravity/polabs-website"],
+      "port": 8092
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cp logo-header.png /Users/shwanbook/antigravity/polabs-website/images/arsea/logo-header.png && cp logo-header3.png /Users/shwanbook/antigravity/polabs-website/images/arsea/logo-footer.png\"...",
+  "error": "Exit code 1\ncp: /Users/shwanbook/antigravity/polabs-website/images/arsea/logo-header.png and logo-header.png are identical (not copied).",
+  "timestamp": "2026-04-01T11:15:29.005Z",
+  "retry_count": 1
+}

@@ -1,0 +1,7 @@
+{
+  "tool_name": "mcp__Claude_Preview__preview_start",
+  "tool_input_preview": "{\"name\":\"polabs-website\"}",
+  "error": "Failed to start server: No server named \"polabs-website\" found in .claude/launch.json. Available servers: jinsul-clone, arsea-clone. Pass one of these names, or add a new configuration for \"polabs-website\".\n\nCheck the command in .claude/launch.json and try again.",
+  "timestamp": "2026-04-01T11:59:10.754Z",
+  "retry_count": 1
+}

@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"mv physio.jpg clinic-sign.jpg aerial-city.jpg buildings.jpg cityscape.jpg /Users/shwanbook/antigravity/polabs-website/images/stock/\",\"description\":\"Move images to stock folder\"}",
+  "error": "Exit code 2\nmv: physio.jpg and /Users/shwanbook/antigravity/polabs-website/images/stock/physio.jpg are identical\nmv: clinic-sign.jpg and /Users/shwanbook/antigravity/polabs-website/images/stock/clinic-sign.jpg are identical\nmv: aerial-city.jpg and /Users/shwanbook/antigravity/polabs-website/images/stock/aerial-city.jpg are identical\nmv: buildings.jpg and /Users/shwanbook/antigravity/polabs-website/images/stock/buildings.jpg are identical\nmv: cityscape.jpg and /Users/shwanbook/antigravity/polabs-...",
+  "timestamp": "2026-04-01T17:35:16.220Z",
+  "retry_count": 1
+}

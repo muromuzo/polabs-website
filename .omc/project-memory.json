@@ -1,0 +1,360 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1775027726240,
+  "projectRoot": "/Users/shwanbook/antigravity/polabs-website",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "base": {
+      "path": "base",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1775027726230,
+      "keyFiles": []
+    },
+    "css": {
+      "path": "css",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1775027726230,
+      "keyFiles": [
+        "style.css"
+      ]
+    },
+    "images": {
+      "path": "images",
+      "purpose": null,
+      "fileCount": 14,
+      "lastAccessed": 1775027726231,
+      "keyFiles": [
+        "arrow.png",
+        "call.svg",
+        "down-arrow.svg",
+        "favicon.ico",
+        "kakao.svg"
+      ]
+    },
+    "js": {
+      "path": "js",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1775027726231,
+      "keyFiles": [
+        "script.js"
+      ]
+    },
+    "references": {
+      "path": "references",
+      "purpose": null,
+      "fileCount": 5,
+      "lastAccessed": 1775027726231,
+      "keyFiles": [
+        "01-jinsul-kr-analysis.md",
+        "02-cafe24-references.md",
+        "03-web-design-trends-2025-2026.md",
+        "04-clone-implementation-spec.md",
+        "05-polabs-content-extract.md"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "index.html",
+      "accessCount": 286,
+      "lastAccessed": 1775094909692,
+      "type": "file"
+    },
+    {
+      "path": "css/style.css",
+      "accessCount": 233,
+      "lastAccessed": 1775097844255,
+      "type": "file"
+    },
+    {
+      "path": "js/script.js",
+      "accessCount": 49,
+      "lastAccessed": 1775097607113,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 13,
+      "lastAccessed": 1775067357056,
+      "type": "directory"
+    },
+    {
+      "path": ".claude/launch.json",
+      "accessCount": 6,
+      "lastAccessed": 1775065678024,
+      "type": "file"
+    },
+    {
+      "path": "css/style.css.bak",
+      "accessCount": 5,
+      "lastAccessed": 1775069258915,
+      "type": "file"
+    },
+    {
+      "path": "references/05-polabs-content-extract.md",
+      "accessCount": 3,
+      "lastAccessed": 1775061002868,
+      "type": "file"
+    },
+    {
+      "path": "references/04-clone-implementation-spec.md",
+      "accessCount": 2,
+      "lastAccessed": 1775061002451,
+      "type": "file"
+    },
+    {
+      "path": "images/sec1/img2.jpg",
+      "accessCount": 2,
+      "lastAccessed": 1775064187722,
+      "type": "file"
+    },
+    {
+      "path": "images/sec3/img1.jpg",
+      "accessCount": 2,
+      "lastAccessed": 1775064188189,
+      "type": "file"
+    },
+    {
+      "path": "images/sec5/img1.jpg",
+      "accessCount": 2,
+      "lastAccessed": 1775064188659,
+      "type": "file"
+    },
+    {
+      "path": "images/brochure/page_10.png",
+      "accessCount": 2,
+      "lastAccessed": 1775067372594,
+      "type": "file"
+    },
+    {
+      "path": "images/brochure/page_11.png",
+      "accessCount": 2,
+      "lastAccessed": 1775067372807,
+      "type": "file"
+    },
+    {
+      "path": "images/brochure/page_12.png",
+      "accessCount": 2,
+      "lastAccessed": 1775067372924,
+      "type": "file"
+    },
+    {
+      "path": "references/01-jinsul-kr-analysis.md",
+      "accessCount": 1,
+      "lastAccessed": 1775057864008,
+      "type": "file"
+    },
+    {
+      "path": "references/02-cafe24-references.md",
+      "accessCount": 1,
+      "lastAccessed": 1775057864459,
+      "type": "file"
+    },
+    {
+      "path": "references/03-web-design-trends-2025-2026.md",
+      "accessCount": 1,
+      "lastAccessed": 1775057864725,
+      "type": "file"
+    },
+    {
+      "path": "images/sec1/img1.jpg",
+      "accessCount": 1,
+      "lastAccessed": 1775058047235,
+      "type": "file"
+    },
+    {
+      "path": "images/sec1/img3.jpg",
+      "accessCount": 1,
+      "lastAccessed": 1775058047432,
+      "type": "file"
+    },
+    {
+      "path": "images/sec2/img1.jpg",
+      "accessCount": 1,
+      "lastAccessed": 1775058047623,
+      "type": "file"
+    },
+    {
+      "path": "images/sec2/img5.jpg",
+      "accessCount": 1,
+      "lastAccessed": 1775058047719,
+      "type": "file"
+    },
+    {
+      "path": "images/sec3/img4.jpg",
+      "accessCount": 1,
+      "lastAccessed": 1775058051134,
+      "type": "file"
+    },
+    {
+      "path": "images/sec4/img2.jpg",
+      "accessCount": 1,
+      "lastAccessed": 1775058051322,
+      "type": "file"
+    },
+    {
+      "path": "images/sec6/img1.jpg",
+      "accessCount": 1,
+      "lastAccessed": 1775058051647,
+      "type": "file"
+    },
+    {
+      "path": "images/arsea/portfolio/p1.jpg",
+      "accessCount": 1,
+      "lastAccessed": 1775058055257,
+      "type": "file"
+    },
+    {
+      "path": "images/arsea/portfolio/p4.jpg",
+      "accessCount": 1,
+      "lastAccessed": 1775058055632,
+      "type": "file"
+    },
+    {
+      "path": "images/arsea/portfolio/p7.jpg",
+      "accessCount": 1,
+      "lastAccessed": 1775058055681,
+      "type": "file"
+    },
+    {
+      "path": "images/arsea/sections/about1.jpg",
+      "accessCount": 1,
+      "lastAccessed": 1775058056061,
+      "type": "file"
+    },
+    {
+      "path": "images/arsea/sections/step1.png",
+      "accessCount": 1,
+      "lastAccessed": 1775058056266,
+      "type": "file"
+    },
+    {
+      "path": "images/arsea/sections/step3.png",
+      "accessCount": 1,
+      "lastAccessed": 1775058056403,
+      "type": "file"
+    },
+    {
+      "path": "images/brochure/page_01.png",
+      "accessCount": 1,
+      "lastAccessed": 1775063177509,
+      "type": "file"
+    },
+    {
+      "path": "images/brochure/page_02.png",
+      "accessCount": 1,
+      "lastAccessed": 1775063177831,
+      "type": "file"
+    },
+    {
+      "path": "images/brochure/page_03.png",
+      "accessCount": 1,
+      "lastAccessed": 1775063178303,
+      "type": "file"
+    },
+    {
+      "path": "images/brochure/page_04.png",
+      "accessCount": 1,
+      "lastAccessed": 1775063190497,
+      "type": "file"
+    },
+    {
+      "path": "images/brochure/page_05.png",
+      "accessCount": 1,
+      "lastAccessed": 1775063191196,
+      "type": "file"
+    },
+    {
+      "path": "images/brochure/page_06.png",
+      "accessCount": 1,
+      "lastAccessed": 1775063191862,
+      "type": "file"
+    },
+    {
+      "path": "images/brochure/page_07.png",
+      "accessCount": 1,
+      "lastAccessed": 1775063192117,
+      "type": "file"
+    },
+    {
+      "path": "images/brochure/page_08.png",
+      "accessCount": 1,
+      "lastAccessed": 1775063231037,
+      "type": "file"
+    },
+    {
+      "path": "images/brochure/page_09.png",
+      "accessCount": 1,
+      "lastAccessed": 1775063231874,
+      "type": "file"
+    },
+    {
+      "path": "images/brochure/page_15.png",
+      "accessCount": 1,
+      "lastAccessed": 1775063246554,
+      "type": "file"
+    },
+    {
+      "path": "images/brochure/page_18.png",
+      "accessCount": 1,
+      "lastAccessed": 1775063246906,
+      "type": "file"
+    },
+    {
+      "path": "images/brochure/page_23.png",
+      "accessCount": 1,
+      "lastAccessed": 1775063247091,
+      "type": "file"
+    },
+    {
+      "path": "images/sec4/img1.jpg",
+      "accessCount": 1,
+      "lastAccessed": 1775064187561,
+      "type": "file"
+    },
+    {
+      "path": "images/sec00/KakaoTalk_Photo_2026-03-31-14-32-02 001.jpeg",
+      "accessCount": 1,
+      "lastAccessed": 1775067359971,
+      "type": "file"
+    },
+    {
+      "path": "references/google-apps-script.js",
+      "accessCount": 1,
+      "lastAccessed": 1775068062607,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

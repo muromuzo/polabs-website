@@ -1,0 +1,7 @@
+{
+  "tool_name": "mcp__Claude_in_Chrome__tabs_context_mcp",
+  "tool_input_preview": "{\"createIfEmpty\":true}",
+  "error": "Failed to query tabs: Tabs can only be moved to and from normal windows.",
+  "timestamp": "2026-04-02T02:05:11.814Z",
+  "retry_count": 1
+}
