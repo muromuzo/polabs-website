@@ -1,507 +1,675 @@
 /* ═══════════════════════════════════════
-   진설 Clone - Main Script
+   디자인 아르시에 Clone - Main Script
    ═══════════════════════════════════════ */
 
-// ─── Mouse Trail Canvas ───
+// ─── Page Load Sequence ───
 (function() {
-    const canvas = document.getElementById('trail');
-    const ctx = canvas.getContext('2d');
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
-
-    let mouse = { x: 0, y: 0 };
-    let lastPos = { x: 0, y: 0 };
-    let smoothPos = { x: 0, y: 0 };
-    let trails = [];
-
-    window.addEventListener('mousemove', (e) => {
-        mouse.x = e.clientX;
-        mouse.y = e.clientY;
+    window.addEventListener('load', () => {
+        setTimeout(() => {
+            document.body.classList.remove('loading');
+        }, 100);
     });
-
-    function lerp(a, b, n) { return (1 - n) * a + n * b; }
-
-    function draw() {
-        smoothPos.x = lerp(smoothPos.x, mouse.x, 0.15);
-        smoothPos.y = lerp(smoothPos.y, mouse.y, 0.15);
-
-        const dx = smoothPos.x - lastPos.x;
-        const dy = smoothPos.y - lastPos.y;
-        const dist = Math.sqrt(dx * dx + dy * dy);
-
-        if (dist > 1) {
-            trails.push({
-                x1: lastPos.x, y1: lastPos.y,
-                x2: smoothPos.x, y2: smoothPos.y,
-                alpha: 1,
-                width: Math.min(15, 5 + dist * 0.3),
-            });
-            lastPos.x = smoothPos.x;
-            lastPos.y = smoothPos.y;
-        }
-
-        if (trails.length > 60) trails.shift();
-
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-        for (let i = 0; i < trails.length; i++) {
-            const t = trails[i];
-            ctx.beginPath();
-            ctx.strokeStyle = `rgba(255,255,255,${t.alpha})`;
-            ctx.lineWidth = t.width;
-            ctx.lineCap = 'round';
-            ctx.moveTo(t.x1, t.y1);
-            ctx.lineTo(t.x2, t.y2);
-            ctx.stroke();
-            t.alpha *= 0.90;
-            t.width *= 0.92;
-        }
-        requestAnimationFrame(draw);
+    // Fallback if load event already fired
+    if (document.readyState === 'complete') {
+        setTimeout(() => document.body.classList.remove('loading'), 100);
     }
-    draw();
-
-    window.addEventListener('resize', () => {
-        canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
-    });
 })();
-
-
-// ─── Nav SVG Icons ───
-const navCloseSVG = `<svg viewBox="0 0 420 420" width="120" height="120" xmlns="http://www.w3.org/2000/svg">
-<circle cx="210" cy="210" r="180" stroke="black" stroke-width="12" fill="none" stroke-dasharray="1130" stroke-dashoffset="1130"><animate attributeName="stroke-dashoffset" from="1130" to="0" dur="0.6s" fill="freeze"/></circle>
-<line x1="140" y1="140" x2="280" y2="280" stroke="black" stroke-width="12" stroke-linecap="butt" stroke-dasharray="198" stroke-dashoffset="198"><animate attributeName="stroke-dashoffset" from="198" to="0" dur="0.3s" begin="0.6s" fill="freeze"/></line>
-<line x1="280" y1="140" x2="140" y2="280" stroke="black" stroke-width="12" stroke-linecap="butt" stroke-dasharray="198" stroke-dashoffset="198"><animate attributeName="stroke-dashoffset" from="198" to="0" dur="0.3s" begin="0.9s" fill="freeze"/></line>
-</svg>`;
-
-const navPrevSVG = `<svg viewBox="0 0 420 420" width="120" height="120" xmlns="http://www.w3.org/2000/svg">
-<defs><clipPath id="reveal"><rect x="0" y="0" width="0" height="420"><animate attributeName="width" from="0" to="420" dur="1s" fill="freeze"/></rect></clipPath></defs>
-<circle cx="210" cy="210" r="180" stroke="black" stroke-width="12" fill="none" stroke-dasharray="1130" stroke-dashoffset="1130"><animate attributeName="stroke-dashoffset" from="1130" to="0" dur="0.6s" fill="freeze"/></circle>
-<g clip-path="url(#reveal)"><path d="M295.5 204 L295.5 216 L138.1 216 L138.1 204 Z" fill="black"/><path d="M130.5 210 L176.5 164 L185 172.5 L139 218.5 Z" fill="black"/><path d="M130.5 210 L176.5 256 L185 247.5 L139 201.5 Z" fill="black"/></g>
-</svg>`;
-
-
-// ─── Nav Swiper ───
-function toggleIcons(index) {
-    const navClose = document.querySelector('.nav_close');
-    const navPrev = document.querySelector('.nav_prev');
-    if (index === 0) {
-        navClose.style.display = 'block';
-        navPrev.style.display = 'none';
-        navClose.innerHTML = navCloseSVG;
-    } else {
-        navClose.style.display = 'none';
-        navPrev.style.display = 'block';
-        navPrev.innerHTML = navPrevSVG;
-    }
-}
-
-const navSwiper = new Swiper(".nav_slide", {
-    navigation: { nextEl: ".nav-button-next", prevEl: ".nav-button-prev" },
-    on: {
-        init: function() { toggleIcons(this.activeIndex); },
-        slideChange: function() { toggleIcons(this.activeIndex); }
-    }
-});
-
-
-// ─── Content Swipers ───
-new Swiper(".sec1_slide", {
-    loop: true, slidesPerView: 2, spaceBetween: 30, speed: 5000,
-    autoplay: { delay: 0 },
-    breakpoints: { 799: { slidesPerView: 2.5, spaceBetween: 50 } }
-});
-
-new Swiper(".sec2_slide", {
-    loop: true, slidesPerView: 2, spaceBetween: 30, speed: 5000,
-    autoplay: { delay: 0 },
-    breakpoints: { 799: { slidesPerView: 3, spaceBetween: 40 } }
-});
-
-new Swiper(".sec3_slide", {
-    loop: true, slidesPerView: 2, spaceBetween: 30, speed: 5000,
-    autoplay: { delay: 0 },
-    breakpoints: { 799: { slidesPerView: 3, spaceBetween: 40 } }
-});
-
-
-// ─── AOS Init ───
-AOS.init({ once: true, duration: 1000 });
-
 
 // ─── Scroll Progress Bar ───
-window.addEventListener('scroll', () => {
-    const scrollTop = window.scrollY || document.documentElement.scrollTop;
-    const scrollHeight = document.documentElement.scrollHeight;
-    const clientHeight = document.documentElement.clientHeight;
-    let scrollPercent = (scrollTop / (scrollHeight - clientHeight)) * 100;
-    if (scrollPercent < 5) scrollPercent = 0;
-    document.querySelector('.scroll_fill').style.height = scrollPercent + '%';
-});
-
-
-// ─── Header Scroll Background ───
-$(window).scroll(function() {
-    if ($(this).scrollTop() > 200) {
-        $('.head_btn_box').addClass('scroll');
-    } else {
-        $('.head_btn_box').removeClass('scroll');
-    }
-});
-
-
-// ─── Menu Button Toggle ───
-$('.head .btn').on('click', function() {
-    $(this).toggleClass('active');
-});
-
-$('#menuBtn').on('click', function() {
-    $(this).toggleClass('animate');
-});
-
-
-// ─── Hero Text Line Animation ───
-window.addEventListener('DOMContentLoaded', () => {
-    const lines = document.querySelectorAll('.line');
-    lines.forEach((line, idx) => {
-        setTimeout(() => {
-            line.classList.add('active');
-        }, 1000 + idx * 300);
-    });
-});
-
-
-// ─── Fullscreen Menu Open/Close ───
-$('.head .btn').click(function() {
-    $('.all_menu_wrap').toggleClass('all_menu_wrap_open');
-    $('.head_btn_box').toggleClass('back_change');
-    const isOpen = $('.all_menu_wrap').hasClass('all_menu_wrap_open');
-    if (isOpen) {
-        $('.nav_close').html(navCloseSVG).fadeIn();
-    } else {
-        $('.nav_close').fadeOut();
-    }
-});
-
-$('.nav_close').click(function() {
-    $('.all_menu_wrap').removeClass('all_menu_wrap_open');
-    $('.head_btn_box').removeClass('back_change');
-    $('.head .btn').removeClass('active').addClass('animate');
-    $(this).fadeOut();
-});
-
-$('.all_menu ul li a').click(function() {
-    $('.all_menu_wrap').removeClass('all_menu_wrap_open');
-    $('.head_btn_box').removeClass('back_change');
-    $('.head .btn').removeClass('active').addClass('animate');
-});
-
-$('.all_menu ul li a').on('click', function() {
-    $('.all_menu ul li a').removeClass('active');
-    $(this).addClass('active');
-});
-
-
-// ─── Mobile Anchor Scroll ───
-$(document).ready(function() {
-    $('a[href="#section2"], a[href="#section4"]').on('click', function(e) {
-        if (window.innerWidth <= 799) {
-            e.preventDefault();
-            const targetId = $(this).attr('href');
-            const offsetTop = $(targetId).offset().top - 80;
-            $('html, body').animate({ scrollTop: offsetTop }, 400);
-        }
-    });
-});
-
-
-// ─── Section Background Color Transition ───
-const secWrap = document.querySelector('.sec_wrap');
-const sections = document.querySelectorAll('[id^="section"]');
-const sectionIds = Array.from(sections).map(sec => sec.id);
-
-const bgObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            sectionIds.forEach(id => secWrap.classList.remove(`bg-${id}`));
-            secWrap.classList.add(`bg-${entry.target.id}`);
-        }
-    });
-}, { threshold: 0.4 });
-
-sections.forEach(section => bgObserver.observe(section));
-
-
-// ─── Chapter Text Animation ───
-const chapterObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        const chapter = entry.target.querySelector('.chapter');
-        if (!chapter) return;
-        if (entry.isIntersecting) {
-            chapter.classList.add('animate');
-        } else {
-            chapter.classList.remove('animate');
-        }
-    });
-}, { threshold: 0.3 });
-
-document.querySelectorAll('[id^="section"]').forEach(section => {
-    chapterObserver.observe(section);
-});
-
-
-// ─── GSAP: Section 3 Curtain Effect ───
-gsap.to(".left_cover", {
-    scaleX: 0,
-    scrollTrigger: { trigger: "#section3", start: "top 80%", end: "top 20%", scrub: 3 }
-});
-
-gsap.to(".right_cover", {
-    scaleX: 0,
-    scrollTrigger: { trigger: "#section3", start: "top 80%", end: "top 20%", scrub: 3 }
-});
-
-
-// ─── Section 4: Image Stack ───
 (function() {
-    const stack = document.querySelector(".image-stack");
-    if (!stack) return;
-    let imgs = Array.from(stack.querySelectorAll("img"));
-
-    function updateStack() {
-        imgs.forEach((img, i) => {
-            const depth = imgs.length - i;
-            img.style.zIndex = depth;
-            img.style.opacity = i === 0 ? 1 : 0.4;
-            img.style.transform = `rotate(${(i - 1) * 3}deg) translateY(${(i - 1) * 5}px)`;
-        });
-    }
-
-    updateStack();
-
-    setInterval(() => {
-        const first = imgs.shift();
-        imgs.push(first);
-        stack.appendChild(first);
-        updateStack();
-    }, 3000);
+    const bar = document.querySelector('.scroll-progress');
+    if (!bar) return;
+    window.addEventListener('scroll', () => {
+        const scrollTop = window.scrollY;
+        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const progress = docHeight > 0 ? scrollTop / docHeight : 0;
+        bar.style.transform = 'scaleX(' + progress + ')';
+    }, { passive: true });
 })();
 
-
-// ─── Section 5: Vertical Marquee ───
-window.addEventListener('load', () => {
-    const content = document.getElementById('marquee-content');
-    if (!content) return;
-    const original = [...content.children];
-    const clones = original.map(node => node.cloneNode(true));
-    clones.forEach(clone => content.appendChild(clone));
-
-    let totalHeight = 0;
-    original.forEach(el => { totalHeight += el.offsetHeight; });
-
-    content.style.setProperty('--scroll-distance', `-${totalHeight}px`);
-    content.style.animationDuration = '15s';
-});
-
-
-// ─── Section 6: GSAP Scale + Fade ───
-const isMobile = window.innerWidth <= 799;
-const sectionHeight = isMobile ? 650 : window.innerHeight;
-const pinDuration = sectionHeight * 0.8;
-
-ScrollTrigger.create({
-    trigger: "#section6",
-    start: "top top",
-    end: `+=${pinDuration}`,
-    scrub: 3
-});
-
-gsap.to(".circle img", {
-    scale: 10,
-    ease: "none",
-    scrollTrigger: {
-        trigger: "#section6",
-        start: "top bottom",
-        end: "bottom top+=50",
-        scrub: 3
-    }
-});
-
-const sec6Observer = new IntersectionObserver(
-    ([entry]) => {
-        const target = document.querySelector(".sec6_img");
-        if (!target) return;
-        if (entry.isIntersecting) {
-            target.classList.add("active");
-        } else {
-            target.classList.remove("active");
-        }
+// ─── Hero Slider ───
+const heroSwiper = new Swiper('.hero-slider', {
+    loop: true,
+    speed: 1700,
+    autoplay: {
+        delay: 7000,
+        disableOnInteraction: false,
     },
-    { threshold: 0.3 }
-);
+    effect: 'slide',
+    pagination: {
+        el: '.hero-pagination',
+        clickable: true,
+    },
+});
 
-const sec6El = document.querySelector("#section6");
-if (sec6El) sec6Observer.observe(sec6El);
+// ─── Review Slider ───
+const reviewSlider = document.querySelector('.review-slider');
+if (reviewSlider) {
+    const reviewSwiper = new Swiper('.review-slider', {
+        loop: true,
+        speed: 600,
+        autoplay: {
+            delay: 4500,
+            disableOnInteraction: false,
+        },
+        slidesPerView: 1,
+        spaceBetween: 20,
+        breakpoints: {
+            768: { slidesPerView: 2, spaceBetween: 20 },
+        },
+    });
 
-
-// ─── Phone Auto Hyphen ───
-function autoHyphen(input) {
-    let value = input.value.replace(/[^0-9]/g, '');
-    if (value.length > 3 && value.length <= 7) {
-        value = value.replace(/(\d{3})(\d{1,4})/, '$1-$2');
-    } else if (value.length > 7) {
-        value = value.replace(/(\d{3})(\d{4})(\d{1,4})/, '$1-$2-$3');
-    }
-    input.value = value;
+    const prevBtn = document.querySelector('.review-prev-btn');
+    const nextBtn = document.querySelector('.review-next-btn');
+    if (prevBtn) prevBtn.addEventListener('click', () => reviewSwiper.slidePrev());
+    if (nextBtn) nextBtn.addEventListener('click', () => reviewSwiper.slideNext());
 }
 
-document.getElementById('phone')?.addEventListener('keydown', function(e) {
-    const allowedKeys = ['Backspace', 'Tab', 'ArrowLeft', 'ArrowRight', 'Delete'];
-    if (!((e.key >= '0' && e.key <= '9') || allowedKeys.includes(e.key))) {
-        e.preventDefault();
+// ─── Portfolio Slider (원본 gallery2 가로스크롤) ───
+const portfolioSliderEl = document.querySelector('.portfolio-slider');
+if (portfolioSliderEl) {
+    new Swiper('.portfolio-slider', {
+        loop: false,
+        speed: 600,
+        slidesPerView: 1.2,
+        spaceBetween: 24,
+        freeMode: true,
+        grabCursor: true,
+        breakpoints: {
+            576: { slidesPerView: 2.2, spaceBetween: 30 },
+            992: { slidesPerView: 3.5, spaceBetween: 36 },
+            1400: { slidesPerView: 4.2, spaceBetween: 42 },
+        },
+    });
+}
+
+// ─── Custom Reveal System (replaces AOS) ───
+(function() {
+    const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const el = entry.target;
+                const delay = el.dataset.revealDelay;
+                if (delay) {
+                    el.style.transitionDelay = delay + 'ms';
+                }
+                el.classList.add('visible');
+                revealObserver.unobserve(el);
+            }
+        });
+    }, { threshold: 0.15, rootMargin: '0px 0px -60px 0px' });
+
+    document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .fade-in-up').forEach(el => {
+        revealObserver.observe(el);
+    });
+})();
+
+// ─── Counter Animation ───
+(function() {
+    const counters = document.querySelectorAll('.counter-number');
+    if (!counters.length) return;
+    const counterObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const el = entry.target;
+                const isDecimal = el.dataset.decimal === 'true';
+                const target = isDecimal ? parseFloat(el.dataset.target) : parseInt(el.dataset.target);
+                const duration = 2000;
+                const start = performance.now();
+                const animate = (now) => {
+                    const progress = Math.min((now - start) / duration, 1);
+                    const eased = 1 - Math.pow(1 - progress, 3);
+                    const val = target * eased;
+                    el.textContent = isDecimal ? val.toFixed(1) : Math.floor(val).toLocaleString();
+                    if (progress < 1) requestAnimationFrame(animate);
+                };
+                requestAnimationFrame(animate);
+                counterObserver.unobserve(el);
+            }
+        });
+    }, { threshold: 0.5 });
+    counters.forEach(c => counterObserver.observe(c));
+})();
+
+// ─── Header Scroll ───
+const header = document.getElementById('header');
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 50) {
+        header.classList.add('scrolled');
+    } else {
+        header.classList.remove('scrolled');
     }
 });
 
+// ─── Hero Slide Text Animation ───
+heroSwiper.on('slideChangeTransitionStart', () => {
+    document.querySelectorAll('.swiper-slide:not(.swiper-slide-active) .slide-anim').forEach(el => {
+        el.style.transition = 'none';
+        if (el.classList.contains('hero-subtitle')) {
+            el.style.transform = 'translateX(-50px)';
+        } else if (el.closest('.hero-title-line')) {
+            el.style.transform = 'translateY(100%)';
+        } else {
+            el.style.transform = 'translateY(30px)';
+        }
+        el.style.opacity = '0';
+    });
+});
+heroSwiper.on('slideChangeTransitionEnd', () => {
+    document.querySelectorAll('.swiper-slide-active .slide-anim').forEach(el => {
+        el.style.transition = '';
+        el.style.transform = '';
+        el.style.opacity = '';
+    });
+});
 
-// ─── Custom Select Dropdowns ───
-document.querySelectorAll('.consult_select').forEach(select => {
-    const current = select.querySelector('b');
-    const options = select.querySelector('ul');
-    const hiddenInput = select.querySelector('input[type="hidden"]');
+// ─── Mobile Menu Toggle ───
+const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+const mobileMenu = document.getElementById('mobileMenu');
 
-    current.addEventListener('click', function(e) {
-        e.stopPropagation();
+if (mobileMenuBtn && mobileMenu) {
+    mobileMenuBtn.addEventListener('click', () => {
+        mobileMenuBtn.classList.toggle('active');
+        mobileMenu.classList.toggle('open');
+        document.body.style.overflow = mobileMenu.classList.contains('open') ? 'hidden' : '';
+    });
 
-        document.querySelectorAll('.consult_select ul').forEach(el => {
-            if (el !== options && el.style.display === 'block') {
-                gsap.to(el, {
-                    y: -30, opacity: 0, duration: 0.3, ease: "back.in(1.3)",
-                    onComplete: () => { el.style.display = 'none'; }
-                });
-                const otherSelect = el.closest('.consult_select');
-                if (otherSelect) otherSelect.dataset.isOpen = 'false';
+    mobileMenu.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+            mobileMenuBtn.classList.remove('active');
+            mobileMenu.classList.remove('open');
+            document.body.style.overflow = '';
+        });
+    });
+}
+
+// ─── Smooth Scroll for Anchor Links ───
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+            e.preventDefault();
+            const headerH = document.getElementById('header').offsetHeight;
+            const top = target.getBoundingClientRect().top + window.scrollY - headerH;
+            window.scrollTo({ top, behavior: 'smooth' });
+        }
+    });
+});
+
+// ─── FAQ Accordion with Smooth Height ───
+document.querySelectorAll('.faq-item').forEach(item => {
+    const question = item.querySelector('.faq-question');
+    const answer = item.querySelector('.faq-answer');
+    if (!question || !answer) return;
+
+    answer.style.maxHeight = '0px';
+    answer.style.overflow = 'hidden';
+    answer.style.transition = 'max-height 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94), padding 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)';
+
+    question.addEventListener('click', () => {
+        const isActive = item.classList.contains('active');
+
+        document.querySelectorAll('.faq-item').forEach(i => {
+            i.classList.remove('active');
+            const a = i.querySelector('.faq-answer');
+            if (a) {
+                a.style.maxHeight = '0px';
+                a.style.paddingTop = '0';
+                a.style.paddingBottom = '0';
             }
         });
 
-        const isOpen = select.dataset.isOpen === 'true';
-
-        if (isOpen) {
-            gsap.to(options, {
-                y: -30, opacity: 0, duration: 0.3, ease: "back.in(1.3)",
-                onComplete: () => { options.style.display = 'none'; }
-            });
-            select.dataset.isOpen = 'false';
-        } else {
-            options.style.display = 'block';
-            gsap.fromTo(options,
-                { y: -30, opacity: 0, transformOrigin: "top center" },
-                { y: 0, opacity: 1, duration: 0.4, ease: "back.out(1.7)" }
-            );
-            select.dataset.isOpen = 'true';
+        if (!isActive) {
+            item.classList.add('active');
+            answer.style.maxHeight = answer.scrollHeight + 'px';
+            answer.style.paddingTop = '';
+            answer.style.paddingBottom = '';
         }
     });
-
-    select.querySelectorAll('li').forEach(option => {
-        option.addEventListener('click', function(e) {
-            e.stopPropagation();
-            const value = this.getAttribute('data-value');
-            current.innerHTML = value + '<img src="images/down-arrow.svg" alt="">';
-            hiddenInput.value = value;
-            gsap.to(options, {
-                y: -30, opacity: 0, duration: 0.3, ease: "back.in(1.3)",
-                onComplete: () => { options.style.display = 'none'; }
-            });
-            select.dataset.isOpen = 'false';
-        });
-    });
-
-    document.addEventListener('click', function(e) {
-        if (!select.contains(e.target) && options.style.display === 'block') {
-            gsap.to(options, {
-                y: -30, opacity: 0, duration: 0.3, ease: "back.in(1.3)",
-                onComplete: () => { options.style.display = 'none'; }
-            });
-            select.dataset.isOpen = 'false';
-        }
-    });
-
-    select.dataset.isOpen = 'false';
 });
 
+// ─── Contact Form Steps ───
+document.querySelectorAll('.btn-next').forEach(btn => {
+    btn.addEventListener('click', () => {
+        const nextStep = btn.dataset.next;
+        document.querySelectorAll('.form-step').forEach(s => s.classList.remove('active'));
+        document.querySelector(`.form-step[data-step="${nextStep}"]`).classList.add('active');
+    });
+});
+
+document.querySelectorAll('.btn-prev').forEach(btn => {
+    btn.addEventListener('click', () => {
+        const prevStep = btn.dataset.prev;
+        document.querySelectorAll('.form-step').forEach(s => s.classList.remove('active'));
+        document.querySelector(`.form-step[data-step="${prevStep}"]`).classList.add('active');
+    });
+});
 
 // ─── Form Submit ───
-document.getElementById('submitConsult')?.addEventListener('click', function() {
-    const name = document.getElementById('name').value;
-    if (!name) { alert('성함을 입력해주세요.'); return; }
+const contactForm = document.getElementById('contactForm');
+if (contactForm) {
+    contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
 
-    const phone = document.getElementById('phone').value;
-    if (!phone) { alert('연락처를 입력해주세요.'); return; }
-    if (phone.length < 10 || phone.length > 13) { alert('올바른 연락처를 입력해주세요.'); return; }
+        const name = contactForm.querySelector('input[name="name"]').value;
+        const phone = contactForm.querySelector('input[name="phone"]').value;
+        const agree = contactForm.querySelector('input[name="agree"]').checked;
 
-    const formData = new FormData(document.getElementById('consultForm'));
+        if (!name) { alert('성함을 입력해주세요.'); return; }
+        if (!phone) { alert('연락처를 입력해주세요.'); return; }
+        if (!agree) { alert('개인정보 수집에 동의해주세요.'); return; }
 
-    const inquiryType = formData.get('inquiryType');
-    if (!inquiryType) { alert('문의 유형을 선택해주세요.'); return; }
+        // Collect form data as JSON
+        const serviceTypes = [];
+        contactForm.querySelectorAll('input[name="serviceType"]:checked').forEach(cb => serviceTypes.push(cb.value));
+        const payload = {
+            serviceType: serviceTypes.join(', '),
+            company: contactForm.querySelector('input[name="company"]').value,
+            budget: contactForm.querySelector('input[name="budget"]').value,
+            deadline: contactForm.querySelector('input[name="deadline"]').value,
+            details: contactForm.querySelector('textarea[name="details"]')?.value || '',
+            name: name,
+            phone: phone,
+            email: contactForm.querySelector('input[name="email"]').value
+        };
 
-    const agreeCheckbox = document.querySelector('.agree input[name="agree"]');
-    if (!agreeCheckbox || !agreeCheckbox.checked) {
-        alert('개인정보 수집에 동의해주세요.');
-        return;
-    }
+        // Google Apps Script endpoint
+        const GAS_URL = contactForm.dataset.gasUrl || contactForm.action;
 
-    alert('무료 상담 신청이 완료되었습니다. 영업일 기준 24시간 내 연락드리겠습니다.');
-});
-
-
-// ─── Agree Popup ───
-$('.agree .agree_toggle').click(function() {
-    $('.agree_pop').fadeIn();
-});
-
-$('.agree_close').click(function() {
-    $('.agree_pop').fadeOut();
-});
-
-
-// ─── Terms Popups ───
-$('.pop').hide();
-$('.pop_bg').hide();
-
-$('.use a').click(function(e) {
-    e.preventDefault();
-    var useIndex = $(this).index();
-    $('.pop').eq(useIndex).show();
-    $('.pop_bg').show();
-    $('body').addClass('hidden');
-});
-
-$('.pop_close').click(function() {
-    $('.pop').hide();
-    $('.pop_bg').hide();
-    $('body').removeClass('hidden');
-});
-
-
-// ─── Count Animation ───
-let countStarted = false;
-
-function animateCount(selector, target, duration) {
-    duration = duration || 1500;
-    const $el = $(selector);
-    $({ val: 0 }).animate({ val: target }, {
-        duration: duration,
-        step: function(now) { $el.text(Math.floor(now)); },
-        complete: function() { $el.text(target); }
+        fetch(GAS_URL, {
+            method: 'POST',
+            headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+            body: JSON.stringify(payload)
+        }).then(res => {
+            alert('상담 신청이 접수되었습니다. 영업일 24시간 내에 연락드리겠습니다.');
+            contactForm.reset();
+            document.querySelectorAll('.form-step').forEach(s => s.classList.remove('active'));
+            document.querySelector('.form-step[data-step="1"]').classList.add('active');
+        }).catch(() => {
+            alert('네트워크 오류입니다. 카카오톡으로 문의해주세요.');
+        });
     });
 }
 
-$(window).on('scroll', function() {
-    const ftContact = $('.ft_contact');
-    if (!ftContact.length) return;
-    const triggerTop = ftContact.offset().top - window.innerHeight + 100;
-    const scrollTop = $(window).scrollTop();
-    if (!countStarted && scrollTop > triggerTop) {
-        countStarted = true;
-        animateCount('.count2', 200);
+// ─── Matter.js Physics Animation (Differentiator) ───
+(function() {
+    const container = document.getElementById('physics-container');
+    if (!container || typeof Matter === 'undefined') return;
+
+    const Engine = Matter.Engine,
+          World = Matter.World,
+          Bodies = Matter.Bodies,
+          Body = Matter.Body,
+          Events = Matter.Events;
+
+    let engine, world;
+    const tags = container.querySelectorAll('.physics-tag');
+    const tagBodies = [];
+
+    function initPhysics() {
+        engine = Engine.create();
+        world = engine.world;
+        engine.world.gravity.y = 1;
+
+        const cw = container.offsetWidth;
+        const ch = container.offsetHeight;
+
+        const ground = Bodies.rectangle(cw / 2, ch + 10, cw, 20, { isStatic: true });
+        const leftWall = Bodies.rectangle(-10, ch / 2, 20, ch, { isStatic: true });
+        const rightWall = Bodies.rectangle(cw + 10, ch / 2, 20, ch, { isStatic: true });
+        World.add(world, [ground, leftWall, rightWall]);
+
+        tags.forEach((tag, i) => {
+            const w = tag.offsetWidth || 100;
+            const h = tag.offsetHeight || 40;
+            const startX = 80 + Math.random() * (cw - 160);
+            const body = Bodies.rectangle(startX, -50 - (i * 60), w, h, {
+                restitution: 0.4,
+                friction: 0.5,
+                frictionAir: 0.02,
+                angle: (Math.random() - 0.5) * 0.5
+            });
+
+            setTimeout(() => {
+                tag.style.opacity = '1';
+                World.add(world, body);
+            }, i * 300);
+
+            tagBodies.push({ dom: tag, body: body });
+        });
+
+        function update() {
+            Engine.update(engine, 16.67);
+            tagBodies.forEach(item => {
+                if (!item.body) return;
+                const x = item.body.position.x - item.dom.offsetWidth / 2;
+                const y = item.body.position.y - item.dom.offsetHeight / 2;
+                const angle = item.body.angle;
+                item.dom.style.left = x + 'px';
+                item.dom.style.top = y + 'px';
+                item.dom.style.transform = 'rotate(' + angle + 'rad)';
+            });
+            requestAnimationFrame(update);
+        }
+        update();
     }
-});
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                initPhysics();
+                observer.disconnect();
+            }
+        });
+    }, { threshold: 0.2 });
+
+    observer.observe(container);
+})();
+
+// ─── Mouse Follower Cursor (Desktop Only) ───
+(function() {
+    if (window.matchMedia('(hover: none)').matches) return;
+
+    const dot = document.querySelector('.cursor-dot');
+    const ring = document.querySelector('.cursor-ring');
+    if (!dot || !ring) return;
+
+    let mouseX = 0, mouseY = 0;
+    let dotX = 0, dotY = 0;
+    let ringX = 0, ringY = 0;
+    let isVisible = false;
+
+    const hoverTargets = 'a, button, .btn-estimate, .service-card-v2, .portfolio-item, .faq-question, .review-nav-btn, .kakao-float-btn, .kakao-consult-btn, input, textarea, select, label';
+
+    document.addEventListener('mousemove', (e) => {
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+        if (!isVisible) {
+            isVisible = true;
+            dot.classList.add('active');
+            ring.classList.add('active');
+        }
+    });
+
+    document.addEventListener('mouseleave', () => {
+        isVisible = false;
+        dot.classList.remove('active');
+        ring.classList.remove('active');
+    });
+
+    document.addEventListener('mouseover', (e) => {
+        if (e.target.closest(hoverTargets)) {
+            dot.classList.add('hover');
+            ring.classList.add('hover');
+        }
+    });
+
+    document.addEventListener('mouseout', (e) => {
+        if (e.target.closest(hoverTargets)) {
+            dot.classList.remove('hover');
+            ring.classList.remove('hover');
+        }
+    });
+
+    function animateCursor() {
+        dotX += (mouseX - dotX) * 0.15;
+        dotY += (mouseY - dotY) * 0.15;
+        ringX += (mouseX - ringX) * 0.08;
+        ringY += (mouseY - ringY) * 0.08;
+
+        dot.style.left = dotX + 'px';
+        dot.style.top = dotY + 'px';
+        ring.style.left = ringX + 'px';
+        ring.style.top = ringY + 'px';
+
+        requestAnimationFrame(animateCursor);
+    }
+    animateCursor();
+})();
+
+// ─── (Portfolio clip-reveal removed - now using Swiper slider) ───
+
+// ─── Process Step Auto-cycling ───
+(function() {
+    const container = document.querySelector('.process-steps-line');
+    const steps = container ? container.querySelectorAll('.process-step') : [];
+    if (!steps.length) return;
+
+    let currentStep = 0;
+    let cycleInterval = null;
+    let isInView = false;
+
+    // Add progress bar to each step
+    steps.forEach(step => {
+        const progress = document.createElement('div');
+        progress.classList.add('step-progress');
+        step.style.position = 'relative';
+        step.appendChild(progress);
+    });
+
+    function activateStep(index) {
+        steps.forEach(s => s.classList.remove('active'));
+        steps[index].classList.add('active');
+    }
+
+    function startCycling() {
+        if (cycleInterval) return;
+        container.classList.add('cycling');
+        activateStep(currentStep);
+        cycleInterval = setInterval(() => {
+            currentStep = (currentStep + 1) % steps.length;
+            activateStep(currentStep);
+        }, 3000);
+    }
+
+    function stopCycling() {
+        if (cycleInterval) {
+            clearInterval(cycleInterval);
+            cycleInterval = null;
+        }
+    }
+
+    container.addEventListener('mouseenter', stopCycling);
+    container.addEventListener('mouseleave', () => {
+        if (isInView) startCycling();
+    });
+
+    const stepObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                isInView = true;
+                startCycling();
+            } else {
+                isInView = false;
+                stopCycling();
+            }
+        });
+    }, { threshold: 0.3 });
+
+    stepObserver.observe(container);
+})();
+
+// ─── Image Load Transitions ───
+(function() {
+    // Service card backgrounds (inline style)
+    document.querySelectorAll('.service-card-bg').forEach(el => {
+        const img = new Image();
+        const bgUrl = el.style.backgroundImage.replace(/url\(["']?(.+?)["']?\)/, '$1');
+        if (bgUrl) {
+            img.onload = () => el.classList.add('img-loaded');
+            img.src = bgUrl;
+        } else {
+            el.classList.add('img-loaded');
+        }
+    });
+
+    // Regular images
+    document.querySelectorAll('.portfolio-item img, .client-logo-item img').forEach(img => {
+        if (img.complete) {
+            img.classList.add('img-loaded');
+        } else {
+            img.addEventListener('load', () => img.classList.add('img-loaded'));
+        }
+    });
+})();
+
+// ─── Text Split Animation ───
+(function() {
+    const textAnimEls = document.querySelectorAll('.text-animate');
+    if (!textAnimEls.length) return;
+
+    const textObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const parent = entry.target;
+                const spans = parent.querySelectorAll('.text-animate');
+                spans.forEach((span, i) => {
+                    setTimeout(() => span.classList.add('visible'), i * 80);
+                });
+                textObserver.unobserve(parent);
+            }
+        });
+    }, { threshold: 0.3 });
+
+    // Observe the parent of text-animate elements
+    const parents = new Set();
+    textAnimEls.forEach(el => {
+        const parent = el.parentElement;
+        if (parent && !parents.has(parent)) {
+            parents.add(parent);
+            textObserver.observe(parent);
+        }
+    });
+})();
+
+// ─── Section Reveal (complement reveals) ───
+(function() {
+    const scrollObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('in-view');
+            }
+        });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.scroll-trigger').forEach(el => {
+        scrollObserver.observe(el);
+    });
+})();
+
+// ─── Dynamic Keyword Rotation (Contact Intro) ───
+(function() {
+    const el = document.querySelector('.dynamic-highlight-text');
+    if (!el) return;
+    const words = ['개원', '개편', '마케팅', '매출', '성장', '병원'];
+    let idx = 0;
+    setInterval(() => {
+        el.style.opacity = '0';
+        setTimeout(() => {
+            idx = (idx + 1) % words.length;
+            el.textContent = words[idx];
+            el.style.opacity = '1';
+        }, 300);
+    }, 2500);
+})();
+
+// ─── File Upload Display ───
+(function() {
+    const fileInput = document.querySelector('.form-file-input');
+    const display = document.querySelector('.file-name-display');
+    if (!fileInput || !display) return;
+    fileInput.addEventListener('change', () => {
+        display.textContent = fileInput.files[0] ? fileInput.files[0].name : '';
+    });
+})();
+
+// ─── Parallax Scroll Depth ───
+(function() {
+    const parallaxSections = [
+        { selector: '.hero', factor: 0.3 },
+        { selector: '.revision-badge', factor: -0.15 },
+    ];
+
+    let ticking = false;
+    window.addEventListener('scroll', () => {
+        if (!ticking) {
+            requestAnimationFrame(() => {
+                const scrollY = window.scrollY;
+                parallaxSections.forEach(item => {
+                    const el = document.querySelector(item.selector);
+                    if (!el) return;
+                    const rect = el.getBoundingClientRect();
+                    if (rect.bottom > 0 && rect.top < window.innerHeight) {
+                        const offset = scrollY * item.factor;
+                        el.style.transform = 'translateY(' + offset + 'px)';
+                    }
+                });
+                ticking = false;
+            });
+            ticking = true;
+        }
+    }, { passive: true });
+})();
+
+// ─── Button Ripple Effect ───
+(function() {
+    const rippleTargets = 'a.btn-estimate, .review-more-btn, .btn-next, .btn-prev, .kakao-float-btn, .kakao-consult-btn';
+    document.addEventListener('click', (e) => {
+        const target = e.target.closest(rippleTargets);
+        if (!target) return;
+
+        const ripple = document.createElement('span');
+        ripple.classList.add('btn-ripple');
+        const rect = target.getBoundingClientRect();
+        const size = Math.max(rect.width, rect.height) * 2;
+        ripple.style.width = ripple.style.height = size + 'px';
+        ripple.style.left = (e.clientX - rect.left - size / 2) + 'px';
+        ripple.style.top = (e.clientY - rect.top - size / 2) + 'px';
+        target.appendChild(ripple);
+        ripple.addEventListener('animationend', () => ripple.remove());
+    });
+})();
+
+// ─── Enhanced Scroll Reveal with Stagger ───
+(function() {
+    // Stagger children in grid containers
+    const staggerObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const children = entry.target.children;
+                Array.from(children).forEach((child, i) => {
+                    child.style.transitionDelay = (i * 120) + 'ms';
+                    child.style.opacity = '1';
+                    child.style.transform = 'none';
+                });
+                staggerObserver.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.diff-cards-grid, .client-logo-grid, .services-grid-v2').forEach(grid => {
+        // Set initial state for children
+        Array.from(grid.children).forEach(child => {
+            child.style.opacity = '0';
+            child.style.transform = 'translateY(30px)';
+            child.style.transition = 'opacity 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94), transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94)';
+        });
+        staggerObserver.observe(grid);
+    });
+})();
+
+// ─── Section Counter Animation ───
+(function() {
+    const counterObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('in-view');
+                counterObserver.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.2 });
+
+    document.querySelectorAll('.section').forEach(sec => {
+        counterObserver.observe(sec);
+    });
+})();
