@@ -1,1 +1,8 @@
 .DS_Store
+node_modules/
+.next/
+.omc/
+*.bak
+polabs-next/.next/
+polabs-next/node_modules/
+base/
