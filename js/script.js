@@ -28,19 +28,22 @@
 })();
 
 // ─── Hero Slider ───
-const heroSwiper = new Swiper('.hero-slider', {
-    loop: true,
-    speed: 1700,
-    autoplay: {
-        delay: 7000,
-        disableOnInteraction: false,
-    },
-    effect: 'slide',
-    pagination: {
-        el: '.hero-pagination',
-        clickable: true,
-    },
-});
+let heroSwiper = null;
+if (typeof Swiper !== 'undefined' && document.querySelector('.hero-slider')) {
+    heroSwiper = new Swiper('.hero-slider', {
+        loop: true,
+        speed: 1700,
+        autoplay: {
+            delay: 7000,
+            disableOnInteraction: false,
+        },
+        effect: 'slide',
+        pagination: {
+            el: '.hero-pagination',
+            clickable: true,
+        },
+    });
+}
 
 // ─── Review Slider ───
 const reviewSlider = document.querySelector('.review-slider');
@@ -133,35 +136,39 @@ if (portfolioSliderEl) {
 
 // ─── Header Scroll ───
 const header = document.getElementById('header');
-window.addEventListener('scroll', () => {
-    if (window.scrollY > 50) {
-        header.classList.add('scrolled');
-    } else {
-        header.classList.remove('scrolled');
-    }
-});
+if (header) {
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+    }, { passive: true });
+}
 
 // ─── Hero Slide Text Animation ───
-heroSwiper.on('slideChangeTransitionStart', () => {
-    document.querySelectorAll('.swiper-slide:not(.swiper-slide-active) .slide-anim').forEach(el => {
-        el.style.transition = 'none';
-        if (el.classList.contains('hero-subtitle')) {
-            el.style.transform = 'translateX(-50px)';
-        } else if (el.closest('.hero-title-line')) {
-            el.style.transform = 'translateY(100%)';
-        } else {
-            el.style.transform = 'translateY(30px)';
-        }
-        el.style.opacity = '0';
+if (heroSwiper) {
+    heroSwiper.on('slideChangeTransitionStart', () => {
+        document.querySelectorAll('.swiper-slide:not(.swiper-slide-active) .slide-anim').forEach(el => {
+            el.style.transition = 'none';
+            if (el.classList.contains('hero-subtitle')) {
+                el.style.transform = 'translateX(-50px)';
+            } else if (el.closest('.hero-title-line')) {
+                el.style.transform = 'translateY(100%)';
+            } else {
+                el.style.transform = 'translateY(30px)';
+            }
+            el.style.opacity = '0';
+        });
     });
-});
-heroSwiper.on('slideChangeTransitionEnd', () => {
-    document.querySelectorAll('.swiper-slide-active .slide-anim').forEach(el => {
-        el.style.transition = '';
-        el.style.transform = '';
-        el.style.opacity = '';
+    heroSwiper.on('slideChangeTransitionEnd', () => {
+        document.querySelectorAll('.swiper-slide-active .slide-anim').forEach(el => {
+            el.style.transition = '';
+            el.style.transform = '';
+            el.style.opacity = '';
+        });
     });
-});
+}
 
 // ─── Mobile Menu Toggle ───
 const mobileMenuBtn = document.getElementById('mobileMenuBtn');
@@ -231,17 +238,32 @@ document.querySelectorAll('.faq-item').forEach(item => {
 // ─── Contact Form Steps ───
 document.querySelectorAll('.btn-next').forEach(btn => {
     btn.addEventListener('click', () => {
+        const currentStep = btn.closest('.form-step');
         const nextStep = btn.dataset.next;
+
+        // Step 1 validation: at least one service type
+        if (currentStep && currentStep.dataset.step === '1') {
+            const checked = currentStep.querySelectorAll('input[name="serviceType"]:checked');
+            if (checked.length === 0) {
+                alert('문의 유형을 1개 이상 선택해주세요.');
+                return;
+            }
+        }
+
+        const target = document.querySelector(`.form-step[data-step="${nextStep}"]`);
+        if (!target) return;
         document.querySelectorAll('.form-step').forEach(s => s.classList.remove('active'));
-        document.querySelector(`.form-step[data-step="${nextStep}"]`).classList.add('active');
+        target.classList.add('active');
     });
 });
 
 document.querySelectorAll('.btn-prev').forEach(btn => {
     btn.addEventListener('click', () => {
         const prevStep = btn.dataset.prev;
+        const target = document.querySelector(`.form-step[data-step="${prevStep}"]`);
+        if (!target) return;
         document.querySelectorAll('.form-step').forEach(s => s.classList.remove('active'));
-        document.querySelector(`.form-step[data-step="${prevStep}"]`).classList.add('active');
+        target.classList.add('active');
     });
 });
 
@@ -265,8 +287,8 @@ if (contactForm) {
         const payload = {
             serviceType: serviceTypes.join(', '),
             company: contactForm.querySelector('input[name="company"]').value,
-            budget: contactForm.querySelector('input[name="budget"]').value,
-            deadline: contactForm.querySelector('input[name="deadline"]').value,
+            specialty: contactForm.querySelector('input[name="specialty"]').value,
+            location: contactForm.querySelector('input[name="location"]').value,
             details: contactForm.querySelector('textarea[name="details"]')?.value || '',
             name: name,
             phone: phone,
@@ -275,18 +297,23 @@ if (contactForm) {
 
         // Google Apps Script endpoint
         const GAS_URL = contactForm.dataset.gasUrl || contactForm.action;
+        const submitBtn = contactForm.querySelector('.btn-submit');
+        if (submitBtn) { submitBtn.disabled = true; submitBtn.textContent = '전송 중...'; }
 
         fetch(GAS_URL, {
             method: 'POST',
             headers: { 'Content-Type': 'text/plain;charset=utf-8' },
             body: JSON.stringify(payload)
         }).then(res => {
+            if (!res.ok) throw new Error('서버 응답 오류');
             alert('상담 신청이 접수되었습니다. 영업일 24시간 내에 연락드리겠습니다.');
             contactForm.reset();
             document.querySelectorAll('.form-step').forEach(s => s.classList.remove('active'));
             document.querySelector('.form-step[data-step="1"]').classList.add('active');
         }).catch(() => {
             alert('네트워크 오류입니다. 카카오톡으로 문의해주세요.');
+        }).finally(() => {
+            if (submitBtn) { submitBtn.disabled = false; submitBtn.textContent = '무료 상담 신청하기'; }
         });
     });
 }

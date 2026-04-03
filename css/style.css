@@ -1257,7 +1257,7 @@ strong { font-weight: 700; }
 }
 
 .sec-process-steps .section-title.light .highlight {
-    color: #0046ff;
+    color: #0063ff;
 }
 
 .process-desc-text {
@@ -1308,7 +1308,7 @@ strong { font-weight: 700; }
 }
 
 .step-title {
-    color: #0046ff;
+    color: #0063ff;
     font-size: 15px;
     font-weight: 700;
     margin-bottom: 10px;
@@ -1335,7 +1335,7 @@ strong { font-weight: 700; }
     display: block;
     width: 40px;
     height: 2px;
-    background: linear-gradient(90deg, #0046ff 0%, #ffffff33 100%);
+    background: linear-gradient(90deg, #0063ff 0%, #ffffff33 100%);
     position: relative;
     overflow: hidden;
 }
@@ -1344,16 +1344,17 @@ strong { font-weight: 700; }
     content: '';
     position: absolute;
     top: 0;
-    left: -100%;
+    left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, transparent, #0046ff, transparent);
+    background: linear-gradient(90deg, transparent, #0063ff, transparent);
     animation: lineFlow 2s linear infinite;
+    transform: translateX(-100%);
 }
 
 @keyframes lineFlow {
-    0% { left: -100%; }
-    100% { left: 100%; }
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
 }
 
 @media (max-width: 768px) {
@@ -1379,21 +1380,22 @@ strong { font-weight: 700; }
     .connector-line {
         width: 2px;
         height: 40px;
-        background: linear-gradient(180deg, #0046ff 0%, #ffffff33 100%);
+        background: linear-gradient(180deg, #0063ff 0%, #ffffff33 100%);
     }
 
     .connector-line::after {
-        background: linear-gradient(180deg, transparent, #0046ff, transparent);
+        background: linear-gradient(180deg, transparent, #0063ff, transparent);
         animation: lineFlowV 2s linear infinite;
         width: 100%;
         height: 100%;
         left: 0;
-        top: -100%;
+        top: 0;
+        transform: translateY(-100%);
     }
 
     @keyframes lineFlowV {
-        0% { top: -100%; }
-        100% { top: 100%; }
+        0% { transform: translateY(-100%); }
+        100% { transform: translateY(100%); }
     }
 
     .sec-process-steps .section-title.light {
@@ -1605,6 +1607,78 @@ strong { font-weight: 700; }
     box-shadow: 0 8px 20px rgba(254,229,0,0.3);
 }
 .kakao-icon { font-size: 1.3rem; }
+/* Resource CTA */
+.resource-btn {
+    display: block;
+    margin-top: 16px;
+    width: fit-content;
+    padding: 12px 24px;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 10px;
+    color: #ccc;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.resource-btn:hover {
+    background: rgba(255,255,255,0.12);
+    border-color: rgba(255,255,255,0.3);
+    color: #fff;
+    transform: translateY(-2px);
+}
+/* Policy Modal */
+.policy-modal {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.7);
+    z-index: 10000;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.policy-modal-content {
+    background: #1a1a1a;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 16px;
+    max-width: 640px;
+    width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
+    padding: 40px;
+    position: relative;
+    color: #ddd;
+}
+.policy-modal-content h2 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 24px;
+}
+.policy-modal-content h3 {
+    font-size: 1rem;
+    color: #fff;
+    margin: 20px 0 8px;
+}
+.policy-body p {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    color: #aaa;
+    margin-bottom: 12px;
+}
+.policy-modal-close {
+    position: absolute;
+    top: 16px; right: 20px;
+    background: none;
+    border: none;
+    color: #888;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+.policy-modal-close:hover { color: #fff; }
 /* File upload */
 .form-file-wrap {
     margin-top: 15px;
@@ -1662,6 +1736,7 @@ strong { font-weight: 700; }
     }
     .contact-intro { padding-top: 0; }
     .kakao-consult-btn { margin-top: 20px; }
+    .resource-btn { font-size: 0.9rem; padding: 10px 16px; }
     .dynamic-main-title { font-size: 1.92rem; }
     .dynamic-description { font-size: 0.95rem; }
     .process-step.active { transform: scale(1.05); }
@@ -2306,7 +2381,7 @@ body.loading .kakao-float-btn { transform: translateY(100px); opacity: 0; }
     .faq-section-header .title { font-size: 36px; }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .desktop-nav { display: none; }
     .mobile-menu-btn { display: flex; }
     .header-inner { height: 90px; padding: 0 20px; }
