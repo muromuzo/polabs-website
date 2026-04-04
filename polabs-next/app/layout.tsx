@@ -26,6 +26,7 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <head>
+        <meta name="google-site-verification" content="da5c3s4RVz4f6uofK7YPZ09B7AtM77XweMkqLxXgTeI" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18058674113"></script>
         <script dangerouslySetInnerHTML={{ __html: `
           window.dataLayer = window.dataLayer || [];
