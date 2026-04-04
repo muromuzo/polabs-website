@@ -2391,8 +2391,8 @@ body.loading .kakao-float-btn { transform: translateY(100px); opacity: 0; }
 
     .hero { height: 500px; }
     .hero-title-line { font-size: 32px; }
-    .hero-subtitle { font-size: 16px; }
-    .hero-subtitle-area { margin-top: 24px; }
+    .hero-subtitle { font-size: 14px; }
+    .hero-subtitle-area { margin-top: 16px; }
     .hero-slide-content { padding-left: 20px; }
     .scroll-indicator { display: none; }
 
@@ -2442,8 +2442,9 @@ body.loading .kakao-float-btn { transform: translateY(100px); opacity: 0; }
     .diff-cards-grid { grid-template-columns: 1fr; }
     .diff-card-inner { padding: 24px 22px 22px; }
     .reviews-layout { flex-direction: column; gap: 30px; }
-    .reviews-left { flex: none; }
+    .reviews-left { flex: none; width: 100%; }
     .reviews-left .section-title { font-size: 26px; }
+    .reviews-right { flex: none; width: 100%; min-height: 200px; }
     .sec-reviews { padding: 60px 0; }
     .services-grid-v2 { grid-template-columns: 1fr; }
     .service-card-v2 { aspect-ratio: 16/9; }
