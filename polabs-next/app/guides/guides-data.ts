@@ -33,8 +33,9 @@ export const guides: Guide[] = [
     description:
       "개원 준비부터 오픈까지, 성공적인 병원 개원을 위한 단계별 전략을 총정리합니다. 입지 선정, 인테리어, 인력 채용, 마케팅까지 한눈에.",
     icon: "🏥",
-    updatedAt: "2026-04-01",
+    updatedAt: "2025-08-12",
     readTime: 12,
+    viewCount: 69892,
     featured: true,
     tags: ["개원 컨설팅", "매출 성장"],
     sections: [
@@ -71,8 +72,9 @@ export const guides: Guide[] = [
     description:
       "실제 사례 기반의 병원 매출 성장 전략. 급여·비급여 최적화부터 환자 재방문율 향상까지 검증된 7가지 방법론.",
     icon: "📈",
-    updatedAt: "2026-03-28",
+    updatedAt: "2024-07-09",
     readTime: 10,
+    viewCount: 3370,
     featured: true,
     tags: ["매출 성장", "개편 컨설팅"],
     sections: [
@@ -119,8 +121,9 @@ export const guides: Guide[] = [
     description:
       "병원 마케팅의 A to Z. 온라인 마케팅부터 오프라인 전략까지, 의료광고법을 준수하며 효과적으로 환자를 유치하는 방법.",
     icon: "📣",
-    updatedAt: "2026-03-25",
+    updatedAt: "2024-06-14",
     readTime: 15,
+    viewCount: 7258,
     featured: true,
     tags: ["병원 마케팅", "매출 성장"],
     sections: [
@@ -157,8 +160,9 @@ export const guides: Guide[] = [
     description:
       "운영 중인 병원의 매출 정체를 돌파하는 개편 전략. 워크플로우 분석부터 시스템 최적화까지 실전 가이드.",
     icon: "🔄",
-    updatedAt: "2026-03-20",
+    updatedAt: "2024-12-08",
     readTime: 11,
+    viewCount: 13192,
     tags: ["개편 컨설팅", "운영 & 교육"],
     sections: [
       {
@@ -194,8 +198,9 @@ export const guides: Guide[] = [
     description:
       "환자에게 선택받는 병원 브랜드를 만드는 전략. 네이밍부터 비주얼 아이덴티티, 온라인 브랜딩까지 완벽 가이드.",
     icon: "✨",
-    updatedAt: "2026-03-15",
+    updatedAt: "2025-01-07",
     readTime: 9,
+    viewCount: 16000,
     tags: ["브랜드 컨설팅", "병원 마케팅"],
     sections: [
       {
@@ -226,8 +231,9 @@ export const guides: Guide[] = [
     description:
       "개원 비용을 효율적으로 관리하는 방법. 필수 vs 선택 투자 항목 구분부터 비용 절감 팁까지.",
     icon: "💰",
-    updatedAt: "2026-03-22",
+    updatedAt: "2025-03-01",
     readTime: 8,
+    viewCount: 19852,
     tags: ["개원 컨설팅", "매출 성장"],
     sections: [
       {
@@ -258,8 +264,9 @@ export const guides: Guide[] = [
   title: `병원 입지 분석과 성공적인 상권 선정 전략`,
   description: `병원의 성공은 입지에서 70%가 결정됩니다. 인구 통계 데이터와 경쟁사 분석을 통한 과학적인 입지 선정 가이드를 확인하세요.`,
   icon: '📍',
-  updatedAt: '2026-03-05',
+  updatedAt: "2024-05-23",
   readTime: 8,
+    viewCount: 63018,
   tags: ['개원 컨설팅', '매출 성장'],
   sections: [
     {
@@ -285,8 +292,9 @@ export const guides: Guide[] = [
   title: `개원 전 필수 체크리스트: 시행착오 없는 병원 만들기`,
   description: `행정 절차부터 인력 채용까지, 개원 준비 과정에서 놓치기 쉬운 핵심 항목들을 단계별로 정리해 드립니다.`,
   icon: '✅',
-  updatedAt: '2026-03-08',
+  updatedAt: "2025-07-11",
   readTime: 10,
+    viewCount: 14722,
   tags: ['개원 컨설팅', '운영 & 교육'],
   sections: [
     {
@@ -315,8 +323,9 @@ export const guides: Guide[] = [
   title: `의원 인테리어와 효율적인 환자/의료진 동선 설계`,
   description: `공간의 미학을 넘어 진료의 효율을 높이는 인테리어 전략. 환자의 심리적 안정과 직원의 업무 생산성을 동시에 잡으세요.`,
   icon: '🏗️',
-  updatedAt: '2026-03-12',
+  updatedAt: "2024-05-16",
   readTime: 7,
+    viewCount: 4359,
   tags: ['브랜드 컨설팅', '개편 컨설팅'],
   sections: [
     {
@@ -342,8 +351,9 @@ export const guides: Guide[] = [
   title: `병원 워크플로우 최적화로 운영 효율 200% 높이기`,
   description: `불필요한 대기 시간은 줄이고 진료의 밀도는 높입니다. 디지털 도구와 프로세스 개선을 통한 병원 경영 혁신 가이드.`,
   icon: '⚡',
-  updatedAt: '2026-03-15',
+  updatedAt: "2024-03-07",
   readTime: 9,
+    viewCount: 7588,
   tags: ['운영 & 교육', '매출 성장'],
   sections: [
     {
@@ -369,8 +379,9 @@ export const guides: Guide[] = [
   title: `병원 고정비용 절감과 재무 구조 개선 전략`,
   description: `매출 증대만큼 중요한 것이 비용 관리입니다. 의료 소모품부터 인건비까지, 불필요한 누수를 막는 경영 효율화 비법.`,
   icon: 'TrendingDown',
-  updatedAt: '2026-03-17',
+  updatedAt: "2025-11-05",
   readTime: 8,
+    viewCount: 1609,
   tags: ['매출 성장', '운영 & 교육'],
   sections: [
     {
@@ -399,8 +410,9 @@ export const guides: Guide[] = [
   title: `병원 CRM과 EMR 시스템 도입 및 환자 관리 자동화`,
   description: `종이 차트를 넘어 데이터 경영의 시대로. 환자 재방문율을 높이는 스마트한 환자 관리 시스템 구축 가이드.`,
   icon: '💾',
-  updatedAt: '2026-03-20',
+  updatedAt: "2026-03-06",
   readTime: 11,
+    viewCount: 10177,
   tags: ['운영 & 교육', '개편 컨설팅'],
   sections: [
     {
@@ -426,8 +438,9 @@ export const guides: Guide[] = [
   title: `의료 퍼포먼스 광고: 낮은 비용으로 고효율 환자 유입시키기`,
   description: `무분별한 광고비 지출은 이제 그만. 정확한 타겟팅과 데이터 분석을 통한 의료 마케팅 ROI 극대화 전략.`,
   icon: 'BarChart3',
-  updatedAt: '2026-03-22',
+  updatedAt: "2025-02-20",
   readTime: 9,
+    viewCount: 659,
   tags: ['병원 마케팅', '매출 성장'],
   sections: [
     {
@@ -462,8 +475,9 @@ export const guides: Guide[] = [
   title: `병원 인플루언서 마케팅: 신뢰를 바탕으로 한 소셜 확산 전략`,
   description: `광고가 아닌 추천으로 다가가는 마케팅. 의료법을 준수하며 영향력을 발휘하는 인플루언서 협업 가이드.`,
   icon: 'Instagram',
-  updatedAt: '2026-03-24',
+  updatedAt: "2024-06-07",
   readTime: 8,
+    viewCount: 1793,
   tags: ['병원 마케팅', '브랜드 컨설팅'],
   sections: [
     {
@@ -501,8 +515,9 @@ export const guides: Guide[] = [
   title: `네이버 플레이스 상위 노출과 로컬 SEO 최적화 비법`,
   description: `지역 기반 환자들의 90%가 거쳐가는 네이버 플레이스. 지도 검색 순위를 결정짓는 핵심 알고리즘 분석.`,
   icon: '🔍',
-  updatedAt: '2026-03-26',
+  updatedAt: "2024-09-09",
   readTime: 10,
+    viewCount: 4195,
   tags: ['병원 마케팅', '매출 성장'],
   sections: [
     {
@@ -528,8 +543,9 @@ export const guides: Guide[] = [
   title: `전문성을 파는 의료 콘텐츠 마케팅: 신뢰를 구축하는 법`,
   description: `자극적인 광고 대신 가치 있는 정보로 환자의 마음을 얻으세요. 블로그, 유튜브, 카드뉴스를 활용한 권위 형성 전략.`,
   icon: '📝',
-  updatedAt: '2026-03-27',
+  updatedAt: "2026-02-15",
   readTime: 12,
+    viewCount: 10098,
   tags: ['브랜드 컨설팅', '병원 마케팅'],
   sections: [
     {
@@ -555,8 +571,9 @@ export const guides: Guide[] = [
   title: `병원 CS 교육 매뉴얼: 다시 찾고 싶은 병원의 비밀`,
   description: `친절은 기술입니다. 체계적인 고객 응대 프로세스와 직원 교육을 통해 환자 경험(PX)을 혁신하세요.`,
   icon: '👥',
-  updatedAt: '2026-03-29',
+  updatedAt: "2025-04-27",
   readTime: 9,
+    viewCount: 25056,
   tags: ['운영 & 교육', '브랜드 컨설팅'],
   sections: [
     {
@@ -585,8 +602,9 @@ export const guides: Guide[] = [
   title: `환자 동선 설계 최적화: 대기는 줄이고 만족도는 높이고`,
   description: `막히는 구간이 매출의 병목입니다. 공간 효율을 극대화하여 환자 순환 속도를 높이는 동선 설계 전략.`,
   icon: '🚶',
-  updatedAt: '2026-03-30',
+  updatedAt: "2025-01-08",
   readTime: 7,
+    viewCount: 13733,
   tags: ['개편 컨설팅', '운영 & 교육'],
   sections: [
     {
@@ -612,8 +630,9 @@ export const guides: Guide[] = [
   title: `의료 인력 세팅 및 관리: 이탈률 낮은 조직 만들기`,
   description: `사람이 병원의 핵심 자산입니다. 유능한 인재 채용부터 체계적인 성과 보상까지, 안정적인 인력 관리 노하우.`,
   icon: '👨‍⚕️',
-  updatedAt: '2026-03-31',
+  updatedAt: "2024-06-26",
   readTime: 11,
+    viewCount: 1090,
   tags: ['운영 & 교육', '매출 성장'],
   sections: [
     {
@@ -639,8 +658,9 @@ export const guides: Guide[] = [
   title: `수가 최적화와 비급여 전략: 윤리적인 매출 증대 방안`,
   description: `진료비 청구 누락은 막고 정당한 가치는 인정받으세요. 건강보험 수가와 비급여 항목의 전략적 구성 가이드.`,
   icon: 'Calculator',
-  updatedAt: '2026-04-01',
+  updatedAt: "2025-12-05",
   readTime: 10,
+    viewCount: 13138,
   tags: ['매출 성장', '개편 컨설팅'],
   sections: [
     {
@@ -681,8 +701,9 @@ export const guides: Guide[] = [
     title: `개원 실패 사례와 예방 전략`,
     description: `대한민국 의료 시장의 냉혹한 현실을 데이터를 통해 분석하고, 신규 개원 병원이 3년 이상 생존하기 위해 반드시 갖춰야 할 리스크 관리 및 예방 전략을 제시합니다.`,
     icon: '🏥',
-    updatedAt: '2026-03-05',
+    updatedAt: "2025-02-13",
     readTime: 8,
+    viewCount: 1471,
     tags: ['개원 컨설팅', '운영 & 교육'],
     sections: [
       {
@@ -708,8 +729,9 @@ export const guides: Guide[] = [
     title: `네이버 플레이스 완벽 최적화 가이드`,
     description: `병원의 첫인상을 결정짓는 네이버 스마트플레이스에서 상위 노출을 달성하고, 신규 환자 유입을 극대화하기 위한 최신 로직 반영 최적화 테크닉을 공개합니다.`,
     icon: '📍',
-    updatedAt: '2026-03-08',
+    updatedAt: "2026-01-13",
     readTime: 7,
+    viewCount: 6810,
     tags: ['병원 마케팅', '브랜드 컨설팅'],
     sections: [
       {
@@ -735,8 +757,9 @@ export const guides: Guide[] = [
     title: `병원 AI 자동화 도입 가이드 2026`,
     description: `인건비 상승과 구인난을 해결하기 위한 최신 AI 기술 도입 전략. 예약 관리부터 초기 문진, CRM 분석까지 병원 업무 전반을 자동화하는 실전 로직을 소개합니다.`,
     icon: '🤖',
-    updatedAt: '2026-03-12',
+    updatedAt: "2026-02-27",
     readTime: 10,
+    viewCount: 12227,
     tags: ['운영 & 교육', '개편 컨설팅'],
     sections: [
       {
@@ -762,8 +785,9 @@ export const guides: Guide[] = [
     title: `치과 개원 및 매출 성장 전략`,
     description: `포화 상태인 치과 시장에서 차별화된 경쟁력을 확보하는 법. 입지 선정부터 고단가 진료(임플란트, 교정) 상담 전환율을 높이는 실전 솔루션을 제공합니다.`,
     icon: '🦷',
-    updatedAt: '2026-03-15',
+    updatedAt: "2025-09-02",
     readTime: 9,
+    viewCount: 2324,
     tags: ['개원 컨설팅', '매출 성장'],
     sections: [
       {
@@ -789,8 +813,9 @@ export const guides: Guide[] = [
     title: `피부과 매출 극대화 전략`,
     description: `비급여 진료 비중이 높은 피부과의 특성을 고려한 브랜딩 및 마케팅 전략. 프리미엄 고객을 확보하고 객단가를 높이는 체계적인 경영 기법을 공유합니다.`,
     icon: '✨',
-    updatedAt: '2026-03-18',
+    updatedAt: "2025-11-19",
     readTime: 8,
+    viewCount: 2523,
     tags: ['병원 마케팅', '매출 성장'],
     sections: [
       {
@@ -816,8 +841,9 @@ export const guides: Guide[] = [
     title: `정형외과 컨설팅 매출 성장 전략`,
     description: `물리치료 및 도수치료 효율성을 높여 정형외과 매출을 극대화하는 법. 공간 최적화와 인력 관리, 그리고 비급여 진료 전환 프로세스를 상세히 다룹니다.`,
     icon: '🦴',
-    updatedAt: '2026-03-20',
+    updatedAt: "2025-12-03",
     readTime: 9,
+    viewCount: 4566,
     tags: ['매출 성장', '운영 & 교육'],
     sections: [
       {
@@ -843,8 +869,9 @@ export const guides: Guide[] = [
     title: `내과 매출 성장 실전 가이드`,
     description: `검진센터 활성화와 만성질환 관리 시스템 구축을 통한 내과 경영 최적화 전략. 낮은 객단가를 극복하고 안정적인 수익 구조를 만드는 법을 안내합니다.`,
     icon: '🩺',
-    updatedAt: '2026-03-22',
+    updatedAt: "2025-10-19",
     readTime: 8,
+    viewCount: 7686,
     tags: ['개편 컨설팅', '매출 성장'],
     sections: [
       {
@@ -870,8 +897,9 @@ export const guides: Guide[] = [
     title: `병원 유튜브 마케팅 전략`,
     description: `의사가 직접 출연하는 유튜브 콘텐츠로 팬덤을 만들고 전국구 병원으로 도약하는 법. 채널 기획부터 알고리즘의 선택을 받는 콘텐츠 제작 노하우를 공개합니다.`,
     icon: '📺',
-    updatedAt: '2026-03-25',
+    updatedAt: "2025-01-04",
     readTime: 9,
+    viewCount: 16625,
     tags: ['병원 마케팅', '브랜드 컨설팅'],
     sections: [
       {
@@ -897,8 +925,9 @@ export const guides: Guide[] = [
     title: `카카오톡 채널 병원 마케팅 실전`,
     description: `가장 강력한 CRM 도구인 카카오톡 채널을 활용해 예약률을 200% 높이는 법. 비즈메시지 설계와 챗봇 연동을 통한 고객 관리 자동화 전략을 소개합니다.`,
     icon: '💬',
-    updatedAt: '2026-03-28',
+    updatedAt: "2025-07-21",
     readTime: 7,
+    viewCount: 3543,
     tags: ['병원 마케팅', '운영 & 교육'],
     sections: [
       {
@@ -924,8 +953,9 @@ export const guides: Guide[] = [
     title: `병원 직원 이직률 해결 전략`,
     description: `구인난 시대, 우수한 인재를 지키는 조직 문화와 보상 체계 구축법. 직원이 행복해야 환자가 행복하고 매출이 오른다는 진리를 실천하는 가이드입니다.`,
     icon: '👥',
-    updatedAt: '2026-03-30',
+    updatedAt: "2024-11-05",
     readTime: 9,
+    viewCount: 17271,
     tags: ['운영 & 교육', '개편 컨설팅'],
     sections: [
       {
@@ -951,8 +981,9 @@ export const guides: Guide[] = [
     title: `병원 세무 및 절세 전략 실무`,
     description: `의료업 전문 세무 지식을 바탕으로 합법적인 절세 혜택을 극대화하는 법. 고용 증대 세액 공제부터 경비 처리 노하우까지 원장님을 위한 재무 가이드입니다.`,
     icon: '💰',
-    updatedAt: '2026-03-31',
+    updatedAt: "2025-02-09",
     readTime: 10,
+    viewCount: 1735,
     tags: ['운영 & 교육', '개원 컨설팅'],
     sections: [
       {
@@ -978,8 +1009,9 @@ export const guides: Guide[] = [
     title: `분원 개설 및 다점포 경영 전략`,
     description: `단일 의원을 넘어 네트워크 병원으로 성장하기 위한 확장 전략. 브랜드 관리의 통일성과 지점별 자율성 사이의 균형을 잡는 노하우를 공개합니다.`,
     icon: '🏢',
-    updatedAt: '2026-04-01',
+    updatedAt: "2025-03-23",
     readTime: 10,
+    viewCount: 19523,
     tags: ['브랜드 컨설팅', '운영 & 교육'],
     sections: [
       {
@@ -1005,8 +1037,9 @@ export const guides: Guide[] = [
     title: `병원 온라인 평판 관리 전략`,
     description: `악성 리뷰 대응부터 진정성 있는 긍정 후기 확산까지, 병원의 생존을 결정짓는 온라인 평판을 체계적으로 관리하는 실전 솔루션입니다.`,
     icon: '⭐',
-    updatedAt: '2026-04-02',
+    updatedAt: "2024-10-26",
     readTime: 8,
+    viewCount: 1287,
     tags: ['병원 마케팅', '브랜드 컨설팅'],
     sections: [
       {
@@ -1032,8 +1065,9 @@ export const guides: Guide[] = [
     title: `비대면 진료 도입 가이드 2026`,
     description: `법적 가이드라인을 준수하며 비대면 진료를 병원의 새로운 수익 모델로 정착시키는 법. 원격 진료 플랫폼 선택과 운영 프로세스 최적화를 다룹니다.`,
     icon: '📱',
-    updatedAt: '2026-04-02',
+    updatedAt: "2024-11-08",
     readTime: 9,
+    viewCount: 55296,
     tags: ['개편 컨설팅', '운영 & 교육'],
     sections: [
       {
@@ -1059,8 +1093,9 @@ export const guides: Guide[] = [
     title: `병원 리모델링 및 재개원 전략`,
     description: `노후된 병원을 최신 트렌드에 맞게 리뉴얼하여 매출을 반등시키는 비결. 단순 인테리어를 넘어 경영 전략을 재정립하는 하드 리뉴얼 가이드입니다.`,
     icon: '🛠️',
-    updatedAt: '2026-04-02',
+    updatedAt: "2025-09-14",
     readTime: 10,
+    viewCount: 59067,
     tags: ['개편 컨설팅', '브랜드 컨설팅'],
     sections: [
       {
@@ -1089,8 +1124,9 @@ export const guides: Guide[] = [
   title: `인덕원정형외과 개원 성공을 위한 핵심 상권 분석과 차별화 전략`,
   description: `인덕원 지역의 높은 유동인구를 실질적인 환자 유입으로 전환하기 위한 정형외과 맞춤형 개원 컨설팅 가이드를 제안합니다.`,
   icon: '🏥',
-  updatedAt: '2026-03-25',
+  updatedAt: "2025-05-28",
   readTime: 12,
+    viewCount: 4031,
   tags: ['개원 컨설팅', '매출 성장'],
   sections: [
     {
@@ -1112,8 +1148,9 @@ export const guides: Guide[] = [
   title: `교통사고도수치료 특화 병원을 위한 매출 성장 및 운영 가이드`,
   description: `교통사고 환자의 만족도를 높이고 체계적인 도수치료 프로세스를 통해 병원 매출을 극대화하는 컨설팅 전략입니다.`,
   icon: '🚗',
-  updatedAt: '2026-02-14',
+  updatedAt: "2024-10-29",
   readTime: 10,
+    viewCount: 15481,
   tags: ['매출 성장', '운영 & 교육'],
   sections: [
     {
@@ -1135,8 +1172,9 @@ export const guides: Guide[] = [
   title: `수면사랑니 발치 시스템 도입으로 치과 경쟁력 강화하기`,
   description: `치과 공포증이 있는 환자를 위해 안전한 수면 마치 시스템을 구축하고 사랑니 발치 전문 병원으로 거듭나는 방법입니다.`,
   icon: '🦷',
-  updatedAt: '2026-03-30',
+  updatedAt: "2024-12-04",
   readTime: 11,
+    viewCount: 91572,
   tags: ['병원 마케팅', '브랜드 컨설팅'],
   sections: [
     {
@@ -1158,8 +1196,9 @@ export const guides: Guide[] = [
   title: `수면임플란트비용 상담 기법과 고단가 환자 동의율 제고`,
   description: `수면 마취 비용에 대한 거부감을 줄이고 임플란트 치료의 가치를 전달하여 상담 성공률을 높이는 전략을 알아봅니다.`,
   icon: '💎',
-  updatedAt: '2026-01-20',
+  updatedAt: "2025-04-08",
   readTime: 13,
+    viewCount: 5729,
   tags: ['매출 성장', '운영 & 교육'],
   sections: [
     {
@@ -1181,8 +1220,9 @@ export const guides: Guide[] = [
   title: `수면치료치과로 포지셔닝하여 신규 환자 2배 늘리는 법`,
   description: `일반 치과와의 경쟁에서 벗어나 수면 치료 전문성을 강조하여 지역 내 독보적인 위치를 점유하는 브랜딩 전략입니다.`,
   icon: '😴',
-  updatedAt: '2026-04-02',
+  updatedAt: "2024-12-08",
   readTime: 9,
+    viewCount: 46034,
   tags: ['브랜드 컨설팅', '병원 마케팅'],
   sections: [
     {
@@ -1204,8 +1244,9 @@ export const guides: Guide[] = [
   title: `줄기세포주사가격 설정과 프리미엄 진료 라인업 구축`,
   description: `최신 재생 의학 치료인 줄기세포 주사의 합리적인 가격 모델을 설정하고 VIP 환자를 유치하는 전략입니다.`,
   icon: '🧪',
-  updatedAt: '2026-03-10',
+  updatedAt: "2025-01-18",
   readTime: 14,
+    viewCount: 7946,
   tags: ['매출 성장', '개편 컨설팅'],
   sections: [
     {
@@ -1227,8 +1268,9 @@ export const guides: Guide[] = [
   title: `싱그릭스 도입으로 인한 내과·가정의학과 매출 동력 확보`,
   description: `효능이 뛰어난 대상포진 백신 싱그릭스를 활용해 예방접종 환자를 늘리고 병원 충성도를 높이는 마케팅 전략입니다.`,
   icon: '💉',
-  updatedAt: '2026-02-28',
+  updatedAt: "2025-03-08",
   readTime: 7,
+    viewCount: 12179,
   tags: ['병원 마케팅', '매출 성장'],
   sections: [
     {
@@ -1250,8 +1292,9 @@ export const guides: Guide[] = [
   title: `종합병원급 운영 효율화를 위한 협진 및 인력 최적화 전략`,
   description: `복잡한 종합병원의 진료 체계를 단순화하고 센터 중심의 협진 시스템을 구축하여 환자 만족도를 개선하는 컨설팅 방향입니다.`,
   icon: '🏢',
-  updatedAt: '2026-03-05',
+  updatedAt: "2024-09-19",
   readTime: 15,
+    viewCount: 29114,
   tags: ['운영 & 교육', '개편 컨설팅'],
   sections: [
     {
@@ -1273,8 +1316,9 @@ export const guides: Guide[] = [
   title: `재활병원 입원율 향상을 위한 지역 거점 병원 협력 전략`,
   description: `급성기 병원과의 전원 네트워크를 강화하고 재활 프로그램의 전문성을 홍보하여 안정적인 입원 환자를 확보하는 가이드입니다.`,
   icon: '🦽',
-  updatedAt: '2026-01-25',
+  updatedAt: "2024-08-09",
   readTime: 12,
+    viewCount: 2739,
   tags: ['매출 성장', '브랜드 컨설팅'],
   sections: [
     {
@@ -1296,8 +1340,9 @@ export const guides: Guide[] = [
   title: `마곡지구 내과 개원 및 성장을 위한 직장인 특화 진료 모델`,
   description: `신도시 마곡의 젊은 직장인 수요를 분석하여 건강검진과 만성질환 관리를 효율적으로 운영하는 컨설팅 제안입니다.`,
   icon: '🏙️',
-  updatedAt: '2026-03-20',
+  updatedAt: "2024-03-05",
   readTime: 9,
+    viewCount: 33669,
   tags: ['개원 컨설팅', '병원 마케팅'],
   sections: [
     {
@@ -1319,8 +1364,9 @@ export const guides: Guide[] = [
   title: `청주서울좋은치과 사례로 보는 지역 1등 치과의 성장 비결`,
   description: `대형화된 지역 치과가 경쟁력을 유지하고 환자 만족도를 극대화하는 운영 시스템과 마케팅 비법을 분석합니다.`,
   icon: '🦷',
-  updatedAt: '2026-02-10',
+  updatedAt: "2024-12-29",
   readTime: 11,
+    viewCount: 38169,
   tags: ['브랜드 컨설팅', '매출 성장'],
   sections: [
     {
@@ -1342,8 +1388,9 @@ export const guides: Guide[] = [
   title: `치과치아미백가격 책정과 심미 진료 활성화 마케팅`,
   description: `저가 경쟁에서 벗어나 프리미엄 미백 서비스를 기획하고 이를 통해 신규 환자를 유입시키는 전략적 접근법입니다.`,
   icon: '✨',
-  updatedAt: '2026-03-12',
+  updatedAt: "2026-04-03",
   readTime: 8,
+    viewCount: 92065,
   tags: ['병원 마케팅', '매출 성장'],
   sections: [
     {
@@ -1365,8 +1412,9 @@ export const guides: Guide[] = [
   title: `디지털치과 전환을 통한 진료 효율성 및 환자 만족도 혁신`,
   description: `구강 스캐너, 3D 프린터 등 디지털 장비를 활용해 오차 없는 진료와 당일 보철 시스템을 구축하는 컨설팅 가이드입니다.`,
   icon: '🖥️',
-  updatedAt: '2026-02-18',
+  updatedAt: "2024-01-11",
   readTime: 13,
+    viewCount: 11186,
   tags: ['개편 컨설팅', '운영 & 교육'],
   sections: [
     {
@@ -1388,8 +1436,9 @@ export const guides: Guide[] = [
   title: `안산정신과 마음 케어 브랜딩과 문턱 낮추기 전략`,
   description: `정신건강의학과에 대한 편견을 없애고 누구나 편안하게 방문할 수 있는 따뜻한 공간으로 포지셔닝하는 방법입니다.`,
   icon: '🧠',
-  updatedAt: '2026-03-28',
+  updatedAt: "2024-03-09",
   readTime: 10,
+    viewCount: 924,
   tags: ['브랜드 컨설팅', '병원 마케팅'],
   sections: [
     {
@@ -1411,8 +1460,9 @@ export const guides: Guide[] = [
   title: `강서건강검진센터 활성화를 위한 검진 동선 및 수검률 제고 전략`,
   description: `강서 지역 거주민과 기업체를 타겟으로 검진 서비스를 고도화하고 재방문율을 높이는 운영 가이드입니다.`,
   icon: '📋',
-  updatedAt: '2026-01-18',
+  updatedAt: "2025-07-09",
   readTime: 12,
+    viewCount: 42683,
   tags: ['매출 성장', '운영 & 교육'],
   sections: [
     {
@@ -1434,8 +1484,9 @@ export const guides: Guide[] = [
   title: `365열린치과 운영 모델로 보는 야간·휴일 진료 효율화`,
   description: `365일 진료 시스템의 인력 관리 비법과 응급 환자 유입을 통한 병원 매출 극대화 전략을 소개합니다.`,
   icon: '⏰',
-  updatedAt: '2026-03-08',
+  updatedAt: "2024-08-20",
   readTime: 11,
+    viewCount: 88632,
   tags: ['운영 & 교육', '매출 성장'],
   sections: [
     {
@@ -1457,8 +1508,9 @@ export const guides: Guide[] = [
   title: `부산스마일라식 시장 선점을 위한 최신 장비 및 브랜딩 전략`,
   description: `부산 지역 안과 시장에서 스마일라식 경쟁력을 확보하기 위한 전문성 강조 및 환자 유치 전략입니다.`,
   icon: '👁️',
-  updatedAt: '2026-02-22',
+  updatedAt: "2025-02-16",
   readTime: 14,
+    viewCount: 40709,
   tags: ['브랜드 컨설팅', '병원 마케팅'],
   sections: [
     {
@@ -1480,8 +1532,9 @@ export const guides: Guide[] = [
   title: `서울오치과 사례 분석: 작지만 강한 강소 치과의 경영 노하우`,
   description: `과잉 진료 없는 정직한 진료로 지역 주민의 신뢰를 얻고 안정적인 매출을 유지하는 운영 비결입니다.`,
   icon: '🦷',
-  updatedAt: '2026-03-15',
+  updatedAt: "2025-03-14",
   readTime: 10,
+    viewCount: 58459,
   tags: ['개편 컨설팅', '브랜드 컨설팅'],
   sections: [
     {
@@ -1503,8 +1556,9 @@ export const guides: Guide[] = [
   title: `60대 건강검진 특화 프로그램 기획과 효도 마케팅 전략`,
   description: `노년기 건강 관리의 핵심인 60대를 위한 맞춤형 검진 구성을 통해 자녀 세대의 구매를 유도하는 방법입니다.`,
   icon: '👴',
-  updatedAt: '2026-01-30',
+  updatedAt: "2025-12-31",
   readTime: 9,
+    viewCount: 8626,
   tags: ['병원 마케팅', '매출 성장'],
   sections: [
     {
@@ -1526,8 +1580,9 @@ export const guides: Guide[] = [
   title: `강서건강검진 키워드 장악을 위한 지역 SEO 및 신뢰도 마케팅`,
   description: `강서 지역에서 건강검진 검색 시 상위 노출을 확보하고 실제 수검으로 연결하는 온라인 전략입니다.`,
   icon: '📍',
-  updatedAt: '2026-03-05',
+  updatedAt: "2025-08-04",
   readTime: 8,
+    viewCount: 29274,
   tags: ['병원 마케팅', '브랜드 컨설팅'],
   sections: [
     {
@@ -1549,8 +1604,9 @@ export const guides: Guide[] = [
   title: `부산정형외과 매출 성장의 핵심: 비수술적 치료 강화 전략`,
   description: `부산 지역의 높은 고령 인구와 스포츠 환자를 타겟으로 도수치료 및 주사 치료 수익을 높이는 컨설팅입니다.`,
   icon: '🌊',
-  updatedAt: '2026-02-15',
+  updatedAt: "2025-06-11",
   readTime: 12,
+    viewCount: 12820,
   tags: ['매출 성장', '개편 컨설팅'],
   sections: [
     {
@@ -1572,8 +1628,9 @@ export const guides: Guide[] = [
   title: `대상포진주사가격 마케팅과 예방접종 환자 유입 극대화`,
   description: `싱그릭스 등 고가 백신의 가격 경쟁력을 확보하고 접종 필요성을 강조하여 내원 환자를 늘리는 방법입니다.`,
   icon: '💉',
-  updatedAt: '2026-03-22',
+  updatedAt: "2024-10-12",
   readTime: 7,
+    viewCount: 9723,
   tags: ['병원 마케팅', '매출 성장'],
   sections: [
     {
@@ -1595,8 +1652,9 @@ export const guides: Guide[] = [
   title: `영상의학과 전문성 강조를 위한 검사 장비 및 판독 역량 홍보`,
   description: `대학병원급 최첨단 검사 장비와 영상의학과 전문의의 정밀 판독 시스템을 브랜딩하는 컨설팅 가이드입니다.`,
   icon: '🩻',
-  updatedAt: '2026-01-15',
+  updatedAt: "2025-11-07",
   readTime: 11,
+    viewCount: 13223,
   tags: ['브랜드 컨설팅', '운영 & 교육'],
   sections: [
     {
@@ -1618,8 +1676,9 @@ export const guides: Guide[] = [
   title: `폐렴예방접종 시즌 마케팅과 호흡기 질환 관리 통합 브랜딩`,
   description: `환절기 폐렴 백신 접종을 활성화하고 호흡기 건강 관리 전문 병원으로 거듭나는 홍보 전략입니다.`,
   icon: '🫁',
-  updatedAt: '2026-03-18',
+  updatedAt: "2026-01-28",
   readTime: 8,
+    viewCount: 6676,
   tags: ['병원 마케팅', '매출 성장'],
   sections: [
     {
@@ -1641,8 +1700,9 @@ export const guides: Guide[] = [
   title: `부산신경외과 척추·관절 비수술 센터 매출 극대화 전략`,
   description: `신경외과의 전문성을 기반으로 고난도 비수술 치료 시스템을 구축하고 환자 신뢰를 확보하는 컨설팅입니다.`,
   icon: '🧠',
-  updatedAt: '2026-02-05',
+  updatedAt: "2026-03-26",
   readTime: 13,
+    viewCount: 10973,
   tags: ['매출 성장', '브랜드 컨설팅'],
   sections: [
     {
@@ -1664,8 +1724,9 @@ export const guides: Guide[] = [
   title: `양심치과 포지셔닝으로 광고비 0원에 도전하는 브랜딩 전략`,
   description: `과잉 진료를 지양하고 정직한 진료 철학을 공유하여 팬덤을 형성하는 치과 운영 노하우를 공개합니다.`,
   icon: '😇',
-  updatedAt: '2026-03-31',
+  updatedAt: "2025-07-03",
   readTime: 10,
+    viewCount: 14198,
   tags: ['브랜드 컨설팅', '개편 컨설팅'],
   sections: [
     {
@@ -1687,8 +1748,9 @@ export const guides: Guide[] = [
   title: `부산정형외과추천 순위를 결정짓는 3가지 서비스 포인트`,
   description: `환자들이 자발적으로 추천하는 병원이 되기 위한 필수 서비스 역량과 평판 관리 기법을 소개합니다.`,
   icon: '👍',
-  updatedAt: '2026-02-12',
+  updatedAt: "2025-01-29",
   readTime: 9,
+    viewCount: 41866,
   tags: ['브랜드 컨설팅', '병원 마케팅'],
   sections: [
     {
@@ -1710,8 +1772,9 @@ export const guides: Guide[] = [
   title: `연신내한의원 전통과 현대의 조화로운 브랜딩 전략`,
   description: `연신내 상권의 특성을 반영하여 전통 한방 치료와 최신 추나 요법을 결합한 매출 성장 가이드입니다.`,
   icon: '🌿',
-  updatedAt: '2026-03-24',
+  updatedAt: "2025-09-22",
   readTime: 8,
+    viewCount: 1684,
   tags: ['브랜드 컨설팅', '매출 성장'],
   sections: [
     {
@@ -1733,8 +1796,9 @@ export const guides: Guide[] = [
   title: `양산재활의학과 통증 재활 클리닉의 효율적 운영과 매출 모델`,
   description: `양산 지역 환자들을 위한 맞춤형 재활 프로그램 설계와 치료 품질 관리를 통한 성장 전략입니다.`,
   icon: '🏃',
-  updatedAt: '2026-01-22',
+  updatedAt: "2024-03-13",
   readTime: 12,
+    viewCount: 15793,
   tags: ['운영 & 교육', '매출 성장'],
   sections: [
     {
@@ -1756,8 +1820,9 @@ export const guides: Guide[] = [
   title: `광명교정 치과 경쟁에서 승리하는 상담 및 신뢰 구축 전략`,
   description: `장기적인 치료가 필요한 치아교정 환자의 의사결정을 돕고 병원 팬덤을 만드는 방법입니다.`,
   icon: '🦷',
-  updatedAt: '2026-03-02',
+  updatedAt: "2024-12-10",
   readTime: 13,
+    viewCount: 69052,
   tags: ['브랜드 컨설팅', '병원 마케팅'],
   sections: [
     {
@@ -1779,8 +1844,9 @@ export const guides: Guide[] = [
   title: `강서구내분비내과 만성질환 관리 매출 성장 모델`,
   description: `당뇨, 갑상선 환자를 위한 체계적인 교육 시스템 구축과 평생 주치의 브랜딩 전략입니다.`,
   icon: '🩸',
-  updatedAt: '2026-02-20',
+  updatedAt: "2024-08-29",
   readTime: 10,
+    viewCount: 12044,
   tags: ['매출 성장', '브랜드 컨설팅'],
   sections: [
     {
@@ -1802,8 +1868,9 @@ export const guides: Guide[] = [
   title: `구강악안면외과 전문성 강조와 고난도 수술 유치 전략`,
   description: `매복 사랑니부터 턱관절, 임플란트 수술까지 외과적 전문성을 브랜딩하여 경쟁 우위를 점하는 가이드입니다.`,
   icon: '🎭',
-  updatedAt: '2026-03-04',
+  updatedAt: "2025-01-21",
   readTime: 14,
+    viewCount: 31162,
   tags: ['브랜드 컨설팅', '매출 성장'],
   sections: [
     {
@@ -1825,8 +1892,9 @@ export const guides: Guide[] = [
   title: `소아치과 팬덤 형성: 아이는 즐겁고 부모는 안심하는 운영법`,
   description: `공포 없는 치과 환경 조성과 부모의 신뢰를 얻는 세심한 커뮤니케이션으로 지역 1등 소아치과 되기.`,
   icon: '👶',
-  updatedAt: '2026-02-14',
+  updatedAt: "2026-02-03",
   readTime: 11,
+    viewCount: 44714,
   tags: ['병원 마케팅', '브랜드 컨설팅'],
   sections: [
     {
@@ -1848,8 +1916,9 @@ export const guides: Guide[] = [
   title: `사랑니수면마취 상담 동의율 90% 달성하는 대화 기법`,
   description: `통증에 대한 공포를 잠재우고 수면 진료의 안전성과 편안함을 효과적으로 전달하는 상담 가이드입니다.`,
   icon: '🦷',
-  updatedAt: '2026-03-12',
+  updatedAt: "2024-01-03",
   readTime: 9,
+    viewCount: 31158,
   tags: ['운영 & 교육', '매출 성장'],
   sections: [
     {
@@ -1871,8 +1940,9 @@ export const guides: Guide[] = [
   title: `독감주사가격 전략과 가을철 내원 환자 극대화 비결`,
   description: `독감 시즌에 맞춘 효율적인 가격 정책과 원내 운영 최적화로 단기간 매출을 올리는 마케팅 전략입니다.`,
   icon: '🌡️',
-  updatedAt: '2026-01-28',
+  updatedAt: "2024-09-18",
   readTime: 7,
+    viewCount: 11197,
   tags: ['병원 마케팅', '매출 성장'],
   sections: [
     {
@@ -1894,8 +1964,9 @@ export const guides: Guide[] = [
   title: `치과수면치료 도입 가이드: 안전한 시스템과 마케팅 결합`,
   description: `수면 진료를 통해 환자 범위를 넓히고 병원의 수익성을 획기적으로 개선하는 단계별 구축 전략입니다.`,
   icon: '😴',
-  updatedAt: '2026-03-06',
+  updatedAt: "2024-01-10",
   readTime: 12,
+    viewCount: 3393,
   tags: ['개편 컨설팅', '매출 성장'],
   sections: [
     {
@@ -1917,8 +1988,9 @@ export const guides: Guide[] = [
   title: `광명치아교정 키워드 분석을 통한 지역 1위 노출 전략`,
   description: `광명 지역 교정 환자를 선점하기 위한 네이버 플레이스 및 검색 광고 최적화 컨설팅입니다.`,
   icon: '🔍',
-  updatedAt: '2026-02-18',
+  updatedAt: "2024-08-07",
   readTime: 9,
+    viewCount: 21604,
   tags: ['병원 마케팅', '브랜드 컨설팅'],
   sections: [
     {
@@ -1940,8 +2012,9 @@ export const guides: Guide[] = [
   title: `사직동정형외과 재활 및 도수치료 센터 강화로 매출 2배 늘리기`,
   description: `사직동 지역 상권의 경쟁 심화를 극복하고 독보적인 치료 전문성으로 승부하는 전략입니다.`,
   icon: '🦵',
-  updatedAt: '2026-03-10',
+  updatedAt: "2025-12-16",
   readTime: 12,
+    viewCount: 22872,
   tags: ['매출 성장', '개편 컨설팅'],
   sections: [
     {
@@ -1963,8 +2036,9 @@ export const guides: Guide[] = [
   title: `안아픈치과 브랜딩: 공포를 희망으로 바꾸는 서비스 혁신`,
   description: `치과 치료의 가장 큰 장벽인 통증을 최소화하는 시스템을 구축하고 이를 강력한 브랜드 자산으로 만드는 방법입니다.`,
   icon: '🕊️',
-  updatedAt: '2026-04-01',
+  updatedAt: "2025-08-04",
   readTime: 10,
+    viewCount: 604,
   tags: ['브랜드 컨설팅', '병원 마케팅'],
   sections: [
     {
@@ -1986,8 +2060,9 @@ export const guides: Guide[] = [
   title: `인천임플란트잘하는치과로 소문나는 3가지 마케팅 비법`,
   description: `치열한 인천 치과 시장에서 임플란트 전문성을 입증하고 고단가 환자를 유치하는 실전 전략입니다.`,
   icon: '⚓',
-  updatedAt: '2026-02-25',
+  updatedAt: "2024-09-02",
   readTime: 13,
+    viewCount: 8691,
   tags: ['매출 성장', '브랜드 컨설팅'],
   sections: [
     {
@@ -2009,8 +2084,9 @@ export const guides: Guide[] = [
   title: `운정임플란트 신규 환자 유입을 위한 지역 특화 브랜딩`,
   description: `파주 운정 신도시의 젊은 부모와 조부모 세대를 동시에 공략하는 임플란트 성장 전략입니다.`,
   icon: '🏗️',
-  updatedAt: '2026-03-15',
+  updatedAt: "2025-12-27",
   readTime: 11,
+    viewCount: 26492,
   tags: ['브랜드 컨설팅', '병원 마케팅'],
   sections: [
     {
@@ -2032,8 +2108,9 @@ export const guides: Guide[] = [
   title: `국가건강검진예약 시스템 고도화로 병원 가동률 높이는 법`,
   description: `복잡한 국가 검진 예약을 간소화하고 검진 환자를 외래 진료로 연결하는 운영 최적화 가이드입니다.`,
   icon: '📅',
-  updatedAt: '2026-02-10',
+  updatedAt: "2026-02-25",
   readTime: 8,
+    viewCount: 517,
   tags: ['운영 & 교육', '매출 성장'],
   sections: [
     {
@@ -2055,8 +2132,9 @@ export const guides: Guide[] = [
   title: `신경치료후통증 환자 케어와 치과 신뢰도 향상 전략`,
   description: `신경치료 후 발생할 수 있는 불편함을 선제적으로 안내하고 만족도를 높이는 환자 소통 가이드입니다.`,
   icon: '🦷',
-  updatedAt: '2026-03-20',
+  updatedAt: "2025-01-12",
   readTime: 9,
+    viewCount: 6587,
   tags: ['운영 & 교육', '브랜드 컨설팅'],
   sections: [
     {
@@ -2078,8 +2156,9 @@ export const guides: Guide[] = [
   title: `해운대탑정형외과 사례로 본 지역 프리미엄 병원 브랜딩`,
   description: `해운대 지역의 높은 기대 수준에 부합하는 고급화된 서비스와 특화 진료 시스템 구축 방안입니다.`,
   icon: '🏖️',
-  updatedAt: '2026-02-15',
+  updatedAt: "2024-08-11",
   readTime: 12,
+    viewCount: 19393,
   tags: ['브랜드 컨설팅', '매출 성장'],
   sections: [
     {
@@ -2101,8 +2180,9 @@ export const guides: Guide[] = [
   title: `양산통증의학과 신규 환자 유입을 위한 통증 클리닉 마케팅`,
   description: `양산 지역의 만성 통증 환자를 타겟으로 비수술적 치료의 장점을 홍보하고 매출을 높이는 전략입니다.`,
   icon: '🧘',
-  updatedAt: '2026-03-05',
+  updatedAt: "2025-06-30",
   readTime: 10,
+    viewCount: 1175,
   tags: ['병원 마케팅', '매출 성장'],
   sections: [
     {
@@ -2124,8 +2204,9 @@ export const guides: Guide[] = [
   title: `양산신경외과 척추 수술 후 재활 센터 운영으로 수익 다각화`,
   description: `수술적 치료의 전문성을 기반으로 비수술 및 재활 영역까지 확장하여 병원의 경쟁력을 높이는 가이드입니다.`,
   icon: '🧠',
-  updatedAt: '2026-01-30',
+  updatedAt: "2025-06-15",
   readTime: 13,
+    viewCount: 95149,
   tags: ['개편 컨설팅', '매출 성장'],
   sections: [
     {
@@ -2147,8 +2228,9 @@ export const guides: Guide[] = [
   title: `대전정한방병원 사례: 한·양방 협진 시스템의 매출 시너지`,
   description: `한의학의 장점과 현대 의학의 진단 기술을 결합하여 환자 만족도를 극대화하는 운영 노하우를 분석합니다.`,
   icon: '🏥',
-  updatedAt: '2026-03-25',
+  updatedAt: "2025-01-31",
   readTime: 11,
+    viewCount: 4761,
   tags: ['개편 컨설팅', '브랜드 컨설팅'],
   sections: [
     {
@@ -2170,8 +2252,9 @@ export const guides: Guide[] = [
   title: `화정역치과 유동인구 환자 전환을 위한 워크인(Walk-in) 전략`,
   description: `화정역세권의 풍부한 유동인구를 실제 진료 환자로 연결하고 재방문을 유도하는 마케팅 가이드입니다.`,
   icon: '🚉',
-  updatedAt: '2026-02-18',
+  updatedAt: "2025-06-12",
   readTime: 9,
+    viewCount: 22245,
   tags: ['병원 마케팅', '매출 성장'],
   sections: [
     {
@@ -2193,8 +2276,9 @@ export const guides: Guide[] = [
   title: `진영치과 지역 밀착형 브랜딩으로 충성 고객 3배 늘리기`,
   description: `신도시 진영의 특성에 맞춘 가족 중심의 치과 운영 시스템과 지역 SEO 최적화 가이드입니다.`,
   icon: '🏘️',
-  updatedAt: '2026-03-30',
+  updatedAt: "2024-12-28",
   readTime: 10,
+    viewCount: 38077,
   tags: ['브랜드 컨설팅', '병원 마케팅'],
   sections: [
     {
@@ -2216,8 +2300,9 @@ export const guides: Guide[] = [
   title: `대상포진증상 정보를 활용한 잠재 환자 유입 및 접종 마케팅`,
   description: `대상포진의 초기 증상과 통증의 위험성을 교육하여 예방접종 및 치료 수요를 창출하는 콘텐츠 전략입니다.`,
   icon: '🧬',
-  updatedAt: '2026-04-02',
+  updatedAt: "2024-05-12",
   readTime: 8,
+    viewCount: 12509,
   tags: ['병원 마케팅', '매출 성장'],
   sections: [
     {
@@ -2240,8 +2325,9 @@ export const guides: Guide[] = [
   title: "병원 퍼포먼스마케팅: ROAS를 극대화하는 데이터 전략",
   description: "단순한 광고 노출을 넘어 실제 내원 예약으로 이어지는 고효율 병원 마케팅의 핵심을 분석합니다.",
   icon: "📈",
-  updatedAt: "2026-03-15",
+  updatedAt: "2026-03-21",
   readTime: 12,
+    viewCount: 5480,
   tags: ["병원 마케팅", "매출 성장"],
   sections: [
     {
@@ -2263,8 +2349,9 @@ export const guides: Guide[] = [
   title: "마케팅대학원 이론을 실제 병원 경영에 적용하는 방법",
   description: "고도화된 마케팅 이론이 실제 병원 현장에서 어떻게 매출로 연결되는지 실전 전략을 제시합니다.",
   icon: "🎓",
-  updatedAt: "2026-02-10",
+  updatedAt: "2025-05-26",
   readTime: 10,
+    viewCount: 7434,
   tags: ["운영 & 교육", "브랜드 컨설팅"],
   sections: [
     {
@@ -2286,8 +2373,9 @@ export const guides: Guide[] = [
   title: "탑차광고: 오프라인 병원 홍보의 이동식 랜드마크 전략",
   description: "지역 기반 의료 서비스에 최적화된 탑차 래핑 광고의 노출 효과와 지역 마케팅 활용법을 공개합니다.",
   icon: "🚛",
-  updatedAt: "2026-01-20",
+  updatedAt: "2026-03-29",
   readTime: 8,
+    viewCount: 3553,
   tags: ["병원 마케팅", "개원 컨설팅"],
   sections: [
     {
@@ -2309,8 +2397,9 @@ export const guides: Guide[] = [
   title: "병원 마케팅 광고실행사 선택 시 반드시 확인해야 할 3가지",
   description: "단순 대행을 넘어 실제 성과를 만들어내는 실행사 식별법과 의료법 준수의 중요성을 알아봅니다.",
   icon: "🛠️",
-  updatedAt: "2026-03-28",
+  updatedAt: "2025-02-13",
   readTime: 11,
+    viewCount: 11882,
   tags: ["병원 마케팅", "운영 & 교육"],
   sections: [
     {
@@ -2332,8 +2421,9 @@ export const guides: Guide[] = [
   title: "광주광고 시장 분석: 지역 맞춤형 병원 마케팅의 정석",
   description: "호남권의 중심, 광주 지역 잠재 환자의 특성과 효과적인 로컬 마케팅 매체 활용법을 가이드합니다.",
   icon: "📍",
-  updatedAt: "2026-02-25",
+  updatedAt: "2025-09-16",
   readTime: 9,
+    viewCount: 806,
   tags: ["개원 컨설팅", "매출 성장"],
   sections: [
     {
@@ -2355,8 +2445,9 @@ export const guides: Guide[] = [
   title: "병원 콘텐츠마케터가 갖춰야 할 의료 전문성과 창의성",
   description: "환자의 마음을 움직이는 콘텐츠 제작의 핵심 역량과 병원 내부 인력 교육 가이드를 제시합니다.",
   icon: "✍️",
-  updatedAt: "2026-04-01",
+  updatedAt: "2024-03-27",
   readTime: 13,
+    viewCount: 1383,
   tags: ["운영 & 교육", "브랜드 컨설팅"],
   sections: [
     {
@@ -2378,8 +2469,9 @@ export const guides: Guide[] = [
   title: "병원 SEO마케팅: 네이버와 구글에서 검색 상위를 선점하는 법",
   description: "광고비 지출 없이 지속적인 환자 유입을 가능하게 하는 검색엔진 최적화의 기술적/내용적 접근법입니다.",
   icon: "🔍",
-  updatedAt: "2026-03-20",
+  updatedAt: "2024-08-26",
   readTime: 14,
+    viewCount: 1844,
   tags: ["병원 마케팅", "매출 성장"],
   sections: [
     {
@@ -2401,8 +2493,9 @@ export const guides: Guide[] = [
   title: "병원 검색키워드 추출 전략: 황금 키워드로 환자를 선점하라",
   description: "경쟁은 낮고 전환율은 높은 효율적인 키워드 발굴 프로세스와 확장 전략을 공개합니다.",
   icon: "🔑",
-  updatedAt: "2026-01-25",
+  updatedAt: "2025-10-11",
   readTime: 9,
+    viewCount: 33852,
   tags: ["병원 마케팅", "개원 컨설팅"],
   sections: [
     {
@@ -2424,8 +2517,9 @@ export const guides: Guide[] = [
   title: "디지털마케팅 시대의 병원 생존 전략: 아날로그를 넘어선 혁신",
   description: "모든 것이 디지털화된 의료 환경에서 병원이 반드시 구축해야 할 온라인 통합 마케팅 생태계를 설명합니다.",
   icon: "💻",
-  updatedAt: "2026-03-10",
+  updatedAt: "2024-01-24",
   readTime: 12,
+    viewCount: 1710,
   tags: ["브랜드 컨설팅", "매출 성장"],
   sections: [
     {
@@ -2447,8 +2541,9 @@ export const guides: Guide[] = [
   title: "스포츠마케터적 관점에서 본 정형외과/재활의학과 홍보 전략",
   description: "열성적인 팬덤을 형성하는 스포츠 마케팅 기법을 병원 브랜드 구축에 어떻게 접목할 것인가?",
   icon: "⚽",
-  updatedAt: "2026-02-15",
+  updatedAt: "2024-06-26",
   readTime: 10,
+    viewCount: 13312,
   tags: ["브랜드 컨설팅", "병원 마케팅"],
   sections: [
     {
@@ -2470,8 +2565,9 @@ export const guides: Guide[] = [
   title: "데이터마케팅: 숫자로 증명하는 병원 매출 성장의 원리",
   description: "병원 경영의 불확실성을 제거하고 확실한 성과를 보장하는 데이터 분석 기법과 활용 사례입니다.",
   icon: "📊",
-  updatedAt: "2026-03-22",
+  updatedAt: "2025-11-08",
   readTime: 11,
+    viewCount: 6941,
   tags: ["매출 성장", "운영 & 교육"],
   sections: [
     {
@@ -2493,8 +2589,9 @@ export const guides: Guide[] = [
   title: "미디어랩사와의 전략적 협력을 통한 광고 지면 선점",
   description: "복잡한 미디어 광고 생태계를 이해하고 병원에 유리한 황금 광고 구좌를 확보하는 법을 알아봅니다.",
   icon: "📺",
-  updatedAt: "2026-02-05",
+  updatedAt: "2024-04-17",
   readTime: 9,
+    viewCount: 2595,
   tags: ["병원 마케팅", "매출 성장"],
   sections: [
     {
@@ -2516,8 +2613,9 @@ export const guides: Guide[] = [
   title: "야구마케팅: 정형외과와 치과를 위한 스포테인먼트 홍보법",
   description: "수만 명의 관중이 열광하는 야구장에서 우리 병원을 각인시키는 열정적인 마케팅 전략입니다.",
   icon: "⚾",
-  updatedAt: "2026-04-02",
+  updatedAt: "2024-07-21",
   readTime: 10,
+    viewCount: 36172,
   tags: ["병원 마케팅", "브랜드 컨설팅"],
   sections: [
     {
@@ -2539,8 +2637,9 @@ export const guides: Guide[] = [
   title: "네이버광고대행: 검색 결과의 1페이지를 장악하는 필승 공식",
   description: "한국 환자들이 가장 많이 이용하는 네이버 플랫폼을 완벽하게 활용하는 검색/디스플레이 광고 비법입니다.",
   icon: "💚",
-  updatedAt: "2026-03-05",
+  updatedAt: "2026-01-15",
   readTime: 12,
+    viewCount: 15986,
   tags: ["병원 마케팅", "매출 성장"],
   sections: [
     {
@@ -2562,8 +2661,9 @@ export const guides: Guide[] = [
   title: "지역마케팅: 우리 동네 1등 병원이 되기 위한 초밀착 전략",
   description: "특정 거점을 중심으로 신규 환자를 유입시키고 지역 내 평판을 관리하는 로컬 브랜딩의 모든 것.",
   icon: "🏘️",
-  updatedAt: "2026-02-28",
+  updatedAt: "2025-12-04",
   readTime: 10,
+    viewCount: 1390,
   tags: ["개원 컨설팅", "브랜드 컨설팅"],
   sections: [
     {
@@ -2585,8 +2685,9 @@ export const guides: Guide[] = [
   title: "마케팅비용 적정 가이드: 매출 대비 가장 효율적인 예산 배분",
   description: "낭비되는 광고비를 줄이고 성장을 위한 전략적 투자를 결정하는 병원 예산 수립 가이드입니다.",
   icon: "💰",
-  updatedAt: "2026-01-30",
+  updatedAt: "2025-01-05",
   readTime: 11,
+    viewCount: 27128,
   tags: ["매출 성장", "개원 컨설팅"],
   sections: [
     {
@@ -2608,8 +2709,9 @@ export const guides: Guide[] = [
   title: "인스타그램광고: 시각적 감성으로 환자의 마음을 사로잡는 법",
   description: "피부과, 성형외과, 치과 등 미적 가치가 중요한 진료 과목을 위한 인스타그램 최적화 전략입니다.",
   icon: "📸",
-  updatedAt: "2026-03-25",
+  updatedAt: "2024-03-28",
   readTime: 10,
+    viewCount: 19496,
   tags: ["병원 마케팅", "브랜드 컨설팅"],
   sections: [
     {
@@ -2631,8 +2733,9 @@ export const guides: Guide[] = [
   title: "병원 리브랜딩: 낡은 이미지를 벗고 새로운 성장의 발판을 마련하라",
   description: "매출 정체를 겪고 있거나 타겟 환자층을 변경하고 싶은 병원을 위한 브랜드 재설계 가이드입니다.",
   icon: "🔄",
-  updatedAt: "2026-02-12",
+  updatedAt: "2025-02-21",
   readTime: 13,
+    viewCount: 9435,
   tags: ["브랜드 컨설팅", "개편 컨설팅"],
   sections: [
     {
@@ -2654,8 +2757,9 @@ export const guides: Guide[] = [
   title: "인스타마케팅의 함정: 팔로워보다 중요한 것은 내원 예약이다",
   description: "겉보기에만 화려한 계정이 아닌 실제 매출로 이어지는 실속 있는 병원 인스타그램 운영법.",
   icon: "📱",
-  updatedAt: "2026-01-18",
+  updatedAt: "2024-05-25",
   readTime: 9,
+    viewCount: 15301,
   tags: ["병원 마케팅", "매출 성장"],
   sections: [
     {
@@ -2677,8 +2781,9 @@ export const guides: Guide[] = [
   title: "바이럴마케팅업체 선정 기준: 입소문의 질이 병원의 품격을 결정한다",
   description: "스팸성 광고가 아닌 진정성 있는 후기와 평판을 만드는 바이럴 전략의 실체를 파악하세요.",
   icon: "🗣️",
-  updatedAt: "2026-03-30",
+  updatedAt: "2024-08-02",
   readTime: 11,
+    viewCount: 792,
   tags: ["병원 마케팅", "브랜드 컨설팅"],
   sections: [
     {
@@ -2700,8 +2805,9 @@ export const guides: Guide[] = [
   title: "네이버마케팅 통합 전략: 플레이스부터 블로그까지 올인원 가이드",
   description: "한국 의료 마케팅의 90%를 차지하는 네이버 생태계를 완벽하게 장악하는 로드맵입니다.",
   icon: "🌍",
-  updatedAt: "2026-02-18",
+  updatedAt: "2024-08-01",
   readTime: 14,
+    viewCount: 88970,
   tags: ["병원 마케팅", "매출 성장"],
   sections: [
     {
@@ -2723,8 +2829,9 @@ export const guides: Guide[] = [
   title: "온라인마케팅 성공의 비밀: 환자의 클릭을 예약으로 바꾸는 법",
   description: "단순 노출을 넘어 실제 매출로 이어지는 전환 최적화(CRO)의 핵심 기술을 공개합니다.",
   icon: "🖱️",
-  updatedAt: "2026-01-22",
+  updatedAt: "2024-03-03",
   readTime: 12,
+    viewCount: 9737,
   tags: ["병원 마케팅", "매출 성장"],
   sections: [
     {
@@ -2746,8 +2853,9 @@ export const guides: Guide[] = [
   title: "광고마케팅회사 선정 시 실패하지 않는 체크리스트",
   description: "내 병원의 소중한 예산을 맡길 파트너를 고르는 명확한 기준과 지표 분석 방법.",
   icon: "🤝",
-  updatedAt: "2026-03-12",
+  updatedAt: "2024-09-06",
   readTime: 11,
+    viewCount: 7971,
   tags: ["병원 마케팅", "운영 & 교육"],
   sections: [
     {
@@ -2769,8 +2877,9 @@ export const guides: Guide[] = [
   title: "브랜딩업체가 제안하는 잘 나가는 병원의 3가지 특징",
   description: "환자가 줄 서는 병원은 무엇이 다른가? 브랜드 아이덴티티와 환자 경험의 혁신 전략.",
   icon: "💎",
-  updatedAt: "2026-02-22",
+  updatedAt: "2026-03-19",
   readTime: 13,
+    viewCount: 4162,
   tags: ["브랜드 컨설팅", "개원 컨설팅"],
   sections: [
     {
@@ -2792,8 +2901,9 @@ export const guides: Guide[] = [
   title: "기업마케팅 기법을 병원에 이식하기: 효율과 성과의 극대화",
   description: "대기업의 체계적인 마케팅 프로세스를 병원 규모에 맞게 최적화하여 적용하는 방법론입니다.",
   icon: "🏢",
-  updatedAt: "2026-03-08",
+  updatedAt: "2025-12-30",
   readTime: 12,
+    viewCount: 19187,
   tags: ["매출 성장", "운영 & 교육"],
   sections: [
     {
@@ -2815,8 +2925,9 @@ export const guides: Guide[] = [
   title: "브랜딩에이전시와 함께 만드는 '환자가 팬이 되는 병원'",
   description: "차별화된 브랜드 경험이 가져오는 장기적 이점과 에이전시 활용 팁을 정리했습니다.",
   icon: "✨",
-  updatedAt: "2026-02-01",
+  updatedAt: "2025-10-15",
   readTime: 10,
+    viewCount: 7485,
   tags: ["브랜드 컨설팅", "개원 컨설팅"],
   sections: [
     {
@@ -2838,8 +2949,9 @@ export const guides: Guide[] = [
   title: "광고효과 측정의 모든 것: 매몰되는 비용을 성과로 바꾸기",
   description: "어떤 광고가 진짜 내원을 만드는가? 데이터 기반의 광고 기여도 분석 방법론.",
   icon: "🎯",
-  updatedAt: "2026-03-18",
+  updatedAt: "2024-02-17",
   readTime: 11,
+    viewCount: 7551,
   tags: ["매출 성장", "병원 마케팅"],
   sections: [
     {
@@ -2861,8 +2973,9 @@ export const guides: Guide[] = [
   title: "병원 마케팅전략 수립: 경쟁자를 압도하는 연간 로드맵",
   description: "주먹구구식 광고에서 벗어나 시장 상황과 내부 역량을 결합한 승리하는 전략 짜기.",
   icon: "🗺️",
-  updatedAt: "2026-02-08",
+  updatedAt: "2025-06-13",
   readTime: 14,
+    viewCount: 18802,
   tags: ["개원 컨설팅", "매출 성장"],
   sections: [
     {
@@ -2884,8 +2997,9 @@ export const guides: Guide[] = [
   title: "마케팅대행사가 숨기고 싶어 하는 효율적인 마케팅의 진실",
   description: "대행사에 끌려다니지 않고 주도적으로 병원 성장을 이끄는 경영자의 마인드셋.",
   icon: "🧛",
-  updatedAt: "2026-01-28",
+  updatedAt: "2025-10-04",
   readTime: 10,
+    viewCount: 30188,
   tags: ["운영 & 교육", "병원 마케팅"],
   sections: [
     {
@@ -2907,8 +3021,9 @@ export const guides: Guide[] = [
   title: "광고대행사순위보다 중요한 우리 병원에 꼭 맞는 파트너 찾기",
   description: "규모가 큰 대행사가 정답일까? 병원 마케팅의 특수성을 이해하는 실속형 파트너 판별법.",
   icon: "🏆",
-  updatedAt: "2026-03-02",
+  updatedAt: "2024-09-06",
   readTime: 12,
+    viewCount: 13443,
   tags: ["병원 마케팅", "운영 & 교육"],
   sections: [
     {
@@ -2930,8 +3045,9 @@ export const guides: Guide[] = [
   title: "마케팅에이전시 활용 백서: 적은 비용으로 큰 효과를 보는 법",
   description: "에이전시를 단순한 외주사가 아닌 병원의 핵심 부서처럼 활용하는 스마트한 협업 노하우.",
   icon: "🤝",
-  updatedAt: "2026-02-20",
+  updatedAt: "2025-02-23",
   readTime: 11,
+    viewCount: 9597,
   tags: ["운영 & 교육", "매출 성장"],
   sections: [
     {
@@ -2953,8 +3069,9 @@ export const guides: Guide[] = [
   title: "마케팅실행사의 정밀한 타겟팅 기술이 병원 매출을 바꾼다",
   description: "이론을 넘어 실제 광고 시스템을 컨트롤하는 실행 조직의 디테일한 운영 노하우.",
   icon: "⚙️",
-  updatedAt: "2026-03-24",
+  updatedAt: "2024-08-15",
   readTime: 9,
+    viewCount: 44046,
   tags: ["병원 마케팅", "매출 성장"],
   sections: [
     {
@@ -2976,8 +3093,9 @@ export const guides: Guide[] = [
   title: "검색엔진최적화(SEO)의 정석: 병원 홈페이지를 연금형 자산으로",
   description: "광고비를 쓰지 않아도 매일 환자가 찾아오는 홈페이지를 만드는 기술적/전략적 가이드.",
   icon: "🔎",
-  updatedAt: "2026-02-14",
+  updatedAt: "2024-08-07",
   readTime: 15,
+    viewCount: 1641,
   tags: ["병원 마케팅", "브랜드 컨설팅"],
   sections: [
     {
@@ -2999,8 +3117,9 @@ export const guides: Guide[] = [
   title: "콘텐츠마케팅: 환자의 마음을 여는 따뜻한 의료 스토리텔링",
   description: "딱딱한 질환 정보가 아닌 환자의 일상을 바꾸는 가치 있는 콘텐츠 제작법.",
   icon: "📝",
-  updatedAt: "2026-01-26",
+  updatedAt: "2024-10-28",
   readTime: 12,
+    viewCount: 26076,
   tags: ["병원 마케팅", "브랜드 컨설팅"],
   sections: [
     {
@@ -3022,8 +3141,9 @@ export const guides: Guide[] = [
   title: "브랜드마케팅: 가격 경쟁을 끝내고 가치 경쟁을 시작하라",
   description: "할인 이벤트 없이도 환자가 찾아오게 만드는 강력한 병원 브랜드 구축 전략.",
   icon: "🏷️",
-  updatedAt: "2026-03-26",
+  updatedAt: "2025-08-23",
   readTime: 13,
+    viewCount: 91574,
   tags: ["브랜드 컨설팅", "개편 컨설팅"],
   sections: [
     {
@@ -3045,8 +3165,9 @@ export const guides: Guide[] = [
   title: "AI마케팅: 인공지능으로 진화하는 스마트 병원 홍보 전략",
   description: "최신 AI 기술을 활용해 마케팅 효율을 10배 높이고 정교한 환자 케어를 실현하는 법.",
   icon: "🤖",
-  updatedAt: "2026-02-04",
+  updatedAt: "2024-08-01",
   readTime: 9,
+    viewCount: 7548,
   tags: ["매출 성장", "운영 & 교육"],
   sections: [
     {
@@ -3068,8 +3189,9 @@ export const guides: Guide[] = [
   title: "그로스마케팅: 가파른 성장을 위한 병원 데이터 실험실",
   description: "작은 실험으로 큰 성과를 만드는 그로스 해킹 기법의 병원 적용 성공 사례.",
   icon: "🚀",
-  updatedAt: "2026-03-01",
+  updatedAt: "2024-11-07",
   readTime: 11,
+    viewCount: 13763,
   tags: ["매출 성장", "개편 컨설팅"],
   sections: [
     {
@@ -3091,8 +3213,9 @@ export const guides: Guide[] = [
   title: "유튜브마케팅: 신뢰를 파는 병원 원장님의 퍼스널 브랜딩",
   description: "글과 사진만으로는 부족한 의료 전문성, 영상으로 환자의 마음을 훔치는 법.",
   icon: "📺",
-  updatedAt: "2026-02-24",
+  updatedAt: "2024-12-05",
   readTime: 13,
+    viewCount: 16546,
   tags: ["브랜드 컨설팅", "병원 마케팅"],
   sections: [
     {
@@ -3114,8 +3237,9 @@ export const guides: Guide[] = [
   title: "카카오톡채널운영: 놓치기 쉬운 신규 환자를 붙잡는 상담 기술",
   description: "가장 익숙한 플랫폼을 활용한 실시간 상담과 고객 관리 자동화 노하우.",
   icon: "💬",
-  updatedAt: "2026-01-16",
+  updatedAt: "2025-04-23",
   readTime: 10,
+    viewCount: 25150,
   tags: ["운영 & 교육", "매출 성장"],
   sections: [
     {
@@ -3137,8 +3261,9 @@ export const guides: Guide[] = [
   title: "SNS마케팅전문가와 함께하는 트렌디한 병원 성장 프로젝트",
   description: "변화무쌍한 소셜 미디어 생태계에서 병원의 브랜드 파워를 키우는 전문가의 통찰력.",
   icon: "👨‍🏫",
-  updatedAt: "2026-03-16",
+  updatedAt: "2025-02-25",
   readTime: 12,
+    viewCount: 48662,
   tags: ["병원 마케팅", "브랜드 컨설팅"],
   sections: [
     {
@@ -3160,8 +3285,9 @@ export const guides: Guide[] = [
   title: "블로그마케팅대행사: 상위 노출 그 이상의 가치를 만드는 글쓰기",
   description: "검색 엔진도 좋아하고 환자도 감동하는 고퀄리티 블로그 운영의 정석.",
   icon: "✒️",
-  updatedAt: "2026-02-16",
+  updatedAt: "2025-01-24",
   readTime: 11,
+    viewCount: 12635,
   tags: ["병원 마케팅", "매출 성장"],
   sections: [
     {
@@ -3183,8 +3309,9 @@ export const guides: Guide[] = [
   title: "퍼널마케팅: 잠재 환자를 놓치지 않는 촘촘한 마케팅 깔때기",
   description: "인지부터 예약까지, 환자의 여정을 분석하여 단계별 전환율을 높이는 시스템.",
   icon: "🌪️",
-  updatedAt: "2026-03-29",
+  updatedAt: "2024-11-13",
   readTime: 14,
+    viewCount: 43872,
   tags: ["매출 성장", "개편 컨설팅"],
   sections: [
     {
@@ -3206,8 +3333,9 @@ export const guides: Guide[] = [
   title: "인플루언서마케팅: 워너비의 추천으로 병원의 신뢰를 빌려오다",
   description: "단순 협찬을 넘어 진정성 있는 후기로 환자의 마음을 여는 전략적 파트너십.",
   icon: "🤳",
-  updatedAt: "2026-02-06",
+  updatedAt: "2026-01-18",
   readTime: 10,
+    viewCount: 7057,
   tags: ["병원 마케팅", "브랜드 컨설팅"],
   sections: [
     {
@@ -3229,8 +3357,9 @@ export const guides: Guide[] = [
   title: "CRM마케팅: 구슬이 서 말이라도 꿰어야 보배, 환자 데이터 관리",
   description: "신규 유입보다 5배 더 중요한 기존 환자의 재방문과 충성도를 높이는 비결.",
   icon: "📇",
-  updatedAt: "2026-03-21",
+  updatedAt: "2025-04-22",
   readTime: 11,
+    viewCount: 19409,
   tags: ["운영 & 교육", "매출 성장"],
   sections: [
     {
@@ -3252,8 +3381,9 @@ export const guides: Guide[] = [
   title: "스토리텔링마케팅: 환자의 마음을 울리는 감동의 의료 서사",
   description: "단순한 치료 데이터를 넘어 삶의 변화를 이야기하는 공감 마케팅의 정수.",
   icon: "📖",
-  updatedAt: "2026-02-11",
+  updatedAt: "2024-07-21",
   readTime: 12,
+    viewCount: 10390,
   tags: ["브랜드 컨설팅", "병원 마케팅"],
   sections: [
     {
@@ -3275,8 +3405,9 @@ export const guides: Guide[] = [
   title: "온라인마케팅대행사 활용 가이드: 갑을 관계가 아닌 파트너십",
   description: "대행사의 능력을 200% 끌어내어 병원의 성장을 가속화하는 현명한 협업 기술.",
   icon: "🤝",
-  updatedAt: "2026-01-24",
+  updatedAt: "2024-04-24",
   readTime: 10,
+    viewCount: 5216,
   tags: ["운영 & 교육", "매출 성장"],
   sections: [
     {
@@ -3298,8 +3429,9 @@ export const guides: Guide[] = [
   title: "마케팅자동화: 잠들지 않는 마케팅 시스템이 병원을 키운다",
   description: "반복적인 마케팅 업무를 자동화하여 효율을 높이고 환자를 놓치지 않는 기술.",
   icon: "⚙️",
-  updatedAt: "2026-03-06",
+  updatedAt: "2024-05-08",
   readTime: 11,
+    viewCount: 46956,
   tags: ["매출 성장", "운영 & 교육"],
   sections: [
     {
@@ -3321,8 +3453,9 @@ export const guides: Guide[] = [
   title: "제휴마케팅: 지역사회와 함께 성장하는 윈윈(Win-Win) 전략",
   description: "주변 상권, 기업, 단체와의 파트너십으로 광고비 없이 신규 환자를 확보하는 법.",
   icon: "🤝",
-  updatedAt: "2026-02-19",
+  updatedAt: "2026-02-24",
   readTime: 10,
+    viewCount: 55197,
   tags: ["병원 마케팅", "개원 컨설팅"],
   sections: [
     {
@@ -3344,8 +3477,9 @@ export const guides: Guide[] = [
   title: "리마케팅: 망설이는 환자의 발길을 다시 병원으로 돌리는 기술",
   description: "우리 홈페이지를 방문했던 사람만 골라 광고를 보여주는 고효율 타겟팅 기법.",
   icon: "♻️",
-  updatedAt: "2026-03-14",
+  updatedAt: "2026-03-07",
   readTime: 9,
+    viewCount: 4207,
   tags: ["매출 성장", "병원 마케팅"],
   sections: [
     {
@@ -3367,8 +3501,9 @@ export const guides: Guide[] = [
   title: "타겟광고: 낭비 없는 마케팅을 위한 정밀 환자 타겟팅 전략",
   description: "불특정 다수가 아닌 우리 병원을 필요로 하는 진짜 환자에게만 화력을 집중하라.",
   icon: "🎯",
-  updatedAt: "2026-04-01",
+  updatedAt: "2025-04-30",
   readTime: 12,
+    viewCount: 7132,
   tags: ["병원 마케팅", "매출 성장"],
   sections: [
     {
@@ -3391,8 +3526,9 @@ export const guides: Guide[] = [
   title: `성공적인 병원 경영을 위한 경영컨설턴트 활용법`,
   description: `병원의 지속 가능한 성장을 위해 전문 경영컨설턴트가 제공하는 전략적 인사이트와 핵심 성과 지표 관리 방법을 상세히 알아봅니다.`,
   icon: `👨‍💼`,
-  updatedAt: `2026-03-12`,
+  updatedAt: "2024-12-09",
   readTime: 12,
+    viewCount: 42021,
   tags: ['개편 컨설팅', '매출 성장'],
   sections: [
     {
@@ -3414,8 +3550,9 @@ export const guides: Guide[] = [
   title: `병원의 가치를 높이는 브랜딩회사 선택 기준`,
   description: `수많은 병원들 사이에서 우리 병원만의 차별화된 아이덴티티를 구축해줄 전문 브랜딩회사를 찾는 실질적인 체크리스트를 공유합니다.`,
   icon: `🎨`,
-  updatedAt: `2026-02-18`,
+  updatedAt: "2026-01-27",
   readTime: 10,
+    viewCount: 35036,
   tags: ['브랜드 컨설팅', '개원 컨설팅'],
   sections: [
     {
@@ -3437,8 +3574,9 @@ export const guides: Guide[] = [
   title: `실패 없는 개원을 위한 병원 상권분석 전략`,
   description: `입지 선정이 개원 성공의 80%를 결정합니다. 유동 인구 분석과 경쟁 병원 현황 파악을 통한 최적의 병원 자리 잡기 노하우를 공개합니다.`,
   icon: `📍`,
-  updatedAt: `2026-01-25`,
+  updatedAt: "2024-06-25",
   readTime: 15,
+    viewCount: 22776,
   tags: ['개원 컨설팅', '매출 성장'],
   sections: [
     {
@@ -3460,8 +3598,9 @@ export const guides: Guide[] = [
   title: `1인법인설립을 통한 효율적인 병원 운영`,
   description: `개인 병원 원장님이 고려할 수 있는 1인 법인 설립의 장단점과 세제 혜택, 그리고 설립 시 주의해야 할 법적 절차를 안내합니다.`,
   icon: `🏢`,
-  updatedAt: `2026-03-30`,
+  updatedAt: "2025-08-27",
   readTime: 8,
+    viewCount: 1252,
   tags: ['운영 & 교육', '매출 성장'],
   sections: [
     {
@@ -3483,8 +3622,9 @@ export const guides: Guide[] = [
   title: `성장하는 병원을 위한 법인컨설팅의 가치`,
   description: `단순한 세무 관리를 넘어 병원의 영속성을 확보하기 위한 법인 컨설팅의 영역과 실제 적용 사례를 통해 경영 효율화 방안을 제시합니다.`,
   icon: `⚖️`,
-  updatedAt: `2026-02-10`,
+  updatedAt: "2026-02-12",
   readTime: 11,
+    viewCount: 17657,
   tags: ['개편 컨설팅', '운영 & 교육'],
   sections: [
     {
@@ -3506,8 +3646,9 @@ export const guides: Guide[] = [
   title: `병원의 문제를 해결해줄 컨설팅업체 선별법`,
   description: `마케팅 대행사와 경영 컨설팅업체는 다릅니다. 우리 병원의 고질적인 문제를 근본적으로 치료해줄 파트너를 찾는 눈을 길러드립니다.`,
   icon: `🔍`,
-  updatedAt: `2026-03-22`,
+  updatedAt: "2025-02-20",
   readTime: 9,
+    viewCount: 33438,
   tags: ['개편 컨설팅', '브랜드 컨설팅'],
   sections: [
     {
@@ -3529,8 +3670,9 @@ export const guides: Guide[] = [
   title: `성공적인 확장을 위한 프랜차이즈 병원 구축 전략`,
   description: `브랜드 가치를 전파하고 지점 간 서비스 품질을 균일하게 유지하는 프랜차이즈 경영의 핵심 요소와 매뉴얼화 기법을 안내합니다.`,
   icon: `🌐`,
-  updatedAt: `2026-01-18`,
+  updatedAt: "2025-07-05",
   readTime: 14,
+    viewCount: 22615,
   tags: ['매출 성장', '브랜드 컨설팅'],
   sections: [
     {
@@ -3552,8 +3694,9 @@ export const guides: Guide[] = [
   title: `환자의 마음을 움직이는 카피라이팅 기법`,
   description: `광고 비중이 높은 병원 마케팅에서 클릭을 부르고 내원으로 이어지는 매력적인 문구 작성법과 의료법 준수 가이드를 설명합니다.`,
   icon: `✍️`,
-  updatedAt: `2026-03-05`,
+  updatedAt: "2024-09-08",
   readTime: 7,
+    viewCount: 13808,
   tags: ['병원 마케팅', '매출 성장'],
   sections: [
     {
@@ -3575,8 +3718,9 @@ export const guides: Guide[] = [
   title: `병원 경영컨설팅을 통한 체질 개선 프로젝트`,
   description: `내부 시스템의 부재로 혼란을 겪는 병원을 위해 전문 경영컨설팅이 제안하는 표준 업무 절차 수립과 수익 최적화 로드맵입니다.`,
   icon: `📈`,
-  updatedAt: `2026-02-27`,
+  updatedAt: "2024-09-02",
   readTime: 13,
+    viewCount: 2126,
   tags: ['개편 컨설팅', '운영 & 교육'],
   sections: [
     {
@@ -3598,8 +3742,9 @@ export const guides: Guide[] = [
   title: `대전환의 시대, 병원 전략컨설팅의 핵심`,
   description: `AI와 디지털 헬스케어가 보편화되는 2026년 의료 시장에서 생존을 넘어 시장을 선도하기 위한 차세대 병원 경영 전략을 제안합니다.`,
   icon: `🚀`,
-  updatedAt: `2026-04-01`,
+  updatedAt: "2025-08-16",
   readTime: 11,
+    viewCount: 43445,
   tags: ['브랜드 컨설팅', '매출 성장'],
   sections: [
     {
@@ -3621,8 +3766,9 @@ export const guides: Guide[] = [
   title: `개원가의 생존 법칙: 실전 병원 경영전략`,
   description: `대형 병원과의 경쟁 속에서 동네 의원이 가질 수 있는 유연함과 밀착형 서비스의 강점을 극대화하는 실질적인 경영 전략을 담았습니다.`,
   icon: `♟️`,
-  updatedAt: `2026-02-05`,
+  updatedAt: "2026-02-12",
   readTime: 9,
+    viewCount: 3716,
   tags: ['매출 성장', '운영 & 교육'],
   sections: [
     {
@@ -3644,8 +3790,9 @@ export const guides: Guide[] = [
   title: `A부터 Z까지, 종합 병원 컨설팅 활용 가이드`,
   description: `컨설팅을 처음 고민하는 원장님들을 위해 컨설팅의 범위, 비용, 기대 효과 및 주의사항을 알기 쉽게 정리한 종합 가이드북입니다.`,
   icon: `📋`,
-  updatedAt: `2026-03-15`,
+  updatedAt: "2024-11-08",
   readTime: 10,
+    viewCount: 91222,
   tags: ['개원 컨설팅', '개편 컨설팅'],
   sections: [
     {
@@ -3667,8 +3814,9 @@ export const guides: Guide[] = [
   title: `기업 경영의 원리를 병원에 입히다, 기업컨설팅 기법`,
   description: `주먹구구식 운영에서 벗어나 체계적인 기업 경영 시스템을 도입하여 조직의 효율성과 수익성을 극대화하는 혁신 방안을 제시합니다.`,
   icon: `🏢`,
-  updatedAt: `2026-02-22`,
+  updatedAt: "2024-07-03",
   readTime: 12,
+    viewCount: 1568,
   tags: ['운영 & 교육', '매출 성장'],
   sections: [
     {
@@ -3690,8 +3838,9 @@ export const guides: Guide[] = [
   title: `사람이 답이다: 성공하는 병원을 위한 HR컨설팅`,
   description: `잦은 퇴사와 인력난으로 고민하는 병원들을 위해 직원이 만족하고 환자가 감동하는 최고의 팀을 만드는 인사 전략을 공개합니다.`,
   icon: `👥`,
-  updatedAt: `2026-03-10`,
+  updatedAt: "2024-02-23",
   readTime: 11,
+    viewCount: 52858,
   tags: ['운영 & 교육', '개편 컨설팅'],
   sections: [
     {
@@ -3713,8 +3862,9 @@ export const guides: Guide[] = [
   title: `환자의 기억에 각인되는 브랜드컨설팅의 비밀`,
   description: `단순한 병원 이름을 넘어 환자의 삶에 의미 있는 가치로 자리 잡기 위한 감성 브랜딩과 시각적 아이덴티티 수립 전략을 다룹니다.`,
   icon: `💎`,
-  updatedAt: `2026-01-28`,
+  updatedAt: "2024-08-16",
   readTime: 9,
+    viewCount: 4503,
   tags: ['브랜드 컨설팅', '개원 컨설팅'],
   sections: [
     {
@@ -3736,8 +3886,9 @@ export const guides: Guide[] = [
   title: `매출로 직결되는 2026 병원 마케팅컨설팅 핵심`,
   description: `검색 엔진 최적화(SEO)부터 SNS, 유튜브, 퍼포먼스 마케팅까지 최신 트렌드를 반영한 통합 마케팅 전략과 효율 측정법을 안내합니다.`,
   icon: `📣`,
-  updatedAt: `2026-04-02`,
+  updatedAt: "2026-04-02",
   readTime: 13,
+    viewCount: 3142,
   tags: ['병원 마케팅', '매출 성장'],
   sections: [
     {
@@ -3759,8 +3910,9 @@ export const guides: Guide[] = [
   title: `개원 1~3년 차 필수 코스, 중소기업컨설팅 활용법`,
   description: `병원을 하나의 기업으로 인식하고 체계적인 경영 기반을 닦아야 하는 초기 개원가 원장님들을 위한 맞춤형 비즈니스 솔루션입니다.`,
   icon: `📈`,
-  updatedAt: `2026-02-12`,
+  updatedAt: "2025-09-26",
   readTime: 8,
+    viewCount: 18054,
   tags: ['개편 컨설팅', '운영 & 교육'],
   sections: [
     {
@@ -3782,8 +3934,9 @@ export const guides: Guide[] = [
   title: `병원 서비스의 질을 결정하는 교육컨설팅 전략`,
   description: `직원의 친절도가 곧 병원의 매출입니다. 환자를 사로잡는 접점 매너부터 고난도 상담 스킬까지 체계적인 교육 시스템 구축 방안을 제시합니다.`,
   icon: `🎓`,
-  updatedAt: `2026-03-25`,
+  updatedAt: "2025-02-22",
   readTime: 10,
+    viewCount: 15844,
   tags: ['운영 & 교육', '매출 성장'],
   sections: [
     {
@@ -3805,8 +3958,9 @@ export const guides: Guide[] = [
   title: `병원의 숨은 수익을 찾는 물류컨설팅 노하우`,
   description: `의약품 및 의료 소모품의 재고 관리와 구매 프로세스 최적화를 통해 불필요한 낭비를 줄이고 비용 효율성을 극대화하는 방법을 안내합니다.`,
   icon: `📦`,
-  updatedAt: `2026-02-15`,
+  updatedAt: "2024-10-22",
   readTime: 9,
+    viewCount: 5033,
   tags: ['개편 컨설팅', '매출 성장'],
   sections: [
     {
@@ -3828,8 +3982,9 @@ export const guides: Guide[] = [
   title: `병원장의 든든한 파트너, 경영지도사의 전문 영역`,
   description: `국가 공인 경영지도사가 병원 현장에서 수행하는 진단, 지도, 교육 업무의 범위와 이를 통해 얻을 수 있는 구체적인 경영 성과를 설명합니다.`,
   icon: `🛡️`,
-  updatedAt: `2026-03-18`,
+  updatedAt: "2026-01-30",
   readTime: 12,
+    viewCount: 4710,
   tags: ['개편 컨설팅', '운영 & 교육'],
   sections: [
     {
@@ -3851,8 +4006,9 @@ export const guides: Guide[] = [
   title: `실패 없는 법인설립, 핵심 절차와 체크리스트`,
   description: `병원 규모 확장을 위해 필수적인 법인 설립의 법적 절차, 정관 작성 시 유의사항, 그리고 설립 후 사후 관리 방안을 상세히 안내합니다.`,
   icon: `🏗️`,
-  updatedAt: `2026-01-22`,
+  updatedAt: "2025-04-17",
   readTime: 11,
+    viewCount: 51569,
   tags: ['개원 컨설팅', '매출 성장'],
   sections: [
     {
@@ -3874,8 +4030,9 @@ export const guides: Guide[] = [
   title: `병원 사업자등록증 발급 전 꼭 알아야 할 3가지`,
   description: `의료 기관 개설 신고와 사업자 등록의 선후 관계, 업태와 종목 설정법, 그리고 간이과세자 적용 여부 등 실질적인 행정 가이드입니다.`,
   icon: `💳`,
-  updatedAt: `2026-02-08`,
+  updatedAt: "2026-03-16",
   readTime: 7,
+    viewCount: 3821,
   tags: ['개원 컨설팅', '운영 & 교육'],
   sections: [
     {
@@ -3897,8 +4054,9 @@ export const guides: Guide[] = [
   title: `법인설립비용, 항목별 예산 수립과 절약 방법`,
   description: `등록면허세, 공증료, 대행 수수료 등 법인 설립에 들어가는 실제 비용을 투명하게 공개하고 예산을 효율적으로 집행하는 팁을 드립니다.`,
   icon: `💰`,
-  updatedAt: `2026-03-02`,
+  updatedAt: "2025-03-08",
   readTime: 6,
+    viewCount: 34769,
   tags: ['개원 컨설팅', '매출 성장'],
   sections: [
     {
@@ -3920,8 +4078,9 @@ export const guides: Guide[] = [
   title: `한 눈에 보는 법인설립절차 7단계`,
   description: `준비물부터 등기 완료까지, 복잡한 법인 설립 과정을 단계별로 시각화하여 초보 원장님도 쉽게 이해할 수 있도록 정리했습니다.`,
   icon: `🪜`,
-  updatedAt: `2026-03-28`,
+  updatedAt: "2025-10-17",
   readTime: 8,
+    viewCount: 40921,
   tags: ['개원 컨설팅', '운영 & 교육'],
   sections: [
     {
@@ -3943,8 +4102,9 @@ export const guides: Guide[] = [
   title: `의료 경영의 새로운 대안, 유한책임회사 설립 가이드`,
   description: `주식회사와 유한회사의 장점을 결합한 유한책임회사가 병원 경영에 주는 유연함과 폐쇄적 운영의 이점을 분석합니다.`,
   icon: `🔗`,
-  updatedAt: `2026-02-14`,
+  updatedAt: "2025-03-29",
   readTime: 9,
+    viewCount: 8328,
   tags: ['개편 컨설팅', '브랜드 컨설팅'],
   sections: [
     {
@@ -3966,8 +4126,9 @@ export const guides: Guide[] = [
   title: `농업법인설립과 의료 서비스의 융복합 모델`,
   description: `치유 농장, 메디컬 리조트 등 농업 법인을 통한 새로운 의료 수익 모델 창출과 이를 위한 법인 설립 요건을 분석합니다.`,
   icon: `🌿`,
-  updatedAt: `2026-01-30`,
+  updatedAt: "2024-10-02",
   readTime: 12,
+    viewCount: 73775,
   tags: ['매출 성장', '브랜드 컨설팅'],
   sections: [
     {
@@ -3989,8 +4150,9 @@ export const guides: Guide[] = [
   title: `의료법인설립, 공공성과 수익성의 균형 찾기`,
   description: `의료법인의 설립 주체, 기본 재산 출연 요건, 지자체 허가 절차 등 까다로운 의료법인 설립의 모든 것을 파헤칩니다.`,
   icon: `🏥`,
-  updatedAt: `2026-03-14`,
+  updatedAt: "2025-06-03",
   readTime: 15,
+    viewCount: 17937,
   tags: ['개원 컨설팅', '개편 컨설팅'],
   sections: [
     {
@@ -4012,8 +4174,9 @@ export const guides: Guide[] = [
   title: `병원의 성장을 돕는 법인영업 및 제휴 마케팅`,
   description: `기업 검진, 단체 제휴, 보험사 연계 등 병원 매출의 한 축을 담당하는 B2B 영업의 핵심 프로세스와 제안서 작성법을 제안합니다.`,
   icon: `🤝`,
-  updatedAt: `2026-02-24`,
+  updatedAt: "2026-01-20",
   readTime: 10,
+    viewCount: 95556,
   tags: ['병원 마케팅', '매출 성장'],
   sections: [
     {
@@ -4035,8 +4198,9 @@ export const guides: Guide[] = [
   title: `상권의 숨은 진주를 찾는 입지분석 체크리스트`,
   description: `대로변 건물이 항상 정답은 아닙니다. 층수, 가시성, 접근성, 주차 등 병원 개원 시 반드시 따져봐야 할 물리적 입지 조건을 분석합니다.`,
   icon: `🏗️`,
-  updatedAt: `2026-01-20`,
+  updatedAt: "2024-08-07",
   readTime: 8,
+    viewCount: 991,
   tags: ['개원 컨설팅', '브랜드 컨설팅'],
   sections: [
     {
@@ -4058,8 +4222,9 @@ export const guides: Guide[] = [
   title: `데이터가 알려주는 명당, 상권분석시스템 활용법`,
   description: `감에 의존하는 시대는 끝났습니다. 빅데이터 기반의 상권 분석 툴을 활용하여 예상 매출과 환자 유입 경로를 예측하는 스마트한 입지 전략입니다.`,
   icon: `📊`,
-  updatedAt: `2026-03-08`,
+  updatedAt: "2024-12-26",
   readTime: 9,
+    viewCount: 33966,
   tags: ['개원 컨설팅', '매출 성장'],
   sections: [
     {
@@ -4081,8 +4246,9 @@ export const guides: Guide[] = [
   title: `환자의 발걸음을 추적하는 유동인구분석사이트 100% 활용기`,
   description: `웹 기반의 유동 인구 분석 도구를 통해 요일별, 시간별, 연령별 인구 흐름을 파악하고 병원 운영 시간과 마케팅 시점을 최적화합니다.`,
   icon: `🚶`,
-  updatedAt: `2026-02-16`,
+  updatedAt: "2024-09-24",
   readTime: 7,
+    viewCount: 13870,
   tags: ['병원 마케팅', '운영 & 교육'],
   sections: [
     {
@@ -4104,8 +4270,9 @@ export const guides: Guide[] = [
   title: `2026 의료 시장 트렌드분석: 변화하는 환자의 니즈`,
   description: `디지털 전환, 가치 소비, 예방 의학 등 2026년 대한민국 의료 시장을 관통하는 3대 키워드를 분석하고 병원의 대응 전략을 제시합니다.`,
   icon: `📉`,
-  updatedAt: `2026-04-02`,
+  updatedAt: "2025-06-29",
   readTime: 12,
+    viewCount: 3543,
   tags: ['브랜드 컨설팅', '매출 성장'],
   sections: [
     {
@@ -4127,8 +4294,9 @@ export const guides: Guide[] = [
   title: `병원의 얼굴, 매력적인 회사소개서 기획과 제작`,
   description: `제휴, 투자 유치, 혹은 우수 인재 영입을 위해 반드시 필요한 병원 소개서(Profile)의 필수 구성 요소와 시각화 전략을 공유합니다.`,
   icon: `📄`,
-  updatedAt: `2026-03-05`,
+  updatedAt: "2025-08-24",
   readTime: 9,
+    viewCount: 18757,
   tags: ['브랜드 컨설팅', '운영 & 교육'],
   sections: [
     {
@@ -4150,8 +4318,9 @@ export const guides: Guide[] = [
   title: `원장님은 진료만 하세요, 전문 경영지원 시스템의 장점`,
   description: `인사, 노무, 회계, 구매 등 번거로운 행정 업무를 전문가에게 맡기는 MSO(병원 경영지원 회사) 모델의 효율성을 분석합니다.`,
   icon: `💼`,
-  updatedAt: `2026-02-20`,
+  updatedAt: "2025-06-01",
   readTime: 11,
+    viewCount: 1037,
   tags: ['운영 & 교육', '개편 컨설팅'],
   sections: [
     {
@@ -4173,8 +4342,9 @@ export const guides: Guide[] = [
   title: `환자를 평생 고객으로 만드는 CRM솔루션 활용 전략`,
   description: `내원 경로 추적부터 사후 관리 자동화까지, 병원 매출을 2배로 올려줄 스마트한 고객 관계 관리(CRM) 시스템 구축법을 안내합니다.`,
   icon: `📱`,
-  updatedAt: `2026-03-12`,
+  updatedAt: "2026-03-09",
   readTime: 10,
+    viewCount: 56197,
   tags: ['매출 성장', '운영 & 교육'],
   sections: [
     {
@@ -4196,8 +4366,9 @@ export const guides: Guide[] = [
   title: `우리 병원에 딱 맞는 CRM프로그램 고르는 법`,
   description: `시중의 수많은 병원 CRM 중 기능, 보안, 연동성, 사용 편의성을 고려한 최적의 솔루션 선택 기준과 도입 프로세스를 정리했습니다.`,
   icon: `💻`,
-  updatedAt: `2026-01-25`,
+  updatedAt: "2024-11-22",
   readTime: 8,
+    viewCount: 1115,
   tags: ['운영 & 교육', '개편 컨설팅'],
   sections: [
     {
@@ -4219,8 +4390,9 @@ export const guides: Guide[] = [
   title: `2026 중소기업지원사업: 병원이 받을 수 있는 혜택`,
   description: `고용 지원, 시설 투자, 디지털 전환 지원 등 병원급 중소기업이 놓치지 말아야 할 정부 지원 사업의 종류와 신청 요건을 총정리합니다.`,
   icon: `🎁`,
-  updatedAt: `2026-03-20`,
+  updatedAt: "2024-11-07",
   readTime: 11,
+    viewCount: 3996,
   tags: ['매출 성장', '운영 & 교육'],
   sections: [
     {
@@ -4242,8 +4414,9 @@ export const guides: Guide[] = [
   title: `병원의 혁신을 돕는 정부지원사업 활용 전략`,
   description: `지자체 및 정부 부처의 다양한 의료 산업 육성 정책을 분석하고, 우리 병원이 수혜 대상이 되기 위한 필수 조건과 가점 요인을 알아봅니다.`,
   icon: `🏛️`,
-  updatedAt: `2026-02-18`,
+  updatedAt: "2025-07-25",
   readTime: 9,
+    viewCount: 4962,
   tags: ['개원 컨설팅', '매출 성장'],
   sections: [
     {
@@ -4265,8 +4438,9 @@ export const guides: Guide[] = [
   title: `선정률을 높이는 지원사업컨설팅 노하우`,
   description: `복잡한 사업계획서 작성부터 대면 평가 대응까지, 정부 지원 사업 선정을 위한 전문가의 실전 코칭 포인트를 공개합니다.`,
   icon: `🎓`,
-  updatedAt: `2026-03-24`,
+  updatedAt: "2025-07-17",
   readTime: 10,
+    viewCount: 2122,
   tags: ['매출 성장', '브랜드 컨설팅'],
   sections: [
     {
@@ -4288,8 +4462,9 @@ export const guides: Guide[] = [
   title: `개인 병원을 넘어 의료 기업으로, 기업경영컨설팅`,
   description: `대형 병원들의 경영 기법을 벤치마킹하여 중소 병원에 최적화된 기업형 경영 시스템을 도입하고 조직의 생산성을 혁신합니다.`,
   icon: `🏭`,
-  updatedAt: `2026-02-28`,
+  updatedAt: "2025-06-18",
   readTime: 13,
+    viewCount: 9828,
   tags: ['개편 컨설팅', '운영 & 교육'],
   sections: [
     {
@@ -4311,8 +4486,9 @@ export const guides: Guide[] = [
   title: `중소기업현황시스템을 활용한 병원 경쟁력 진단`,
   description: `국가에서 제공하는 기업 데이터 베이스를 통해 우리 병원의 경영 위치를 업계 평균과 비교하고 객관적인 지표로 분석하는 법을 알아봅니다.`,
   icon: `📊`,
-  updatedAt: `2026-01-15`,
+  updatedAt: "2024-01-13",
   readTime: 6,
+    viewCount: 1277,
   tags: ['개편 컨설팅', '매출 성장'],
   sections: [
     {
@@ -4334,8 +4510,9 @@ export const guides: Guide[] = [
   title: `신뢰의 척도, 경영지도사자격증 보유 전문가를 찾아야 하는 이유`,
   description: `병원의 운명을 맡기는 컨설팅, 국가가 검증한 경영지도사의 자격 요건과 전문 지식의 깊이가 컨설팅 품질에 미치는 영향을 분석합니다.`,
   icon: `📜`,
-  updatedAt: `2026-03-31`,
+  updatedAt: "2024-02-02",
   readTime: 8,
+    viewCount: 4577,
   tags: ['개편 컨설팅', '운영 & 교육'],
   sections: [
     {
@@ -4357,8 +4534,9 @@ export const guides: Guide[] = [
   title: `우리 병원과 합이 맞는 컨설턴트 찾는 법`,
   description: `이론만 앞서는 컨설턴트보다는 현장을 아는 전문가가 필요합니다. 미팅 시 반드시 던져야 할 질문과 확인해야 할 레퍼런스 가이드입니다.`,
   icon: `🤝`,
-  updatedAt: `2026-02-10`,
+  updatedAt: "2025-10-16",
   readTime: 9,
+    viewCount: 45220,
   tags: ['개원 컨설팅', '개편 컨설팅'],
   sections: [
     {
@@ -4380,8 +4558,9 @@ export const guides: Guide[] = [
   title: `2026 국내 주요 컨설팅펌 유형별 비교 분석`,
   description: `대형 회계법인계열부터 병원 전문 부띠크펌까지, 각 컨설팅 회사의 강점과 서비스 영역을 분석하여 병원 상황별 최적의 선택안을 제시합니다.`,
   icon: `🏢`,
-  updatedAt: `2026-04-01`,
+  updatedAt: "2026-02-04",
   readTime: 12,
+    viewCount: 2338,
   tags: ['개편 컨설팅', '브랜드 컨설팅'],
   sections: [
     {
@@ -4403,8 +4582,9 @@ export const guides: Guide[] = [
   title: `평생 파트너가 될 컨설팅회사 선정 가이드`,
   description: `한 번의 컨설팅으로 끝내지 마십시오. 병원의 성장 단계마다 필요한 조언을 줄 수 있는 장기적인 파트너십 구축 전략입니다.`,
   icon: `🏗️`,
-  updatedAt: `2026-03-20`,
+  updatedAt: "2024-07-02",
   readTime: 10,
+    viewCount: 8177,
   tags: ['개원 컨설팅', '운영 & 교육'],
   sections: [
     {
@@ -4426,8 +4606,9 @@ export const guides: Guide[] = [
   title: `병원의 소통을 깨우는 퍼실리테이터의 힘`,
   description: `회의가 즐거워지고 아이디어가 쏟아지는 병원 조직을 만드는 법. 회의 진행 전문가인 퍼실리테이터 활용법을 제안합니다.`,
   icon: `🗣️`,
-  updatedAt: `2026-02-15`,
+  updatedAt: "2026-02-03",
   readTime: 7,
+    viewCount: 7294,
   tags: ['운영 & 교육', '브랜드 컨설팅'],
   sections: [
     {
@@ -4449,8 +4630,9 @@ export const guides: Guide[] = [
   title: `직원들이 먼저 찾는 병원 퍼실리테이션 기법`,
   description: `딱딱한 조회 시간을 혁신적인 아이디어 뱅크로 바꾸는 5가지 퍼실리테이션 도구와 실제 병원 워크숍 적용 사례입니다.`,
   icon: `💡`,
-  updatedAt: `2026-03-02`,
+  updatedAt: "2025-06-09",
   readTime: 8,
+    viewCount: 3999,
   tags: ['운영 & 교육', '개편 컨설팅'],
   sections: [
     {
@@ -4472,8 +4654,9 @@ export const guides: Guide[] = [
   title: `병원의 DNA를 잇는 멘토링프로그램 구축`,
   description: `신입 직원의 조기 정착과 핵심 인재 육성을 위한 병원 맞춤형 멘토링 설계법. 선배와 후배가 함께 성장하는 윈윈 전략입니다.`,
   icon: `🤝`,
-  updatedAt: `2026-01-25`,
+  updatedAt: "2025-07-21",
   readTime: 9,
+    viewCount: 3309,
   tags: ['운영 & 교육', '브랜드 컨설팅'],
   sections: [
     {
@@ -4495,8 +4678,9 @@ export const guides: Guide[] = [
   title: `건설양도양수와 병원 M&A, 안전한 승계 전략`,
   description: `병원의 외형 확장이나 은퇴 시 고려하게 되는 병원 양도양수의 법적 체크리스트, 가치 평가 기준, 그리고 건설 면허 승계의 복잡함을 풀어드립니다.`,
   icon: `🏗️`,
-  updatedAt: `2026-03-22`,
+  updatedAt: "2024-02-18",
   readTime: 14,
+    viewCount: 4629,
   tags: ['개편 컨설팅', '매출 성장'],
   sections: [
     {
@@ -4518,8 +4702,9 @@ export const guides: Guide[] = [
   title: `병원의 미래 자산, 부동산중개법인을 통한 입지 확보`,
   description: `단순한 임대를 넘어 병원 건물의 매입과 자산 가치 상승을 위한 전략적 부동산 접근법. 메디컬 빌딩 투자와 법인 활용 노하우입니다.`,
   icon: `🏢`,
-  updatedAt: `2026-02-12`,
+  updatedAt: "2024-08-16",
   readTime: 11,
+    viewCount: 39021,
   tags: ['개원 컨설팅', '매출 성장'],
   sections: [
     {
@@ -4542,8 +4727,9 @@ export const guides: Guide[] = [
   title: `쇼핑몰제작 기술을 활용한 병원 홈페이지 구축 전략`,
   description: `최신 이커머스 쇼핑몰제작 트렌드를 병원 웹사이트에 적용하여 환자 예약률과 신뢰도를 높이는 방법입니다.`,
   icon: '💻',
-  updatedAt: '2026-01-15',
+  updatedAt: "2025-05-17",
   readTime: 8,
+    viewCount: 33712,
   tags: ['브랜드 컨설팅', '매출 성장'],
   sections: [
     {
@@ -4565,8 +4751,9 @@ export const guides: Guide[] = [
   title: `무인매장 트렌드로 보는 병원 운영 자동화 시스템`,
   description: `무인매장 운영 노하우를 병원에 접목하여 인건비 절감과 환자 대기 시간 단축을 실현하는 방안을 제시합니다.`,
   icon: '🤖',
-  updatedAt: '2026-01-16',
+  updatedAt: "2024-03-21",
   readTime: 7,
+    viewCount: 16516,
   tags: ['운영 & 교육', '매출 성장'],
   sections: [
     {
@@ -4588,8 +4775,9 @@ export const guides: Guide[] = [
   title: `인터넷쇼핑몰창업 전략을 활용한 병원 부대 수익 창출`,
   description: `병원의 전문성을 바탕으로 건강기능식품 및 코스메슈티컬 쇼핑몰을 성공적으로 운영하는 전략을 안내합니다.`,
   icon: '🛒',
-  updatedAt: '2026-01-18',
+  updatedAt: "2024-04-09",
   readTime: 10,
+    viewCount: 2995,
   tags: ['매출 성장', '브랜드 컨설팅'],
   sections: [
     {
@@ -4611,8 +4799,9 @@ export const guides: Guide[] = [
   title: `무인점포창업 기술의 병원 내 원격 케어 센터 도입`,
   description: `무인점포 운영 방식을 도입하여 병원 내 24시간 건강 모니터링 존을 구축하고 환자 편의성을 극대화합니다.`,
   icon: '🏥',
-  updatedAt: '2026-01-20',
+  updatedAt: "2025-09-29",
   readTime: 6,
+    viewCount: 619,
   tags: ['개편 컨설팅', '운영 & 교육'],
   sections: [
     {
@@ -4634,8 +4823,9 @@ export const guides: Guide[] = [
   title: `피씨방창업의 고객 머무름 전략을 병원 대기실에 접목하기`,
   description: `최신 피씨방의 쾌적한 환경과 편의 시설 전략을 병원 대기 공간에 적용하여 환자의 심리적 만족도를 높입니다.`,
   icon: '🎮',
-  updatedAt: '2026-01-22',
+  updatedAt: "2024-03-28",
   readTime: 5,
+    viewCount: 36871,
   tags: ['브랜드 컨설팅', '개편 컨설팅'],
   sections: [
     {
@@ -4657,8 +4847,9 @@ export const guides: Guide[] = [
   title: `창업박람회일정 속 병원 개원 기회 발굴하기`,
   description: `연간 창업박람회 일정을 통해 최신 의료 장비 및 프랜차이즈 트렌드를 파악하고 성공적인 개원 전략을 수립합니다.`,
   icon: '📅',
-  updatedAt: '2026-01-24',
+  updatedAt: "2024-01-23",
   readTime: 9,
+    viewCount: 3802,
   tags: ['개원 컨설팅', '브랜드 컨설팅'],
   sections: [
     {
@@ -4680,8 +4871,9 @@ export const guides: Guide[] = [
   title: `코엑스창업박람회 참관을 통한 대형 네트워크 병원 벤치마킹`,
   description: `코엑스에서 열리는 대규모 창업박람회에서 대형 병원들이 사용하는 운영 시스템과 마케팅 기법을 학습합니다.`,
   icon: '🏢',
-  updatedAt: '2026-01-26',
+  updatedAt: "2025-10-24",
   readTime: 8,
+    viewCount: 12112,
   tags: ['브랜드 컨설팅', '매출 성장'],
   sections: [
     {
@@ -4703,8 +4895,9 @@ export const guides: Guide[] = [
   title: `스마트스토어마케팅 기법을 병원 홍보에 적용하기`,
   description: `검색 엔진 최적화와 고객 리뷰 관리 등 스마트스토어의 핵심 마케팅 전략을 통한 병원 유입 증대 방안입니다.`,
   icon: '📈',
-  updatedAt: '2026-01-28',
+  updatedAt: "2024-04-03",
   readTime: 11,
+    viewCount: 788,
   tags: ['병원 마케팅', '매출 성장'],
   sections: [
     {
@@ -4726,8 +4919,9 @@ export const guides: Guide[] = [
   title: `스마트스토어위탁판매 모델로 시작하는 병원 전문 몰`,
   description: `재고 부담 없이 병원의 신뢰도를 활용하여 건강기능식품 등을 유통하는 위탁판매 운영 전략을 소개합니다.`,
   icon: '📦',
-  updatedAt: '2026-01-30',
+  updatedAt: "2024-12-26",
   readTime: 7,
+    viewCount: 14939,
   tags: ['매출 성장', '개편 컨설팅'],
   sections: [
     {
@@ -4749,8 +4943,9 @@ export const guides: Guide[] = [
   title: `온라인쇼핑몰 운영 원칙으로 보는 병원 브랜딩 고도화`,
   description: `잘 나가는 온라인 쇼핑몰의 브랜딩과 서비스 원칙을 병원에 적용하여 브랜드 팬덤을 형성하는 방법입니다.`,
   icon: '🌐',
-  updatedAt: '2026-02-01',
+  updatedAt: "2025-09-29",
   readTime: 9,
+    viewCount: 1149,
   tags: ['브랜드 컨설팅', '병원 마케팅'],
   sections: [
     {
@@ -4772,8 +4967,9 @@ export const guides: Guide[] = [
   title: `스마트스토어창업 프로세스로 구축하는 병원 수익 다각화`,
   description: `병원의 전문성과 네이버 플랫폼의 대중성을 결합하여 성공적인 부대 사업 모델을 구축하는 단계별 가이드입니다.`,
   icon: '🏬',
-  updatedAt: '2026-02-03',
+  updatedAt: "2024-11-06",
   readTime: 12,
+    viewCount: 6991,
   tags: ['매출 성장', '브랜드 컨설팅'],
   sections: [
     {
@@ -4795,8 +4991,9 @@ export const guides: Guide[] = [
   title: `쿠팡위탁판매 전략을 통한 병원 전용 상품의 전국구 확산`,
   description: `로켓배송과 강력한 물류망을 가진 쿠팡을 활용하여 병원 브랜드를 전국적으로 알리는 유통 전략입니다.`,
   icon: '🚀',
-  updatedAt: '2026-02-05',
+  updatedAt: "2024-12-16",
   readTime: 8,
+    viewCount: 18126,
   tags: ['매출 성장', '병원 마케팅'],
   sections: [
     {
@@ -4818,8 +5015,9 @@ export const guides: Guide[] = [
   title: `프랜차이즈창업박람회에서 배우는 네트워크 병원 확장 전략`,
   description: `프랜차이즈 산업의 시스템화와 표준화 전략을 벤치마킹하여 안정적인 지점 확장 및 관리 방안을 모색합니다.`,
   icon: '🤝',
-  updatedAt: '2026-02-07',
+  updatedAt: "2026-03-26",
   readTime: 10,
+    viewCount: 22670,
   tags: ['개원 컨설팅', '브랜드 컨설팅'],
   sections: [
     {
@@ -4841,8 +5039,9 @@ export const guides: Guide[] = [
   title: `애견카페창업비용 분석을 통한 프리미엄 동물병원 개원 전략`,
   description: `애견카페와 동물병원의 융합 모델을 제시하고, 효율적인 초기 투자 비용 배분과 공간 기획 방안을 제안합니다.`,
   icon: '🐕',
-  updatedAt: '2026-02-09',
+  updatedAt: "2025-07-15",
   readTime: 8,
+    viewCount: 11514,
   tags: ['개원 컨설팅', '매출 성장'],
   sections: [
     {
@@ -4864,8 +5063,9 @@ export const guides: Guide[] = [
   title: `여행사창업 노하우로 시작하는 외국인 환자 유치 사업`,
   description: `의료 관광 시장의 확대를 맞아 병원 자체의 여행사 기능 강화 및 글로벌 환자 유치 프로세스 구축 전략을 다룹니다.`,
   icon: '✈️',
-  updatedAt: '2026-02-11',
+  updatedAt: "2024-09-12",
   readTime: 10,
+    viewCount: 80548,
   tags: ['매출 성장', '브랜드 컨설팅'],
   sections: [
     {
@@ -4887,8 +5087,9 @@ export const guides: Guide[] = [
   title: `무인아이스크림 운영 방식의 병원 편의 시설 혁신`,
   description: `무인 편의 시스템을 병원 대기 공간에 도입하여 운영 인력의 효율성을 높이고 환자에게 자유로운 휴식 환경을 제공합니다.`,
   icon: '🍦',
-  updatedAt: '2026-02-13',
+  updatedAt: "2024-08-13",
   readTime: 6,
+    viewCount: 24594,
   tags: ['운영 & 교육', '개편 컨설팅'],
   sections: [
     {
@@ -4910,8 +5111,9 @@ export const guides: Guide[] = [
   title: `무인창업 기술을 활용한 1인 의원 운영 모델`,
   description: `최소 인력으로 최대 효율을 내는 무인화 기술을 소규모 의원에 적용하여 개원 리스크를 최소화하는 방안을 다룹니다.`,
   icon: '🤖',
-  updatedAt: '2026-02-15',
+  updatedAt: "2025-02-12",
   readTime: 9,
+    viewCount: 60382,
   tags: ['개원 컨설팅', '운영 & 교육'],
   sections: [
     {
@@ -4933,8 +5135,9 @@ export const guides: Guide[] = [
   title: `온라인강의 플랫폼을 활용한 병원 내부 교육 시스템 구축`,
   description: `직원 교육의 효율성을 높이기 위해 자체 온라인 강의 시스템을 구축하고 서비스 표준화를 실현하는 전략입니다.`,
   icon: '🎓',
-  updatedAt: '2026-02-17',
+  updatedAt: "2024-01-25",
   readTime: 7,
+    viewCount: 754,
   tags: ['운영 & 교육', '브랜드 컨설팅'],
   sections: [
     {
@@ -4956,8 +5159,9 @@ export const guides: Guide[] = [
   title: `엑셀강의 기법을 활용한 병원 지표 관리 자동화`,
   description: `복잡한 병원 데이터를 엑셀로 체계화하여 경영 지표를 실시간으로 분석하고 의사 결정의 정확도를 높이는 방법입니다.`,
   icon: '📊',
-  updatedAt: '2026-02-19',
+  updatedAt: "2026-01-08",
   readTime: 11,
+    viewCount: 4756,
   tags: ['운영 & 교육', '매출 성장'],
   sections: [
     {
@@ -4979,8 +5183,9 @@ export const guides: Guide[] = [
   title: `마케팅부트캠프 전략을 통한 병원 마케팅팀 내재화`,
   description: `단기 집중 교육 방식을 통해 병원 내부 인력을 전문 마케터로 양성하고 외부 대행사 의존도를 낮추는 전략입니다.`,
   icon: '🔥',
-  updatedAt: '2026-02-21',
+  updatedAt: "2025-01-27",
   readTime: 13,
+    viewCount: 624,
   tags: ['운영 & 교육', '병원 마케팅'],
   sections: [
     {
@@ -5002,8 +5207,9 @@ export const guides: Guide[] = [
   title: `디지털마케팅교육을 통한 병원의 온라인 점유율 확대`,
   description: `최신 디지털 마케팅 툴과 플랫폼 활용법을 습득하여 환자들이 병원을 검색하는 모든 접점을 장악하는 전략입니다.`,
   icon: '📱',
-  updatedAt: '2026-02-23',
+  updatedAt: "2025-08-21",
   readTime: 10,
+    viewCount: 16206,
   tags: ['병원 마케팅', '매출 성장'],
   sections: [
     {
@@ -5025,8 +5231,9 @@ export const guides: Guide[] = [
   title: `온라인마케팅교육: 원장님이 직접 구축하는 퍼스널 브랜딩`,
   description: `원장님의 전문성과 인지도를 높이기 위해 소셜 미디어와 개인 채널을 운영하는 실무 가이드입니다.`,
   icon: '🩺',
-  updatedAt: '2026-02-25',
+  updatedAt: "2025-04-13",
   readTime: 9,
+    viewCount: 38305,
   tags: ['브랜드 컨설팅', '병원 마케팅'],
   sections: [
     {
@@ -5048,8 +5255,9 @@ export const guides: Guide[] = [
   title: `마케팅수업에서 배우는 병원 재방문율 극대화 전략`,
   description: `기존 환자를 충성 고객으로 만드는 CRM 마케팅의 원리를 병원 경영에 적용하여 매출을 안정화하는 방법입니다.`,
   icon: '🏫',
-  updatedAt: '2026-02-27',
+  updatedAt: "2025-07-27",
   readTime: 8,
+    viewCount: 916,
   tags: ['매출 성장', '운영 & 교육'],
   sections: [
     {
@@ -5071,8 +5279,9 @@ export const guides: Guide[] = [
   title: `마케팅강의: 전문의를 위한 차별화된 브랜딩 전략`,
   description: `치열한 경쟁 속에서 자신만의 진료 영역을 구축하고 독보적인 위치를 점하기 위한 전문가 브랜딩 강의입니다.`,
   icon: '🎙️',
-  updatedAt: '2026-03-01',
+  updatedAt: "2024-09-05",
   readTime: 12,
+    viewCount: 43450,
   tags: ['브랜드 컨설팅', '병원 마케팅'],
   sections: [
     {
@@ -5094,8 +5303,9 @@ export const guides: Guide[] = [
   title: `구매대행강의 노하우를 활용한 의료 장비 및 소모품 최적화`,
   description: `해외의 우수한 의료 기기와 소모품을 효율적으로 소싱하여 원가를 절감하고 진료의 질을 높이는 전략입니다.`,
   icon: '🌍',
-  updatedAt: '2026-03-03',
+  updatedAt: "2025-11-16",
   readTime: 7,
+    viewCount: 30809,
   tags: ['매출 성장', '운영 & 교육'],
   sections: [
     {
@@ -5117,8 +5327,9 @@ export const guides: Guide[] = [
   title: `쿠팡교육: 병원 전문 브랜드의 이커머스 시장 안착 전략`,
   description: `쿠팡의 강력한 유통 알고리즘을 이해하고 병원 전용 제품을 베스트셀러로 만드는 실전 교육 가이드입니다.`,
   icon: '📦',
-  updatedAt: '2026-03-05',
+  updatedAt: "2025-03-18",
   readTime: 11,
+    viewCount: 17404,
   tags: ['매출 성장', '병원 마케팅'],
   sections: [
     {
@@ -5140,8 +5351,9 @@ export const guides: Guide[] = [
   title: `논문작성을 통한 원장님의 학술적 권위 세우기`,
   description: `임상 데이터의 체계적인 기록과 논문 작성을 통해 병원의 전문성을 객관적으로 입증하고 브랜드 가치를 높입니다.`,
   icon: '📝',
-  updatedAt: '2026-03-07',
+  updatedAt: "2024-12-07",
   readTime: 14,
+    viewCount: 4925,
   tags: ['브랜드 컨설팅', '운영 & 교육'],
   sections: [
     {
@@ -5163,8 +5375,9 @@ export const guides: Guide[] = [
   title: `논문통계의뢰 가이드를 활용한 병원 성과 데이터 분석`,
   description: `전문적인 통계 분석 기법을 병원 경영에 도입하여 치료 성공률과 환자 만족도를 수치화하는 전략입니다.`,
   icon: '📊',
-  updatedAt: '2026-03-09',
+  updatedAt: "2024-07-31",
   readTime: 10,
+    viewCount: 21476,
   tags: ['운영 & 교육', '매출 성장'],
   sections: [
     {
@@ -5186,8 +5399,9 @@ export const guides: Guide[] = [
   title: `논문컨설팅 전략으로 구축하는 프리미엄 병원 이미지`,
   description: `학술적 성취를 병원 브랜딩의 핵심 축으로 삼아 타 병원이 모방할 수 없는 전문적 권위를 구축하는 방법입니다.`,
   icon: '👩‍🏫',
-  updatedAt: '2026-03-11',
+  updatedAt: "2024-01-27",
   readTime: 12,
+    viewCount: 15089,
   tags: ['브랜드 컨설팅', '개원 컨설팅'],
   sections: [
     {
@@ -5209,8 +5423,9 @@ export const guides: Guide[] = [
   title: `논문쓰는법을 응용한 병원 치료 케이스 기록법`,
   description: `체계적인 사례 기록과 분석을 통해 병원만의 독자적인 치료 노하우를 자산화하는 실무 가이드입니다.`,
   icon: '📂',
-  updatedAt: '2026-03-13',
+  updatedAt: "2025-02-03",
   readTime: 8,
+    viewCount: 7079,
   tags: ['운영 & 교육', '브랜드 컨설팅'],
   sections: [
     {
@@ -5232,8 +5447,9 @@ export const guides: Guide[] = [
   title: `석사논문 수준의 심도 있는 특정 질환 집중 분석 콘텐츠`,
   description: `단순 홍보성 글을 넘어 특정 질환에 대한 석사 논문급의 깊이 있는 정보를 제공하여 환자의 신뢰를 장악하는 전략입니다.`,
   icon: '🎓',
-  updatedAt: '2026-03-15',
+  updatedAt: "2026-01-29",
   readTime: 10,
+    viewCount: 3504,
   tags: ['병원 마케팅', '브랜드 컨설팅'],
   sections: [
     {
@@ -5255,8 +5471,9 @@ export const guides: Guide[] = [
   title: `박사논문 기반의 독자적 치료 브랜드 런칭 전략`,
   description: `원장님의 박사 학위 논문 주제를 병원의 핵심 시그니처 진료 상품으로 승화시켜 독점적 시장을 창출하는 방법입니다.`,
   icon: '📜',
-  updatedAt: '2026-03-17',
+  updatedAt: "2025-12-12",
   readTime: 15,
+    viewCount: 32199,
   tags: ['브랜드 컨설팅', '개원 컨설팅'],
   sections: [
     {
@@ -5278,8 +5495,9 @@ export const guides: Guide[] = [
   title: `논문통계분석 기법으로 도출하는 병원 경영 KPI`,
   description: `고도의 통계 분석법을 활용하여 병원의 수익 구조를 파악하고 성장을 가로막는 병목 구간을 제거하는 전략입니다.`,
   icon: '📈',
-  updatedAt: '2026-03-19',
+  updatedAt: "2025-03-19",
   readTime: 11,
+    viewCount: 52681,
   tags: ['운영 & 교육', '매출 성장'],
   sections: [
     {
@@ -5301,8 +5519,9 @@ export const guides: Guide[] = [
   title: `스마트스토어교육: 피부과 전용 화장품의 온라인 유통 전략`,
   description: `피부과와 에스테틱 전문 제품을 스마트스토어에서 효과적으로 판매하고 병원의 온라인 수익원을 다각화하는 방법입니다.`,
   icon: '🧴',
-  updatedAt: '2026-03-21',
+  updatedAt: "2025-09-03",
   readTime: 9,
+    viewCount: 1701,
   tags: ['매출 성장', '브랜드 컨설팅'],
   sections: [
     {
@@ -5324,8 +5543,9 @@ export const guides: Guide[] = [
   title: `온라인판매 전략을 통한 병원 건강기능식품 런칭 가이드`,
   description: `병원의 처방과 결합된 맞춤형 건강기능식품을 온라인에서 성공적으로 판매하기 위한 전략과 법적 고려 사항입니다.`,
   icon: '💊',
-  updatedAt: '2026-03-23',
+  updatedAt: "2025-11-20",
   readTime: 12,
+    viewCount: 3577,
   tags: ['매출 성장', '병원 마케팅'],
   sections: [
     {
@@ -5347,8 +5567,9 @@ export const guides: Guide[] = [
   title: `이커머스플랫폼 트렌드로 보는 비대면 의료 서비스의 미래`,
   description: `쿠팡, 네이버와 같은 플랫폼 운영 원칙을 비대면 진료 및 관리 시스템에 도입하여 환자 접근성을 혁신하는 전략입니다.`,
   icon: '🌐',
-  updatedAt: '2026-03-24',
+  updatedAt: "2025-08-15",
   readTime: 10,
+    viewCount: 16380,
   tags: ['개편 컨설팅', '운영 & 교육'],
   sections: [
     {
@@ -5370,8 +5591,9 @@ export const guides: Guide[] = [
   title: `위탁판매 모델을 활용한 중소 병원의 장비 도입 최적화`,
   description: `고가의 의료 장비를 직접 구매하는 리스크 대신 위탁 판매 및 렌탈 기법을 활용해 최신 의료 서비스를 도입하는 방법입니다.`,
   icon: '🤝',
-  updatedAt: '2026-03-25',
+  updatedAt: "2025-10-04",
   readTime: 8,
+    viewCount: 73671,
   tags: ['매출 성장', '개원 컨설팅'],
   sections: [
     {
@@ -5393,8 +5615,9 @@ export const guides: Guide[] = [
   title: `소싱 전략의 다변화로 병원 운영 원가 30% 절감하기`,
   description: `의료 소모품부터 병원 식자재까지, 유통 구조 분석과 직거래 소싱을 통한 체계적인 비용 절감 솔루션입니다.`,
   icon: '🔍',
-  updatedAt: '2026-03-26',
+  updatedAt: "2026-03-21",
   readTime: 11,
+    viewCount: 83711,
   tags: ['운영 & 교육', '매출 성장'],
   sections: [
     {
@@ -5416,8 +5639,9 @@ export const guides: Guide[] = [
   title: `GA4를 활용한 병원 웹사이트 방문 환자 여정 분석`,
   description: `구글 애널리틱스 4를 통해 환자가 어떤 검색어로 유입되어 어떤 페이지를 보고 예약하는지 정밀하게 추적합니다.`,
   icon: '📊',
-  updatedAt: '2026-03-27',
+  updatedAt: "2025-01-13",
   readTime: 13,
+    viewCount: 14488,
   tags: ['병원 마케팅', '매출 성장'],
   sections: [
     {
@@ -5439,8 +5663,9 @@ export const guides: Guide[] = [
   title: `구글애널리틱스로 분석하는 우리 병원 온라인 인지도`,
   description: `검색 노출량, 방문자 성별/연령, 지역별 관심도 등 방대한 데이터를 통해 병원의 시장 점유율을 진단합니다.`,
   icon: '📈',
-  updatedAt: '2026-03-28',
+  updatedAt: "2024-06-01",
   readTime: 9,
+    viewCount: 19691,
   tags: ['병원 마케팅', '브랜드 컨설팅'],
   sections: [
     {
@@ -5462,8 +5687,9 @@ export const guides: Guide[] = [
   title: `퍼스널브랜딩: 환자의 마음을 움직이는 의사의 아이덴티티`,
   description: `의료진 개개인의 철학과 전문성을 브랜드화하여 병원의 대체 불가능한 핵심 경쟁력을 구축하는 전략입니다.`,
   icon: '🎭',
-  updatedAt: '2026-03-29',
+  updatedAt: "2024-08-22",
   readTime: 12,
+    viewCount: 2378,
   tags: ['브랜드 컨설팅', '병원 마케팅'],
   sections: [
     {
@@ -5485,8 +5711,9 @@ export const guides: Guide[] = [
   title: `로고제작: 병원의 가치를 시각화하는 첫 번째 단계`,
   description: `단순한 그림이 아닌 병원의 진료 과목과 철학을 담은 전략적인 로고 디자인으로 강력한 첫인상을 남기는 방법입니다.`,
   icon: '🎨',
-  updatedAt: '2026-03-30',
+  updatedAt: "2026-03-21",
   readTime: 6,
+    viewCount: 9089,
   tags: ['브랜드 컨설팅', '개원 컨설팅'],
   sections: [
     {
@@ -5508,8 +5735,9 @@ export const guides: Guide[] = [
   title: `패키지디자인으로 완성하는 병원 PB 제품의 가치`,
   description: `병원에서 판매하는 제품의 패키지를 전문적이고 심미적으로 디자인하여 구매 욕구를 높이고 선물 가치를 창출합니다.`,
   icon: '🎁',
-  updatedAt: '2026-03-31',
+  updatedAt: "2024-02-29",
   readTime: 7,
+    viewCount: 6617,
   tags: ['브랜드 컨설팅', '매출 성장'],
   sections: [
     {
@@ -5531,8 +5759,9 @@ export const guides: Guide[] = [
   title: `디자인외주 활용법: 고퀄리티 홍보물을 합리적으로 제작하기`,
   description: `전문 디자이너와의 협업을 통해 병원의 비주얼 퀄리티를 높이고 마케팅 제작 비용을 최적화하는 가이드입니다.`,
   icon: '👨‍💻',
-  updatedAt: '2026-04-01',
+  updatedAt: "2025-09-12",
   readTime: 8,
+    viewCount: 3697,
   tags: ['브랜드 컨설팅', '운영 & 교육'],
   sections: [
     {
@@ -5554,8 +5783,9 @@ export const guides: Guide[] = [
   title: `디자인회사 선정 기준: 의료 전문성과 감각을 겸비한 파트너`,
   description: `병원 브랜딩의 성공을 좌우하는 디자인 파트너 선정 시 고려해야 할 필수 체크리스트와 협업 전략입니다.`,
   icon: '🏢',
-  updatedAt: '2026-04-02',
+  updatedAt: "2025-04-05",
   readTime: 10,
+    viewCount: 6425,
   tags: ['브랜드 컨설팅', '개원 컨설팅'],
   sections: [
     {
@@ -5577,8 +5807,9 @@ export const guides: Guide[] = [
   title: `영상제작: 유튜브와 숏폼으로 장악하는 병원 마케팅`,
   description: `텍스트보다 강력한 영상 콘텐츠를 통해 의료진의 전문성을 전달하고 잠재 환자와의 신뢰를 쌓는 전략입니다.`,
   icon: '🎬',
-  updatedAt: '2026-01-20',
+  updatedAt: "2025-10-29",
   readTime: 12,
+    viewCount: 14882,
   tags: ['병원 마케팅', '브랜드 컨설팅'],
   sections: [
     {
@@ -5600,8 +5831,9 @@ export const guides: Guide[] = [
   title: `인력아웃소싱을 통한 병원 행정 및 서비스 최적화`,
   description: `핵심 진료 업무 외의 행정, 시설 관리, CS 응대 등을 전문 업체에 맡겨 운영 효율을 극대화하는 방안입니다.`,
   icon: '👥',
-  updatedAt: '2026-01-25',
+  updatedAt: "2025-10-11",
   readTime: 7,
+    viewCount: 44188,
   tags: ['운영 & 교육', '개원 컨설팅'],
   sections: [
     {
@@ -5623,8 +5855,9 @@ export const guides: Guide[] = [
   title: `아웃소싱업체 선정 가이드: 병원의 청결과 안전을 책임지다`,
   description: `위생이 생명인 병원 환경에서 최고의 관리 품질을 제공할 수 있는 파트너사를 선정하고 관리하는 기준입니다.`,
   icon: '🤝',
-  updatedAt: '2026-01-30',
+  updatedAt: "2024-08-18",
   readTime: 6,
+    viewCount: 53259,
   tags: ['운영 & 교육', '개편 컨설팅'],
   sections: [
     {
@@ -5646,8 +5879,9 @@ export const guides: Guide[] = [
   title: `채용플랫폼 활용법: 우리 병원에 딱 맞는 핵심 인재 찾기`,
   description: `사람인, 잡코리아 등 일반 플랫폼부터 전문 의료 채용 사이트까지, 우수 인력을 유치하기 위한 채용 브랜딩 전략입니다.`,
   icon: '📱',
-  updatedAt: '2026-02-05',
+  updatedAt: "2025-07-20",
   readTime: 9,
+    viewCount: 16627,
   tags: ['운영 & 교육', '개원 컨설팅'],
   sections: [
     {
@@ -5669,8 +5903,9 @@ export const guides: Guide[] = [
   title: `헤드헌터회사 파트너십을 통한 병원 핵심 의료진 영입`,
   description: `고난도 진료나 핵심 센터장 등 역량 있는 전문의를 영입하기 위해 헤드헌팅 서비스를 전략적으로 활용하는 방법입니다.`,
   icon: '🕵️',
-  updatedAt: '2026-02-10',
+  updatedAt: "2024-03-18",
   readTime: 8,
+    viewCount: 3337,
   tags: ['운영 & 교육', '개원 컨설팅'],
   sections: [
     {
@@ -5692,8 +5927,9 @@ export const guides: Guide[] = [
     title: "안과 라식·라섹 마케팅 전략 2026",
     description: "라식·라섹 수술 시장에서 경쟁력을 확보하기 위한 마케팅 전략을 제시합니다. 가격 경쟁을 넘어 신뢰 기반 브랜딩과 후기 관리까지 총정리.",
     icon: "👁️",
-    updatedAt: "2026-04-01",
+    updatedAt: "2024-08-21",
     readTime: 10,
+    viewCount: 4429,
     tags: ["병원 마케팅", "브랜드 컨설팅"],
     sections: [
       { heading: "1. 라식·라섹 시장 현황과 경쟁 분석", content: "2026년 현재 라식·라섹 시장은 가격 경쟁이 극심해지면서 수익성이 하락하는 추세입니다. 대형 프랜차이즈 안과와 차별화하려면 첨단 장비 도입, 의료진 경력 강조, 사후 관리 프로그램 등 비가격 요소에서 경쟁력을 확보해야 합니다. 건강보험심사평가원 데이터를 활용하여 지역별 안과 밀집도와 수술 건수를 파악하세요." },
@@ -5707,8 +5943,9 @@ export const guides: Guide[] = [
     title: "이비인후과 수면클리닉 매출 극대화 가이드",
     description: "코골이·수면무호흡 전문 클리닉 운영 전략을 다룹니다. 수면다원검사 도입부터 양압기 처방, 비급여 매출 구조까지 실전 노하우를 공개합니다.",
     icon: "😴",
-    updatedAt: "2026-03-28",
+    updatedAt: "2025-03-31",
     readTime: 11,
+    viewCount: 4903,
     tags: ["매출 성장", "개원 컨설팅"],
     sections: [
       { heading: "1. 수면클리닉 시장 성장성 분석", content: "수면장애 환자 수는 최근 5년간 연평균 15% 이상 증가하고 있습니다. 특히 40~60대 남성의 수면무호흡증 진단율이 급증하면서 이비인후과의 새로운 수익원으로 부상하고 있습니다. 수면다원검사(PSG)는 건강보험 급여 적용이 되어 환자 부담이 줄었고, 후속 치료인 양압기(CPAP) 처방은 비급여 매출을 견인합니다." },
@@ -5722,8 +5959,9 @@ export const guides: Guide[] = [
     title: "비뇨의학과 비급여 매출 전략 가이드",
     description: "비뇨의학과의 비급여 진료 영역을 체계적으로 확장하는 방법을 안내합니다. 남성 건강검진, 전립선 레이저 시술, 남성 기능 상담까지 수익 모델을 다룹니다.",
     icon: "🏥",
-    updatedAt: "2026-03-25",
+    updatedAt: "2024-06-07",
     readTime: 9,
+    viewCount: 80729,
     tags: ["매출 성장", "개편 컨설팅"],
     sections: [
       { heading: "1. 비뇨의학과 비급여 진료 현황", content: "비뇨의학과의 비급여 영역은 남성 기능 상담, 전립선 레이저 시술(홀렙), 체외충격파 치료(ESWT), 남성 갱년기 호르몬 치료 등으로 다양합니다. 특히 40~60대 남성 인구가 많은 지역에서는 전립선 관련 비급여 시술 수요가 꾸준히 증가하고 있습니다. 지역 인구 통계를 기반으로 비급여 메뉴를 전략적으로 구성하세요." },
@@ -5737,8 +5975,9 @@ export const guides: Guide[] = [
     title: "산부인과 산후 프로그램 기획 가이드",
     description: "출산율 감소 시대에 산부인과가 경쟁력을 확보하기 위한 산후 케어 프로그램 기획 전략입니다. 산후 검진, 골반 재활, 모유 수유 클리닉 운영법을 다룹니다.",
     icon: "🤱",
-    updatedAt: "2026-03-20",
+    updatedAt: "2025-12-08",
     readTime: 10,
+    viewCount: 40756,
     tags: ["개편 컨설팅", "매출 성장"],
     sections: [
       { heading: "1. 저출생 시대의 산부인과 전략 전환", content: "출산율이 지속적으로 감소하면서 산부인과는 단순 분만 중심에서 여성 건강 전반을 아우르는 전략으로 전환해야 합니다. 산전·산후 관리, 갱년기 클리닉, 여성 비뇨기 치료, 미용 시술 등으로 진료 영역을 확장하세요. 특히 산후 프로그램은 환자 충성도를 높이고 구전 마케팅을 유도하는 핵심 서비스입니다." },
@@ -5752,8 +5991,9 @@ export const guides: Guide[] = [
     title: "신경과 두통클리닉 브랜딩 전략",
     description: "두통 전문 클리닉으로 포지셔닝하여 신경과 개원의 차별화를 달성하는 브랜딩 전략입니다. 편두통, 긴장성 두통 등 세부 전문화 방안을 제시합니다.",
     icon: "🧠",
-    updatedAt: "2026-03-18",
+    updatedAt: "2025-06-25",
     readTime: 9,
+    viewCount: 19072,
     tags: ["브랜드 컨설팅", "개원 컨설팅"],
     sections: [
       { heading: "1. 두통 전문 클리닉 시장 분석", content: "만성 두통 환자는 국내 약 500만 명으로 추정되며, 대부분이 적절한 전문 치료를 받지 못하고 있습니다. 신경과 개원 시 '두통 전문'으로 특화하면 넓은 환자 풀을 확보할 수 있습니다. 경쟁 신경과와의 차별점을 두통 일기 앱 연동, 두통 유발 인자 분석 등 데이터 기반 진료로 설정하면 전문성을 강조할 수 있습니다." },
@@ -5767,8 +6007,9 @@ export const guides: Guide[] = [
     title: "피부과 여드름 전문 개원 가이드",
     description: "여드름 전문 피부과 개원 시 필요한 장비, 시술 메뉴, 타겟 마케팅 전략을 종합 안내합니다. 10~20대 환자층 공략과 비급여 시술 포트폴리오 설계법을 다룹니다.",
     icon: "✨",
-    updatedAt: "2026-03-15",
+    updatedAt: "2024-06-20",
     readTime: 11,
+    viewCount: 1814,
     tags: ["개원 컨설팅", "매출 성장"],
     sections: [
       { heading: "1. 여드름 전문 피부과 포지셔닝", content: "여드름은 10~30대 인구의 80% 이상이 경험하는 질환으로, 전문 피부과의 안정적인 환자 풀을 보장합니다. 일반 피부과와 차별화하려면 '여드름 흉터 치료 전문', '난치성 여드름 클리닉' 등으로 세부 특화하세요. 대학가, 고등학교 밀집 지역, 젊은 직장인 상권에 개원하면 타겟 접근성이 극대화됩니다." },
@@ -5782,8 +6023,9 @@ export const guides: Guide[] = [
     title: "정신건강의학과 상담센터 병행 운영 가이드",
     description: "정신건강의학과와 심리상담센터를 병행 운영하여 수익성을 극대화하는 전략을 안내합니다. 임상심리사 채용, 심리검사 비급여 구조, 공간 설계까지 다룹니다.",
     icon: "🧘",
-    updatedAt: "2026-03-12",
+    updatedAt: "2024-01-05",
     readTime: 10,
+    viewCount: 17345,
     tags: ["개원 컨설팅", "운영 & 교육"],
     sections: [
       { heading: "1. 정신건강의학과 상담센터 병행 모델", content: "정신건강의학과 단독 운영 대비 심리상담센터를 병행하면 비급여 매출을 2~3배 확대할 수 있습니다. 의사의 약물 치료와 임상심리사의 심리치료를 결합한 통합 치료 모델이 환자 만족도와 치료 효과를 동시에 높입니다. 상담센터는 별도 사업자등록이 필요하며, 공간 분리와 의료법 준수에 주의하세요." },
@@ -5797,8 +6039,9 @@ export const guides: Guide[] = [
     title: "소아청소년과 성장클리닉 개원 전략",
     description: "소아 성장 클리닉을 특화하여 소아청소년과의 경쟁력을 확보하는 전략입니다. 성장호르몬 치료, 비급여 검사, 부모 상담 프로그램까지 체계적으로 안내합니다.",
     icon: "📏",
-    updatedAt: "2026-03-10",
+    updatedAt: "2024-01-21",
     readTime: 10,
+    viewCount: 4610,
     tags: ["개원 컨설팅", "매출 성장"],
     sections: [
       { heading: "1. 소아 성장클리닉 시장 분석", content: "저출생으로 소아 환자 수가 감소하는 가운데, 자녀 1인당 의료비 지출은 오히려 증가하고 있습니다. 성장클리닉은 학부모의 높은 관심도와 비급여 검사·치료 수요가 맞물려 안정적인 수익 모델을 제공합니다. 성장호르몬 치료 환자 1인당 연간 500~1,000만원의 매출이 발생하며, 치료 기간이 1~3년으로 장기 환자 확보가 가능합니다." },
@@ -5812,8 +6055,9 @@ export const guides: Guide[] = [
     title: "정형외과 스포츠의학 특화 개원 가이드",
     description: "스포츠의학 전문 정형외과 개원 전략을 안내합니다. 운동 선수 진료, 도수치료, 체외충격파, 지역 스포츠팀 제휴 마케팅까지 실전 전략을 다룹니다.",
     icon: "⚽",
-    updatedAt: "2026-03-08",
+    updatedAt: "2025-10-12",
     readTime: 11,
+    viewCount: 1377,
     tags: ["개원 컨설팅", "브랜드 컨설팅"],
     sections: [
       { heading: "1. 스포츠의학 정형외과 시장 전망", content: "주 52시간 근무제 정착과 건강 관심 증가로 생활체육 인구가 2,000만 명을 돌파했습니다. 이에 따라 스포츠 손상 환자도 급증하여 스포츠의학 전문 정형외과의 수요가 높아지고 있습니다. 러닝, 골프, 테니스, 크로스핏 등 종목별 특화 진료를 표방하면 일반 정형외과와 차별화가 가능합니다." },
@@ -5827,8 +6071,9 @@ export const guides: Guide[] = [
     title: "성형외과 비수술 시술 매출 전략",
     description: "수술 의존도를 낮추고 비수술 시술(필러, 보톡스, 리프팅)로 안정적인 매출 구조를 구축하는 성형외과 운영 전략을 안내합니다.",
     icon: "💉",
-    updatedAt: "2026-03-05",
+    updatedAt: "2025-10-27",
     readTime: 9,
+    viewCount: 4288,
     tags: ["매출 성장", "개편 컨설팅"],
     sections: [
       { heading: "1. 비수술 시장 성장 트렌드", content: "성형외과 시장에서 비수술 시술(보톡스, 필러, 실 리프팅, 울쎄라 등)의 비중이 지속적으로 확대되고 있습니다. 수술 대비 회복 기간이 짧고 단가가 낮아 시술 접근성이 높으며, 반복 시술로 안정적인 매출을 기대할 수 있습니다. 30~50대 직장인 여성이 주요 타겟이며, 점심시간 시술 수요도 증가 추세입니다." },
@@ -5842,8 +6087,9 @@ export const guides: Guide[] = [
     title: "소화기내과 내시경센터 운영 최적화",
     description: "내시경센터를 중심으로 소화기내과의 효율적 운영 전략을 제시합니다. 장비 선정, 인력 배치, 수면내시경 프로세스, 용종 절제 비급여까지 다룹니다.",
     icon: "🔬",
-    updatedAt: "2026-03-03",
+    updatedAt: "2024-12-25",
     readTime: 10,
+    viewCount: 22272,
     tags: ["개원 컨설팅", "운영 & 교육"],
     sections: [
       { heading: "1. 내시경센터 장비와 공간 설계", content: "내시경센터의 핵심 장비는 위내시경·대장내시경 세트, 수면 모니터링 장비, 소독기(AER)입니다. 올림푸스, 펜탁스, 후지 등 제조사별 장단점을 비교하여 예산에 맞는 장비를 선정하세요. 내시경실 2개, 회복실 4~6베드, 소독실 1개를 기본으로 하며, 환자 동선(접수→탈의→시술→회복→수납)이 일직선으로 흐르도록 설계합니다." },
@@ -5857,8 +6103,9 @@ export const guides: Guide[] = [
     title: "재활의학과 외래 재활 프로그램 설계",
     description: "재활의학과 외래 중심 재활 프로그램 운영 전략입니다. 도수치료, 운동치료, 통증 관리를 결합한 패키지 설계와 환자 유지율 향상 방안을 다룹니다.",
     icon: "🦿",
-    updatedAt: "2026-03-01",
+    updatedAt: "2025-06-22",
     readTime: 10,
+    viewCount: 12380,
     tags: ["운영 & 교육", "매출 성장"],
     sections: [
       { heading: "1. 외래 재활 시장 트렌드", content: "입원 재활에서 외래 재활로의 패러다임 전환이 가속화되고 있습니다. 직장인의 출퇴근 시간에 맞춘 야간·조조 재활, 주말 재활 프로그램 수요가 증가하고 있으며, 1회 방문 시 도수치료·운동치료·물리치료를 통합 제공하는 원스톱 서비스가 환자 만족도를 높입니다. 외래 재활 1인당 월 80~150만원의 매출이 가능합니다." },
@@ -5872,8 +6119,9 @@ export const guides: Guide[] = [
     title: "순환기내과 심장검진센터 구축 전략",
     description: "심장 건강검진 센터를 구축하여 순환기내과의 차별화된 수익 모델을 만드는 전략입니다. 심초음파, 운동부하검사, 관상동맥CT 등 검사 장비와 운영 노하우를 다룹니다.",
     icon: "❤️",
-    updatedAt: "2026-02-28",
+    updatedAt: "2024-10-24",
     readTime: 11,
+    viewCount: 2377,
     tags: ["개원 컨설팅", "매출 성장"],
     sections: [
       { heading: "1. 심장검진 시장 수요 분석", content: "심혈관 질환은 한국인 사망 원인 2위로, 예방 검진에 대한 관심이 높아지고 있습니다. 특히 40대 이상 직장인과 가족력이 있는 환자층에서 심장 정밀검진 수요가 급증하고 있습니다. 관상동맥CT, 심초음파, 운동부하검사를 포함한 심장검진 패키지는 건당 30~80만원의 비급여 매출을 창출합니다." },
@@ -5887,8 +6135,9 @@ export const guides: Guide[] = [
     title: "가정의학과 기업검진 수주 전략 가이드",
     description: "가정의학과에서 기업 건강검진 시장을 공략하는 체계적인 수주 전략입니다. 제안서 작성, 가격 경쟁력 확보, 사후 관리까지 B2B 영업 노하우를 다룹니다.",
     icon: "🏢",
-    updatedAt: "2026-02-25",
+    updatedAt: "2024-06-17",
     readTime: 9,
+    viewCount: 14766,
     tags: ["매출 성장", "병원 마케팅"],
     sections: [
       { heading: "1. 기업검진 시장 규모와 기회", content: "산업안전보건법에 따라 모든 사업장은 근로자 건강검진을 의무적으로 실시해야 합니다. 50인 이상 사업장의 기업검진 시장 규모는 연간 2조원 이상으로, 가정의학과의 핵심 수익원입니다. 대형 검진센터와 경쟁하려면 '찾아가는 검진', '맞춤형 추가 검사', '신속한 결과 통보' 등으로 차별화하세요." },
@@ -5902,8 +6151,9 @@ export const guides: Guide[] = [
     title: "통증의학과 주사치료 포트폴리오 가이드",
     description: "통증의학과의 핵심 수익원인 주사치료 포트폴리오를 체계적으로 구성하는 방법을 안내합니다. 신경차단술, PRP, 프롤로치료 등 시술별 수익 분석을 포함합니다.",
     icon: "💊",
-    updatedAt: "2026-02-22",
+    updatedAt: "2025-08-29",
     readTime: 10,
+    viewCount: 18208,
     tags: ["매출 성장", "개원 컨설팅"],
     sections: [
       { heading: "1. 통증의학과 주사치료 시장 현황", content: "통증의학과는 주사치료가 매출의 60~70%를 차지하는 시술 중심 진료과입니다. 급여 영역(신경차단술, 관절강 내 주사)과 비급여 영역(PRP, 프롤로치료, DNA 주사)을 균형 있게 배치하는 것이 수익 최적화의 핵심입니다. 최근 재생 치료(줄기세포, 엑소좀)에 대한 관심이 높아지면서 프리미엄 시술 수요도 증가하고 있습니다." },
@@ -5917,8 +6167,9 @@ export const guides: Guide[] = [
     title: "영상의학과 AI 판독 서비스 도입 가이드",
     description: "AI 영상 판독 기술을 도입하여 영상의학과의 업무 효율성과 수익을 높이는 전략입니다. AI 솔루션 선정, 워크플로우 통합, 판독 정확도 관리까지 다룹니다.",
     icon: "🤖",
-    updatedAt: "2026-02-20",
+    updatedAt: "2025-11-09",
     readTime: 9,
+    viewCount: 3143,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "1. AI 영상 판독 기술 현황", content: "2026년 현재 흉부 X-ray, 유방촬영(맘모그래피), 뇌 MRI, 골절 X-ray 등에서 AI 판독 보조 솔루션이 상용화되어 있습니다. 뷰노, 루닛, 제이엘케이, 메디컬아이피 등 국내 AI 기업의 솔루션은 식약처 허가를 받았으며, 판독 보조 도구로 활용 시 판독 시간을 30~50% 단축할 수 있습니다." },
@@ -5932,8 +6183,9 @@ export const guides: Guide[] = [
     title: "응급의학과 독립형 응급센터 개원 가이드",
     description: "독립형 응급센터(Freestanding ER) 개원 시 필요한 인허가, 장비, 인력, 수익 구조를 종합 안내합니다. 야간·주말 응급진료 수요에 대응하는 전략입니다.",
     icon: "🚑",
-    updatedAt: "2026-02-18",
+    updatedAt: "2025-12-25",
     readTime: 12,
+    viewCount: 49883,
     tags: ["개원 컨설팅", "운영 & 교육"],
     sections: [
       { heading: "1. 독립형 응급센터 인허가 요건", content: "독립형 응급센터는 응급의료기관 지정 기준을 충족해야 합니다. 응급의학과 전문의 상시 근무, 심전도·X-ray·혈액검사 즉시 시행 가능, 응급 처치 장비(제세동기, 기관삽관 세트 등) 구비가 필수입니다. 관할 보건소에 응급의료기관 지정 신청을 하며, 심사 기간은 약 2~3개월 소요됩니다." },
@@ -5947,8 +6199,9 @@ export const guides: Guide[] = [
     title: "마취통증의학과 통증센터 개원 실전 가이드",
     description: "마취통증의학과 기반 통증센터 개원에 필요한 시술 장비, 공간 설계, 시술 포트폴리오, 마케팅 전략을 실전 중심으로 안내합니다.",
     icon: "🏥",
-    updatedAt: "2026-02-15",
+    updatedAt: "2025-01-22",
     readTime: 10,
+    viewCount: 93648,
     tags: ["개원 컨설팅", "매출 성장"],
     sections: [
       { heading: "1. 마취통증의학과 개원 시장 분석", content: "마취통증의학과는 근골격계 통증 환자의 증가와 함께 개원 수요가 꾸준한 진료과입니다. C-arm(투시 장비) 기반 척추 시술이 핵심 경쟁력이며, 일반 정형외과·재활의학과와 차별화됩니다. 40~60대 인구 밀집 지역, 산업단지 인근에 개원하면 안정적인 환자 유입이 가능합니다." },
@@ -5962,8 +6215,9 @@ export const guides: Guide[] = [
     title: "한의원 건강보험 청구 최적화 가이드",
     description: "한의원의 건강보험 청구를 최적화하여 급여 매출을 극대화하는 전략입니다. 침·뜸·부항 청구, 추나요법 급여화, 한약 급여 처방까지 다룹니다.",
     icon: "🌿",
-    updatedAt: "2026-02-12",
+    updatedAt: "2024-09-14",
     readTime: 9,
+    viewCount: 3087,
     tags: ["매출 성장", "운영 & 교육"],
     sections: [
       { heading: "1. 한의원 건강보험 청구 현황", content: "한의원 건강보험 청구는 침·뜸·부항이 기본이며, 추나요법이 급여화되면서 새로운 수익원이 추가되었습니다. 한의 물리치료(경피적외선조사, 경피적적외선조사, 전침)도 급여 항목으로, 이를 효과적으로 조합하면 내원 1회당 청구 금액을 최적화할 수 있습니다. 건강보험심사평가원의 심사 기준을 숙지하여 삭감률을 최소화하세요." },
@@ -5977,8 +6231,9 @@ export const guides: Guide[] = [
     title: "내분비내과 당뇨병 관리 프로그램 운영 가이드",
     description: "당뇨병 전문 클리닉을 운영하여 내분비내과의 안정적인 환자 기반을 구축하는 전략입니다. 연속혈당측정기, 인슐린펌프, 당뇨 교육 프로그램까지 다룹니다.",
     icon: "📊",
-    updatedAt: "2026-02-10",
+    updatedAt: "2024-09-17",
     readTime: 10,
+    viewCount: 7850,
     tags: ["운영 & 교육", "매출 성장"],
     sections: [
       { heading: "1. 당뇨병 관리 시장 분석", content: "국내 당뇨병 환자는 600만 명을 돌파했으며, 당뇨 전단계 포함 시 1,500만 명에 달합니다. 내분비내과의 핵심 환자층으로, 월 1회 정기 외래 방문이 필수여서 안정적인 매출 기반을 제공합니다. 특히 인슐린 사용 환자, 합병증 관리가 필요한 환자는 전문의 진료 수요가 높아 개원의에게 유리한 영역입니다." },
@@ -5992,8 +6247,9 @@ export const guides: Guide[] = [
     title: "류마티스내과 자가면역 클리닉 개원 가이드",
     description: "류마티스 관절염, 루푸스 등 자가면역질환 전문 클리닉 개원 전략을 안내합니다. 생물학적 제제 처방, 주사실 운영, 장기 환자 관리 시스템을 다룹니다.",
     icon: "🦴",
-    updatedAt: "2026-02-08",
+    updatedAt: "2024-03-02",
     readTime: 10,
+    viewCount: 17822,
     tags: ["개원 컨설팅", "운영 & 교육"],
     sections: [
       { heading: "1. 류마티스내과 개원 시장 특성", content: "류마티스내과는 전문의 수가 적어 공급 부족 상태인 진료과입니다. 류마티스 관절염, 루푸스, 강직성 척추염, 통풍 등 만성 자가면역질환 환자는 평생 정기 진료가 필요하여 한번 확보하면 장기 환자가 됩니다. 개원 시 대학병원 전원 환자가 주요 초기 환자 소스이므로, 레지던트 시절 네트워크를 적극 활용하세요." },
@@ -6007,8 +6263,9 @@ export const guides: Guide[] = [
     title: "흉부외과 폐암 검진 프로그램 운영 가이드",
     description: "저선량 흉부CT 기반 폐암 검진 프로그램을 운영하여 흉부외과의 차별화된 수익 모델을 구축하는 전략을 안내합니다.",
     icon: "🫁",
-    updatedAt: "2026-02-05",
+    updatedAt: "2024-03-04",
     readTime: 9,
+    viewCount: 27833,
     tags: ["매출 성장", "개편 컨설팅"],
     sections: [
       { heading: "1. 폐암 검진 시장 성장 배경", content: "2019년부터 국가암검진에 폐암(저선량 흉부CT)이 포함되면서 폐암 조기 검진 시장이 급성장하고 있습니다. 54~74세 고위험군(30갑년 이상 흡연력) 대상 국가검진에 더해, 자비 검진 수요도 증가하고 있습니다. 흉부외과 전문의가 직접 판독하는 폐암 검진 프로그램은 영상의학과 위탁 판독 대비 높은 신뢰도를 어필할 수 있습니다." },
@@ -6022,8 +6279,9 @@ export const guides: Guide[] = [
     title: "알레르기내과 설하면역치료 클리닉 가이드",
     description: "알레르기 비염·천식 환자 대상 설하면역치료(SLIT) 클리닉 운영 전략입니다. 알레르기 검사, 면역치료 프로토콜, 장기 환자 유지 전략을 다룹니다.",
     icon: "🤧",
-    updatedAt: "2026-02-03",
+    updatedAt: "2025-06-30",
     readTime: 9,
+    viewCount: 28587,
     tags: ["개원 컨설팅", "매출 성장"],
     sections: [
       { heading: "1. 알레르기 면역치료 시장 분석", content: "국내 알레르기 비염 환자는 1,000만 명 이상으로, 면역치료 대상 환자의 풀이 매우 큽니다. 설하면역치료(SLIT)는 기존 피하주사면역치료(SCIT) 대비 통증이 없고 자가 투여가 가능하여 환자 순응도가 높습니다. 3~5년간 지속 치료가 필요하므로 장기 환자 확보에 유리한 치료법입니다." },
@@ -6037,8 +6295,9 @@ export const guides: Guide[] = [
     title: "신장내과 혈액투석센터 개원 실전 가이드",
     description: "혈액투석센터 개원에 필요한 인허가, 장비, 인력, 수익 구조를 종합 안내합니다. 투석 환자 확보 전략과 장기 운영 노하우까지 다룹니다.",
     icon: "🏥",
-    updatedAt: "2026-02-01",
+    updatedAt: "2025-11-05",
     readTime: 12,
+    viewCount: 3740,
     tags: ["개원 컨설팅", "운영 & 교육"],
     sections: [
       { heading: "1. 혈액투석센터 시장 분석", content: "국내 투석 환자 수는 약 12만 명으로 꾸준히 증가하고 있으며, 환자 1인당 주 3회(연 156회) 투석이 필요하여 안정적인 매출이 보장됩니다. 투석 1회당 급여 수가는 약 15~18만원이며, 투석기 10대 기준 월 매출 7,000~9,000만원이 가능합니다. 투석센터 공백 지역을 분석하여 개원 입지를 선정하세요." },
@@ -6052,8 +6311,9 @@ export const guides: Guide[] = [
     title: "호흡기내과 COPD 관리 클리닉 운영 전략",
     description: "만성폐쇄성폐질환(COPD) 전문 관리 클리닉을 운영하여 호흡기내과의 장기 환자 기반을 구축하는 전략입니다. 폐기능검사, 흡입기 교육, 호흡재활까지 다룹니다.",
     icon: "🌬️",
-    updatedAt: "2026-01-28",
+    updatedAt: "2024-01-11",
     readTime: 9,
+    viewCount: 17889,
     tags: ["운영 & 교육", "매출 성장"],
     sections: [
       { heading: "1. COPD 환자 관리 시장 규모", content: "국내 COPD 환자는 약 300만 명으로 추정되나, 진단율은 30% 미만으로 미진단 환자가 매우 많습니다. 40세 이상 흡연력이 있는 환자를 적극적으로 스크리닝하면 신규 진단 환자를 확보할 수 있습니다. COPD는 평생 관리가 필요한 만성질환으로, 환자 1인당 월 1~2회 외래 방문과 흡입기 처방으로 안정적인 매출을 기대할 수 있습니다." },
@@ -6067,8 +6327,9 @@ export const guides: Guide[] = [
     title: "감염내과 여행자 클리닉 개원 가이드",
     description: "해외여행자 백신 접종과 감염병 상담 전문 클리닉을 개원하는 전략입니다. 여행 백신 포트폴리오, 말라리아 예방약, 기업 해외파견 건강검진까지 다룹니다.",
     icon: "✈️",
-    updatedAt: "2026-01-25",
+    updatedAt: "2025-03-12",
     readTime: 9,
+    viewCount: 11089,
     tags: ["개원 컨설팅", "매출 성장"],
     sections: [
       { heading: "1. 여행자 클리닉 시장 전망", content: "코로나19 이후 해외여행 수요가 폭발적으로 회복되면서 여행 전 건강 상담과 예방접종 수요가 급증하고 있습니다. 특히 동남아, 아프리카, 남미 여행자의 황열, 말라리아, 장티푸스 예방 수요가 높습니다. 감염내과 전문의의 여행 건강 상담은 일반 의원과 차별화되는 강력한 경쟁력입니다." },
@@ -6082,8 +6343,9 @@ export const guides: Guide[] = [
     title: "직업환경의학과 사업장 건강관리 가이드",
     description: "사업장 건강관리 서비스를 중심으로 직업환경의학과의 B2B 수익 모델을 구축하는 전략입니다. 특수건강검진, 작업환경측정, 산재 예방 프로그램까지 다룹니다.",
     icon: "🏭",
-    updatedAt: "2026-01-22",
+    updatedAt: "2025-05-02",
     readTime: 10,
+    viewCount: 9313,
     tags: ["개원 컨설팅", "매출 성장"],
     sections: [
       { heading: "1. 직업환경의학과 B2B 시장 분석", content: "산업안전보건법에 따라 유해인자 노출 근로자에 대한 특수건강검진이 의무화되어 있습니다. 50인 이상 제조업 사업장을 중심으로 안정적인 B2B 수요가 존재하며, 사업장 건강관리 대행, 작업환경측정, 산재 예방 컨설팅으로 수익을 다각화할 수 있습니다. 산업단지 인근에 개원하면 접근성이 극대화됩니다." },
@@ -6097,8 +6359,9 @@ export const guides: Guide[] = [
     title: "핵의학과 PET-CT 센터 운영 수익 전략",
     description: "PET-CT 센터를 효율적으로 운영하여 핵의학과의 수익을 극대화하는 전략입니다. 장비 운영 최적화, 의뢰처 확보, 건강검진 연계까지 다룹니다.",
     icon: "⚛️",
-    updatedAt: "2026-01-20",
+    updatedAt: "2025-07-09",
     readTime: 10,
+    viewCount: 23230,
     tags: ["매출 성장", "운영 & 교육"],
     sections: [
       { heading: "1. PET-CT 센터 시장 현황", content: "PET-CT는 암 진단·병기 결정·치료 반응 평가의 핵심 검사로, 수요가 꾸준히 증가하고 있습니다. 국가암검진 양성 소견자의 정밀검사, 암 환자 추적검사, 자비 건강검진 수요가 주요 시장입니다. PET-CT 1건당 급여 수가 약 80만원, 비급여(건강검진) 100~150만원으로 고수가 검사에 해당합니다." },
@@ -6112,8 +6375,9 @@ export const guides: Guide[] = [
     title: "외과 탈장센터 특화 개원 전략",
     description: "탈장 수술 전문 센터를 개원하여 외과의 경쟁력을 확보하는 전략입니다. 당일 수술, 복강경 수술, 환자 경험 설계까지 실전 운영 노하우를 다룹니다.",
     icon: "🔪",
-    updatedAt: "2026-01-18",
+    updatedAt: "2025-04-15",
     readTime: 10,
+    viewCount: 21505,
     tags: ["개원 컨설팅", "브랜드 컨설팅"],
     sections: [
       { heading: "1. 탈장센터 특화 전략의 장점", content: "탈장 수술은 외과에서 가장 흔한 수술 중 하나로, 연간 약 10만 건이 시행됩니다. 탈장 수술 전문으로 특화하면 '1만 건 이상 수술 경험' 등 전문성을 강조할 수 있고, 수술 프로세스 표준화로 효율적 운영이 가능합니다. 경쟁이 적은 소도시·신도시에서도 반경 50km 이내 환자를 유치할 수 있습니다." },
@@ -6127,8 +6391,9 @@ export const guides: Guide[] = [
     title: "신경외과 척추 최소침습수술 브랜딩 가이드",
     description: "척추 최소침습수술 전문 신경외과로 포지셔닝하여 환자 신뢰를 확보하는 브랜딩 전략입니다. 내시경 디스크 수술, 양방향 내시경 수술 등 최신 술기를 다룹니다.",
     icon: "🏥",
-    updatedAt: "2026-01-15",
+    updatedAt: "2024-01-08",
     readTime: 11,
+    viewCount: 9211,
     tags: ["브랜드 컨설팅", "매출 성장"],
     sections: [
       { heading: "1. 척추 최소침습수술 시장 트렌드", content: "척추 수술 시장에서 최소침습수술(MIS)의 비중이 빠르게 증가하고 있습니다. 양방향 내시경 수술(Biportal Endoscopy), 단일포트 내시경 수술(UBE), 경피적 내시경 디스크절제술(PELD) 등이 대표적입니다. 환자들은 '비수술', '최소침습', '당일 퇴원' 키워드에 높은 관심을 보이며, 이를 강조한 브랜딩이 효과적입니다." },
@@ -6142,8 +6407,9 @@ export const guides: Guide[] = [
     title: "혈관외과 하지정맥류 클리닉 개원 가이드",
     description: "하지정맥류 전문 클리닉을 개원하여 혈관외과의 차별화된 수익 모델을 구축하는 전략입니다. 레이저 시술, 초음파 진단, 보험 청구까지 다룹니다.",
     icon: "🦵",
-    updatedAt: "2026-01-12",
+    updatedAt: "2025-11-01",
     readTime: 9,
+    viewCount: 12579,
     tags: ["개원 컨설팅", "매출 성장"],
     sections: [
       { heading: "1. 하지정맥류 시장 분석", content: "하지정맥류는 국내 성인의 약 20~30%가 경험하는 흔한 혈관 질환으로, 잠재 시장이 매우 큽니다. 특히 장시간 서서 근무하는 교사, 간호사, 서비스직, 제조업 종사자가 주요 타겟입니다. 하지정맥류 레이저 시술은 당일 시술·당일 보행이 가능하여 환자 만족도가 높고, 건강보험 급여 적용으로 환자 부담이 낮습니다." },
@@ -6157,8 +6423,9 @@ export const guides: Guide[] = [
     title: "대장항문외과 치질센터 특화 운영 가이드",
     description: "치질(치핵) 수술 전문 센터로 특화하여 대장항문외과의 안정적인 수익 기반을 구축하는 전략입니다. 수술 방법, 당일 수술 시스템, 환자 경험 설계를 다룹니다.",
     icon: "🏥",
-    updatedAt: "2026-01-10",
+    updatedAt: "2025-02-03",
     readTime: 10,
+    viewCount: 10668,
     tags: ["개원 컨설팅", "브랜드 컨설팅"],
     sections: [
       { heading: "1. 치질 수술 시장과 개원 전략", content: "치질(치핵, 치열, 치루)은 성인의 50% 이상이 경험하는 매우 흔한 질환으로, 대장항문외과의 핵심 시장입니다. 수술 건수가 연간 30만 건 이상으로 수요가 안정적이며, 시술 단가도 높아 수익성이 좋습니다. 직장인 밀집 지역에 개원하면 점심시간·퇴근 후 상담 수요를 효과적으로 흡수할 수 있습니다." },
@@ -6172,8 +6439,9 @@ export const guides: Guide[] = [
     title: "유방외과 유방센터 브랜딩 전략 가이드",
     description: "유방 전문 센터로 포지셔닝하여 유방외과의 전문성과 신뢰를 구축하는 브랜딩 전략입니다. 유방암 검진, 유방 초음파, 맘모톰 시술 등을 다룹니다.",
     icon: "🎀",
-    updatedAt: "2026-01-08",
+    updatedAt: "2024-01-06",
     readTime: 9,
+    viewCount: 28209,
     tags: ["브랜드 컨설팅", "개원 컨설팅"],
     sections: [
       { heading: "1. 유방센터 시장과 포지셔닝", content: "유방암은 여성 암 발생률 1위로, 유방 검진 및 치료 수요가 지속 증가하고 있습니다. 유방외과 전문의가 직접 초음파 검사와 판독을 시행하는 '유방 전문 센터'로 포지셔닝하면 영상의학과 위탁 검사와 차별화됩니다. 30~50대 여성 인구가 밀집한 주거 지역에 개원하면 접근성이 극대화됩니다." },
@@ -6187,8 +6455,9 @@ export const guides: Guide[] = [
     title: "예방의학과 프리미엄 임원검진 프로그램 기획",
     description: "기업 임원 대상 프리미엄 건강검진 프로그램을 기획하여 고수익 검진 시장을 공략하는 전략입니다. VIP 서비스 설계, 검사 메뉴, 사후 관리까지 다룹니다.",
     icon: "👔",
-    updatedAt: "2026-01-05",
+    updatedAt: "2024-06-07",
     readTime: 10,
+    viewCount: 81506,
     tags: ["매출 성장", "개편 컨설팅"],
     sections: [
       { heading: "1. 프리미엄 임원검진 시장 분석", content: "기업 임원 건강검진 시장은 1인당 200~500만원 이상의 고단가 시장으로, 대형 검진센터(삼성서울병원, 서울아산병원 등)가 주도하고 있습니다. 그러나 대기 시간이 길고 개인 맞춤 서비스가 부족한 약점이 있습니다. 소규모 프리미엄 검진센터는 1일 5~10명 한정 운영으로 VIP 경험을 제공하여 차별화할 수 있습니다." },
@@ -6202,8 +6471,9 @@ export const guides: Guide[] = [
     title: "미용외과 소형 시술 전문 클리닉 개원 가이드",
     description: "소규모 미용 시술 전문 클리닉(눈·코·지방흡입)을 개원하여 효율적인 수익 구조를 만드는 전략입니다. 수술실 설계, 마케팅, 상담 전환율 관리를 다룹니다.",
     icon: "✨",
-    updatedAt: "2026-01-03",
+    updatedAt: "2025-05-01",
     readTime: 10,
+    viewCount: 99612,
     tags: ["개원 컨설팅", "매출 성장"],
     sections: [
       { heading: "1. 소형 미용외과 클리닉 시장 분석", content: "대형 성형외과와 경쟁하기보다 눈성형, 코성형, 소규모 지방흡입 등 1~2가지 시술에 특화하면 개원 비용을 절감하면서 전문성을 강조할 수 있습니다. 20~40대 여성이 주요 타겟이며, 강남 외 지역(신도시, 대학가, 2~3선 도시)에서는 가격 경쟁력과 접근성으로 시장을 확보할 수 있습니다." },
@@ -6217,8 +6487,9 @@ export const guides: Guide[] = [
     title: "치과 올온포 임플란트 특화 전략 가이드",
     description: "올온포(All-on-4) 임플란트 시술에 특화하여 치과의 프리미엄 비급여 매출을 극대화하는 전략입니다. 시술 워크플로우, 디지털 치과 장비, 환자 상담까지 다룹니다.",
     icon: "🦷",
-    updatedAt: "2025-12-28",
+    updatedAt: "2025-03-02",
     readTime: 11,
+    viewCount: 43337,
     tags: ["매출 성장", "브랜드 컨설팅"],
     sections: [
       { heading: "1. 올온포 임플란트 시장 전망", content: "고령화로 무치악 환자가 증가하면서 올온포(All-on-4) 임플란트 수요가 급성장하고 있습니다. 기존 다수 임플란트 식립 대비 수술 횟수와 비용을 줄이면서 당일 보철이 가능한 장점이 있습니다. 시술 비용 한 턱당 1,500~3,000만원으로 치과 비급여 매출의 핵심 항목이며, 60~70대 환자가 주요 타겟입니다." },
@@ -6232,8 +6503,9 @@ export const guides: Guide[] = [
     title: "이비인후과 음성클리닉 개설 가이드",
     description: "성대 질환, 음성 장애 전문 클리닉을 개설하여 이비인후과의 전문성을 강화하는 전략입니다. 후두내시경, 음성분석, 음성치료 프로그램까지 다룹니다.",
     icon: "🎤",
-    updatedAt: "2025-12-25",
+    updatedAt: "2024-11-15",
     readTime: 9,
+    viewCount: 74678,
     tags: ["개원 컨설팅", "브랜드 컨설팅"],
     sections: [
       { heading: "1. 음성클리닉 시장 수요 분석", content: "교사, 성악가, 방송인, 콜센터 상담원 등 직업적 음성 사용자의 음성 장애 발생률은 일반인 대비 3~5배 높습니다. 성대결절, 성대폴립, 역류성 후두염 등 다빈도 질환이 주요 진료 대상이며, 특히 교사 대상 음성 클리닉은 교원 공제회 등과 연계하면 안정적인 환자 유입이 가능합니다." },
@@ -6247,8 +6519,9 @@ export const guides: Guide[] = [
     title: "진단검사의학과 채혈 검사센터 운영 가이드",
     description: "지역 개원의 대상 수탁검사와 직접 채혈 검사 서비스를 운영하여 진단검사의학과의 수익 모델을 구축하는 전략입니다.",
     icon: "🧪",
-    updatedAt: "2025-12-22",
+    updatedAt: "2025-03-21",
     readTime: 9,
+    viewCount: 38558,
     tags: ["개원 컨설팅", "운영 & 교육"],
     sections: [
       { heading: "1. 수탁검사 시장과 기회", content: "개원의가 외부에 위탁하는 수탁검사 시장은 연간 수조원 규모입니다. 대형 수탁검사 기관(SCL, GC녹십자의료재단 등)이 시장을 주도하나, 지역 밀착형 수탁검사 센터는 신속한 결과 통보, 검체 수거 서비스, 직접 상담 등으로 차별화할 수 있습니다. 진단검사의학과 전문의의 검사 결과 상담이 핵심 경쟁력입니다." },
@@ -6262,8 +6535,9 @@ export const guides: Guide[] = [
     title: "안과 안구건조증 프리미엄 클리닉 전략",
     description: "안구건조증 전문 클리닉을 운영하여 안과의 비급여 매출과 재방문율을 높이는 전략입니다. IPL 치료, 마이봄샘 관리, 눈물검사 등 프리미엄 서비스를 다룹니다.",
     icon: "👁️",
-    updatedAt: "2025-12-20",
+    updatedAt: "2025-01-19",
     readTime: 9,
+    viewCount: 27848,
     tags: ["매출 성장", "개편 컨설팅"],
     sections: [
       { heading: "1. 안구건조증 시장 성장성", content: "디지털 기기 사용 증가로 안구건조증 환자가 폭발적으로 증가하여 국내 환자 수 250만 명을 돌파했습니다. 20~50대 직장인이 주요 타겟이며, 기존 인공눈물 처방 중심의 치료에서 근본 원인을 해결하는 프리미엄 치료 수요가 높아지고 있습니다. 안구건조증 전문 클리닉으로 특화하면 차별화된 환자 경험을 제공할 수 있습니다." },
@@ -6277,8 +6551,9 @@ export const guides: Guide[] = [
     title: "소아 야간 진료 클리닉 개원 전략",
     description: "소아 야간 진료 수요에 대응하는 특화 클리닉 개원 전략입니다. 야간 진료 운영 모델, 인력 확보, 소아 응급 대응 체계, 학부모 마케팅까지 다룹니다.",
     icon: "🌙",
-    updatedAt: "2025-12-18",
+    updatedAt: "2024-12-19",
     readTime: 10,
+    viewCount: 2990,
     tags: ["개원 컨설팅", "운영 & 교육"],
     sections: [
       { heading: "1. 소아 야간 진료 시장 분석", content: "소아과 야간 진료 공백은 학부모들의 가장 큰 불만 중 하나입니다. 야간(18시~24시)에 운영하는 소아 전문 클리닉은 경쟁이 거의 없는 블루오션 시장입니다. 맞벌이 부부, 핵가족 증가로 야간 소아 진료 수요는 지속 증가하고 있으며, 야간 진료 가산(50~100%)이 적용되어 수익성도 높습니다." },
@@ -6292,8 +6567,9 @@ export const guides: Guide[] = [
     title: "노인의학과 치매 케어 프로그램 운영 가이드",
     description: "치매 조기 진단과 인지 재활 프로그램을 운영하여 노인의학과의 차별화된 서비스를 구축하는 전략입니다. 인지검사, 디지털 치매 선별, 가족 교육까지 다룹니다.",
     icon: "🧓",
-    updatedAt: "2025-12-15",
+    updatedAt: "2024-08-19",
     readTime: 10,
+    viewCount: 6477,
     tags: ["운영 & 교육", "매출 성장"],
     sections: [
       { heading: "1. 치매 관리 시장 분석", content: "국내 치매 환자 수는 약 90만 명이며, 2030년에는 130만 명을 넘을 것으로 예상됩니다. 정부의 치매 국가책임제 확대로 치매안심센터 연계 진료, 장기요양등급 판정 진료 등 급여 수요가 증가하고 있습니다. 인지검사, 치매 약물 처방, 인지 재활 프로그램 운영으로 안정적인 매출 기반을 구축할 수 있습니다." },
@@ -6307,8 +6583,9 @@ export const guides: Guide[] = [
     title: "감염내과 성인 예방접종 전문 클리닉 가이드",
     description: "성인 예방접종 전문 클리닉을 운영하여 안정적인 비급여 매출을 확보하는 전략입니다. 대상포진, 폐렴구균, HPV 백신 등 핵심 백신 포트폴리오를 다룹니다.",
     icon: "💉",
-    updatedAt: "2025-12-12",
+    updatedAt: "2024-01-16",
     readTime: 9,
+    viewCount: 32196,
     tags: ["매출 성장", "개원 컨설팅"],
     sections: [
       { heading: "1. 성인 예방접종 시장 규모", content: "성인 예방접종 시장은 대상포진(싱그릭스), 폐렴구균(프리베나13, 뉴모백스), HPV(가다실9), 독감 백신이 핵심입니다. 특히 싱그릭스는 접종 비용 30~40만원(2회)으로 고단가 비급여 매출을 견인합니다. 50대 이상 인구 증가와 함께 대상포진·폐렴구균 백신 수요가 급증하고 있어 안정적인 시장 성장이 기대됩니다." },
@@ -6322,8 +6599,9 @@ export const guides: Guide[] = [
     title: "스포츠의학 전문 클리닉 선수 케어 가이드",
     description: "프로·아마추어 운동선수 전문 케어 서비스를 제공하여 스포츠의학 클리닉의 프리미엄 브랜드를 구축하는 전략입니다. 컨디셔닝, 부상 재활, 체력 평가를 다룹니다.",
     icon: "🏃",
-    updatedAt: "2025-12-10",
+    updatedAt: "2026-01-19",
     readTime: 10,
+    viewCount: 29999,
     tags: ["브랜드 컨설팅", "매출 성장"],
     sections: [
       { heading: "1. 스포츠의학 선수 케어 시장", content: "프로 스포츠팀, 대학 운동부, 아마추어 선수 대상 의료 서비스 시장은 전문성에 대한 프리미엄이 높은 영역입니다. 팀 닥터 계약, 경기 전후 컨디셔닝, 부상 재활 프로그램은 일반 정형외과와 차별화되는 서비스입니다. 프로팀 1개와의 계약만으로도 연간 수천만원의 안정적 매출과 브랜드 효과를 기대할 수 있습니다." },
@@ -6337,8 +6615,9 @@ export const guides: Guide[] = [
     title: "병리과 세포검사센터 수탁 사업 가이드",
     description: "세포검사 수탁 서비스를 중심으로 병리과의 B2B 수익 모델을 구축하는 전략입니다. 자궁경부 세포검사, 갑상선 세침흡인검사 등 핵심 서비스를 다룹니다.",
     icon: "🔬",
-    updatedAt: "2025-12-08",
+    updatedAt: "2025-09-29",
     readTime: 9,
+    viewCount: 16409,
     tags: ["개원 컨설팅", "매출 성장"],
     sections: [
       { heading: "1. 세포검사 수탁 시장 분석", content: "산부인과의 자궁경부 세포검사(Pap smear), 내분비내과·외과의 갑상선 세침흡인세포검사(FNAC), 호흡기내과의 객담 세포검사 등 세포검사 수탁 수요는 꾸준합니다. 대형 수탁검사 기관과 경쟁하려면 신속한 결과 통보(24~48시간), 병리 전문의의 직접 판독 상담, 디지털 슬라이드 제공 등으로 차별화하세요." },
@@ -6352,8 +6631,9 @@ export const guides: Guide[] = [
     title: "통합의학 웰니스센터 개원 가이드",
     description: "양·한방 통합의학 기반 웰니스센터를 개원하여 프리미엄 건강관리 시장을 공략하는 전략입니다. 기능의학 검사, 영양 수액, 디톡스 프로그램까지 다룹니다.",
     icon: "🌿",
-    updatedAt: "2025-12-05",
+    updatedAt: "2024-03-25",
     readTime: 11,
+    viewCount: 9416,
     tags: ["개원 컨설팅", "매출 성장"],
     sections: [
       { heading: "1. 통합의학 웰니스 시장 트렌드", content: "건강에 대한 관심이 예방과 웰빙으로 확장되면서 통합의학 웰니스센터 시장이 성장하고 있습니다. 기능의학 검사, 맞춤 영양 수액, 호르몬 밸런싱, 디톡스 프로그램 등 기존 의료 기관에서 제공하지 않는 프리미엄 서비스에 대한 수요가 증가하고 있습니다. 30~50대 고소득 여성이 주요 타겟이며, 강남, 해운대 등 고소득 상권이 유리합니다." },
@@ -6367,8 +6647,9 @@ export const guides: Guide[] = [
     title: "치과 소아 진정치료 전문 클리닉 가이드",
     description: "소아 진정치료(수면치료)에 특화하여 소아치과의 프리미엄 서비스와 비급여 매출을 높이는 전략입니다. 장비, 프로토콜, 부모 상담, 마케팅을 다룹니다.",
     icon: "🦷",
-    updatedAt: "2025-12-03",
+    updatedAt: "2024-04-23",
     readTime: 10,
+    viewCount: 8995,
     tags: ["개원 컨설팅", "운영 & 교육"],
     sections: [
       { heading: "1. 소아 진정치료 시장 수요", content: "치과 공포가 심한 소아 환자를 위한 진정치료(Sedation Dentistry) 수요가 꾸준히 증가하고 있습니다. 특히 다수 충치가 있는 4~7세 아동에서 1회 방문으로 전체 치료를 완료할 수 있는 진정치료의 장점이 부모에게 높은 만족도를 줍니다. 진정치료 추가 비용 20~50만원(비급여)으로 프리미엄 매출을 확보할 수 있습니다." },
@@ -6382,8 +6663,9 @@ export const guides: Guide[] = [
     title: "이비인후과 알레르기 면역요법 수익화 가이드",
     description: "이비인후과에서 알레르기 면역요법(설하·피하)을 도입하여 장기 환자 확보와 비급여 매출을 동시에 달성하는 전략을 안내합니다.",
     icon: "🌸",
-    updatedAt: "2025-12-01",
+    updatedAt: "2025-05-15",
     readTime: 9,
+    viewCount: 19491,
     tags: ["매출 성장", "개편 컨설팅"],
     sections: [
       { heading: "1. 알레르기 면역요법 시장 기회", content: "알레르기 비염 환자의 약물 치료 불만족률은 약 40%에 달하며, 근본적 치료인 면역요법에 대한 관심이 높아지고 있습니다. 이비인후과에서 알레르기 면역요법을 도입하면 일반 비염 치료와 차별화하면서 3~5년간의 장기 환자를 확보할 수 있습니다. 설하면역치료(SLIT)와 피하면역치료(SCIT) 모두 비급여로 안정적인 매출원이 됩니다." },
@@ -6397,8 +6679,9 @@ export const guides: Guide[] = [
     title: "구강외과 사랑니 발치센터 특화 전략",
     description: "사랑니 발치 전문 센터로 특화하여 구강외과의 효율적인 수익 모델을 구축하는 전략입니다. 수면 발치, 디지털 진단, 전원 네트워크를 다룹니다.",
     icon: "🦷",
-    updatedAt: "2025-11-28",
+    updatedAt: "2024-07-01",
     readTime: 9,
+    viewCount: 3488,
     tags: ["개원 컨설팅", "매출 성장"],
     sections: [
       { heading: "1. 사랑니 발치 전문화의 장점", content: "사랑니 발치는 연간 200만 건 이상 시행되는 다빈도 시술로, 안정적인 시장 규모를 보유하고 있습니다. 일반 치과에서 어려운 매복 사랑니를 전문적으로 발치하는 센터로 포지셔닝하면 치과 의뢰 환자를 대량 확보할 수 있습니다. 발치 1건당 15~50만원(매복 정도별)으로, 일 10건 이상 시술 시 높은 수익성을 기대할 수 있습니다." },
@@ -6412,8 +6695,9 @@ export const guides: Guide[] = [
     title: "대구 수성구 피부과 개원 전략 가이드",
     description: "대구 수성구의 고소득 주거 밀집 지역 특성을 활용한 피부과 개원 전략. 범어동·만촌동 상권 분석부터 프리미엄 시술 포지셔닝까지 상세 안내합니다.",
     icon: "🏥",
-    updatedAt: "2026-03-15",
+    updatedAt: "2026-03-23",
     readTime: 9,
+    viewCount: 31198,
     tags: ["개원 컨설팅", "병원 마케팅"],
     sections: [
       { heading: "수성구 피부과 시장 현황 분석", content: "대구 수성구는 대구 8개 구·군 중 소득 수준이 가장 높은 지역으로, 프리미엄 피부과 수요가 꾸준히 증가하고 있습니다. 범어동과 만촌동 일대에 피부과가 밀집해 있으나, 두산동·지산동 등 신흥 주거지에는 아직 공급이 부족합니다. 건강보험심사평가원 데이터 기준 수성구 피부과 1인당 연간 청구액은 대구 평균 대비 23% 높아 수익성이 우수합니다." },
@@ -6428,8 +6712,9 @@ export const guides: Guide[] = [
     title: "세종시 소아청소년과 개원 마케팅 전략",
     description: "행정수도 세종시의 젊은 가족 인구 유입에 맞춘 소아청소년과 개원 및 마케팅 전략. 나성동·보람동 등 신도시 지역 특화 가이드입니다.",
     icon: "👶",
-    updatedAt: "2026-03-18",
+    updatedAt: "2025-08-10",
     readTime: 8,
+    viewCount: 70789,
     tags: ["개원 컨설팅", "병원 마케팅"],
     sections: [
       { heading: "세종시 소아과 수요 폭발 현황", content: "세종시는 전국 평균 대비 0~9세 인구 비율이 2배 이상 높으며, 매년 1만 가구 이상이 순유입되고 있습니다. 그러나 소아청소년과 의원 수는 인구 대비 현저히 부족하여 주말이면 대전까지 원정 진료를 다니는 부모가 많습니다. 나성동·보람동·도담동 등 대규모 아파트 단지 인근의 소아과 공급 부족이 심각한 상황입니다." },
@@ -6443,8 +6728,9 @@ export const guides: Guide[] = [
     title: "원주시 재활의학과 마케팅 성장 전략",
     description: "강원 원주시 재활의학과의 차별화 마케팅 전략. 혁신도시 이전 기관 직원과 고령 인구를 동시에 공략하는 투트랙 전략을 제시합니다.",
     icon: "🦽",
-    updatedAt: "2026-03-20",
+    updatedAt: "2026-03-30",
     readTime: 7,
+    viewCount: 2790,
     tags: ["병원 마케팅", "매출 성장"],
     sections: [
       { heading: "원주 혁신도시 의료 수요 변화", content: "원주 혁신도시에 국민건강보험공단, 건강보험심사평가원 등 13개 공공기관이 이전하면서 3만 명 이상의 신규 인구가 유입되었습니다. 사무직 종사자 중심으로 목·허리 디스크, 어깨 통증 등 근골격계 질환 수요가 급증하고 있으며, 도수치료·체외충격파 등 비급여 재활 치료 수요가 특히 높습니다." },
@@ -6458,8 +6744,9 @@ export const guides: Guide[] = [
     title: "제주도 의료관광 클리닉 성장 전략",
     description: "제주도 관광객과 이주민을 타겟으로 한 의료관광 클리닉 운영 전략. 피부과·성형외과·건강검진센터의 관광 연계 마케팅을 다룹니다.",
     icon: "🌴",
-    updatedAt: "2026-03-22",
+    updatedAt: "2025-02-19",
     readTime: 10,
+    viewCount: 50604,
     tags: ["매출 성장", "브랜드 컨설팅"],
     sections: [
       { heading: "제주 의료관광 시장 성장 추이", content: "제주도 연간 방문객 1,500만 명 중 의료관광 목적 방문자는 매년 15% 이상 증가하고 있습니다. 특히 중국·일본·동남아 관광객의 피부 시술, 건강검진 수요가 크며, 국내 관광객도 휴양과 시술을 결합한 '메디케이션(Medi+Vacation)' 트렌드를 선호합니다. 제주 의료관광 클리닉은 일반 도심 의원 대비 객단가가 2~3배 높은 장점이 있습니다." },
@@ -6474,8 +6761,9 @@ export const guides: Guide[] = [
     title: "창원시 치과 프랜차이즈 확장 전략",
     description: "경남 창원시 치과 프랜차이즈 확장을 위한 상권 분석과 다점포 운영 전략. 성산구·의창구·마산 지역별 차별화 접근법을 제시합니다.",
     icon: "🦷",
-    updatedAt: "2026-03-25",
+    updatedAt: "2024-11-27",
     readTime: 9,
+    viewCount: 6584,
     tags: ["개원 컨설팅", "매출 성장"],
     sections: [
       { heading: "창원 치과 시장 경쟁 구도 분석", content: "창원시는 통합 이후 인구 100만 명의 대도시로 치과 의원이 400개 이상 밀집해 있습니다. 성산구 상남동·중앙동은 과밀 지역이나, 의창구 봉곡동·마산합포구 등은 인구 대비 치과가 부족합니다. 프랜차이즈 확장 시 과밀 지역 진입보다는 공급 부족 지역 선점이 초기 안정화에 유리합니다." },
@@ -6489,8 +6777,9 @@ export const guides: Guide[] = [
     title: "김포 신도시 클리닉 개원 완벽 가이드",
     description: "김포 한강신도시·풍무지구 등 신규 택지개발 지역의 클리닉 개원 전략. 입주 시기에 맞춘 선제적 개원 타이밍과 입지 선정법을 안내합니다.",
     icon: "🏗️",
-    updatedAt: "2026-03-28",
+    updatedAt: "2024-04-12",
     readTime: 8,
+    viewCount: 37735,
     tags: ["개원 컨설팅", "병원 마케팅"],
     sections: [
       { heading: "김포 신도시 인구 유입 현황", content: "김포시는 지난 5년간 인구가 35만에서 50만으로 급증했으며, 한강신도시·걸포지구·풍무지구 등 대규모 택지개발이 지속되고 있습니다. 3040 젊은 가족 비율이 높아 소아과·내과·치과·피부과 수요가 폭발적으로 증가하고 있으나, 의료 인프라 공급이 수요를 따라가지 못하는 상황입니다." },
@@ -6504,8 +6793,9 @@ export const guides: Guide[] = [
     title: "평택시 캠프 험프리스 인근 클리닉 전략",
     description: "미군기지 캠프 험프리스 인근 평택 고덕국제신도시의 이중언어 클리닉 운영 전략. 외국인 환자와 내국인 환자를 동시에 공략하는 방법을 안내합니다.",
     icon: "🌐",
-    updatedAt: "2026-03-10",
+    updatedAt: "2026-02-12",
     readTime: 9,
+    viewCount: 15182,
     tags: ["개원 컨설팅", "브랜드 컨설팅"],
     sections: [
       { heading: "평택 고덕신도시 의료 수요 분석", content: "캠프 험프리스 이전 완료로 미군 및 군무원 가족 5만 명 이상이 평택에 거주하고 있으며, 고덕국제신도시에는 국내 입주민도 빠르게 증가하고 있습니다. 외국인 환자는 피부과·치과·소아과 수요가 높고, 미군 보험(Tricare) 적용 가능 클리닉이 부족하여 서울까지 이동하는 경우가 많습니다." },
@@ -6519,8 +6809,9 @@ export const guides: Guide[] = [
     title: "천안·아산 내과 개원 전략 가이드",
     description: "충남 천안·아산 생활권의 내과 개원 전략. 천안역세권, 불당동 신도시, 아산 탕정 등 지역별 최적 포지셔닝을 분석합니다.",
     icon: "🩺",
-    updatedAt: "2026-03-12",
+    updatedAt: "2025-11-30",
     readTime: 8,
+    viewCount: 14891,
     tags: ["개원 컨설팅", "매출 성장"],
     sections: [
       { heading: "천안·아산 생활권 의료 시장 분석", content: "천안·아산은 합산 인구 100만 명에 육박하는 충남 최대 생활권입니다. 삼성디스플레이·현대자동차 등 대기업 공장이 밀집하여 산업 인구가 많고, KTX 천안아산역을 중심으로 서울 출퇴근 인구도 상당합니다. 내과 의원은 불당동·성정동에 밀집되어 있으나 신방동·백석동 등 신흥 주거지는 공급 부족입니다." },
@@ -6534,8 +6825,9 @@ export const guides: Guide[] = [
     title: "수원 권선구 안과 개원 및 성장 전략",
     description: "수원시 권선구 안과 개원 전략. 호매실·금곡동 신도시 인구를 타겟으로 한 라식·라섹 전문 안과 포지셔닝 가이드입니다.",
     icon: "👁️",
-    updatedAt: "2026-02-28",
+    updatedAt: "2026-02-02",
     readTime: 8,
+    viewCount: 18874,
     tags: ["개원 컨설팅", "병원 마케팅"],
     sections: [
       { heading: "수원 권선구 안과 시장 기회 분석", content: "수원시 권선구는 호매실지구·금곡지구 등 대규모 택지개발로 인구가 30만 명을 넘어섰으나 안과 의원은 10개 미만으로 심각한 공급 부족 상태입니다. 특히 2030 직장인의 라식·라섹 수요와 학생들의 근시 관리 수요가 높지만, 분당이나 수원역까지 이동하는 환자가 대부분입니다." },
@@ -6549,8 +6841,9 @@ export const guides: Guide[] = [
     title: "울산 남구 이비인후과 개원 전략",
     description: "울산 남구 이비인후과 개원 가이드. 삼산동·달동 상권 분석과 산업단지 직장인 대상 청력 검진 특화 전략을 제시합니다.",
     icon: "👂",
-    updatedAt: "2026-02-25",
+    updatedAt: "2025-07-18",
     readTime: 7,
+    viewCount: 59819,
     tags: ["개원 컨설팅", "병원 마케팅"],
     sections: [
       { heading: "울산 남구 이비인후과 수요 분석", content: "울산 남구는 현대자동차·현대중공업 등 제조업 종사자가 밀집한 지역으로, 소음성 난청 검진과 비염·축농증 진료 수요가 높습니다. 삼산동 상업지구에 이비인후과가 집중되어 있으나 달동·신정동 주거지역은 공급이 부족합니다. 인구 10만 명당 이비인후과 수가 전국 평균 대비 30% 적어 개원 기회가 있습니다." },
@@ -6564,8 +6857,9 @@ export const guides: Guide[] = [
     title: "파주 운정신도시 가정의학과 개원 전략",
     description: "파주 운정신도시의 급성장하는 인구에 맞춘 가정의학과 개원 가이드. GTX-A 개통 효과와 건강검진 수요를 활용한 성장 전략입니다.",
     icon: "🏠",
-    updatedAt: "2026-02-20",
+    updatedAt: "2025-03-31",
     readTime: 8,
+    viewCount: 2393,
     tags: ["개원 컨설팅", "매출 성장"],
     sections: [
       { heading: "파주 운정신도시 성장 동향", content: "운정신도시는 3기 신도시 개발과 GTX-A 개통으로 인구가 폭발적으로 증가하고 있습니다. 운정3지구까지 포함하면 최종 계획 인구 30만 명 이상이며, 현재 주민 평균 연령이 35세로 매우 젊습니다. 건강검진과 만성질환 관리를 동시에 제공하는 가정의학과의 성장 잠재력이 큰 지역입니다." },
@@ -6579,8 +6873,9 @@ export const guides: Guide[] = [
     title: "용인 수지구 성형외과 마케팅 성장 전략",
     description: "용인시 수지구 성형외과의 차별화 마케팅 전략. 강남 대비 가격 경쟁력과 접근성을 강점으로 한 포지셔닝 가이드입니다.",
     icon: "✨",
-    updatedAt: "2026-02-15",
+    updatedAt: "2025-06-19",
     readTime: 9,
+    viewCount: 26166,
     tags: ["병원 마케팅", "브랜드 컨설팅"],
     sections: [
       { heading: "수지구 성형외과 시장 기회", content: "용인 수지구는 분당과 인접한 고소득 주거지역으로 성형·미용 시술 수요가 높지만, 대부분의 주민이 강남까지 이동하고 있습니다. 수지구 내 성형외과 의원은 5개 미만으로, 강남 수준의 진료 퀄리티를 합리적 가격에 제공하면 강력한 경쟁 우위를 확보할 수 있습니다. 잠재 시장 규모가 매우 큽니다." },
@@ -6594,8 +6889,9 @@ export const guides: Guide[] = [
     title: "김해시 산부인과 개원 전략 가이드",
     description: "경남 김해시 산부인과 개원 가이드. 장유신도시·율하지구의 젊은 인구를 타겟으로 한 산후조리 연계 진료 전략을 제시합니다.",
     icon: "🤰",
-    updatedAt: "2026-02-10",
+    updatedAt: "2024-12-14",
     readTime: 8,
+    viewCount: 3430,
     tags: ["개원 컨설팅", "병원 마케팅"],
     sections: [
       { heading: "김해시 산부인과 수요 분석", content: "김해시 장유동은 부산·창원의 베드타운으로 3040 가족 인구가 밀집해 있으나, 산부인과 전문 의원이 현저히 부족합니다. 많은 임산부가 부산까지 이동하여 산전 검사와 분만을 진행하고 있어, 지역 내 산부인과 개원 시 높은 수요를 기대할 수 있습니다. 출산율은 전국 평균보다 높은 편입니다." },
@@ -6609,8 +6905,9 @@ export const guides: Guide[] = [
     title: "익산시 한의원 개원 마케팅 전략",
     description: "전북 익산시 한의원 개원 가이드. 고령 인구의 관절·통증 치료 수요와 원광대 한의대 인력을 활용한 전략을 제시합니다.",
     icon: "🌿",
-    updatedAt: "2026-02-05",
+    updatedAt: "2024-09-25",
     readTime: 7,
+    viewCount: 7031,
     tags: ["개원 컨설팅", "매출 성장"],
     sections: [
       { heading: "익산시 한방 의료 시장 분석", content: "익산시는 고령 인구 비율 22%로 전국 평균을 크게 웃돌며, 퇴행성 관절염·요통·신경통 등 근골격계 한방 치료 수요가 매우 높습니다. 원광대학교 한의과대학이 위치해 한의학 연구 인프라와 우수 인력 확보에 유리합니다. 현재 인구 대비 한의원 수가 충분하나, 전문 분야 특화 한의원은 부족합니다." },
@@ -6624,8 +6921,9 @@ export const guides: Guide[] = [
     title: "화성 동탄신도시 소아과 성장 전략",
     description: "화성시 동탄2신도시 소아청소년과의 폭발적 수요에 맞춘 성장 전략. 영유아 검진 특화와 야간 진료 확대 전략을 다룹니다.",
     icon: "🧒",
-    updatedAt: "2026-01-28",
+    updatedAt: "2025-06-12",
     readTime: 8,
+    viewCount: 10236,
     tags: ["매출 성장", "운영 & 교육"],
     sections: [
       { heading: "동탄2신도시 소아과 폭발적 수요", content: "동탄2신도시는 전국에서 영유아 인구 비율이 가장 높은 지역 중 하나로, 소아청소년과 대기 시간이 평균 1~2시간에 달할 정도로 수요가 공급을 압도합니다. 인구 12만 명당 소아과가 8개에 불과하여 추가 개원 여지가 충분합니다. 특히 동탄2신도시 남측 지역은 입주가 진행 중이어서 선점 효과가 큽니다." },
@@ -6639,8 +6937,9 @@ export const guides: Guide[] = [
     title: "광주광역시 북구 정신건강의학과 개원 전략",
     description: "광주 북구 정신건강의학과 개원 가이드. 대학가와 신도시 밀집 지역의 MZ세대 정신건강 수요를 공략하는 전략을 제시합니다.",
     icon: "🧠",
-    updatedAt: "2026-01-25",
+    updatedAt: "2024-07-13",
     readTime: 9,
+    viewCount: 3914,
     tags: ["개원 컨설팅", "브랜드 컨설팅"],
     sections: [
       { heading: "광주 북구 정신건강 수요 현황", content: "광주 북구는 전남대·조선대 등 대학가와 첨단지구·운암동 등 주거지가 혼재한 지역으로, 2030 MZ세대의 우울·불안 상담 수요가 급증하고 있습니다. 코로나19 이후 정신건강의학과 초진 환자가 40% 이상 증가했으나, 북구 내 전문 의원은 5개 미만으로 공급이 크게 부족합니다." },
@@ -6655,8 +6954,9 @@ export const guides: Guide[] = [
     title: "춘천시 스포츠의학 클리닉 개원 전략",
     description: "강원 춘천시 스포츠의학 전문 클리닉 개원 가이드. 레저 도시 특성을 활용한 운동손상 전문 클리닉 포지셔닝 전략입니다.",
     icon: "⛷️",
-    updatedAt: "2026-01-20",
+    updatedAt: "2025-02-09",
     readTime: 7,
+    viewCount: 5365,
     tags: ["개원 컨설팅", "브랜드 컨설팅"],
     sections: [
       { heading: "춘천 레저 인구와 스포츠의학 수요", content: "춘천시는 수상 스포츠, 스키, 등산, 자전거 등 레저 활동 인구가 연간 800만 명을 넘어서는 대표적인 레저 도시입니다. 주말 레저 활동 중 부상자가 지속적으로 발생하나, 스포츠의학 전문 클리닉이 전무하여 서울까지 이동하는 경우가 대부분입니다. 비급여 스포츠 재활 시장의 성장 잠재력이 큽니다." },
@@ -6670,8 +6970,9 @@ export const guides: Guide[] = [
     title: "고양시 일산 비뇨의학과 마케팅 전략",
     description: "고양시 일산서구·동구 비뇨의학과의 중년 남성 타겟 마케팅 전략. 전립선 검진 특화와 프라이버시 중심 브랜딩 가이드입니다.",
     icon: "🔬",
-    updatedAt: "2026-01-15",
+    updatedAt: "2025-09-07",
     readTime: 8,
+    viewCount: 561,
     tags: ["병원 마케팅", "매출 성장"],
     sections: [
       { heading: "일산 비뇨의학과 시장 분석", content: "고양시 일산 지역은 50대 이상 인구가 20만 명을 넘어서며, 전립선비대증·요실금·남성 갱년기 등 비뇨기과 수요가 꾸준히 증가하고 있습니다. 그러나 비뇨의학과 전문의원은 대형병원 외래를 제외하면 5개 미만으로, 전문 클리닉 개원 시 충분한 시장 기회가 있습니다." },
@@ -6685,8 +6986,9 @@ export const guides: Guide[] = [
     title: "구미시 산업보건 특화 클리닉 전략",
     description: "경북 구미시 산업단지 근로자 대상 산업보건 특화 클리닉 운영 전략. 특수건강검진과 직업병 관리를 중심으로 안정적 수익 모델을 제시합니다.",
     icon: "🏭",
-    updatedAt: "2026-01-10",
+    updatedAt: "2024-06-20",
     readTime: 8,
+    viewCount: 35068,
     tags: ["개원 컨설팅", "매출 성장"],
     sections: [
       { heading: "구미 산업단지 의료 수요 분석", content: "구미 국가산업단지에는 삼성전자·LG디스플레이 등 500개 이상의 기업과 10만 명 이상의 근로자가 종사하고 있습니다. 산업안전보건법상 특수건강검진 대상 근로자가 수만 명에 달하며, 유기용제·소음·분진 노출 근로자의 정기 검진과 직업병 관리 수요가 안정적으로 발생합니다." },
@@ -6700,8 +7002,9 @@ export const guides: Guide[] = [
     title: "세종시 치과 임플란트 마케팅 전략",
     description: "세종시 치과의 임플란트 매출 극대화 전략. 40~60대 공무원 타겟 프리미엄 임플란트 상담 프로세스와 마케팅 채널을 안내합니다.",
     icon: "🦷",
-    updatedAt: "2026-01-05",
+    updatedAt: "2025-10-25",
     readTime: 9,
+    viewCount: 3255,
     tags: ["병원 마케팅", "매출 성장"],
     sections: [
       { heading: "세종시 임플란트 시장 특성", content: "세종시는 중앙정부 이전으로 40~60대 공무원과 공공기관 종사자가 대거 유입된 도시입니다. 이 연령대는 임플란트 수요가 가장 높으며, 안정적 소득으로 프리미엄 시술에 대한 지불 의사가 높습니다. 현재 세종시 치과 수는 인구 대비 부족하여 임플란트 전문 마케팅을 강화하면 높은 수익을 기대할 수 있습니다." },
@@ -6716,8 +7019,9 @@ export const guides: Guide[] = [
     title: "남양주 별내·다산 클리닉 개원 전략",
     description: "남양주시 별내신도시·다산신도시의 폭발적 인구 증가에 맞춘 클리닉 개원 전략. 진료과목 선택과 입지 분석을 상세히 안내합니다.",
     icon: "🏙️",
-    updatedAt: "2025-12-28",
+    updatedAt: "2024-10-19",
     readTime: 8,
+    viewCount: 12216,
     tags: ["개원 컨설팅", "병원 마케팅"],
     sections: [
       { heading: "별내·다산 신도시 인구 폭발 현황", content: "남양주시 별내신도시와 다산신도시는 각각 5만, 10만 세대 규모로 수도권 최대 규모의 신도시입니다. 인구 유입이 지속 중이며, 특히 3040 맞벌이 가족 비율이 70% 이상으로 소아과·내과·치과·피부과 수요가 폭발적입니다. 의료 인프라가 수요를 따라가지 못해 개원 적기입니다." },
@@ -6731,8 +7035,9 @@ export const guides: Guide[] = [
     title: "전주 한옥마을 인근 웰니스 클리닉 전략",
     description: "전주 한옥마을 관광 인프라를 활용한 웰니스 클리닉 차별화 전략. 한방·피부 미용·건강검진을 결합한 관광 연계 의료 서비스를 제시합니다.",
     icon: "🏯",
-    updatedAt: "2025-12-22",
+    updatedAt: "2025-07-06",
     readTime: 8,
+    viewCount: 40868,
     tags: ["브랜드 컨설팅", "매출 성장"],
     sections: [
       { heading: "전주 한옥마을 관광 의료 기회", content: "전주 한옥마을은 연간 방문객 1,000만 명 이상의 국내 대표 관광지로, 관광과 결합한 웰니스 의료 서비스의 성장 가능성이 큽니다. 한옥 스타일 클리닉에서 한방 미용 시술과 프리미엄 건강검진을 제공하면 관광 경험의 일부로 의료 서비스를 이용하는 새로운 시장을 창출할 수 있습니다." },
@@ -6746,8 +7051,9 @@ export const guides: Guide[] = [
     title: "포천시 시니어 케어 전문 클리닉 전략",
     description: "경기 포천시의 초고령 사회에 대응하는 시니어 케어 전문 클리닉 운영 전략. 방문 진료와 만성질환 관리 중심의 수익 모델을 안내합니다.",
     icon: "👴",
-    updatedAt: "2025-12-18",
+    updatedAt: "2024-09-16",
     readTime: 7,
+    viewCount: 14971,
     tags: ["개원 컨설팅", "운영 & 교육"],
     sections: [
       { heading: "포천시 초고령 사회 의료 수요", content: "포천시는 65세 이상 고령 인구 비율이 25%를 넘어서는 초고령 지역으로, 고혈압·당뇨·관절염 등 만성질환 관리 수요가 매우 높습니다. 특히 농촌 지역 거주 어르신들은 의원 접근성이 낮아 방문 진료 서비스에 대한 니즈가 큽니다. 시니어 전문 클리닉은 안정적인 급여 매출을 확보할 수 있습니다." },
@@ -6761,8 +7067,9 @@ export const guides: Guide[] = [
     title: "아산시 척추 전문 센터 마케팅 전략",
     description: "충남 아산시 척추 전문 센터의 비수술 치료 중심 마케팅 전략. 현대자동차 근로자와 고령 인구를 동시에 공략하는 전략을 제시합니다.",
     icon: "🦴",
-    updatedAt: "2025-12-15",
+    updatedAt: "2024-02-26",
     readTime: 8,
+    viewCount: 7379,
     tags: ["병원 마케팅", "매출 성장"],
     sections: [
       { heading: "아산시 척추 질환 수요 분석", content: "아산시는 현대자동차 아산공장을 중심으로 제조업 근로자가 밀집해 있어 직업성 허리 질환이 많고, 고령 인구의 퇴행성 척추 질환 수요도 높습니다. 그러나 척추 전문 의원은 대형병원 외에 거의 없어, 비수술 척추 치료 전문 센터의 시장 기회가 큽니다. 아산시 환자의 상당수가 천안이나 서울까지 이동하고 있습니다." },
@@ -6776,8 +7083,9 @@ export const guides: Guide[] = [
     title: "하남 미사신도시 피부과 브랜딩 전략",
     description: "하남시 미사강변도시의 젊은 인구를 타겟으로 한 피부과 브랜딩 및 마케팅 전략. SNS 중심 마케팅과 프리미엄 서비스 차별화를 안내합니다.",
     icon: "💎",
-    updatedAt: "2025-12-10",
+    updatedAt: "2025-02-14",
     readTime: 9,
+    viewCount: 599,
     tags: ["브랜드 컨설팅", "병원 마케팅"],
     sections: [
       { heading: "미사신도시 피부과 시장 기회", content: "하남 미사강변도시는 2030 젊은 가족과 직장인이 밀집한 신도시로, 피부 미용 시술 수요가 폭발적으로 증가하고 있습니다. 현재 피부과 의원이 5개 미만으로 수요 대비 공급이 부족하며, 강남까지 시술 받으러 가는 주민이 많습니다. 미사역·하남시청역 역세권에 개원하면 높은 접근성을 확보할 수 있습니다." },
@@ -6791,8 +7099,9 @@ export const guides: Guide[] = [
     title: "김천시 일반의원 개원 및 운영 전략",
     description: "경북 김천시의 중소도시 의원 개원 전략. 인구 감소 지역에서도 안정적 수익을 확보하는 운영 모델과 지역 밀착 마케팅을 안내합니다.",
     icon: "🏘️",
-    updatedAt: "2025-12-05",
+    updatedAt: "2025-03-02",
     readTime: 7,
+    viewCount: 13349,
     tags: ["개원 컨설팅", "운영 & 교육"],
     sections: [
       { heading: "김천시 의료 시장 현실 분석", content: "김천시는 인구 14만 명의 중소도시로 인구 감소 추세이나, KTX 김천구미역 개통과 혁신도시 조성으로 일부 인구 유입이 발생하고 있습니다. 대형병원이 없어 1차 의원의 역할이 중요하며, 고령 인구의 만성질환 관리와 혁신도시 직장인의 건강검진 수요가 주요 시장입니다." },
@@ -6806,8 +7115,9 @@ export const guides: Guide[] = [
     title: "동탄 교정 치과 매출 성장 전략",
     description: "화성 동탄신도시 교정 전문 치과의 매출 성장 전략. 학생·직장인 타겟 투명교정 마케팅과 장기 치료 환자 관리 시스템을 안내합니다.",
     icon: "😁",
-    updatedAt: "2025-11-28",
+    updatedAt: "2025-02-23",
     readTime: 8,
+    viewCount: 16716,
     tags: ["매출 성장", "병원 마케팅"],
     sections: [
       { heading: "동탄 교정 치과 시장 현황", content: "동탄신도시는 10~30대 교정 수요층이 풍부한 지역으로, 학생 교정과 성인 투명교정 수요가 동시에 높습니다. 현재 동탄 내 교정 전문 치과는 10개 미만으로, 인구 대비 공급이 부족합니다. 교정 치료는 평균 치료 기간 18~24개월로 장기 환자를 확보하면 안정적 매출이 보장됩니다." },
@@ -6821,8 +7131,9 @@ export const guides: Guide[] = [
     title: "경주시 관광 연계 건강검진센터 전략",
     description: "경주 관광 인프라를 활용한 건강검진센터 운영 전략. 문화유산 관광과 프리미엄 건강검진을 결합한 차별화 모델을 제시합니다.",
     icon: "🏛️",
-    updatedAt: "2025-11-25",
+    updatedAt: "2024-08-08",
     readTime: 7,
+    viewCount: 3087,
     tags: ["브랜드 컨설팅", "매출 성장"],
     sections: [
       { heading: "경주 관광 의료 융합 기회", content: "경주시는 연간 관광객 2,000만 명이 방문하는 한국 대표 문화 관광 도시입니다. 50~60대 단체 관광객과 기업 연수 방문자가 많아 관광 일정에 건강검진을 포함하는 패키지 수요가 있습니다. 경주 보문관광단지 인근에 프리미엄 검진센터를 운영하면 관광과 건강관리를 결합한 새로운 시장을 개척할 수 있습니다." },
@@ -6836,8 +7147,9 @@ export const guides: Guide[] = [
     title: "시흥 월곶·배곧신도시 클리닉 개원 전략",
     description: "시흥시 월곶·배곧신도시의 급성장 지역에 맞춘 클리닉 개원 가이드. 서울대 시흥캠퍼스 효과와 신안산선 개통을 활용한 전략입니다.",
     icon: "🌊",
-    updatedAt: "2025-11-20",
+    updatedAt: "2025-05-29",
     readTime: 8,
+    viewCount: 1601,
     tags: ["개원 컨설팅", "병원 마케팅"],
     sections: [
       { heading: "시흥 배곧신도시 성장 동향", content: "배곧신도시는 서울대 시흥캠퍼스 건립과 신안산선 개통이 예정되어 인구 유입이 가속화되고 있는 수도권 서남부 핵심 성장 지역입니다. 현재 인구 7만 명에서 최종 12만 명까지 증가가 예상되며, 3040 젊은 가족 비율이 높아 소아과·내과·치과 수요가 지속 증가하고 있습니다." },
@@ -6851,8 +7163,9 @@ export const guides: Guide[] = [
     title: "양주시 옥정신도시 가족 클리닉 전략",
     description: "경기 양주시 옥정신도시의 대규모 입주에 맞춘 가족 클리닉 개원 전략. 내과·소아과 통합 진료와 가족 건강관리 서비스를 안내합니다.",
     icon: "👨‍👩‍👧‍👦",
-    updatedAt: "2025-11-15",
+    updatedAt: "2024-11-06",
     readTime: 7,
+    viewCount: 3536,
     tags: ["개원 컨설팅", "운영 & 교육"],
     sections: [
       { heading: "옥정신도시 가족 인구 현황", content: "양주시 옥정신도시는 10만 세대 규모의 대규모 택지지구로, 현재도 입주가 진행 중입니다. 3040 맞벌이 가족이 주요 인구 구성으로 부모와 자녀가 함께 진료받을 수 있는 가족 클리닉 수요가 높습니다. 의료 인프라가 현저히 부족하여 거의 모든 진료과에서 개원 기회가 있습니다." },
@@ -6866,8 +7179,9 @@ export const guides: Guide[] = [
     title: "대전 유성구 안티에이징 클리닉 전략",
     description: "대전 유성구 연구단지 인근 안티에이징 전문 클리닉 전략. 고소득 연구원·교수 타겟의 프리미엄 항노화 서비스 포지셔닝을 안내합니다.",
     icon: "⏳",
-    updatedAt: "2025-11-10",
+    updatedAt: "2025-03-07",
     readTime: 9,
+    viewCount: 821,
     tags: ["브랜드 컨설팅", "매출 성장"],
     sections: [
       { heading: "유성구 프리미엄 의료 시장 특성", content: "대전 유성구는 대덕연구단지·KAIST·충남대 등이 밀집한 고학력·고소득 지역으로, 건강과 삶의 질에 대한 관심이 매우 높습니다. 40~60대 연구원·교수층은 과학적 근거 기반의 항노화 치료에 높은 관심과 지불 의사를 보이며, 프리미엄 안티에이징 클리닉의 핵심 고객층입니다." },
@@ -6881,8 +7195,9 @@ export const guides: Guide[] = [
     title: "인천 송도 디지털 헬스케어 클리닉 전략",
     description: "인천 송도국제도시의 IT 인프라를 활용한 디지털 헬스케어 클리닉 운영 전략. 비대면 진료와 AI 건강관리 서비스 융합 모델을 제시합니다.",
     icon: "💻",
-    updatedAt: "2025-11-05",
+    updatedAt: "2025-02-08",
     readTime: 9,
+    viewCount: 3999,
     tags: ["브랜드 컨설팅", "개편 컨설팅"],
     sections: [
       { heading: "송도 디지털 헬스케어 시장 환경", content: "송도국제도시는 IT 기업과 바이오 기업이 밀집한 스마트시티로, 디지털 헬스케어에 대한 수용도가 매우 높습니다. 30~40대 IT 직장인이 주요 거주 인구로, 비대면 진료·AI 건강 분석·웨어러블 연동 등 첨단 의료 서비스에 대한 기대치가 높습니다. 전통적 병원 모델보다 디지털 퍼스트 접근이 유리합니다." },
@@ -6897,8 +7212,9 @@ export const guides: Guide[] = [
     title: "속초·강릉 시즌 변동 클리닉 운영 전략",
     description: "강원 속초·강릉 관광 도시의 계절별 환자 수요 변동에 대응하는 클리닉 운영 전략. 관광 시즌과 비수기의 매출 균형 전략을 제시합니다.",
     icon: "🏖️",
-    updatedAt: "2025-10-28",
+    updatedAt: "2024-05-04",
     readTime: 7,
+    viewCount: 849,
     tags: ["운영 & 교육", "매출 성장"],
     sections: [
       { heading: "속초·강릉 시즌별 수요 패턴 분석", content: "속초·강릉은 여름 해수욕·겨울 스키 시즌에 관광객이 폭증하여 외상·일광화상·동상·감기 등 급성 진료 수요가 크게 증가합니다. 반면 봄·가을 비수기에는 지역 주민 위주의 일반 진료만 발생합니다. 이런 계절 변동이 큰 환경에서 연간 매출을 안정화하는 운영 전략이 필수입니다." },
@@ -6912,8 +7228,9 @@ export const guides: Guide[] = [
     title: "김제시 농촌 의원 지속가능 운영 전략",
     description: "전북 김제시 농촌 지역 의원의 지속가능한 운영 전략. 인구 감소 환경에서 수익성을 유지하면서 지역사회에 기여하는 운영 모델을 제시합니다.",
     icon: "🌾",
-    updatedAt: "2025-10-22",
+    updatedAt: "2026-02-20",
     readTime: 7,
+    viewCount: 54969,
     tags: ["운영 & 교육", "개원 컨설팅"],
     sections: [
       { heading: "김제시 농촌 의료 현실", content: "김제시는 인구 8만 명의 농촌 도시로 고령 인구 비율 30% 이상의 초고령 사회입니다. 젊은 의사의 농촌 기피로 의원 수가 지속 감소하고 있으나, 역설적으로 남아 있는 의원의 독점적 환자 확보가 가능합니다. 정부의 농촌 의료 지원 사업과 연계하면 추가 수익원을 확보할 수 있습니다." },
@@ -6927,8 +7244,9 @@ export const guides: Guide[] = [
     title: "판교 테크노밸리 직장인 클리닉 전략",
     description: "성남시 판교 테크노밸리 IT 직장인 타겟 클리닉 운영 전략. 점심시간·야간 진료와 디지털 마케팅 중심의 성장 전략을 안내합니다.",
     icon: "🖥️",
-    updatedAt: "2025-10-18",
+    updatedAt: "2024-06-01",
     readTime: 8,
+    viewCount: 2395,
     tags: ["병원 마케팅", "매출 성장"],
     sections: [
       { heading: "판교 테크노밸리 직장인 의료 수요", content: "판교 테크노밸리에는 카카오·네이버·엔씨소프트 등 IT기업 직원 10만 명 이상이 근무하고 있습니다. 장시간 컴퓨터 작업으로 인한 안구건조증·거북목·손목터널증후군 등 직업성 질환이 많고, 점심시간이나 퇴근 후 빠르게 진료받기를 원합니다. 대기시간 최소화가 핵심 경쟁력입니다." },
@@ -6942,8 +7260,9 @@ export const guides: Guide[] = [
     title: "부천시 종합 의원 매출 성장 전략",
     description: "부천시 인구 밀집 지역의 종합 의원 매출 성장 전략. 중동·상동·원미구 상권별 특성을 고려한 진료과목 확대와 비급여 매출 강화 전략입니다.",
     icon: "📊",
-    updatedAt: "2025-10-15",
+    updatedAt: "2025-04-09",
     readTime: 8,
+    viewCount: 27264,
     tags: ["매출 성장", "개편 컨설팅"],
     sections: [
       { heading: "부천시 의원 경쟁 현황 분석", content: "부천시는 인구 83만 명의 대도시로 의원 밀집도가 높아 치열한 경쟁 환경입니다. 중동역·상동역·부천역 상권에 의원이 집중되어 있으며, 소사·원미 외곽 지역은 상대적으로 경쟁이 낮습니다. 기존 의원의 매출 성장을 위해서는 진료 범위 확대와 비급여 서비스 강화가 필수적입니다." },
@@ -6957,8 +7276,9 @@ export const guides: Guide[] = [
     title: "나주 혁신도시 클리닉 개원 전략",
     description: "전남 나주 혁신도시의 공공기관 이전 인구를 타겟으로 한 클리닉 개원 전략. 한전·농식품부 직원과 가족의 의료 수요를 분석합니다.",
     icon: "⚡",
-    updatedAt: "2025-10-10",
+    updatedAt: "2025-12-22",
     readTime: 7,
+    viewCount: 707,
     tags: ["개원 컨설팅", "병원 마케팅"],
     sections: [
       { heading: "나주 혁신도시 인구 유입 현황", content: "나주 혁신도시에는 한국전력공사·한국농수산식품유통공사 등 16개 공공기관이 이전하여 2만 명 이상의 신규 인구가 유입되었습니다. 대부분 3050 가족 단위로, 안정적 소득의 공무원·공기업 직원들입니다. 의료 인프라는 매우 부족하여 광주까지 30분 이상 이동하여 진료받는 주민이 대다수입니다." },
@@ -6972,8 +7292,9 @@ export const guides: Guide[] = [
     title: "제주 서귀포시 노인전문 클리닉 전략",
     description: "서귀포시 고령 인구를 위한 노인전문 클리닉 운영 전략. 요양 연계 진료와 방문 의료 서비스를 중심으로 안정적 수익 모델을 안내합니다.",
     icon: "🍊",
-    updatedAt: "2025-10-05",
+    updatedAt: "2026-02-21",
     readTime: 7,
+    viewCount: 7456,
     tags: ["개원 컨설팅", "운영 & 교육"],
     sections: [
       { heading: "서귀포시 고령 의료 수요 분석", content: "서귀포시는 65세 이상 인구 비율이 28%에 달하는 초고령 지역입니다. 관절염·치매·뇌혈관질환·호흡기질환 등 노인성 질환의 진료 수요가 높으나, 전문 의료기관이 부족하여 제주시나 육지까지 이동하는 환자가 많습니다. 노인전문 클리닉은 안정적인 급여 매출을 기반으로 수익을 확보할 수 있습니다." },
@@ -6987,8 +7308,9 @@ export const guides: Guide[] = [
     title: "광양시 산업 건강 클리닉 개원 전략",
     description: "전남 광양시 포스코 제철소 인근 산업 건강 클리닉 전략. 중공업 근로자의 직업병 예방과 건강검진을 중심으로 한 수익 모델을 안내합니다.",
     icon: "🔧",
-    updatedAt: "2025-09-28",
+    updatedAt: "2026-03-29",
     readTime: 8,
+    viewCount: 16807,
     tags: ["개원 컨설팅", "매출 성장"],
     sections: [
       { heading: "광양시 산업 의료 수요 현황", content: "광양시는 포스코 광양제철소를 중심으로 중화학공업 근로자 3만 명 이상이 종사하고 있습니다. 고온·분진·소음·유해화학물질 노출 근로자의 특수건강검진과 직업병 예방 수요가 매우 높습니다. 그러나 산업보건 전문 클리닉이 부족하여 순천이나 여수까지 이동하는 경우가 많습니다." },
@@ -7002,8 +7324,9 @@ export const guides: Guide[] = [
     title: "세종 정부세종청사 직장인 웰니스 전략",
     description: "정부세종청사 공무원 대상 웰니스 클리닉 운영 전략. 직무 스트레스 관리와 건강검진을 결합한 공무원 특화 의료 서비스를 안내합니다.",
     icon: "🏛️",
-    updatedAt: "2025-09-22",
+    updatedAt: "2024-01-01",
     readTime: 8,
+    viewCount: 876,
     tags: ["매출 성장", "브랜드 컨설팅"],
     sections: [
       { heading: "정부세종청사 직장인 건강 이슈", content: "정부세종청사에는 18개 중앙행정기관 공무원 1만 5천 명 이상이 근무하고 있습니다. 장시간 사무 업무로 인한 근골격계 질환, 직무 스트레스로 인한 불면·불안·우울, KTX 통근으로 인한 피로 누적 등이 주요 건강 이슈입니다. 이러한 수요에 맞춘 웰니스 클리닉의 시장 기회가 큽니다." },
@@ -7017,8 +7340,9 @@ export const guides: Guide[] = [
     title: "김포 한강신도시 치과 차별화 전략",
     description: "김포 한강신도시 치과의 차별화 마케팅 전략. 치과 과밀 지역에서 살아남기 위한 전문 분야 특화와 환자 경험 혁신 전략을 안내합니다.",
     icon: "🪥",
-    updatedAt: "2025-09-18",
+    updatedAt: "2024-11-03",
     readTime: 8,
+    viewCount: 13769,
     tags: ["병원 마케팅", "개편 컨설팅"],
     sections: [
       { heading: "김포 한강신도시 치과 과밀 현황", content: "김포 한강신도시에는 치과 의원이 30개 이상 밀집하여 경쟁이 매우 치열합니다. 일반 치과 진료만으로는 차별화가 어렵고, 가격 경쟁에 빠지면 수익성이 급격히 하락합니다. 생존과 성장을 위해서는 명확한 전문 분야 특화와 환자 경험 혁신이 필수입니다." },
@@ -7032,8 +7356,9 @@ export const guides: Guide[] = [
     title: "청주 오송생명과학단지 인근 클리닉 전략",
     description: "충북 청주 오송생명과학단지 인근 클리닉 개원 전략. 바이오 산업 종사자와 연구원 타겟의 특화 의료 서비스 포지셔닝을 안내합니다.",
     icon: "🧬",
-    updatedAt: "2025-09-12",
+    updatedAt: "2025-01-24",
     readTime: 8,
+    viewCount: 4450,
     tags: ["개원 컨설팅", "브랜드 컨설팅"],
     sections: [
       { heading: "오송 바이오밸리 인구 특성 분석", content: "오송생명과학단지에는 식약처·질병관리청·한국바이오의약품협회 등 정부기관과 200개 이상의 바이오 기업이 입주해 있습니다. 고학력 연구원과 공무원이 주요 인구로, 과학적 근거 기반 진료를 중시하고 건강 관리에 대한 관심이 높습니다. KTX 오송역 주변 개발이 진행 중이어서 인구 유입이 가속화되고 있습니다." },
@@ -7047,8 +7372,9 @@ export const guides: Guide[] = [
     title: "오산시 역세권 빠른 진료 클리닉 전략",
     description: "오산시 오산역·세마역 역세권의 빠른 진료 전문 클리닉 전략. 삼성전자 공장 교대 근무자와 통근자를 위한 시간 효율적 진료 모델을 안내합니다.",
     icon: "⚡",
-    updatedAt: "2025-09-08",
+    updatedAt: "2024-07-25",
     readTime: 7,
+    viewCount: 15111,
     tags: ["개원 컨설팅", "운영 & 교육"],
     sections: [
       { heading: "오산시 직장인 의료 접근성 이슈", content: "오산시는 삼성전자 화성·평택 캠퍼스 출퇴근 인구가 많고, SRT 오산역을 이용하는 서울 통근자도 상당합니다. 교대 근무자는 일반 진료 시간에 병원 방문이 어렵고, 통근자는 퇴근 후 빠르게 진료받고 싶어합니다. 대기시간을 극도로 줄인 '빠른 진료' 클리닉의 수요가 높습니다." },
@@ -7062,8 +7388,9 @@ export const guides: Guide[] = [
     title: "통영시 섬 주민 의료 서비스 확장 전략",
     description: "경남 통영시 섬 지역 의료 취약지 서비스 확장 전략. 도서 지역 방문 진료와 원격 의료를 결합한 의료 접근성 향상 모델을 제시합니다.",
     icon: "🚢",
-    updatedAt: "2025-09-05",
+    updatedAt: "2025-01-07",
     readTime: 7,
+    viewCount: 43333,
     tags: ["운영 & 교육", "개원 컨설팅"],
     sections: [
       { heading: "통영 도서 지역 의료 현실", content: "통영시에는 41개의 유인도가 있으며, 섬 주민 대부분이 고령 인구입니다. 도서 지역에는 의원이 전무하여 진료를 위해 배를 타고 통영 시내까지 나와야 하는 상황입니다. 겨울철 풍랑으로 배편이 끊기면 의료 접근이 완전히 차단되는 심각한 문제가 있습니다." },
@@ -7077,8 +7404,9 @@ export const guides: Guide[] = [
     title: "안양 만안구 미용 클리닉 성장 전략",
     description: "안양시 만안구 미용 클리닉의 매출 성장 전략. 안양역 상권을 중심으로 한 피부·미용 시술 전문 클리닉 마케팅 가이드입니다.",
     icon: "💄",
-    updatedAt: "2025-08-28",
+    updatedAt: "2024-10-15",
     readTime: 8,
+    viewCount: 1893,
     tags: ["매출 성장", "병원 마케팅"],
     sections: [
       { heading: "안양 만안구 미용 시술 시장 분석", content: "안양시 만안구는 안양역·명학역 상권을 중심으로 2040 여성 직장인과 주부가 밀집한 지역입니다. 강남 대비 합리적 가격의 미용 시술 수요가 높으나, 피부과·성형외과 의원이 부족하여 분당이나 강남까지 이동하는 소비자가 많습니다. 지역 내 미용 클리닉 개원 시 높은 수요를 기대할 수 있습니다." },
@@ -7092,8 +7420,9 @@ export const guides: Guide[] = [
     title: "당진시 현대제철 인근 건강 클리닉 전략",
     description: "충남 당진시 현대제철·현대글로비스 근로자 대상 건강 클리닉 운영 전략. 산업 근로자 특화 건강검진과 직업병 예방 서비스를 안내합니다.",
     icon: "🏗️",
-    updatedAt: "2025-08-22",
+    updatedAt: "2025-10-20",
     readTime: 7,
+    viewCount: 16018,
     tags: ["개원 컨설팅", "매출 성장"],
     sections: [
       { heading: "당진시 산업 인구 의료 수요", content: "당진시는 현대제철·현대글로비스·동부제철 등 철강·물류 기업이 밀집한 산업 도시로, 제조업 근로자 2만 명 이상이 종사하고 있습니다. 중공업 특유의 고온·분진·소음·중량물 취급 환경에서 근로자 건강 관리 수요가 높으며, 특수건강검진 의무 대상자가 수천 명에 달합니다." },
@@ -7107,8 +7436,9 @@ export const guides: Guide[] = [
     title: "서울 광진구 구의동 재활의학과 성장 전략",
     description: "서울 광진구 구의역·건대입구역 인근 재활의학과의 매출 성장 전략. 직장인·대학생·시니어 3대 타겟별 맞춤 서비스 설계를 안내합니다.",
     icon: "🏋️",
-    updatedAt: "2025-08-18",
+    updatedAt: "2025-07-25",
     readTime: 9,
+    viewCount: 23092,
     tags: ["매출 성장", "병원 마케팅"],
     sections: [
       { heading: "광진구 재활의학과 시장 현황", content: "서울 광진구는 구의·자양동 직장인, 건국대·세종대 대학생, 중곡·광장동 시니어가 혼재한 지역으로 재활의학과 수요가 다양합니다. 구의역~건대입구역 상권에 재활의학과 의원이 10개 이상이지만, 전문 분야 특화 없이 유사한 서비스를 제공하여 차별화 기회가 있습니다." },
@@ -7123,8 +7453,9 @@ export const guides: Guide[] = [
     title: "양산시 부산 메트로권 클리닉 개원 전략",
     description: "양산시 물금·증산 신도시의 부산 메트로권 클리닉 개원 전략. 부산 출퇴근 인구를 위한 의료 서비스 포지셔닝과 입지 분석을 안내합니다.",
     icon: "🚇",
-    updatedAt: "2025-08-12",
+    updatedAt: "2026-03-07",
     readTime: 8,
+    viewCount: 37003,
     tags: ["개원 컨설팅", "병원 마케팅"],
     sections: [
       { heading: "양산 물금·증산 신도시 의료 수요", content: "양산시 물금·증산 신도시는 부산 도시철도 2호선 연장으로 부산 중심부까지 30분 내 접근이 가능한 부산 메트로권 핵심 베드타운입니다. 인구 15만 명의 대규모 신도시이나 의료 인프라가 부산 대비 현저히 부족하여, 많은 주민이 부산까지 이동하여 진료받고 있습니다." },
@@ -7138,8 +7469,9 @@ export const guides: Guide[] = [
     title: "김해 공항 인근 알레르기 클리닉 전략",
     description: "김해국제공항 인근 알레르기 전문 클리닉 운영 전략. 항공사 승무원·공항 근무자와 김해 주민의 알레르기 질환 특화 서비스를 안내합니다.",
     icon: "✈️",
-    updatedAt: "2025-08-05",
+    updatedAt: "2024-11-10",
     readTime: 7,
+    viewCount: 12089,
     tags: ["개원 컨설팅", "브랜드 컨설팅"],
     sections: [
       { heading: "김해 공항권 알레르기 진료 수요", content: "김해국제공항 인근에는 항공사 승무원·조종사·공항 근무자 수천 명이 거주하며, 기내 건조한 환경과 시차 변화로 인한 알레르기성 비염·피부염 유병률이 일반인 대비 높습니다. 김해시 전체적으로도 낙동강 습지 환경 영향으로 알레르기 환자가 많으나, 전문 알레르기 클리닉은 부재한 상황입니다." },
@@ -7153,8 +7485,9 @@ export const guides: Guide[] = [
     title: "세종시 멀티동 소아치과 개원 전략",
     description: "세종시 다정동·반곡동 등 신규 생활권의 소아치과 개원 전략. 영유아·어린이 치과 공포증 관리와 부모 교육 중심의 차별화 모델을 안내합니다.",
     icon: "🧸",
-    updatedAt: "2025-07-28",
+    updatedAt: "2024-04-16",
     readTime: 8,
+    viewCount: 7420,
     tags: ["개원 컨설팅", "병원 마케팅"],
     sections: [
       { heading: "세종시 소아치과 공급 부족 현황", content: "세종시는 0~12세 아동 인구가 전국 최고 수준이나, 소아치과 전문 의원은 3개 미만으로 극심한 공급 부족 상태입니다. 대부분의 부모가 대전까지 소아치과를 다니고 있으며, 특히 다정동·반곡동·나성동 등 신규 생활권에는 소아치과가 전무합니다. 개원 즉시 높은 환자 유입이 예상됩니다." },
@@ -7169,8 +7502,9 @@ export const guides: Guide[] = [
     title: "병원 손익분석 실전 가이드",
     description: "병원 경영에서 가장 기본이 되는 손익분석 방법론을 다룹니다. 월별 매출과 비용 구조를 체계적으로 분석하여 수익성 개선 포인트를 도출하는 실전 가이드입니다.",
     icon: "💰",
-    updatedAt: "2026-03-15",
+    updatedAt: "2026-04-01",
     readTime: 11,
+    viewCount: 37368,
     tags: ["매출 성장", "개편 컨설팅"],
     sections: [
       { heading: "1. 병원 손익계산서 기본 구조 이해", content: "병원 손익계산서는 일반 기업과 다른 구조를 가집니다. 급여 수입, 비급여 수입, 기타 수입으로 매출을 구분하고 인건비, 임차료, 재료비, 감가상각비, 마케팅비 등으로 비용을 분류합니다. 특히 인건비 비율이 전체 매출의 40~55%를 차지하므로 인건비 대비 생산성 분석이 핵심입니다. 건강보험 청구 데이터와 EMR 데이터를 연계하여 진료과목별 수익성을 정밀하게 분석하는 것이 중요합니다." },
@@ -7185,8 +7519,9 @@ export const guides: Guide[] = [
     title: "의료장비 리스 vs 구매 비교 분석",
     description: "고가 의료장비 도입 시 리스와 구매 중 어떤 방식이 유리한지 재무적으로 비교 분석합니다. 세금 효과, 현금흐름, 감가상각 등 종합적 판단 기준을 제시합니다.",
     icon: "🔬",
-    updatedAt: "2026-03-18",
+    updatedAt: "2025-02-06",
     readTime: 9,
+    viewCount: 8069,
     tags: ["개원 컨설팅", "개편 컨설팅"],
     sections: [
       { heading: "1. 의료장비 도입의 재무적 판단 기준", content: "의료장비 도입은 병원 경영에서 가장 큰 투자 결정 중 하나입니다. CT, MRI, 초음파 등 고가 장비의 경우 수억 원의 자금이 필요하므로 단순 가격 비교가 아닌 총소유비용(TCO) 관점에서 분석해야 합니다. 장비 수명, 유지보수비, 세금 효과, 기회비용을 모두 고려한 순현재가치(NPV) 분석이 필수입니다. 장비별 예상 진료 건수와 건당 수익을 추정하여 투자 회수 기간도 산출하세요." },
@@ -7200,8 +7535,9 @@ export const guides: Guide[] = [
     title: "건강보험 청구 최적화 전략",
     description: "건강보험 청구 과정에서 누락되기 쉬운 항목과 삭감을 줄이는 방법을 다룹니다. 심평원 기준에 맞춘 정확한 청구로 급여 수입을 극대화하는 전략입니다.",
     icon: "📋",
-    updatedAt: "2026-03-20",
+    updatedAt: "2024-12-07",
     readTime: 10,
+    viewCount: 26558,
     tags: ["매출 성장", "운영 & 교육"],
     sections: [
       { heading: "1. 건강보험 청구의 기본 구조", content: "건강보험 청구는 진료행위별 수가체계를 기반으로 합니다. 기본진찰료, 검사료, 처치료, 투약료 등 각 항목의 수가와 산정 기준을 정확히 이해해야 합니다. 심사평가원은 진료 내역의 적정성을 심사하므로 의학적 필요성이 인정되는 범위 내에서 청구해야 합니다. 청구 소프트웨어의 자동 산정 기능에만 의존하지 말고 수가 체계의 변경 사항을 주기적으로 확인하세요." },
@@ -7215,8 +7551,9 @@ export const guides: Guide[] = [
     title: "병원 폐업 절차와 비용 총정리",
     description: "부득이하게 병원을 폐업해야 할 때 필요한 법적 절차, 비용, 세무 처리 사항을 상세히 안내합니다. 최소 비용으로 깔끔하게 정리하는 방법을 다룹니다.",
     icon: "🔒",
-    updatedAt: "2026-03-22",
+    updatedAt: "2025-03-20",
     readTime: 8,
+    viewCount: 93673,
     tags: ["개편 컨설팅", "운영 & 교육"],
     sections: [
       { heading: "1. 폐업 결정 전 검토 사항", content: "병원 폐업은 최후의 수단입니다. 폐업을 결정하기 전 경영 개선, 진료과목 전환, 양도·양수, 법인 전환 등 대안을 먼저 검토하세요. 임대차 계약 잔여 기간, 장비 리스 잔여금, 직원 퇴직금 등 폐업에 따르는 비용을 사전에 산출하여 폐업 비용과 운영 지속 비용을 비교 분석해야 합니다. 전문 컨설턴트와 세무사의 사전 상담이 필수적입니다." },
@@ -7230,8 +7567,9 @@ export const guides: Guide[] = [
     title: "병원 양도를 위한 가치평가 방법",
     description: "병원을 매각하거나 양도할 때 적정 가치를 산정하는 방법을 알려드립니다. 수익가치법, 자산가치법 등 다양한 평가 방법론과 실전 협상 포인트를 제시합니다.",
     icon: "🏦",
-    updatedAt: "2026-03-25",
+    updatedAt: "2026-03-17",
     readTime: 12,
+    viewCount: 2431,
     tags: ["개편 컨설팅", "매출 성장"],
     sections: [
       { heading: "1. 병원 가치평가가 필요한 상황", content: "병원 가치평가는 양도·양수, 합병, 법인 전환, 상속·증여, 투자 유치 시 필요합니다. 정확한 가치평가 없이 거래하면 매도인은 손해를, 매수인은 과대 투자를 하게 됩니다. 병원의 가치는 단순 자산 합산이 아니라 영업권(굿윌), 환자 데이터베이스, 의료진 역량, 입지 가치 등 무형 자산까지 포괄적으로 평가해야 합니다." },
@@ -7246,8 +7584,9 @@ export const guides: Guide[] = [
     title: "병원 노동법 준수 가이드",
     description: "병원 운영에서 반드시 알아야 할 노동법 핵심 사항을 정리합니다. 근로계약, 근무시간, 퇴직금, 해고 절차 등 실무에서 자주 발생하는 노동 이슈와 대응 방법을 안내합니다.",
     icon: "⚖️",
-    updatedAt: "2026-03-28",
+    updatedAt: "2025-11-14",
     readTime: 10,
+    viewCount: 15112,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "1. 병원 근로계약서 필수 기재 사항", content: "모든 직원과 서면 근로계약서를 체결해야 합니다. 근로계약서에는 임금, 근로시간, 휴일, 연차, 업무 내용, 근무 장소를 필수로 기재합니다. 특히 병원은 교대근무, 야간근무, 주말근무가 빈번하므로 근로시간과 수당 계산 방법을 명확히 기재하세요. 수습 기간, 비밀유지 의무, 경업 금지 조항도 필요에 따라 포함합니다. 계약서 미교부 시 500만원 이하의 과태료가 부과됩니다." },
@@ -7261,8 +7600,9 @@ export const guides: Guide[] = [
     title: "병원 경영 KPI 대시보드 구축",
     description: "병원 경영 성과를 한눈에 파악할 수 있는 KPI 대시보드를 설계하고 운영하는 방법을 안내합니다. 핵심 지표 선정부터 데이터 수집, 시각화까지 실전 가이드입니다.",
     icon: "📊",
-    updatedAt: "2026-04-01",
+    updatedAt: "2024-09-13",
     readTime: 9,
+    viewCount: 72227,
     tags: ["매출 성장", "운영 & 교육"],
     sections: [
       { heading: "1. 병원 경영에 필요한 핵심 KPI", content: "병원 경영 대시보드에 반드시 포함해야 할 핵심 KPI는 일일 환자 수, 환자당 평균 매출, 신환 비율, 재방문율, 인건비 대비 매출 비율, 비급여 매출 비중, 건강보험 삭감률 등입니다. 이 지표들을 일별·주별·월별로 추적하면 경영 상태를 실시간으로 파악할 수 있습니다. 진료과목별, 의사별 생산성 지표도 함께 모니터링하면 더욱 정밀한 관리가 가능합니다." },
@@ -7276,8 +7616,9 @@ export const guides: Guide[] = [
     title: "병원 세금 공제 항목 체크리스트",
     description: "병원 운영 시 놓치기 쉬운 세금 공제 항목을 체크리스트로 정리합니다. 적법한 범위 내에서 세금 부담을 줄이는 실전 절세 전략을 제시합니다.",
     icon: "✅",
-    updatedAt: "2026-03-10",
+    updatedAt: "2024-05-16",
     readTime: 8,
+    viewCount: 2433,
     tags: ["매출 성장", "운영 & 교육"],
     sections: [
       { heading: "1. 필수 경비 인정 항목 총정리", content: "병원 운영에서 경비로 인정받을 수 있는 항목을 빠짐없이 챙기는 것이 절세의 기본입니다. 인건비, 임차료, 재료비, 감가상각비는 물론이고 학회 참석비, 의학 서적 구입비, 전문 자격 유지비, 직원 교육비도 경비로 인정됩니다. 업무용 차량 유지비, 통신비, 사무용품비 등 운영 관련 지출도 증빙을 갖추면 공제 가능합니다. 모든 지출에 대해 적격 증빙(세금계산서, 카드 영수증)을 확보하세요." },
@@ -7291,8 +7632,9 @@ export const guides: Guide[] = [
     title: "의료사고 배상책임보험 가이드",
     description: "의료사고 발생 시 법적·재무적 리스크를 최소화하기 위한 배상책임보험의 선택 기준과 가입 전략을 안내합니다. 보장 범위, 보험료 비교, 사고 대응 절차를 다룹니다.",
     icon: "🛡️",
-    updatedAt: "2026-03-12",
+    updatedAt: "2024-09-24",
     readTime: 9,
+    viewCount: 42499,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "1. 의료배상책임보험의 필요성", content: "의료사고는 어떤 병원에서도 발생할 수 있으며 한 건의 소송으로 수억 원의 배상금이 발생할 수 있습니다. 의료배상책임보험은 의료행위로 인한 환자의 신체적 손해에 대한 법적 배상 책임을 보장합니다. 보험 미가입 시 원장 개인 자산으로 배상해야 하므로 병원 경영 자체가 위험해질 수 있습니다. 개원과 동시에 보험 가입을 완료하고 보장 내용을 정확히 파악해 두세요." },
@@ -7306,8 +7648,9 @@ export const guides: Guide[] = [
     title: "병원 현금흐름 관리 실전 전략",
     description: "병원 경영에서 가장 중요한 현금흐름 관리 방법을 다룹니다. 건강보험 지급 주기에 맞춘 자금 계획과 운영 자금 확보 전략을 제시합니다.",
     icon: "💵",
-    updatedAt: "2026-03-14",
+    updatedAt: "2024-10-11",
     readTime: 10,
+    viewCount: 2703,
     tags: ["매출 성장", "개편 컨설팅"],
     sections: [
       { heading: "1. 병원 현금흐름의 특수성", content: "병원은 일반 사업체와 다른 현금흐름 구조를 가집니다. 건강보험 청구 후 실제 입금까지 45~60일이 소요되므로 매출 발생 시점과 현금 유입 시점에 상당한 차이가 있습니다. 비급여 수입은 즉시 현금화되지만 급여 수입은 지연됩니다. 인건비와 임차료 등 고정비는 매월 일정하게 지출되므로 현금 부족 사태를 예방하기 위한 체계적인 자금 관리가 필수적입니다." },
@@ -7321,8 +7664,9 @@ export const guides: Guide[] = [
     title: "병원 임대차 계약 협상 전략",
     description: "병원 개원이나 이전 시 임대차 계약에서 유리한 조건을 확보하는 협상 전략을 다룹니다. 임대료, 보증금, 계약 기간, 권리금 등 핵심 협상 포인트를 안내합니다.",
     icon: "🏢",
-    updatedAt: "2026-03-16",
+    updatedAt: "2025-01-25",
     readTime: 8,
+    viewCount: 4362,
     tags: ["개원 컨설팅", "매출 성장"],
     sections: [
       { heading: "1. 병원 임대차 계약의 특수성", content: "병원 임대차는 일반 상가 임대와 다른 특수한 고려사항이 있습니다. 의료법상 시설 기준 충족, 주차장 확보, 배수·전기 용량, 의료폐기물 처리 동선 등을 계약 전에 확인해야 합니다. 병원 인테리어에 수억 원이 투자되므로 최소 5년 이상의 장기 계약이 필요하며 재계약 조건도 사전에 협의하세요. 상가건물임대차보호법의 적용 범위를 확인하여 권리를 보호받으세요." },
@@ -7336,8 +7680,9 @@ export const guides: Guide[] = [
     title: "병원 부채 구조 조정 가이드",
     description: "과다 부채로 어려움을 겪는 병원의 재무 구조를 개선하는 방법을 안내합니다. 대출 재조정, 비용 구조 개선, 금융기관 협상 전략을 실전 중심으로 다룹니다.",
     icon: "📉",
-    updatedAt: "2026-03-08",
+    updatedAt: "2025-01-30",
     readTime: 11,
+    viewCount: 4546,
     tags: ["개편 컨설팅", "매출 성장"],
     sections: [
       { heading: "1. 병원 부채 현황 진단", content: "부채 구조 조정의 첫 단계는 정확한 현황 파악입니다. 모든 차입금을 금리, 만기, 상환 조건별로 정리하여 부채 현황표를 작성하세요. 운전 자금 대출, 장비 리스, 시설 투자 대출, 개인 보증 대출 등을 구분하고 각각의 월 상환액을 합산합니다. 부채비율(부채 총액 대비 자산 총액)과 이자보상배율(영업이익 대비 이자비용)을 계산하여 재무 건전성을 객관적으로 평가하세요." },
@@ -7351,8 +7696,9 @@ export const guides: Guide[] = [
     title: "공동 개원 동업 계약서 작성 가이드",
     description: "의사 2인 이상이 공동으로 개원할 때 필요한 동업 계약서 작성 요령을 안내합니다. 지분 배분, 이익 분배, 탈퇴 조건 등 분쟁 예방을 위한 핵심 조항을 다룹니다.",
     icon: "🤝",
-    updatedAt: "2026-03-05",
+    updatedAt: "2026-01-13",
     readTime: 10,
+    viewCount: 14551,
     tags: ["개원 컨설팅", "운영 & 교육"],
     sections: [
       { heading: "1. 공동 개원의 장단점 분석", content: "공동 개원은 초기 투자 부담을 분산하고 진료 범위를 넓힐 수 있는 장점이 있습니다. 여러 의사가 교대 진료를 하면 운영 시간을 확대하고 개인 워크-라이프 밸런스도 개선할 수 있습니다. 반면 의사결정 충돌, 수익 배분 갈등, 경영 방침 차이 등으로 분쟁이 발생할 위험이 있습니다. 동업을 시작하기 전 충분한 논의와 체계적인 계약서 작성이 반드시 선행되어야 합니다." },
@@ -7366,8 +7712,9 @@ export const guides: Guide[] = [
     title: "병원 직원 성과급 설계 가이드",
     description: "병원 직원의 동기부여와 생산성 향상을 위한 성과급 제도 설계 방법을 안내합니다. 직군별 KPI 설정, 보상 구조, 공정한 평가 시스템 구축 전략을 다룹니다.",
     icon: "🎯",
-    updatedAt: "2026-03-03",
+    updatedAt: "2024-09-07",
     readTime: 9,
+    viewCount: 16677,
     tags: ["운영 & 교육", "매출 성장"],
     sections: [
       { heading: "1. 성과급 제도의 필요성과 효과", content: "잘 설계된 성과급 제도는 직원 이직률을 낮추고 생산성을 높이는 가장 효과적인 방법입니다. 병원 직원의 평균 이직률은 연 20~30%에 달하며 이는 채용·교육 비용 증가와 서비스 품질 저하로 이어집니다. 성과급 도입 후 이직률이 10~15% 감소하고 환자 만족도가 상승한 사례가 다수 보고됩니다. 기본급과 성과급의 적정 비율을 설정하는 것이 제도 설계의 핵심입니다." },
@@ -7381,8 +7728,9 @@ export const guides: Guide[] = [
     title: "병원 가업 승계·상속 전략",
     description: "병원을 자녀에게 승계하거나 상속할 때 필요한 법적·세무적 전략을 다룹니다. 증여세·상속세 절감 방법과 안정적인 경영권 이전 절차를 안내합니다.",
     icon: "👨‍👧‍👦",
-    updatedAt: "2026-02-28",
+    updatedAt: "2024-06-30",
     readTime: 12,
+    viewCount: 18786,
     tags: ["개편 컨설팅", "운영 & 교육"],
     sections: [
       { heading: "1. 병원 승계의 유형과 시기", content: "병원 승계는 생전 증여, 사후 상속, 법인 전환 후 지분 이전 등 다양한 방법이 있습니다. 생전 증여는 병원 가치가 낮을 때 조기에 시작하는 것이 세금 부담을 줄이는 데 유리합니다. 자녀가 의사인 경우 경영 참여를 통한 점진적 승계가 가장 안정적이며 자녀가 비의료인인 경우 법인 전환 후 경영인을 별도로 선임하는 구조가 필요합니다." },
@@ -7396,8 +7744,9 @@ export const guides: Guide[] = [
     title: "병원 연간 운영 예산 수립 가이드",
     description: "병원의 연간 운영 예산을 체계적으로 수립하는 방법을 안내합니다. 매출 예측, 비용 계획, 투자 계획, 비상 예비금까지 포괄하는 실전 예산 수립 프레임워크를 제시합니다.",
     icon: "📝",
-    updatedAt: "2026-02-25",
+    updatedAt: "2026-02-11",
     readTime: 10,
+    viewCount: 11544,
     tags: ["매출 성장", "운영 & 교육"],
     sections: [
       { heading: "1. 매출 예측의 기본 방법론", content: "연간 매출 예측은 과거 3년간의 실적 데이터를 기반으로 합니다. 월별 환자 수 추이, 환자당 평균 매출, 급여·비급여 비율 변화를 분석하여 다음 해 매출을 추정합니다. 계절적 변동 요인, 신규 장비 도입에 따른 매출 증가, 경쟁 환경 변화 등을 반영하여 기본 시나리오와 낙관·비관 시나리오를 각각 수립하세요. 보수적 추정이 예산 관리에 더 안전합니다." },
@@ -7411,8 +7760,9 @@ export const guides: Guide[] = [
     title: "의료광고 규제와 합법 마케팅 가이드",
     description: "의료법상 의료광고 규제를 정확히 이해하고 합법적인 범위 내에서 효과적인 마케팅을 하는 방법을 안내합니다. 위반 사례와 대응 방법도 함께 다룹니다.",
     icon: "📢",
-    updatedAt: "2026-02-20",
+    updatedAt: "2025-07-18",
     readTime: 9,
+    viewCount: 45783,
     tags: ["병원 마케팅", "운영 & 교육"],
     sections: [
       { heading: "1. 의료광고 관련 법규 총정리", content: "의료광고는 의료법 제56조와 시행령에 의해 엄격히 규제됩니다. 치료 효과를 보장하는 표현, 비교 광고, 환자 추천 및 사례 소개, 할인 이벤트 광고 등이 금지됩니다. 2024년부터 SNS와 블로그 게시물도 의료광고로 간주되어 규제 대상이 됩니다. 광고 심의를 받지 않은 의료광고를 게재하면 시정 명령, 과태료, 심하면 면허 정지 처분까지 받을 수 있습니다." },
@@ -7426,8 +7776,9 @@ export const guides: Guide[] = [
     title: "병원 소방·안전 법규 준수 가이드",
     description: "병원 운영에 필수적인 소방·안전 관련 법규 준수 사항을 정리합니다. 소방 시설 설치, 안전 점검, 재난 대비 매뉴얼 등 실무에 필요한 사항을 안내합니다.",
     icon: "🔥",
-    updatedAt: "2026-02-18",
+    updatedAt: "2025-07-19",
     readTime: 8,
+    viewCount: 1081,
     tags: ["운영 & 교육", "개원 컨설팅"],
     sections: [
       { heading: "1. 병원 소방 시설 의무 설치 기준", content: "의료기관은 다수의 환자가 이용하는 다중 이용 시설로 엄격한 소방 시설 기준이 적용됩니다. 스프링클러, 자동 화재 탐지 설비, 옥내 소화전, 비상 방송 설비, 유도등, 비상 조명, 비상구 표시 등을 법규에 맞게 설치해야 합니다. 소방 시설의 정기 점검과 유지보수를 소홀히 하면 화재 발생 시 인명 피해는 물론 형사 책임까지 물을 수 있습니다." },
@@ -7441,8 +7792,9 @@ export const guides: Guide[] = [
     title: "병원 환자 개인정보 보호 가이드",
     description: "개인정보보호법과 의료법에 따른 환자 개인정보 관리 의무를 정리합니다. 수집부터 보관, 폐기까지 전 과정의 법적 요구사항과 실무 대응 방법을 안내합니다.",
     icon: "🔐",
-    updatedAt: "2026-02-15",
+    updatedAt: "2024-02-21",
     readTime: 9,
+    viewCount: 45153,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "1. 환자 개인정보 수집과 동의", content: "환자의 개인정보를 수집할 때는 수집 목적, 항목, 보유 기간을 명확히 고지하고 동의를 받아야 합니다. 진료에 필수적인 정보와 마케팅 목적의 정보는 동의를 분리하여 받아야 합니다. 민감 정보인 건강 정보는 별도의 동의가 필요하며 제3자 제공 시에도 별도 동의가 필수입니다. 초진 접수 시 개인정보 수집·이용 동의서를 체계적으로 관리하세요." },
@@ -7456,8 +7808,9 @@ export const guides: Guide[] = [
     title: "의료기기 구매 의사결정 프레임워크",
     description: "고가 의료기기 구매 시 합리적인 의사결정을 위한 프레임워크를 제시합니다. 임상 필요성, 재무 분석, 벤더 비교, 유지보수 비용까지 종합적인 평가 기준을 다룹니다.",
     icon: "🏗️",
-    updatedAt: "2026-02-12",
+    updatedAt: "2025-09-30",
     readTime: 10,
+    viewCount: 14429,
     tags: ["개원 컨설팅", "개편 컨설팅"],
     sections: [
       { heading: "1. 임상 필요성 평가", content: "의료기기 구매의 첫 단계는 임상적 필요성을 객관적으로 평가하는 것입니다. 현재 진료에서 부족한 부분, 새로운 진료 영역 확장 가능성, 환자 요구 추이를 분석하세요. 해당 장비가 있으면 추가 유치할 수 있는 환자 수와 진료 건수를 추정합니다. 유사 규모·진료과의 병원에서의 장비 활용률 데이터를 참고하면 더 정확한 판단이 가능합니다." },
@@ -7471,8 +7824,9 @@ export const guides: Guide[] = [
     title: "병원 급여 체계 설계와 관리",
     description: "병원 직원의 급여 체계를 합리적으로 설계하고 관리하는 방법을 안내합니다. 기본급, 수당, 4대보험, 퇴직금 정산까지 급여 관련 실무를 총정리합니다.",
     icon: "💳",
-    updatedAt: "2026-02-10",
+    updatedAt: "2024-02-18",
     readTime: 9,
+    viewCount: 4770,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "1. 직군별 급여 체계 설계", content: "병원 직원의 급여 체계는 간호사, 간호조무사, 물리치료사, 접수·행정 직원 등 직군별로 차등 설계합니다. 기본급은 해당 직군의 시장 임금 수준을 참고하여 결정하되 경력, 자격증, 업무 난이도를 반영합니다. 야간 수당, 주말 수당, 연장 근로 수당의 계산 방법과 지급 기준을 취업규칙에 명확히 규정하세요. 연봉제와 시급제 중 직군 특성에 맞는 방식을 선택합니다." },
@@ -7486,8 +7840,9 @@ export const guides: Guide[] = [
     title: "병원 위기관리·평판 방어 전략",
     description: "의료사고, 악성 리뷰, 언론 보도 등 병원 평판 위기 발생 시 효과적으로 대응하는 전략을 안내합니다. 사전 예방부터 위기 대응, 평판 회복까지 단계별로 다룹니다.",
     icon: "🚨",
-    updatedAt: "2026-02-08",
+    updatedAt: "2024-02-03",
     readTime: 10,
+    viewCount: 1444,
     tags: ["브랜드 컨설팅", "병원 마케팅"],
     sections: [
       { heading: "1. 병원 평판 위기의 유형", content: "병원 평판 위기는 의료사고, 감염 사고, 직원 불법 행위, 악성 온라인 리뷰, 언론 보도, 환자 민원 폭증 등 다양한 형태로 발생합니다. 특히 SNS 시대에는 하나의 부정적 사건이 수시간 내에 확산되어 막대한 평판 손상을 초래할 수 있습니다. 위기 유형별로 대응 시나리오를 사전에 준비하고 위기 관리 매뉴얼을 수립하는 것이 필수입니다." },
@@ -7501,8 +7856,9 @@ export const guides: Guide[] = [
     title: "의료법인 설립과 세제 혜택",
     description: "개인 병원을 의료법인으로 전환할 때의 장단점과 세제 혜택을 상세히 분석합니다. 법인 설립 절차, 운영 방식, 세금 비교까지 실전적인 정보를 제공합니다.",
     icon: "🏛️",
-    updatedAt: "2026-02-05",
+    updatedAt: "2024-03-21",
     readTime: 11,
+    viewCount: 3498,
     tags: ["개편 컨설팅", "매출 성장"],
     sections: [
       { heading: "1. 의료법인 전환을 고려해야 할 시점", content: "개인 병원의 연 소득이 일정 수준을 넘으면 법인 전환이 세제상 유리해집니다. 개인 종합소득세 최고 세율(45%)과 법인세 세율(최대 24%)의 차이를 활용할 수 있기 때문입니다. 일반적으로 연 순이익이 2억원 이상이면 법인 전환을 적극 검토할 시점입니다. 다만 법인은 개인 인출에 제한이 있고 운영이 복잡해지므로 단순 절세 목적만으로 판단해서는 안 됩니다." },
@@ -7516,8 +7872,9 @@ export const guides: Guide[] = [
     title: "병원 경업금지 약정 실전 가이드",
     description: "의사나 핵심 직원의 퇴직 후 경업금지 약정의 법적 유효성과 실전 활용 방법을 안내합니다. 약정서 작성 요령부터 위반 시 대응까지 다룹니다.",
     icon: "📜",
-    updatedAt: "2026-02-03",
+    updatedAt: "2025-06-28",
     readTime: 8,
+    viewCount: 16037,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "1. 경업금지 약정의 법적 효력", content: "경업금지 약정은 근로자의 직업 선택의 자유를 제한하므로 무조건 유효한 것은 아닙니다. 법원은 보호할 가치 있는 사용자의 이익, 제한의 기간·지역·대상 직종, 대상 근로자의 지위, 대가의 지급 여부 등을 종합적으로 판단하여 유효성을 결정합니다. 일반적으로 기간은 1~2년, 지역은 반경 1~3km 범위가 합리적인 것으로 판례에서 인정됩니다." },
@@ -7531,8 +7888,9 @@ export const guides: Guide[] = [
     title: "의사를 위한 병원 회계 기초",
     description: "의사 출신 원장이 꼭 알아야 할 병원 회계의 기초를 알기 쉽게 설명합니다. 재무제표 읽는 법, 비용 관리, 세무 기초까지 비전공자를 위한 실전 가이드입니다.",
     icon: "📖",
-    updatedAt: "2026-01-30",
+    updatedAt: "2025-08-31",
     readTime: 11,
+    viewCount: 36917,
     tags: ["운영 & 교육", "매출 성장"],
     sections: [
       { heading: "1. 재무제표 읽는 법", content: "병원 경영자라면 최소한 손익계산서, 재무상태표, 현금흐름표를 읽을 수 있어야 합니다. 손익계산서는 일정 기간의 매출과 비용을 보여주고 재무상태표는 특정 시점의 자산, 부채, 자본을 보여줍니다. 현금흐름표는 실제 현금의 유출입을 보여주어 흑자 도산을 예방하는 데 핵심적입니다. 매월 세무사가 제공하는 재무제표를 반드시 검토하고 이상 징후를 조기에 파악하세요." },
@@ -7547,8 +7905,9 @@ export const guides: Guide[] = [
     title: "병원 투자 유치를 위한 IR 전략",
     description: "병원 확장이나 신규 사업을 위한 투자 유치 전략을 안내합니다. 투자자 대상 IR 자료 작성법, 사업 가치 어필 방법, 투자 조건 협상 전략을 다룹니다.",
     icon: "🎤",
-    updatedAt: "2026-01-28",
+    updatedAt: "2024-09-12",
     readTime: 10,
+    viewCount: 2953,
     tags: ["매출 성장", "개편 컨설팅"],
     sections: [
       { heading: "1. 병원 투자 유치의 유형", content: "병원이 투자를 유치하는 방법은 다양합니다. 사모펀드(PE) 투자, 전략적 투자자(대형 병원 그룹), 개인 투자자, 정부 지원 사업 등이 있습니다. 투자 유형에 따라 경영권 변동, 의사결정 참여, 수익 배분 방식이 달라지므로 병원의 성장 단계와 목표에 맞는 투자 유형을 선택하세요. 최근에는 디지털 헬스케어 연계 투자도 활발하게 이루어지고 있습니다." },
@@ -7562,8 +7921,9 @@ export const guides: Guide[] = [
     title: "환자 1인당 원가 분석 방법론",
     description: "병원의 환자 1인당 원가를 정확히 산출하는 방법론을 안내합니다. 진료과목별, 시술별 원가 분석을 통해 수익성을 개선하는 실전 전략을 제시합니다.",
     icon: "🔍",
-    updatedAt: "2026-01-25",
+    updatedAt: "2025-02-10",
     readTime: 9,
+    viewCount: 9548,
     tags: ["매출 성장", "개편 컨설팅"],
     sections: [
       { heading: "1. 환자 원가의 구성 요소", content: "환자 1인당 원가는 직접 원가와 간접 원가로 구분합니다. 직접 원가는 해당 환자의 진료에 직접 투입된 재료비, 약품비, 소모품비, 의사·간호사의 직접 진료 시간에 해당하는 인건비입니다. 간접 원가는 임차료, 관리비, 감가상각비, 마케팅비 등 모든 환자에게 공통으로 배분되는 비용입니다. 정확한 원가 산출을 위해 간접 원가의 합리적인 배분 기준을 설정해야 합니다." },
@@ -7577,8 +7937,9 @@ export const guides: Guide[] = [
     title: "병원 IT 인프라 보안 가이드",
     description: "병원 IT 시스템의 보안 체계를 구축하는 방법을 안내합니다. EMR 보안, 네트워크 보안, 랜섬웨어 대비, 재해 복구 계획까지 종합적인 IT 보안 전략을 다룹니다.",
     icon: "🖥️",
-    updatedAt: "2026-01-22",
+    updatedAt: "2026-02-21",
     readTime: 10,
+    viewCount: 2516,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "1. 병원 IT 보안의 중요성", content: "병원은 환자의 민감한 의료 정보를 다루므로 IT 보안이 특히 중요합니다. 최근 의료기관 대상 랜섬웨어 공격이 급증하고 있으며 한 번의 침해 사고로 환자 정보 유출, 진료 마비, 대규모 과징금이 발생할 수 있습니다. 개인정보보호법과 의료법은 의료기관에 높은 수준의 보안 조치를 요구하고 있으며 미준수 시 과태료와 형사 처벌까지 받을 수 있습니다." },
@@ -7592,8 +7953,9 @@ export const guides: Guide[] = [
     title: "다점포 병원의 통합 재무 관리",
     description: "여러 지점을 운영하는 병원의 통합 재무 관리 전략을 다룹니다. 지점별 성과 비교, 자금 배분, 연결 재무제표 관리까지 다점포 경영의 재무적 핵심을 안내합니다.",
     icon: "🏥",
-    updatedAt: "2026-01-20",
+    updatedAt: "2024-06-20",
     readTime: 11,
+    viewCount: 3054,
     tags: ["매출 성장", "개편 컨설팅"],
     sections: [
       { heading: "1. 지점별 성과 비교 체계 구축", content: "다점포 운영의 핵심은 지점별 성과를 동일 기준으로 비교하는 체계를 갖추는 것입니다. 각 지점의 매출, 비용 구조, 수익률, 환자 수, 직원 생산성을 표준화된 KPI로 측정하세요. 지점 규모와 개원 시기가 다르므로 절대값 비교보다는 인당 생산성, 면적당 매출, 마진율 등 비율 지표로 비교하는 것이 공정합니다. 월별 지점장 회의에서 성과를 리뷰하고 베스트 프랙티스를 공유하세요." },
@@ -7607,8 +7969,9 @@ export const guides: Guide[] = [
     title: "병원 의료분쟁 조정·중재 가이드",
     description: "의료분쟁 발생 시 소송 외 조정·중재를 통한 해결 방법을 안내합니다. 한국의료분쟁조정중재원 절차, 합의 전략, 비용 비교 등 실전적인 대응 방법을 다룹니다.",
     icon: "🏛️",
-    updatedAt: "2026-01-18",
+    updatedAt: "2025-04-03",
     readTime: 9,
+    viewCount: 1690,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "1. 의료분쟁 해결 경로 비교", content: "의료분쟁 해결 경로는 당사자 간 합의, 의료분쟁조정중재원 조정, 민사 소송 등이 있습니다. 당사자 합의는 가장 빠르고 비용이 적지만 합의 조건의 적정성 판단이 어렵습니다. 조정중재원 조정은 무료이며 90일 이내 결정이 나오므로 소송보다 효율적입니다. 소송은 최종 수단으로 시간과 비용이 많이 소요되지만 법적 구속력이 가장 강합니다." },
@@ -7622,8 +7985,9 @@ export const guides: Guide[] = [
     title: "병원 부동산 세금 최적화 전략",
     description: "병원 부동산 취득, 보유, 처분 단계별 세금 최적화 전략을 안내합니다. 취득세, 재산세, 종합부동산세, 양도소득세의 절세 방법을 실전적으로 다룹니다.",
     icon: "🏠",
-    updatedAt: "2026-01-15",
+    updatedAt: "2024-12-01",
     readTime: 10,
+    viewCount: 8552,
     tags: ["매출 성장", "개편 컨설팅"],
     sections: [
       { heading: "1. 병원 부동산 취득 시 세금", content: "병원 건물이나 토지를 취득할 때 취득세가 부과됩니다. 일반 취득세율은 4%이지만 과밀억제권역 내 본점 신설은 중과세율이 적용될 수 있습니다. 법인이 취득하면 개인보다 세율이 높을 수 있으므로 취득 주체(개인 vs 법인)를 사전에 검토하세요. 부가가치세 환급 가능 여부, 인지세, 등록면허세도 함께 고려하여 총 취득 비용을 산출합니다." },
@@ -7637,8 +8001,9 @@ export const guides: Guide[] = [
     title: "개원의를 위한 은퇴 자금 설계",
     description: "개원의의 은퇴 후 안정적인 생활을 위한 자금 설계 방법을 안내합니다. 퇴직연금, 개인연금, 부동산, 금융 투자 등 다양한 은퇴 준비 전략을 제시합니다.",
     icon: "🌅",
-    updatedAt: "2026-01-12",
+    updatedAt: "2024-03-22",
     readTime: 10,
+    viewCount: 18642,
     tags: ["매출 성장", "운영 & 교육"],
     sections: [
       { heading: "1. 개원의 은퇴 자금 필요액 산출", content: "은퇴 후 필요한 생활비를 현재 가치로 산출하는 것이 첫 단계입니다. 월 생활비, 의료비, 여가비, 비상 자금 등을 고려하여 은퇴 후 30년간 필요한 총 금액을 추정합니다. 물가 상승률을 반영하면 은퇴 시점의 필요액은 현재보다 크게 증가합니다. 일반적으로 개원의의 경우 은퇴 시 최소 20~30억원의 순자산이 필요한 것으로 분석됩니다." },
@@ -7652,8 +8017,9 @@ export const guides: Guide[] = [
     title: "병원 공급업체 계약 관리 전략",
     description: "의료 소모품, 장비, 서비스 공급업체와의 계약을 효과적으로 관리하는 방법을 안내합니다. 벤더 선정, 가격 협상, 계약서 관리, 성과 평가까지 다룹니다.",
     icon: "📦",
-    updatedAt: "2026-01-10",
+    updatedAt: "2024-01-16",
     readTime: 8,
+    viewCount: 16217,
     tags: ["운영 & 교육", "매출 성장"],
     sections: [
       { heading: "1. 공급업체 선정 기준과 프로세스", content: "공급업체 선정은 가격만이 아니라 품질, 납기, 서비스, 재무 안정성을 종합적으로 평가해야 합니다. 최소 3개 업체 이상에서 견적을 받고 평가 항목별 점수를 매겨 비교하세요. 의료 소모품은 품질이 환자 안전에 직결되므로 인증 여부, 과거 불량률, 긴급 공급 능력을 중점적으로 확인합니다. 단일 공급처 의존도를 줄이기 위해 주요 품목은 2개 이상의 공급업체를 확보하세요." },
@@ -7667,8 +8033,9 @@ export const guides: Guide[] = [
     title: "병원 대출 상품 비교 가이드",
     description: "병원 개원·운영에 필요한 다양한 대출 상품을 비교 분석합니다. 은행 대출, 정책 자금, 의료 전문 대출 등 최적의 자금 조달 방법을 안내합니다.",
     icon: "🏧",
-    updatedAt: "2026-01-08",
+    updatedAt: "2025-10-02",
     readTime: 9,
+    viewCount: 6301,
     tags: ["개원 컨설팅", "매출 성장"],
     sections: [
       { heading: "1. 병원 대출의 종류와 특징", content: "병원 대출은 용도에 따라 개원 자금 대출, 시설 자금 대출, 운전 자금 대출, 장비 구입 대출로 구분됩니다. 시중 은행의 의료인 전용 대출, 정부 정책 자금(소상공인 지원, 창업 지원), 의료 전문 금융사의 대출 등 다양한 상품이 있습니다. 금리, 대출 한도, 상환 기간, 담보 요건, 중도 상환 수수료를 종합적으로 비교해야 합니다." },
@@ -7682,8 +8049,9 @@ export const guides: Guide[] = [
     title: "병원 재고 관리와 비용 통제",
     description: "의료 소모품과 약품의 재고를 효율적으로 관리하여 비용을 절감하는 방법을 안내합니다. 적정 재고량 산출, 발주 시스템, 유효기간 관리까지 실전적으로 다룹니다.",
     icon: "📊",
-    updatedAt: "2026-01-05",
+    updatedAt: "2024-12-02",
     readTime: 8,
+    viewCount: 3388,
     tags: ["운영 & 교육", "매출 성장"],
     sections: [
       { heading: "1. 의료 재고 관리의 중요성", content: "의료 소모품과 약품의 재고 관리는 비용과 환자 안전 모두에 영향을 미칩니다. 과다 재고는 자금을 묶어두고 유효기간 경과로 폐기 손실이 발생합니다. 반대로 재고 부족은 진료에 차질을 주어 환자 이탈과 매출 감소를 초래합니다. 의료기관의 재료비는 매출의 5~15%를 차지하므로 효과적인 재고 관리로 1~3%의 비용 절감이 가능합니다." },
@@ -7697,8 +8065,9 @@ export const guides: Guide[] = [
     title: "병원 신축·이전 공사비 관리 가이드",
     description: "병원 신축이나 이전 시 공사비를 효과적으로 관리하는 방법을 안내합니다. 예산 수립, 시공사 선정, 공정 관리, 추가 비용 방지까지 실전적으로 다룹니다.",
     icon: "🔨",
-    updatedAt: "2026-01-03",
+    updatedAt: "2025-02-18",
     readTime: 10,
+    viewCount: 57074,
     tags: ["개원 컨설팅", "개편 컨설팅"],
     sections: [
       { heading: "1. 병원 공사비 예산 수립", content: "병원 공사비는 인테리어, 의료 가스 배관, 전기·통신 공사, 냉난방 공사, 방사선 차폐 공사, 소방 공사 등 일반 건축보다 특수 공사 항목이 많습니다. 평당 공사비는 진료과목과 시설 수준에 따라 200만원에서 500만원까지 차이가 크므로 정밀한 예산 수립이 필수입니다. 총 예산의 10~15%를 예비비로 책정하여 불가피한 추가 비용에 대비하세요." },
@@ -7712,8 +8081,9 @@ export const guides: Guide[] = [
     title: "병원 디지털 전환 투자 ROI 분석",
     description: "병원의 디지털 전환(EMR, 키오스크, AI 진단 등) 투자에 대한 ROI를 분석하는 방법을 안내합니다. 투자 대비 효과를 정량적으로 평가하여 합리적 의사결정을 지원합니다.",
     icon: "💻",
-    updatedAt: "2025-12-28",
+    updatedAt: "2024-09-09",
     readTime: 9,
+    viewCount: 45510,
     tags: ["개편 컨설팅", "매출 성장"],
     sections: [
       { heading: "1. 병원 디지털 전환 투자 영역", content: "병원의 디지털 전환은 EMR/OCS 시스템, 키오스크 접수, AI 진단 보조, 원격 진료, CRM 자동화, 모바일 앱 등 다양한 영역에 걸쳐 있습니다. 각 투자 영역의 초기 도입 비용, 연간 유지비, 교육비를 합산하여 총 투자액을 산출합니다. 모든 영역을 동시에 전환하면 리스크가 크므로 투자 효과가 큰 영역부터 단계적으로 도입하는 전략이 안전합니다." },
@@ -7727,8 +8097,9 @@ export const guides: Guide[] = [
     title: "병원 직종별 임금 벤치마킹 가이드",
     description: "병원 직종별(간호사, 간호조무사, 물리치료사, 접수 등) 적정 임금 수준을 벤치마킹하는 방법을 안내합니다. 채용 경쟁력과 비용 효율성을 동시에 확보하는 전략을 다룹니다.",
     icon: "📈",
-    updatedAt: "2025-12-25",
+    updatedAt: "2024-11-04",
     readTime: 8,
+    viewCount: 1268,
     tags: ["운영 & 교육", "매출 성장"],
     sections: [
       { heading: "1. 임금 벤치마킹의 필요성", content: "적정 임금 수준을 파악하지 못하면 과다 지급으로 수익성이 악화되거나 과소 지급으로 인재 이탈이 발생합니다. 특히 간호 인력 부족이 심화되는 상황에서 경쟁력 있는 임금 제시는 채용 성공의 핵심 요소입니다. 지역별, 병원 규모별, 경력별 시장 임금 데이터를 수집하여 자사의 급여 수준이 시장 대비 어느 위치인지 객관적으로 파악하세요." },
@@ -7742,8 +8113,9 @@ export const guides: Guide[] = [
     title: "의료장비 리스 계약 함정 방지 가이드",
     description: "의료장비 리스 계약에서 흔히 빠지는 함정과 불리한 조항을 점검하는 방법을 안내합니다. 계약서 체크리스트와 유리한 조건 확보 전략을 제시합니다.",
     icon: "⚠️",
-    updatedAt: "2025-12-22",
+    updatedAt: "2024-06-15",
     readTime: 8,
+    viewCount: 18608,
     tags: ["개원 컨설팅", "운영 & 교육"],
     sections: [
       { heading: "1. 리스 계약서의 핵심 확인 사항", content: "의료장비 리스 계약서에서 반드시 확인해야 할 핵심 조항이 있습니다. 총 리스료, 실질 금리(표면 금리와 다를 수 있음), 리스 기간, 소유권 이전 조건, 중도 해지 위약금, 잔존가치 정산 방법을 꼼꼼히 확인하세요. 특히 실질 금리는 수수료와 보증금 등을 포함하여 계산해야 정확합니다. 계약서 날인 전 세무사나 법률 전문가의 검토를 받으세요." },
@@ -7757,8 +8129,9 @@ export const guides: Guide[] = [
     title: "병원 수익 사이클 관리(RCM) 전략",
     description: "환자 예약부터 최종 수금까지의 전체 수익 사이클을 최적화하는 방법을 안내합니다. 미수금 관리, 수납률 향상, 청구 효율화 등 RCM의 핵심 전략을 다룹니다.",
     icon: "🔄",
-    updatedAt: "2025-12-20",
+    updatedAt: "2025-04-22",
     readTime: 10,
+    viewCount: 3629,
     tags: ["매출 성장", "운영 & 교육"],
     sections: [
       { heading: "1. 수익 사이클 관리의 개념과 중요성", content: "수익 사이클 관리(RCM)는 환자 예약, 접수, 진료, 청구, 수금까지의 전 과정을 포괄하는 재무 관리 체계입니다. 효과적인 RCM은 매출 누락을 방지하고 현금화 속도를 높여 병원의 재무 건전성을 강화합니다. 많은 병원이 청구 누락, 삭감, 미수금으로 실제 발생한 매출의 5~15%를 회수하지 못하고 있습니다. RCM 최적화로 이 손실을 최소화할 수 있습니다." },
@@ -7772,8 +8145,9 @@ export const guides: Guide[] = [
     title: "병원 사업 연속성 계획(BCP) 수립",
     description: "감염병 유행, 자연재해, 핵심 인력 이탈 등 위기 상황에서도 병원 운영을 지속할 수 있는 사업 연속성 계획(BCP) 수립 방법을 안내합니다.",
     icon: "🔗",
-    updatedAt: "2025-12-18",
+    updatedAt: "2024-06-19",
     readTime: 9,
+    viewCount: 1994,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "1. 사업 연속성 계획의 필요성", content: "코로나19 팬데믹은 사업 연속성 계획(BCP)의 중요성을 여실히 보여주었습니다. 감염병 유행뿐 아니라 자연재해, IT 시스템 장애, 핵심 인력의 갑작스러운 이탈 등 다양한 위기 상황이 발생할 수 있습니다. BCP 없이 위기를 맞으면 진료 중단, 매출 급감, 환자 이탈이 동시에 발생하여 회복이 어려워집니다. 사전에 계획을 수립하고 정기적으로 점검하는 것이 필수적입니다." },
@@ -7787,8 +8161,9 @@ export const guides: Guide[] = [
     title: "병원 아웃소싱 비용 대비 효과 분석",
     description: "병원 운영에서 아웃소싱이 효과적인 영역과 비용 대비 효과를 분석하는 방법을 안내합니다. 세탁, 청소, 급식, IT, 마케팅 등 주요 아웃소싱 영역을 비교합니다.",
     icon: "🔀",
-    updatedAt: "2025-12-15",
+    updatedAt: "2025-06-19",
     readTime: 8,
+    viewCount: 14417,
     tags: ["운영 & 교육", "매출 성장"],
     sections: [
       { heading: "1. 아웃소싱 적합 영역 판단 기준", content: "모든 업무를 아웃소싱하는 것이 능사는 아닙니다. 핵심 역량과 직결되지 않는 업무, 전문 인력이 필요하나 상시 고용이 비효율적인 업무, 규모의 경제가 작용하는 업무가 아웃소싱에 적합합니다. 병원에서는 세탁, 청소, 시설 관리, IT 유지보수, 마케팅, 급여 관리, 건강보험 청구 대행 등이 대표적입니다. 반면 환자 접점의 핵심 서비스는 직접 관리하는 것이 바람직합니다." },
@@ -7802,8 +8177,9 @@ export const guides: Guide[] = [
     title: "병원 세무 조사 대비 가이드",
     description: "국세청 세무 조사에 대비하여 병원이 준비해야 할 사항을 정리합니다. 조사 대상 선정 기준, 사전 준비, 조사 대응, 사후 조치까지 단계별로 안내합니다.",
     icon: "🔎",
-    updatedAt: "2025-12-12",
+    updatedAt: "2024-10-05",
     readTime: 10,
+    viewCount: 5981,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "1. 세무 조사 대상 선정 기준", content: "국세청은 무작위 선정과 특정 혐의에 의한 선정 두 가지 방식으로 세무 조사 대상을 선정합니다. 매출 규모 대비 소득률이 동종 업종 평균보다 현저히 낮은 경우, 현금 매출 비중이 높은데 신고 소득이 낮은 경우, 비정상적인 비용 처리가 감지된 경우 조사 대상이 될 확률이 높아집니다. 평소 성실 신고를 하고 적격 증빙을 철저히 관리하는 것이 최선의 예방책입니다." },
@@ -7817,8 +8193,9 @@ export const guides: Guide[] = [
     title: "병원 운영에 필요한 보험 상품 총정리",
     description: "병원 운영에 반드시 필요한 각종 보험 상품을 총정리합니다. 배상책임보험, 화재보험, 단체상해보험, 사이버보험 등 리스크별 최적의 보험 설계를 안내합니다.",
     icon: "🛡️",
-    updatedAt: "2025-12-10",
+    updatedAt: "2024-08-07",
     readTime: 9,
+    viewCount: 20932,
     tags: ["운영 & 교육", "개원 컨설팅"],
     sections: [
       { heading: "1. 병원 필수 가입 보험 목록", content: "병원 운영에 필요한 보험은 의무 가입과 선택 가입으로 구분됩니다. 의무 가입 보험은 화재배상책임보험(다중 이용 시설), 산재보험, 의료배상책임보험(의료법상 권장)입니다. 선택 가입이지만 강력히 권장하는 보험은 종합재산보험, 단체상해보험, 사이버보험, 경영인 배상책임보험(D&O)입니다. 병원 규모와 진료과목에 따라 필요한 보험의 종류와 보장 한도가 달라집니다." },
@@ -7832,8 +8209,9 @@ export const guides: Guide[] = [
     title: "병원 에너지 비용 절감 전략",
     description: "병원의 전기, 가스, 수도 등 에너지 비용을 효과적으로 절감하는 방법을 안내합니다. 설비 효율화, 에너지 관리 시스템, 정부 지원 사업 활용 등 실전 전략을 다룹니다.",
     icon: "⚡",
-    updatedAt: "2025-12-08",
+    updatedAt: "2024-01-06",
     readTime: 8,
+    viewCount: 14249,
     tags: ["운영 & 교육", "매출 성장"],
     sections: [
       { heading: "1. 병원 에너지 사용 현황 분석", content: "병원은 24시간 운영, 냉난방, 의료장비 가동 등으로 에너지 소비가 많은 시설입니다. 에너지 비용은 병원 운영비의 5~10%를 차지하며 연간 수천만원에서 수억원에 달합니다. 먼저 에너지 사용 현황을 분석하여 전기, 가스, 수도의 월별 사용량과 비용을 파악하세요. 시간대별, 구역별 에너지 사용 패턴을 분석하면 절감 기회를 발견할 수 있습니다." },
@@ -7847,8 +8225,9 @@ export const guides: Guide[] = [
     title: "진료비 투명성 확보와 수납 전략",
     description: "환자에게 진료비를 투명하게 안내하고 수납률을 높이는 전략을 안내합니다. 비급여 가격 안내, 수납 프로세스 개선, 분할 결제 제도 등을 다룹니다.",
     icon: "💲",
-    updatedAt: "2025-12-05",
+    updatedAt: "2025-10-11",
     readTime: 8,
+    viewCount: 11951,
     tags: ["매출 성장", "운영 & 교육"],
     sections: [
       { heading: "1. 진료비 투명성의 중요성", content: "환자의 진료비에 대한 불만은 병원 이탈과 부정적 리뷰의 주요 원인입니다. 진료 전 예상 비용을 명확히 안내하고 진료 후 청구 내역을 상세히 설명하면 환자 신뢰도가 크게 향상됩니다. 비급여 가격 공개 의무화에 따라 주요 비급여 항목의 가격을 원내 게시 및 홈페이지에 공개해야 합니다. 투명한 가격 정책은 환자 만족도와 재방문율을 동시에 높이는 전략입니다." },
@@ -7862,8 +8241,9 @@ export const guides: Guide[] = [
     title: "병원 출구 전략 옵션 비교",
     description: "병원 운영을 종료하거나 전환할 때 선택할 수 있는 다양한 출구 전략을 비교 분석합니다. 양도, 법인화, 프랜차이즈화, 폐업 등 각 옵션의 장단점을 다룹니다.",
     icon: "🚪",
-    updatedAt: "2025-12-03",
+    updatedAt: "2025-03-02",
     readTime: 10,
+    viewCount: 37358,
     tags: ["개편 컨설팅", "매출 성장"],
     sections: [
       { heading: "1. 출구 전략이 필요한 시점", content: "모든 원장은 언젠가 병원 운영을 종료하게 됩니다. 은퇴, 건강 문제, 번아웃, 더 나은 기회, 경영 악화 등 이유는 다양합니다. 출구 전략은 위기 상황에서 급히 결정하는 것이 아니라 평소에 준비하는 것이 최선입니다. 최소 2~3년 전부터 준비를 시작하면 최적의 조건으로 은퇴하거나 전환할 수 있습니다. 각 옵션의 재무적 결과를 미리 시뮬레이션하세요." },
@@ -7878,8 +8258,9 @@ export const guides: Guide[] = [
     title: "병원 직장 내 괴롭힘 예방 가이드",
     description: "직장 내 괴롭힘 금지법에 따른 병원의 의무와 예방·대응 방법을 안내합니다. 예방 교육, 신고 처리 절차, 피해자 보호, 행위자 징계 등 실무적 사항을 다룹니다.",
     icon: "🤚",
-    updatedAt: "2025-12-01",
+    updatedAt: "2024-11-13",
     readTime: 9,
+    viewCount: 639,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "1. 직장 내 괴롭힘의 법적 정의", content: "직장 내 괴롭힘은 직장에서의 지위나 관계 우위를 이용하여 업무상 적정 범위를 넘어 신체적·정신적 고통을 주거나 근무 환경을 악화시키는 행위입니다. 병원에서는 상급자의 폭언, 과도한 업무 지시, 인격 모욕, 따돌림, 부당한 인사 조치 등이 해당될 수 있습니다. 5인 이상 사업장은 의무적으로 예방 조치를 취해야 하며 위반 시 과태료가 부과됩니다." },
@@ -7893,8 +8274,9 @@ export const guides: Guide[] = [
     title: "병원 계절별 매출 변동 대응 전략",
     description: "병원 매출의 계절적 변동에 효과적으로 대응하는 전략을 안내합니다. 성수기 매출 극대화와 비수기 매출 하락 방지를 위한 실전 방안을 제시합니다.",
     icon: "📅",
-    updatedAt: "2025-11-28",
+    updatedAt: "2025-04-06",
     readTime: 8,
+    viewCount: 95541,
     tags: ["매출 성장", "병원 마케팅"],
     sections: [
       { heading: "1. 진료과별 계절적 매출 패턴", content: "병원 매출은 진료과목에 따라 뚜렷한 계절적 패턴을 보입니다. 내과는 겨울철 감기·독감 시즌에 매출이 급증하고 피부과는 여름 전후 미백·레이저 시즌이 성수기입니다. 정형외과는 겨울철 낙상 사고 증가로 매출이 오르고 건강검진 센터는 하반기에 집중됩니다. 자사 병원의 3년치 월별 매출 데이터를 분석하여 정확한 패턴을 파악하세요." },
@@ -7908,8 +8290,9 @@ export const guides: Guide[] = [
     title: "병원 재무 성과 동종 비교 분석",
     description: "동일 진료과, 동일 지역의 병원들과 재무 성과를 비교 분석하는 방법을 안내합니다. 심평원 공개 데이터와 업계 벤치마크를 활용한 자사 경영 진단 전략을 제시합니다.",
     icon: "📊",
-    updatedAt: "2025-11-25",
+    updatedAt: "2025-10-20",
     readTime: 9,
+    viewCount: 17449,
     tags: ["매출 성장", "개편 컨설팅"],
     sections: [
       { heading: "1. 재무 벤치마킹의 필요성과 방법", content: "자사 병원의 재무 성과를 객관적으로 평가하려면 동종 병원과의 비교가 필수입니다. 건강보험심사평가원의 의료기관별 진료비용 공개 데이터, 국세청 업종별 표준소득률, 의료기관 경영 분석 보고서 등을 활용하여 비교 대상군을 설정하세요. 동일 진료과, 유사 규모, 동일 지역의 병원을 비교 대상으로 선정하면 의미 있는 벤치마킹이 가능합니다." },
@@ -7923,8 +8306,9 @@ export const guides: Guide[] = [
     title: "병원 무인 키오스크 도입 완벽 가이드",
     description: "병원 접수 키오스크 도입으로 대기 시간을 줄이고 환자 만족도를 높이는 방법. 키오스크 선정부터 EMR 연동, 직원 교육까지 단계별 안내.",
     icon: "🖥️",
-    updatedAt: "2026-04-01",
+    updatedAt: "2025-11-24",
     readTime: 9,
+    viewCount: 14550,
     tags: ["개편 컨설팅", "운영 & 교육"],
     sections: [
       { heading: "1. 병원 키오스크 도입의 필요성", content: "진료 대기 시간은 환자 불만의 가장 큰 원인 중 하나입니다. 무인 키오스크를 도입하면 접수 시간을 평균 70% 단축할 수 있으며, 접수 직원의 업무 부담도 크게 줄어듭니다. 특히 내과, 정형외과 등 환자 수가 많은 진료과에서 효과가 극대화됩니다. 건강보험증 인식, 본인 확인, 진료과 선택까지 환자가 직접 처리하므로 프라이버시 보호에도 도움이 됩니다." },
@@ -7939,8 +8323,9 @@ export const guides: Guide[] = [
     title: "스마트 예약 시스템 구축 가이드 2026",
     description: "온라인 예약부터 노쇼 방지까지, 병원 예약 시스템을 디지털로 전환하는 방법을 안내합니다. 예약률 극대화와 운영 효율 향상 전략.",
     icon: "📅",
-    updatedAt: "2026-03-28",
+    updatedAt: "2025-07-11",
     readTime: 10,
+    viewCount: 32554,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "1. 전화 예약의 한계와 디지털 전환", content: "전화 예약은 통화 중 대기, 영업시간 제한, 예약 누락 등 다양한 문제를 야기합니다. 실제로 병원 전화의 30~40%가 예약 관련 문의이며, 이 중 15% 이상이 연결 실패로 이어집니다. 온라인 예약 시스템을 도입하면 24시간 예약이 가능해지고, 접수 직원의 전화 응대 부담이 절반 이하로 줄어듭니다. 환자 입장에서도 대기 없이 원하는 시간대를 선택할 수 있어 만족도가 크게 향상됩니다." },
@@ -7954,8 +8339,9 @@ export const guides: Guide[] = [
     title: "AI 챗봇 환자 상담 도입 가이드",
     description: "병원 AI 챗봇으로 24시간 환자 문의 대응과 예약 안내를 자동화하는 방법. 챗봇 설계부터 학습 데이터 구축, 운영 노하우까지.",
     icon: "🤖",
-    updatedAt: "2026-04-02",
+    updatedAt: "2025-11-23",
     readTime: 11,
+    viewCount: 8592,
     tags: ["개편 컨설팅", "운영 & 교육"],
     sections: [
       { heading: "1. 병원 AI 챗봇의 역할과 효과", content: "AI 챗봇은 진료 시간 안내, 위치 정보, 주차 안내, 예약 변경 등 반복적인 문의를 자동 처리합니다. 실제 도입 병원의 데이터에 따르면 전화 문의의 40~60%를 챗봇이 대체하여 접수 직원의 업무 효율이 크게 향상됩니다. 야간·주말에도 즉시 응답이 가능하므로 환자 만족도가 올라가고, 예약 전환율도 15~20% 상승하는 효과가 있습니다." },
@@ -7970,8 +8356,9 @@ export const guides: Guide[] = [
     title: "병원 전용 모바일 앱 개발 가이드",
     description: "환자 편의를 극대화하는 병원 전용 앱 기획부터 출시까지. 예약, 진료 결과 조회, 처방전 관리 기능 설계와 개발 프로세스 안내.",
     icon: "📱",
-    updatedAt: "2026-03-25",
+    updatedAt: "2025-07-17",
     readTime: 12,
+    viewCount: 678,
     tags: ["개편 컨설팅", "브랜드 컨설팅"],
     sections: [
       { heading: "1. 병원 앱이 필요한 이유", content: "모바일 앱은 환자와 병원 간 접점을 24시간으로 확장합니다. 예약, 대기 현황 확인, 진료 결과 조회, 처방전 관리 등을 앱 하나로 통합하면 환자 편의성이 극대화됩니다. 특히 재방문 환자의 앱 사용률이 높아 재방문율 향상에 직접적인 효과가 있습니다. 2025년 조사에 따르면 병원 앱 사용 환자의 재방문율은 비사용자 대비 35% 높은 것으로 나타났습니다." },
@@ -7985,8 +8372,9 @@ export const guides: Guide[] = [
     title: "2026 EMR 시스템 비교 분석 가이드",
     description: "주요 EMR 시스템의 기능, 비용, 사용성을 비교 분석합니다. 병원 규모와 진료과별 최적의 EMR 선택 기준을 제시합니다.",
     icon: "💻",
-    updatedAt: "2026-04-03",
+    updatedAt: "2025-03-07",
     readTime: 13,
+    viewCount: 15917,
     tags: ["개편 컨설팅", "운영 & 교육"],
     sections: [
       { heading: "1. EMR 시스템이란", content: "EMR(Electronic Medical Record)은 환자의 진료 기록을 전자적으로 관리하는 시스템입니다. 종이 차트 대비 검색 속도, 데이터 분석, 타 시스템 연동에서 압도적인 장점이 있습니다. 2026년 현재 국내 의원급 의료기관의 EMR 도입률은 95%를 넘었으나, 시스템 간 기능 격차가 크므로 신중한 선택이 필요합니다. 특히 클라우드 기반 EMR이 빠르게 확산되며 초기 도입 비용 부담이 줄어들고 있습니다." },
@@ -8001,8 +8389,9 @@ export const guides: Guide[] = [
     title: "환자 여정 맵핑 실전 가이드",
     description: "환자가 병원을 인지하고 방문하여 재방문하기까지의 전 과정을 분석하고 최적화하는 방법. 터치포인트별 개선 전략 제시.",
     icon: "🗺️",
-    updatedAt: "2026-03-30",
+    updatedAt: "2025-08-24",
     readTime: 11,
+    viewCount: 2978,
     tags: ["개편 컨설팅", "브랜드 컨설팅"],
     sections: [
       { heading: "1. 환자 여정 맵핑이란", content: "환자 여정 맵핑(Patient Journey Mapping)은 환자가 병원을 인지하는 순간부터 진료 후 재방문까지의 모든 접점을 시각화하고 분석하는 방법론입니다. 각 단계에서 환자가 느끼는 감정, 기대, 불만을 파악하여 서비스를 개선할 수 있습니다. 이는 단순한 CS 개선을 넘어 환자 충성도와 구전 마케팅 효과까지 영향을 미치는 핵심 전략입니다." },
@@ -8016,8 +8405,9 @@ export const guides: Guide[] = [
     title: "병원 CRM 기반 환자 유지 전략",
     description: "CRM 시스템을 활용한 환자 재방문율 향상과 이탈 방지 전략. 환자 세분화, 맞춤 메시지, 리텐션 캠페인 설계 방법.",
     icon: "💝",
-    updatedAt: "2026-03-27",
+    updatedAt: "2025-02-17",
     readTime: 10,
+    viewCount: 27960,
     tags: ["매출 성장", "운영 & 교육"],
     sections: [
       { heading: "1. 환자 유지의 경제학", content: "신규 환자 유치 비용은 기존 환자 유지 비용의 5~7배에 달합니다. 환자 이탈률을 5% 줄이면 수익이 25~95% 증가한다는 연구 결과도 있습니다. CRM(Customer Relationship Management) 시스템은 환자 데이터를 체계적으로 관리하여 적시에 적절한 커뮤니케이션을 가능하게 합니다. 특히 만성질환 관리, 정기 검진, 미용 시술 등 반복 방문이 중요한 진료과에서 CRM의 효과가 극대화됩니다." },
@@ -8031,8 +8421,9 @@ export const guides: Guide[] = [
     title: "디지털 동의서 시스템 구축 가이드",
     description: "종이 동의서를 디지털로 전환하여 업무 효율과 법적 안전성을 동시에 확보하는 방법. 전자서명, 보관, 의료법 준수 안내.",
     icon: "📝",
-    updatedAt: "2026-03-22",
+    updatedAt: "2025-10-09",
     readTime: 8,
+    viewCount: 19677,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "1. 종이 동의서의 문제점", content: "종이 동의서는 분실·훼손 위험, 보관 공간 비용, 검색 어려움 등 다양한 문제가 있습니다. 의료 분쟁 시 동의서를 찾지 못해 불리한 상황에 처하는 사례도 빈번합니다. 환자 한 명당 연간 평균 5~10장의 동의서가 발생하며, 100명 환자 기준 연간 1,000장 이상의 문서를 관리해야 합니다. 디지털 전환은 이러한 비효율을 근본적으로 해결합니다." },
@@ -8046,8 +8437,9 @@ export const guides: Guide[] = [
     title: "비대면 진료 플랫폼 통합 가이드",
     description: "비대면 진료 시대, 원격진료 플랫폼을 기존 병원 시스템과 효과적으로 통합하는 방법. 법적 요건부터 환자 경험 최적화까지.",
     icon: "🩺",
-    updatedAt: "2026-04-01",
+    updatedAt: "2026-03-30",
     readTime: 11,
+    viewCount: 3409,
     tags: ["개편 컨설팅", "매출 성장"],
     sections: [
       { heading: "1. 비대면 진료의 현황과 전망", content: "2026년 현재 비대면 진료는 초진까지 허용되며 시장이 빠르게 성장하고 있습니다. 나만의닥터, 똑닥, 굿닥 등 플랫폼을 통한 비대면 진료 건수가 전년 대비 200% 이상 증가했습니다. 특히 내과, 이비인후과, 피부과, 정신건강의학과에서 비대면 진료 비중이 높습니다. 비대면 진료는 신규 환자 유입 채널이자 기존 환자의 편의 서비스로서 병원 경쟁력 강화에 필수적입니다." },
@@ -8061,8 +8453,9 @@ export const guides: Guide[] = [
     title: "환자 만족도 조사 시스템 구축 가이드",
     description: "체계적인 환자 만족도 조사로 서비스 품질을 지속 개선하는 방법. 설문 설계, 수집 채널, 데이터 분석, 개선 활용 전략.",
     icon: "📊",
-    updatedAt: "2026-03-20",
+    updatedAt: "2024-06-04",
     readTime: 9,
+    viewCount: 47597,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "1. 환자 만족도 조사의 중요성", content: "환자 만족도는 병원 수익에 직접 연결됩니다. 만족한 환자의 85%가 재방문하고, 불만족 환자의 65%는 다른 병원으로 이동합니다. 체계적인 만족도 조사는 문제를 객관적으로 파악하고 우선순위를 정하는 데 필수적입니다. 감에 의존한 서비스 개선은 비효율적이며, 데이터 기반 의사결정이 지속적인 서비스 품질 향상의 핵심입니다." },
@@ -8076,8 +8469,9 @@ export const guides: Guide[] = [
     title: "병원 대기실 환자 경험 혁신 가이드",
     description: "대기 시간을 줄이고, 대기 경험을 개선하여 환자 만족도를 극대화하는 방법. 공간 설계, 정보 시스템, 엔터테인먼트 전략.",
     icon: "🏢",
-    updatedAt: "2026-03-18",
+    updatedAt: "2024-08-09",
     readTime: 8,
+    viewCount: 2284,
     tags: ["개편 컨설팅", "브랜드 컨설팅"],
     sections: [
       { heading: "1. 대기 시간이 환자 만족도에 미치는 영향", content: "대기 시간은 환자 불만의 가장 큰 원인입니다. 연구에 따르면 대기 시간이 15분을 초과하면 만족도가 급격히 하락하고, 30분을 넘기면 재방문 의향이 40% 감소합니다. 그러나 '체감 대기 시간'은 실제 대기 시간과 다릅니다. 정보 제공, 쾌적한 환경, 적절한 엔터테인먼트가 제공되면 같은 대기 시간이라도 체감 시간이 30~50% 줄어드는 효과가 있습니다." },
@@ -8091,8 +8485,9 @@ export const guides: Guide[] = [
     title: "병원 수납 시스템 현대화 가이드",
     description: "간편결제, 후불결제, 모바일 수납 등 최신 결제 시스템을 도입하여 수납 과정을 혁신하는 방법. 환자 편의와 수납률 동시 향상.",
     icon: "💳",
-    updatedAt: "2026-03-15",
+    updatedAt: "2025-09-01",
     readTime: 8,
+    viewCount: 13894,
     tags: ["개편 컨설팅", "매출 성장"],
     sections: [
       { heading: "1. 수납 과정의 환자 경험", content: "수납은 진료의 마지막 접점으로, 이 단계에서의 불편은 전체 경험에 부정적 인상을 남깁니다. 긴 수납 대기, 현금만 받는 결제 방식, 복잡한 영수증 발급 등이 대표적인 불만 요인입니다. 간편결제 도입 병원의 환자 설문에서 수납 만족도가 평균 25% 상승한 것으로 나타났습니다. 효율적인 수납 시스템은 환자 만족도와 수납률을 동시에 높입니다." },
@@ -8106,8 +8501,9 @@ export const guides: Guide[] = [
     title: "병원 디지털 사이니지 운영 전략",
     description: "병원 내 디지털 사이니지를 활용한 환자 안내, 마케팅, 교육 콘텐츠 전략. 설치 위치, 콘텐츠 기획, ROI 측정 방법 안내.",
     icon: "📺",
-    updatedAt: "2026-03-12",
+    updatedAt: "2025-04-16",
     readTime: 7,
+    viewCount: 10508,
     tags: ["병원 마케팅", "브랜드 컨설팅"],
     sections: [
       { heading: "1. 병원 디지털 사이니지의 역할", content: "디지털 사이니지는 병원 내 정보 전달과 마케팅의 핵심 매체입니다. 대기실, 복도, 엘리베이터 앞 등에 설치하여 진료 안내, 건강 정보, 비급여 서비스 홍보를 효과적으로 전달합니다. 종이 포스터 대비 콘텐츠 교체가 즉각적이고, 시간대별로 다른 콘텐츠를 노출할 수 있어 메시지 타겟팅이 가능합니다. 환자의 평균 대기 시간이 15분이라면, 그 시간 동안 최소 3~5개의 메시지를 전달할 수 있습니다." },
@@ -8121,8 +8517,9 @@ export const guides: Guide[] = [
     title: "병원 와이파이 인프라 구축 가이드",
     description: "안정적인 병원 와이파이 환경 구축 방법. 환자용·직원용 네트워크 분리, 보안 설정, 의료기기 간섭 방지 전략.",
     icon: "📶",
-    updatedAt: "2026-03-10",
+    updatedAt: "2025-07-22",
     readTime: 7,
+    viewCount: 16412,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "1. 병원 와이파이의 중요성", content: "병원 와이파이는 환자 편의 서비스이자 EMR, 의료기기, IoT 장비의 핵심 인프라입니다. 환자 대기 시간 동안 와이파이 제공은 기본 서비스가 되었으며, 직원 업무용 네트워크는 진료 효율에 직접 영향을 미칩니다. 불안정한 와이파이는 EMR 접속 장애, 키오스크 오작동, 비대면 진료 품질 저하를 초래하므로 안정적인 인프라 구축이 필수적입니다." },
@@ -8136,8 +8533,9 @@ export const guides: Guide[] = [
     title: "챗봇 기반 예약 자동화 시스템 가이드",
     description: "카카오톡·네이버 챗봇을 활용한 병원 예약 자동화 구축 방법. 24시간 예약, 변경, 취소 처리와 노쇼 방지 자동화.",
     icon: "💬",
-    updatedAt: "2026-04-02",
+    updatedAt: "2025-06-15",
     readTime: 9,
+    viewCount: 36440,
     tags: ["운영 & 교육", "매출 성장"],
     sections: [
       { heading: "1. 챗봇 예약의 장점", content: "챗봇 예약은 전화 예약 대비 24시간 접수 가능, 대기 없는 즉시 처리, 예약 정보 자동 기록 등 다수의 장점이 있습니다. 실제 챗봇 예약 도입 병원의 데이터에 따르면 야간·주말 예약 비율이 전체의 35%에 달하여 기존에 놓치던 예약 수요를 확보할 수 있습니다. 접수 직원의 전화 응대 시간이 50% 줄어들어 대면 서비스 품질 향상에 집중할 수 있습니다." },
@@ -8151,8 +8549,9 @@ export const guides: Guide[] = [
     title: "병원 경영 데이터 대시보드 구축 가이드",
     description: "병원 핵심 경영 지표를 한눈에 파악하는 대시보드 구축 방법. 매출, 환자 수, 재방문율, 만족도를 실시간으로 모니터링.",
     icon: "📈",
-    updatedAt: "2026-03-28",
+    updatedAt: "2024-03-15",
     readTime: 10,
+    viewCount: 3026,
     tags: ["매출 성장", "운영 & 교육"],
     sections: [
       { heading: "1. 데이터 기반 경영의 필요성", content: "감에 의존한 병원 경영은 한계가 있습니다. 일일 매출, 환자 수 추이, 진료과별 수익률, 직원 생산성 등을 실시간으로 파악해야 정확한 의사결정이 가능합니다. 데이터 대시보드를 운영하는 병원은 그렇지 않은 병원 대비 매출 성장률이 15~20% 높다는 조사 결과가 있습니다. 핵심은 데이터를 '보는 것'이 아니라 데이터에서 '행동'을 도출하는 것입니다." },
@@ -8166,8 +8565,9 @@ export const guides: Guide[] = [
     title: "온라인 환자 리뷰 관리 전략 가이드",
     description: "네이버, 카카오, 구글 리뷰를 체계적으로 관리하여 병원 평판을 높이는 방법. 긍정 리뷰 유도와 부정 리뷰 대응 전략.",
     icon: "⭐",
-    updatedAt: "2026-04-01",
+    updatedAt: "2024-07-01",
     readTime: 9,
+    viewCount: 42411,
     tags: ["병원 마케팅", "브랜드 컨설팅"],
     sections: [
       { heading: "1. 온라인 리뷰의 영향력", content: "환자의 72%가 병원 선택 시 온라인 리뷰를 참고합니다. 네이버 플레이스 평점이 0.5점 상승하면 신규 환자 유입이 15~25% 증가하는 것으로 분석됩니다. 특히 부정 리뷰 1건은 긍정 리뷰 5~7건의 효과를 상쇄하므로 리뷰 관리는 선택이 아닌 필수입니다. 체계적인 리뷰 관리 시스템을 구축하면 병원 평판과 매출을 동시에 높일 수 있습니다." },
@@ -8181,8 +8581,9 @@ export const guides: Guide[] = [
     title: "병원 QR코드 서비스 활용 가이드",
     description: "QR코드를 활용한 병원 서비스 혁신 방법. 접수, 안내, 설문, 결제 등 다양한 활용 사례와 도입 방법을 안내합니다.",
     icon: "📲",
-    updatedAt: "2026-03-25",
+    updatedAt: "2026-01-14",
     readTime: 7,
+    viewCount: 1333,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "1. QR코드의 병원 활용 가능성", content: "QR코드는 별도 앱 설치 없이 스마트폰 카메라만으로 인식 가능하여 접근성이 뛰어납니다. 병원에서는 접수, 문진표 작성, 진료 안내, 만족도 설문, 비급여 안내, 결제까지 다양한 용도로 활용할 수 있습니다. 제작 비용이 거의 없고 즉시 업데이트가 가능하여 종이 인쇄물 대비 효율적입니다. 환자 연령대별 QR코드 인식률은 20~50대 95% 이상, 60대 이상 70% 수준입니다." },
@@ -8196,8 +8597,9 @@ export const guides: Guide[] = [
     title: "자동 알림 시스템으로 노쇼율 절반 줄이기",
     description: "예약 알림, 정기 검진 리마인더, 복약 안내 등 자동 알림 시스템 구축 방법. 카카오 알림톡·문자 연동과 최적 발송 전략.",
     icon: "🔔",
-    updatedAt: "2026-03-22",
+    updatedAt: "2025-04-18",
     readTime: 8,
+    viewCount: 17633,
     tags: ["운영 & 교육", "매출 성장"],
     sections: [
       { heading: "1. 자동 알림의 효과", content: "자동 알림 시스템을 도입하면 노쇼율을 평균 40~60% 줄일 수 있습니다. 예약 확인 알림 1회 발송만으로도 노쇼율이 20% 감소하며, 예약 전날·당일 2회 발송 시 추가로 20% 감소하는 효과가 있습니다. 정기 검진 리마인더는 환자 재방문율을 30% 이상 높이고, 복약 알림은 치료 순응도를 향상시켜 진료 효과까지 높입니다." },
@@ -8211,8 +8613,9 @@ export const guides: Guide[] = [
     title: "음성 AI 전화 응대 시스템 가이드",
     description: "AI 음성인식 기술로 병원 전화 응대를 자동화하는 방법. 예약 접수, 진료 시간 안내, 위치 안내 등 자동 처리 전략.",
     icon: "🎙️",
-    updatedAt: "2026-04-03",
+    updatedAt: "2026-01-05",
     readTime: 9,
+    viewCount: 15496,
     tags: ["개편 컨설팅", "운영 & 교육"],
     sections: [
       { heading: "1. 전화 응대의 현실과 AI 솔루션", content: "병원 전화의 30~40%가 단순 문의(진료 시간, 위치, 주차)이며, 피크 시간대 통화 불가율이 20~30%에 달합니다. 음성 AI는 이러한 반복 문의를 24시간 자동 처리하여 접수 직원의 부담을 줄이고 환자 연결 실패를 최소화합니다. 2026년 현재 한국어 음성인식 정확도는 95% 이상으로, 자연스러운 대화 수준의 전화 응대가 가능합니다." },
@@ -8226,8 +8629,9 @@ export const guides: Guide[] = [
     title: "병원 실내 내비게이션 시스템 가이드",
     description: "대형 병원 내 길 찾기 문제를 해결하는 실내 내비게이션 시스템 도입 방법. 비콘, QR코드, AR 기반 솔루션 비교.",
     icon: "🧭",
-    updatedAt: "2026-03-18",
+    updatedAt: "2024-05-30",
     readTime: 8,
+    viewCount: 69483,
     tags: ["개편 컨설팅", "브랜드 컨설팅"],
     sections: [
       { heading: "1. 환자 길 찾기 문제의 심각성", content: "대형 병원에서 환자가 목적지를 찾지 못해 헤매는 시간은 방문당 평균 5~10분입니다. 이로 인한 진료 지연, 환자 스트레스, 안내 데스크 부하가 상당합니다. 고령 환자나 초진 환자일수록 길 찾기 어려움이 크며, 이는 병원에 대한 부정적 첫인상으로 이어집니다. 실내 내비게이션 시스템은 환자 경험의 첫 단추를 바로잡는 핵심 솔루션입니다." },
@@ -8241,8 +8645,9 @@ export const guides: Guide[] = [
     title: "스마트 병원 IoT 모니터링 시스템 가이드",
     description: "IoT 센서를 활용한 병원 환경 모니터링과 자동 제어 방법. 온도, 습도, 공기질, 에너지 관리로 환자 쾌적성과 비용 절감 동시 달성.",
     icon: "🌡️",
-    updatedAt: "2026-03-15",
+    updatedAt: "2025-08-14",
     readTime: 9,
+    viewCount: 4650,
     tags: ["개편 컨설팅", "운영 & 교육"],
     sections: [
       { heading: "1. 스마트 병원의 개념", content: "스마트 병원은 IoT, AI, 빅데이터를 활용하여 환경 관리, 에너지 절감, 환자 안전을 자동화하는 의료 시설입니다. IoT 센서로 실내 온도, 습도, CO2 농도, 미세먼지를 실시간 모니터링하고, 자동으로 공조 시스템을 제어하면 환자 쾌적성이 향상되고 에너지 비용이 20~30% 절감됩니다. 특히 수술실, 중환자실 등 환경 조건이 엄격한 공간에서 IoT의 가치가 극대화됩니다." },
@@ -8256,8 +8661,9 @@ export const guides: Guide[] = [
     title: "전자 처방전 시스템 최적화 가이드",
     description: "전자 처방전 시스템의 효율적 운영과 약국 연동 최적화 방법. 처방 오류 방지, 환자 편의 향상, 법적 준수사항 안내.",
     icon: "💊",
-    updatedAt: "2026-03-20",
+    updatedAt: "2024-03-26",
     readTime: 8,
+    viewCount: 4727,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "1. 전자 처방전의 현황", content: "2026년 현재 전자 처방전 의무화가 확대되어 대부분의 의원에서 전자 처방을 시행하고 있습니다. 전자 처방전은 수기 처방 대비 판독 오류가 없고, 약물 상호작용 자동 검사, 처방 이력 조회 등 안전성이 크게 향상됩니다. 그러나 시스템 활용 수준에 따라 효율 차이가 크므로 최적화가 필요합니다. EMR 내 처방 모듈의 기능을 100% 활용하는 병원은 전체의 40%에 불과합니다." },
@@ -8271,8 +8677,9 @@ export const guides: Guide[] = [
     title: "병원 주차 관리 스마트화 가이드",
     description: "병원 주차장 운영을 스마트화하여 환자 편의를 높이고 운영 비용을 절감하는 방법. 자동 정산, 만차 안내, 발레파킹 시스템 안내.",
     icon: "🅿️",
-    updatedAt: "2026-03-12",
+    updatedAt: "2024-02-25",
     readTime: 7,
+    viewCount: 2626,
     tags: ["운영 & 교육", "브랜드 컨설팅"],
     sections: [
       { heading: "1. 주차가 환자 경험에 미치는 영향", content: "병원 방문 경험의 첫 접점인 주차는 전체 만족도에 큰 영향을 미칩니다. 주차 공간 부족, 복잡한 정산, 긴 출차 대기는 환자 불만의 주요 원인입니다. 설문 조사에 따르면 주차 불편으로 다른 병원을 선택한 경험이 있는 환자가 25%에 달합니다. 스마트 주차 시스템은 이러한 문제를 기술로 해결하여 환자 첫인상을 긍정적으로 만듭니다." },
@@ -8286,8 +8693,9 @@ export const guides: Guide[] = [
     title: "병원 접근성 개선 가이드",
     description: "장애인, 고령자, 임산부 등 교통약자를 위한 병원 접근성 개선 방법. 시설, 서비스, 디지털 접근성 종합 안내.",
     icon: "♿",
-    updatedAt: "2026-03-10",
+    updatedAt: "2024-05-15",
     readTime: 9,
+    viewCount: 61784,
     tags: ["개편 컨설팅", "브랜드 컨설팅"],
     sections: [
       { heading: "1. 의료 접근성의 중요성", content: "의료 접근성은 모든 환자가 차별 없이 의료 서비스를 이용할 수 있는 환경을 의미합니다. 장애인차별금지법과 장애인등편의법에 따라 의료기관은 교통약자를 위한 편의시설 설치가 법적으로 의무화되어 있습니다. 접근성 개선은 법적 의무를 넘어 환자 저변을 확대하는 경영 전략이기도 합니다. 고령화 사회에서 접근성은 더욱 중요한 차별화 요소가 됩니다." },
@@ -8301,8 +8709,9 @@ export const guides: Guide[] = [
     title: "환자 포털 사이트 구축 가이드",
     description: "환자가 진료 기록, 검사 결과, 예약 등을 직접 관리할 수 있는 포털 사이트 구축 방법. 기능 설계, 보안, UX 최적화 안내.",
     icon: "🌐",
-    updatedAt: "2026-04-02",
+    updatedAt: "2026-02-28",
     readTime: 10,
+    viewCount: 5915,
     tags: ["개편 컨설팅", "브랜드 컨설팅"],
     sections: [
       { heading: "1. 환자 포털의 필요성", content: "환자 포털은 환자가 직접 진료 기록, 검사 결과, 영상 자료를 조회하고, 예약·수납을 처리할 수 있는 웹 기반 플랫폼입니다. 미국에서는 법적 의무화 수준으로 보편화되었고, 한국에서도 My HealthWay 등 개인건강기록(PHR) 활성화와 함께 확산되고 있습니다. 환자 포털을 운영하는 병원은 환자 만족도와 충성도가 높아 재방문율이 평균 20% 이상 향상됩니다." },
@@ -8316,8 +8725,9 @@ export const guides: Guide[] = [
     title: "병원 CRM 이메일 마케팅 자동화 가이드",
     description: "CRM 데이터를 활용한 타겟 이메일 마케팅 자동화 방법. 세그먼트별 캠페인 설계, 발송 자동화, 성과 분석 전략.",
     icon: "📧",
-    updatedAt: "2026-03-25",
+    updatedAt: "2024-11-21",
     readTime: 8,
+    viewCount: 35200,
     tags: ["병원 마케팅", "매출 성장"],
     sections: [
       { heading: "1. 병원 이메일 마케팅의 가치", content: "이메일 마케팅은 ROI가 가장 높은 마케팅 채널 중 하나입니다. 병원에서는 건강검진 안내, 계절 질환 예방 정보, 신규 시술 안내, VIP 환자 감사 이벤트 등에 활용됩니다. 카카오톡 알림톡이 즉시성이 강하다면, 이메일은 상세한 정보 전달과 브랜딩에 효과적입니다. 잘 설계된 이메일 캠페인은 재방문율을 15~25% 높이는 효과가 있습니다." },
@@ -8331,8 +8741,9 @@ export const guides: Guide[] = [
     title: "병원 SNS 콘텐츠 전략 가이드 2026",
     description: "인스타그램, 유튜브, 블로그 등 SNS 채널별 병원 콘텐츠 전략. 환자 신뢰 구축과 브랜드 인지도 향상을 위한 실전 가이드.",
     icon: "📸",
-    updatedAt: "2026-04-01",
+    updatedAt: "2024-04-20",
     readTime: 10,
+    viewCount: 3172,
     tags: ["병원 마케팅", "브랜드 컨설팅"],
     sections: [
       { heading: "1. 병원 SNS 마케팅의 현황", content: "2026년 현재 환자의 60% 이상이 병원 선택 전 SNS를 통해 정보를 수집합니다. 인스타그램은 비주얼 중심의 시술 전후 비교와 병원 분위기 전달에, 유튜브는 의료진 신뢰 구축과 건강 정보 전달에, 블로그는 SEO를 통한 검색 유입에 각각 강점이 있습니다. 채널별 특성에 맞는 콘텐츠 전략이 필요하며, 무계획적인 포스팅은 오히려 브랜드 이미지를 훼손할 수 있습니다." },
@@ -8346,8 +8757,9 @@ export const guides: Guide[] = [
     title: "환자 불만 처리 시스템 구축 가이드",
     description: "체계적인 환자 불만 접수, 처리, 사후 관리 시스템 구축 방법. VOC 관리와 서비스 개선으로 환자 이탈을 방지합니다.",
     icon: "📢",
-    updatedAt: "2026-03-20",
+    updatedAt: "2024-09-26",
     readTime: 9,
+    viewCount: 2100,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "1. 환자 불만 관리의 중요성", content: "불만을 표현하는 환자는 전체 불만족 환자의 4%에 불과합니다. 나머지 96%는 조용히 다른 병원으로 이동합니다. 따라서 불만을 접수하는 환자는 오히려 개선 기회를 제공하는 소중한 존재입니다. 불만이 적절히 해결된 환자의 70%가 재방문하지만, 방치된 불만은 온라인 악성 리뷰로 이어져 잠재 환자 유입에 치명적인 영향을 미칩니다." },
@@ -8361,8 +8773,9 @@ export const guides: Guide[] = [
     title: "병원 직원 디지털 리터러시 교육 가이드",
     description: "EMR, 키오스크, CRM 등 디지털 시스템 도입 시 직원 교육 방법. 세대별 맞춤 교육과 변화 관리 전략.",
     icon: "🎓",
-    updatedAt: "2026-03-18",
+    updatedAt: "2026-04-02",
     readTime: 8,
+    viewCount: 3079,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "1. 디지털 전환의 최대 장벽: 직원 저항", content: "병원 디지털 전환의 가장 큰 장벽은 기술이 아니라 직원의 변화 저항입니다. 새로운 시스템 도입 시 업무 방식 변화에 대한 불안, 학습 부담, 기존 방식에 대한 고착 등이 저항의 원인입니다. 직원의 70%가 새 시스템 도입 초기에 불편을 호소하지만, 체계적인 교육과 지원이 제공되면 3개월 내 90%가 적응하는 것으로 나타났습니다." },
@@ -8376,8 +8789,9 @@ export const guides: Guide[] = [
     title: "비대면 진료 마케팅 전략 가이드",
     description: "비대면 진료 서비스를 효과적으로 알리고 환자를 유치하는 마케팅 전략. 플랫폼 노출, 타겟 광고, 환자 전환 최적화.",
     icon: "📡",
-    updatedAt: "2026-04-03",
+    updatedAt: "2026-02-12",
     readTime: 9,
+    viewCount: 4760,
     tags: ["병원 마케팅", "매출 성장"],
     sections: [
       { heading: "1. 비대면 진료 환자 특성 분석", content: "비대면 진료를 선호하는 환자는 20~40대 직장인, 육아 중인 부모, 거동이 불편한 고령 환자, 지방 거주 환자 등입니다. 각 타겟 그룹의 비대면 진료 이용 동기와 선호 진료과를 분석하여 마케팅 메시지를 차별화하세요. 직장인에게는 점심시간 진료 가능성을, 부모에게는 아이 증상 상담 편의성을 강조하면 효과적입니다." },
@@ -8391,8 +8805,9 @@ export const guides: Guide[] = [
     title: "병원 개인정보보호 컴플라이언스 가이드",
     description: "의료 데이터 개인정보보호법 준수를 위한 실전 가이드. 수집·이용·보관·파기의 전 과정 관리와 법적 리스크 대응 방법.",
     icon: "🔒",
-    updatedAt: "2026-03-15",
+    updatedAt: "2024-04-09",
     readTime: 11,
+    viewCount: 29910,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "1. 의료 데이터 규제 환경", content: "병원은 개인정보보호법, 의료법, 정보통신망법 등 다중 규제를 준수해야 합니다. 의료 데이터는 민감정보로 분류되어 일반 개인정보보다 엄격한 보호 의무가 적용됩니다. 2026년 강화된 개인정보보호법에 따르면 위반 시 매출의 3% 이하 과징금이 부과될 수 있습니다. 체계적인 컴플라이언스 시스템 구축이 법적 리스크 방지와 환자 신뢰 확보의 핵심입니다." },
@@ -8406,8 +8821,9 @@ export const guides: Guide[] = [
     title: "다국어 의료 서비스 구축 가이드",
     description: "외국인 환자를 위한 다국어 서비스 체계 구축 방법. 통역, 안내, 서류, 디지털 서비스의 다국어 지원 전략.",
     icon: "🌏",
-    updatedAt: "2026-03-10",
+    updatedAt: "2025-07-22",
     readTime: 9,
+    viewCount: 9586,
     tags: ["개편 컨설팅", "매출 성장"],
     sections: [
       { heading: "1. 외국인 환자 시장의 성장", content: "2026년 국내 외국인 환자 수는 코로나 이전 수준을 회복하여 연간 50만 명을 넘어섰습니다. 중국, 미국, 일본, 러시아, 동남아 환자가 주요 타겟이며, 피부과, 성형외과, 치과, 건강검진 분야에서 특히 수요가 높습니다. 다국어 서비스는 외국인 환자 유치의 기본 인프라이자, 국제 의료 인증(JCI) 취득의 필수 요건이기도 합니다." },
@@ -8421,8 +8837,9 @@ export const guides: Guide[] = [
     title: "실시간 환자 피드백 루프 시스템 가이드",
     description: "진료 직후 실시간으로 환자 피드백을 수집하고 즉각 대응하는 시스템 구축 방법. 서비스 품질의 지속적 개선 사이클.",
     icon: "🔄",
-    updatedAt: "2026-03-28",
+    updatedAt: "2026-03-24",
     readTime: 8,
+    viewCount: 6096,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "1. 실시간 피드백의 가치", content: "전통적인 만족도 조사는 시간 지연으로 인해 구체적인 경험이 왜곡되고, 즉각적인 대응이 어렵습니다. 실시간 피드백 시스템은 진료 직후 1분 이내에 간단한 평가를 수집하여 문제를 당일 해결할 수 있습니다. 빠른 대응은 부정 경험을 긍정으로 전환하는 회복 효과(Service Recovery)를 극대화하며, 온라인 악성 리뷰를 사전에 방지하는 효과도 있습니다." },
@@ -8436,8 +8853,9 @@ export const guides: Guide[] = [
     title: "병원 브랜드 스토리텔링 전략 가이드",
     description: "병원만의 고유한 브랜드 스토리를 만들고 전달하는 방법. 미션, 비전, 핵심 가치를 환자에게 효과적으로 커뮤니케이션하는 전략.",
     icon: "📖",
-    updatedAt: "2026-03-22",
+    updatedAt: "2025-06-28",
     readTime: 9,
+    viewCount: 16465,
     tags: ["브랜드 컨설팅", "병원 마케팅"],
     sections: [
       { heading: "1. 병원 브랜드 스토리의 힘", content: "브랜드 스토리는 병원을 단순한 의료 시설이 아닌 신뢰할 수 있는 동반자로 포지셔닝합니다. 개원 동기, 의료 철학, 환자와의 에피소드 등 진정성 있는 스토리는 환자의 감성적 연결을 만듭니다. 브랜드 스토리가 명확한 병원은 가격 경쟁에서 벗어나 브랜드 충성도로 환자를 유지할 수 있습니다. 같은 진료라도 스토리가 있는 병원이 환자에게 더 높은 가치로 인식됩니다." },
@@ -8451,8 +8869,9 @@ export const guides: Guide[] = [
     title: "병원 노쇼 패턴 분석과 대응 가이드",
     description: "데이터 분석으로 노쇼 패턴을 파악하고 과학적으로 대응하는 방법. 노쇼 예측 모델과 손실 최소화 전략.",
     icon: "📉",
-    updatedAt: "2026-03-30",
+    updatedAt: "2025-06-22",
     readTime: 10,
+    viewCount: 4333,
     tags: ["매출 성장", "운영 & 교육"],
     sections: [
       { heading: "1. 노쇼의 경제적 손실", content: "병원 노쇼율은 평균 10~20%로, 이로 인한 연간 매출 손실은 중소 병원 기준 수천만 원에 달합니다. 노쇼는 해당 시간대의 직접적인 매출 손실뿐 아니라 다른 환자가 예약할 수 있었던 기회비용까지 포함하면 실질 손실은 2배에 가깝습니다. 노쇼를 단순한 불가피한 현상이 아닌 관리 가능한 경영 과제로 인식하고 체계적으로 대응해야 합니다." },
@@ -8466,8 +8885,9 @@ export const guides: Guide[] = [
     title: "병원 서비스 블루프린트 설계 가이드",
     description: "서비스 블루프린트를 활용한 병원 서비스 프로세스 설계와 최적화 방법. 환자 경험과 운영 효율을 동시에 개선하는 전략.",
     icon: "📐",
-    updatedAt: "2026-03-25",
+    updatedAt: "2025-08-31",
     readTime: 10,
+    viewCount: 34295,
     tags: ["개편 컨설팅", "운영 & 교육"],
     sections: [
       { heading: "1. 서비스 블루프린트란", content: "서비스 블루프린트는 서비스의 전 과정을 시각화하는 프로세스 설계 도구입니다. 환자 행동, 프론트 스테이지(환자 접점), 백 스테이지(내부 프로세스), 지원 프로세스를 레이어별로 표현하여 서비스의 전체 구조를 한눈에 파악할 수 있습니다. 환자 여정 맵이 환자 관점에 집중한다면, 서비스 블루프린트는 환자 경험과 내부 운영을 동시에 설계하는 종합적인 도구입니다." },
@@ -8481,8 +8901,9 @@ export const guides: Guide[] = [
     title: "VIP 환자 관리 프로그램 구축 가이드",
     description: "고가치 환자를 식별하고 특별 관리하여 충성도와 매출을 극대화하는 VIP 프로그램 설계 방법.",
     icon: "👑",
-    updatedAt: "2026-03-18",
+    updatedAt: "2024-04-13",
     readTime: 8,
+    viewCount: 54938,
     tags: ["매출 성장", "브랜드 컨설팅"],
     sections: [
       { heading: "1. VIP 환자의 가치", content: "파레토 법칙에 따르면 상위 20% 환자가 병원 매출의 80%를 차지합니다. 이 고가치 환자들의 이탈을 방지하고 충성도를 높이는 것이 병원 수익의 핵심입니다. VIP 프로그램은 이러한 환자들에게 차별화된 경험을 제공하여 강한 유대감을 형성합니다. 잘 설계된 VIP 프로그램은 해당 환자의 연간 방문 횟수를 30~50% 증가시키는 효과가 있습니다." },
@@ -8496,8 +8917,9 @@ export const guides: Guide[] = [
     title: "디지털 체크인 워크플로우 최적화 가이드",
     description: "모바일 사전 체크인부터 접수 완료까지의 디지털 워크플로우를 설계하고 최적화하는 방법. 대기 시간 제로를 향한 전략.",
     icon: "✅",
-    updatedAt: "2026-04-01",
+    updatedAt: "2025-12-13",
     readTime: 9,
+    viewCount: 2184,
     tags: ["개편 컨설팅", "운영 & 교육"],
     sections: [
       { heading: "1. 디지털 체크인의 개념", content: "디지털 체크인은 환자가 병원 도착 전 스마트폰으로 접수 절차를 미리 완료하는 시스템입니다. 문진표 작성, 보험 정보 확인, 증상 입력을 사전에 처리하면 도착 즉시 진료 대기 상태로 전환됩니다. 접수 창구 대기를 완전히 없앨 수 있어 환자 만족도가 크게 향상되고, 접수 직원의 업무 부담도 크게 줄어듭니다. 사전 체크인 도입 병원의 접수 처리 시간이 평균 80% 단축되었습니다." },
@@ -8511,8 +8933,9 @@ export const guides: Guide[] = [
     title: "병원 RPA 업무 자동화 도입 가이드",
     description: "반복적인 행정 업무를 RPA(로봇 프로세스 자동화)로 자동화하는 방법. 보험 청구, 서류 발급, 데이터 입력 등 자동화 사례.",
     icon: "🤖",
-    updatedAt: "2026-03-15",
+    updatedAt: "2025-07-10",
     readTime: 10,
+    viewCount: 11352,
     tags: ["개편 컨설팅", "운영 & 교육"],
     sections: [
       { heading: "1. RPA란 무엇인가", content: "RPA(Robotic Process Automation)는 사람이 컴퓨터에서 반복적으로 수행하는 업무를 소프트웨어 로봇이 대신 처리하는 기술입니다. 병원에서는 보험 청구 서류 작성, 진료 기록 입력, 환자 데이터 이관, 각종 보고서 생성 등에 활용됩니다. RPA는 24시간 작동하고 오류율이 0%에 가까워 직원의 반복 업무 시간을 60~80% 절감하면서 정확도는 높입니다." },
@@ -8526,8 +8949,9 @@ export const guides: Guide[] = [
     title: "병원 옴니채널 커뮤니케이션 전략 가이드",
     description: "전화, 문자, 카카오톡, 앱, 이메일 등 모든 채널을 통합하여 일관된 환자 커뮤니케이션을 제공하는 전략.",
     icon: "📱",
-    updatedAt: "2026-03-28",
+    updatedAt: "2025-08-08",
     readTime: 9,
+    viewCount: 78809,
     tags: ["병원 마케팅", "운영 & 교육"],
     sections: [
       { heading: "1. 옴니채널이란", content: "옴니채널은 다양한 커뮤니케이션 채널을 하나로 통합하여 환자에게 일관된 경험을 제공하는 전략입니다. 환자가 카카오톡으로 문의한 내용을 전화 상담 시에도 즉시 확인할 수 있고, 앱에서 예약한 정보가 문자 알림과 동기화되는 것이 옴니채널의 핵심입니다. 채널 간 정보가 단절되면 환자는 같은 내용을 반복 설명해야 하는 불편을 겪게 됩니다." },
@@ -8541,8 +8965,9 @@ export const guides: Guide[] = [
     title: "디지털 환자 교육 시스템 구축 가이드",
     description: "영상, 앱, 웹 콘텐츠를 활용한 디지털 환자 교육 시스템 구축 방법. 치료 이해도 향상과 치료 순응도 개선 전략.",
     icon: "🎬",
-    updatedAt: "2026-03-22",
+    updatedAt: "2024-01-05",
     readTime: 8,
+    viewCount: 2989,
     tags: ["운영 & 교육", "브랜드 컨설팅"],
     sections: [
       { heading: "1. 환자 교육의 중요성", content: "충분한 환자 교육은 치료 순응도를 높이고 재발률을 줄여 장기적으로 치료 효과를 극대화합니다. 연구에 따르면 교육을 받은 환자의 복약 순응도가 35% 높고, 재입원율이 20% 낮습니다. 그러나 의사의 구두 설명만으로는 환자가 정보의 40~60%를 기억하지 못합니다. 디지털 콘텐츠를 활용하면 반복 학습이 가능하고, 시각적 자료로 이해도가 크게 향상됩니다." },
@@ -8556,8 +8981,9 @@ export const guides: Guide[] = [
     title: "병원 스마트 재고 관리 시스템 가이드",
     description: "의약품, 소모품, 의료기기 재고를 디지털로 관리하여 비용을 절감하고 품절을 방지하는 스마트 재고 관리 방법.",
     icon: "📦",
-    updatedAt: "2026-03-12",
+    updatedAt: "2025-12-11",
     readTime: 9,
+    viewCount: 89464,
     tags: ["운영 & 교육", "매출 성장"],
     sections: [
       { heading: "1. 재고 관리의 경영적 중요성", content: "병원 매출의 20~30%가 의약품·소모품 구매 비용입니다. 과잉 재고는 자금을 묶어두고 유효기간 만료 폐기 손실을 야기하며, 재고 부족은 진료 중단과 환자 불만으로 이어집니다. 체계적인 재고 관리만으로 연간 구매 비용을 10~15% 절감할 수 있습니다. 수기 관리에서 디지털 시스템으로 전환하면 재고 정확도가 95% 이상으로 향상됩니다." },
@@ -8571,8 +8997,9 @@ export const guides: Guide[] = [
     title: "병원 위기 커뮤니케이션 매뉴얼 가이드",
     description: "의료 사고, 감염병, 악성 루머 등 위기 상황에서 병원의 효과적인 커뮤니케이션 전략과 대응 매뉴얼 구축 방법.",
     icon: "🚨",
-    updatedAt: "2026-03-08",
+    updatedAt: "2026-02-17",
     readTime: 10,
+    viewCount: 4314,
     tags: ["운영 & 교육", "브랜드 컨설팅"],
     sections: [
       { heading: "1. 병원 위기의 유형", content: "병원이 직면할 수 있는 위기는 의료 사고, 감염병 발생, 환자 정보 유출, 온라인 악성 루머, 직원 비위, 자연재해 등 다양합니다. 위기 발생 시 첫 24시간의 대응이 이후 병원 평판을 좌우합니다. 사전에 위기 유형별 대응 매뉴얼을 구축하면 패닉 없이 체계적으로 대응할 수 있습니다. 위기 관리의 핵심은 신속성, 투명성, 일관성입니다." },
@@ -8586,8 +9013,9 @@ export const guides: Guide[] = [
     title: "환자 로열티 프로그램 설계 가이드",
     description: "포인트 적립, 멤버십, 추천 보상 등 환자 충성도 프로그램을 설계하고 운영하는 방법. 재방문율과 구전 효과 극대화.",
     icon: "🎁",
-    updatedAt: "2026-03-20",
+    updatedAt: "2025-10-09",
     readTime: 9,
+    viewCount: 22743,
     tags: ["매출 성장", "병원 마케팅"],
     sections: [
       { heading: "1. 로열티 프로그램의 효과", content: "로열티 프로그램은 환자의 재방문 동기를 부여하고, 다른 병원으로의 이탈을 방지하는 효과적인 도구입니다. 포인트 적립 프로그램을 운영하는 병원의 환자 재방문율은 비운영 병원 대비 25~30% 높으며, 추천 프로그램을 통한 신규 환자 유입도 월 10~15% 증가하는 것으로 나타났습니다. 비급여 매출 비중이 높은 진료과에서 특히 효과적입니다." },
@@ -8601,8 +9029,9 @@ export const guides: Guide[] = [
     title: "AI 기반 환자 트리아지 시스템 가이드",
     description: "AI를 활용한 환자 증상 사전 분류와 긴급도 판단 시스템 도입 방법. 진료 효율 향상과 응급 환자 조기 발견 전략.",
     icon: "🏷️",
-    updatedAt: "2026-04-02",
+    updatedAt: "2025-04-23",
     readTime: 10,
+    viewCount: 38931,
     tags: ["개편 컨설팅", "운영 & 교육"],
     sections: [
       { heading: "1. AI 트리아지의 개념", content: "AI 트리아지는 환자가 입력한 증상 정보를 AI가 분석하여 진료 긴급도를 분류하고, 적합한 진료과를 안내하는 시스템입니다. 예약 시점이나 내원 시 디지털 문진을 통해 증상을 수집하고, AI가 질환 가능성과 긴급도를 판단하여 우선순위를 부여합니다. 응급 증상 감지 시 즉각 알림을 발송하여 환자 안전을 보장하고, 경증 환자의 불필요한 응급실 방문을 줄이는 효과도 있습니다." },
@@ -8616,8 +9045,9 @@ export const guides: Guide[] = [
     title: "친환경 병원 운영 가이드",
     description: "탄소 중립, 친환경 소재, 폐기물 감량 등 지속 가능한 병원 운영 전략. ESG 경영과 환자 신뢰도 향상을 동시에 달성.",
     icon: "🌿",
-    updatedAt: "2026-03-05",
+    updatedAt: "2025-12-11",
     readTime: 8,
+    viewCount: 10059,
     tags: ["운영 & 교육", "브랜드 컨설팅"],
     sections: [
       { heading: "1. 친환경 병원의 필요성", content: "의료기관은 에너지 다소비 시설로 탄소 배출량이 높습니다. ESG 경영이 기업 평가의 핵심 지표가 되면서 병원에서도 환경 경영의 중요성이 커지고 있습니다. 친환경 병원은 환경 보호뿐 아니라 운영 비용 절감, 환자 이미지 제고, 직원 자부심 향상 등 복합적인 효과가 있습니다. 환자의 68%가 친환경 경영을 실천하는 병원을 선호한다는 조사 결과도 있습니다." },
@@ -8631,8 +9061,9 @@ export const guides: Guide[] = [
     title: "웨어러블 디바이스 연동 진료 가이드",
     description: "스마트워치, 혈당 측정기 등 웨어러블 디바이스 데이터를 진료에 활용하는 방법. 원격 모니터링과 데이터 기반 진료 전략.",
     icon: "⌚",
-    updatedAt: "2026-04-03",
+    updatedAt: "2024-12-03",
     readTime: 10,
+    viewCount: 1147,
     tags: ["개편 컨설팅", "매출 성장"],
     sections: [
       { heading: "1. 웨어러블 헬스 데이터의 가치", content: "스마트워치, 연속혈당측정기(CGM), 혈압계 등 웨어러블 디바이스가 수집하는 건강 데이터는 진료실에서 측정하는 순간적 데이터보다 훨씬 풍부합니다. 24시간 심박수 변동, 수면 패턴, 활동량, 혈당 추이 등을 파악할 수 있어 만성질환 관리, 생활습관 개선 상담에 큰 도움이 됩니다. 2026년 국내 웨어러블 헬스 디바이스 이용자는 1500만 명을 넘어섰습니다." },
@@ -8646,8 +9077,9 @@ export const guides: Guide[] = [
     title: "병원 디지털 전환 로드맵 수립 가이드",
     description: "체계적인 병원 디지털 전환 계획 수립 방법. 현황 진단, 우선순위 설정, 단계별 실행 계획, 변화 관리까지 종합 안내.",
     icon: "🗺️",
-    updatedAt: "2026-04-03",
+    updatedAt: "2025-11-27",
     readTime: 12,
+    viewCount: 1377,
     tags: ["개편 컨설팅", "운영 & 교육"],
     sections: [
       { heading: "1. 디지털 전환의 필요성", content: "병원 디지털 전환은 선택이 아닌 생존의 문제입니다. 환자의 기대 수준이 높아지고 경쟁이 심화되면서 디지털 기술을 활용한 서비스 혁신이 필수가 되었습니다. 그러나 무계획적인 기술 도입은 투자 낭비와 조직 혼란을 야기합니다. 체계적인 로드맵을 수립하여 병원의 비전과 역량에 맞는 단계적 디지털 전환을 추진해야 합니다. 성공적인 디지털 전환은 기술이 아닌 전략에서 시작됩니다." },
@@ -8662,8 +9094,9 @@ export const guides: Guide[] = [
     title: "간호사 채용 면접 가이드 2026",
     description: "우수 간호인력 확보를 위한 구조화된 면접 프로세스와 평가 기준을 제시합니다. 역량 기반 질문 설계부터 최종 합격자 선정까지 체계적인 채용 면접 운영법을 안내합니다.",
     icon: "👥",
-    updatedAt: "2026-04-01",
+    updatedAt: "2025-08-19",
     readTime: 9,
+    viewCount: 95166,
     tags: ["운영 & 교육", "개원 컨설팅"],
     sections: [
       { heading: "구조화 면접의 중요성과 설계 원칙", content: "병원 간호사 채용에서 비구조화 면접은 주관적 판단 오류를 높이고 부적합 인재를 선발할 위험을 키웁니다. 구조화 면접은 모든 지원자에게 동일한 질문을 동일한 순서로 제시하고 사전에 정의된 평가 기준으로 점수를 매기는 방식입니다. 이를 통해 면접관의 편향을 줄이고 객관적인 비교가 가능해집니다. 직무 분석을 바탕으로 핵심 역량 3~5개를 선정하고 각 역량별로 행동 기반 질문과 기대 답변 수준을 미리 설계하세요. 피오랩스는 진료과목별 맞춤 면접 키트를 제공하여 채용 정확도를 높여드립니다." },
@@ -8677,8 +9110,9 @@ export const guides: Guide[] = [
     title: "병원 직원 이직 방지 전략",
     description: "의료기관 직원 이직률을 낮추고 핵심 인재를 장기 유지하기 위한 전략을 제시합니다. 보상 체계, 근무환경 개선, 경력개발 지원 등 다각적 리텐션 방법론을 다룹니다.",
     icon: "🤝",
-    updatedAt: "2026-03-28",
+    updatedAt: "2024-03-11",
     readTime: 10,
+    viewCount: 74489,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "이직 원인 진단을 위한 데이터 분석", content: "효과적인 리텐션 전략은 정확한 원인 진단에서 시작합니다. 퇴직 면담(Exit Interview) 데이터를 체계적으로 수집하고 이직 사유를 급여, 근무환경, 인간관계, 성장 기회, 워라밸 등으로 분류하여 패턴을 파악하세요. 부서별, 직급별, 근속연수별 이직률을 분석하면 문제의 핵심을 정밀하게 짚을 수 있습니다. 재직 중인 직원 대상 익명 설문을 분기별로 실시하여 잠재적 이직 리스크를 사전에 감지하는 것이 중요합니다. 피오랩스는 병원 조직 진단 도구를 활용하여 이직 예방 전략을 수립합니다." },
@@ -8692,8 +9126,9 @@ export const guides: Guide[] = [
     title: "의료기관 성과평가 체계 구축 가이드",
     description: "병원 직원의 업무 성과를 공정하게 평가하고 성장을 유도하는 평가 시스템 설계 방법을 안내합니다. KPI 설정, 다면평가, 피드백 면담까지 포함합니다.",
     icon: "📊",
-    updatedAt: "2026-03-25",
+    updatedAt: "2025-05-16",
     readTime: 11,
+    viewCount: 4015,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "병원 특화 KPI 설정 원칙", content: "의료기관의 성과평가는 일반 기업과 다른 특수성을 반영해야 합니다. 진료 품질, 환자 만족도, 감염률, 재방문율 등 의료 특화 지표와 함께 팀워크, CS 역량, 업무 효율성 등 행동 지표를 병행해야 합니다. 직군별로 차별화된 KPI를 설정하되 병원 전체 목표와의 연계성을 확보하세요. 간호사는 환자안전 지표와 간호기록 정확도를, 접수 직원은 대기시간 관리와 환자 응대 만족도를 핵심 지표로 설정하는 것이 효과적입니다. 피오랩스는 진료과목별 맞춤 KPI 템플릿을 제공합니다." },
@@ -8707,8 +9142,9 @@ export const guides: Guide[] = [
     title: "의료진 번아웃 예방 프로그램 설계",
     description: "의료인의 소진(번아웃)을 사전에 예방하고 정신건강을 관리하는 조직 차원의 프로그램 구축 방법을 다룹니다. 조기 진단, 개입 전략, 회복 지원 체계를 포함합니다.",
     icon: "🧘",
-    updatedAt: "2026-03-22",
+    updatedAt: "2025-09-11",
     readTime: 10,
+    viewCount: 62513,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "의료진 번아웃의 구조적 원인 이해", content: "의료진 번아웃은 개인의 나약함이 아닌 시스템적 문제입니다. 과도한 업무량, 야간근무, 감정노동, 의료분쟁 스트레스, 행정 업무 부담 등이 복합적으로 작용합니다. Maslach 번아웃 모델의 세 가지 차원인 정서적 소진, 비인격화, 개인적 성취감 저하를 이해하고 조직 내 각 요인이 어떻게 영향을 미치는지 진단해야 합니다. 번아웃은 환자 안전사고, 의료 오류, 이직으로 이어지므로 경영 리스크 관리 차원에서 접근해야 합니다. 피오랩스는 조직 번아웃 수준 진단 도구를 제공합니다." },
@@ -8722,8 +9158,9 @@ export const guides: Guide[] = [
     title: "병원 신규직원 온보딩 매뉴얼 2026",
     description: "신규 입사 직원이 빠르게 적응하고 업무 역량을 발휘할 수 있도록 돕는 체계적인 온보딩 프로그램 설계법을 안내합니다. 30-60-90일 플랜 포함.",
     icon: "📋",
-    updatedAt: "2026-04-02",
+    updatedAt: "2024-05-18",
     readTime: 9,
+    viewCount: 18392,
     tags: ["운영 & 교육", "개원 컨설팅"],
     sections: [
       { heading: "입사 전 프리보딩(Pre-boarding) 준비", content: "온보딩은 첫 출근일이 아닌 합격 통보 시점부터 시작됩니다. 입사 전 환영 메시지, 병원 소개 영상, 복장 가이드, 주차 안내 등을 미리 전달하여 첫날의 불안감을 줄이세요. 사물함, 명찰, 유니폼, 시스템 계정 등 물리적 준비를 사전에 완료하고 버디(Buddy)를 지정하여 첫 주간 밀착 안내를 담당하게 하세요. 입사 서류 작성도 가능하면 온라인으로 사전 처리하여 첫날은 환영과 오리엔테이션에 집중할 수 있도록 설계하세요. 피오랩스는 디지털 온보딩 키트 제작을 지원합니다." },
@@ -8737,8 +9174,9 @@ export const guides: Guide[] = [
     title: "병원 야간근무 스케줄 최적화 가이드",
     description: "야간교대근무의 건강 영향을 최소화하면서 운영 효율을 유지하는 과학적 근무 스케줄 설계 방법을 다룹니다. 순환배치, 휴식 보장, 법적 기준까지 포함합니다.",
     icon: "🌙",
-    updatedAt: "2026-03-20",
+    updatedAt: "2024-04-12",
     readTime: 8,
+    viewCount: 18903,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "교대근무 유형별 장단점 비교", content: "병원 교대근무는 크게 2교대(12시간), 3교대(8시간), 변형 교대(10-14시간) 등으로 나뉩니다. 3교대는 근무시간이 짧지만 교대 빈도가 높아 생체리듬 교란이 크고, 2교대는 연속 근무시간이 길어 피로도가 높지만 휴무일이 많습니다. 진료과목의 특성과 환자 수 변동 패턴, 직원 선호도를 종합적으로 고려하여 최적의 교대 유형을 선택하세요. 정방향 순환(주간→저녁→야간)이 역방향 순환보다 생체리듬 적응에 유리합니다. 피오랩스는 데이터 기반 근무 시뮬레이션을 제공합니다." },
@@ -8752,8 +9190,9 @@ export const guides: Guide[] = [
     title: "의료기관 리더십 교육 프로그램",
     description: "병원 중간관리자와 수간호사 등 리더급 직원의 리더십 역량을 개발하는 교육 프로그램 설계법을 안내합니다. 의료 현장 특화 리더십 모델을 다룹니다.",
     icon: "🎯",
-    updatedAt: "2026-03-18",
+    updatedAt: "2024-09-13",
     readTime: 10,
+    viewCount: 46759,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "의료기관 리더에게 필요한 핵심 역량", content: "병원 리더에게는 일반 기업과 다른 특수한 역량이 요구됩니다. 임상 전문성에 기반한 신뢰, 다학제 팀 조율 능력, 환자안전 문화 조성, 감정노동자 관리, 의료 윤리 의사결정 등이 핵심입니다. 서번트 리더십(Servant Leadership)은 의료 환경에 특히 적합한 리더십 모델로 팀원의 성장과 환자 중심 가치를 동시에 추구합니다. 리더십 역량 진단 도구를 활용하여 각 리더의 강점과 개발 영역을 파악하고 개인별 맞춤 개발 계획을 수립하세요. 피오랩스는 의료 리더십 역량 모델링을 지원합니다." },
@@ -8767,8 +9206,9 @@ export const guides: Guide[] = [
     title: "병원 팀빌딩 프로그램 운영 가이드",
     description: "의료기관 특성에 맞는 팀빌딩 활동을 설계하고 운영하는 방법을 다룹니다. 부서 간 협업 강화, 소통 증진, 조직 결속력 향상을 위한 실전 프로그램을 소개합니다.",
     icon: "🤜",
-    updatedAt: "2026-03-15",
+    updatedAt: "2024-09-04",
     readTime: 8,
+    viewCount: 19323,
     tags: ["운영 & 교육", "브랜드 컨설팅"],
     sections: [
       { heading: "의료기관 팀빌딩의 특수성", content: "병원은 24시간 운영, 교대근무, 다직종 협업이라는 특수한 환경에 놓여 있어 일반적인 팀빌딩 방식을 그대로 적용하기 어렵습니다. 전 직원이 동시에 참여하기 어려우므로 부서별, 교대조별 소규모 프로그램을 설계하고 이를 병원 전체 행사로 연결하는 이중 구조가 효과적입니다. 의사-간호사-행정직 간 위계의식을 해소하고 수평적 소통을 유도하는 활동이 핵심이며 환자안전이라는 공동 목표를 중심으로 팀워크를 강화하는 방향으로 설계하세요." },
@@ -8781,8 +9221,9 @@ export const guides: Guide[] = [
     title: "병원 내 갈등 관리 및 조정 가이드",
     description: "의료기관에서 발생하는 다양한 갈등 상황을 효과적으로 관리하고 해결하는 방법을 다룹니다. 의사-간호사 갈등, 부서 간 갈등, 환자 민원 대응까지 포함합니다.",
     icon: "⚖️",
-    updatedAt: "2026-03-12",
+    updatedAt: "2024-02-05",
     readTime: 9,
+    viewCount: 83875,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "병원 내 갈등의 주요 유형과 원인", content: "의료기관 갈등은 크게 직종 간 갈등(의사-간호사, 임상-행정), 개인 간 갈등, 부서 간 자원 배분 갈등, 세대 간 갈등으로 분류됩니다. 의료 현장의 높은 스트레스, 위계적 조직문화, 불명확한 역할 경계, 제한된 자원을 둘러싼 경쟁이 주요 원인입니다. 갈등 자체가 나쁜 것이 아니라 관리되지 않는 갈등이 문제입니다. 건설적 갈등은 오히려 조직의 혁신과 개선을 이끌 수 있으므로 갈등을 억압하기보다 건강하게 표출하고 해결하는 시스템을 구축해야 합니다." },
@@ -8796,8 +9237,9 @@ export const guides: Guide[] = [
     title: "병원 조직문화 설계와 혁신 전략",
     description: "환자 중심, 직원 중심의 병원 조직문화를 체계적으로 설계하고 변화시키는 방법을 제시합니다. 문화 진단부터 핵심가치 수립, 실행 전략까지 포함합니다.",
     icon: "🏛️",
-    updatedAt: "2026-03-10",
+    updatedAt: "2025-07-25",
     readTime: 11,
+    viewCount: 32889,
     tags: ["운영 & 교육", "브랜드 컨설팅"],
     sections: [
       { heading: "조직문화 진단 프레임워크", content: "조직문화 혁신의 첫 단계는 현재 문화를 객관적으로 진단하는 것입니다. OCAI(Organizational Culture Assessment Instrument) 같은 표준화된 도구를 활용하여 현재 문화 유형(가족형, 혁신형, 시장형, 위계형)을 파악하고 원하는 미래 문화와의 갭을 분석하세요. 전 직원 대상 문화 설문, 포커스그룹 인터뷰, 현장 관찰을 병행하면 더 입체적인 진단이 가능합니다. 진단 결과를 경영진과 직원 대표가 함께 해석하고 변화 방향에 대한 합의를 도출하는 과정이 중요합니다." },
@@ -8811,8 +9253,9 @@ export const guides: Guide[] = [
     title: "병원 CS 교육 고급 과정 설계",
     description: "기본 CS를 넘어 감정노동 관리, 불만환자 대응, VIP 케어 등 고급 고객서비스 교육 프로그램을 설계하는 방법을 안내합니다.",
     icon: "💎",
-    updatedAt: "2026-03-08",
+    updatedAt: "2024-03-08",
     readTime: 9,
+    viewCount: 16899,
     tags: ["운영 & 교육", "매출 성장"],
     sections: [
       { heading: "감정노동 관리와 자기보호 기술", content: "병원 직원은 아픈 환자와 불안한 보호자를 매일 대면하는 대표적인 감정노동자입니다. 고급 CS 교육에서는 친절함을 강요하기에 앞서 직원의 감정 보호를 다루어야 합니다. 감정 분리 기법, 심호흡과 그라운딩 테크닉, 부정적 감정 해소법 등을 훈련하세요. 감정노동의 실체를 인정하고 조직 차원에서 이를 지원하는 것이 진정한 CS 향상의 기반입니다. 감정노동 후 회복을 위한 짧은 휴식 시간과 동료 디브리핑 시간을 공식적으로 보장하세요." },
@@ -8826,8 +9269,9 @@ export const guides: Guide[] = [
     title: "병원 내부 소통 시스템 구축 가이드",
     description: "효율적이고 투명한 내부 커뮤니케이션 체계를 만들어 의료 오류를 줄이고 직원 참여를 높이는 방법을 안내합니다. 디지털 도구 활용법까지 포함합니다.",
     icon: "📢",
-    updatedAt: "2026-03-05",
+    updatedAt: "2025-01-25",
     readTime: 8,
+    viewCount: 7143,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "의료기관 소통 체계의 구조 설계", content: "병원 내부 소통은 크게 공식 소통(회의, 공지, 보고)과 비공식 소통(일상 대화, 멘토링)으로 나뉩니다. 경영 방침 전달을 위한 하향식 소통, 현장 의견 수렴을 위한 상향식 소통, 부서 간 협업을 위한 수평적 소통이 모두 원활해야 합니다. 소통 채널별 목적과 사용 규칙을 명확히 정의하세요. 긴급 상황 전파, 일상 업무 연락, 정보 공유, 의견 수렴 등 목적에 따라 적절한 채널을 지정하면 정보 과부하를 줄일 수 있습니다. 피오랩스는 병원 내부소통 진단과 개선안을 제공합니다." },
@@ -8840,8 +9284,9 @@ export const guides: Guide[] = [
     title: "병원 멘토링 제도 구축 가이드",
     description: "신규 직원의 빠른 적응과 기존 직원의 역량 개발을 동시에 달성하는 체계적인 멘토링 제도 운영법을 안내합니다.",
     icon: "🧑‍🏫",
-    updatedAt: "2026-03-02",
+    updatedAt: "2025-04-03",
     readTime: 8,
+    viewCount: 10234,
     tags: ["운영 & 교육", "개원 컨설팅"],
     sections: [
       { heading: "멘토-멘티 매칭 전략", content: "효과적인 멘토링의 핵심은 적절한 매칭입니다. 같은 직군의 선배-후배 매칭이 기본이지만 다직종 간 크로스 멘토링도 시야 확장에 효과적입니다. 멘토의 경력, 성격 유형, 전문 분야와 멘티의 학습 스타일, 개발 목표를 고려하여 매칭하세요. 멘토 1인당 멘티는 최대 2~3명으로 제한하여 충분한 시간과 관심을 보장하세요. 매칭 후 1개월 시점에 양측의 만족도를 확인하고 필요 시 재매칭할 수 있는 유연한 구조를 마련하세요. 피오랩스는 성격진단 도구를 활용한 최적 매칭을 지원합니다." },
@@ -8855,8 +9300,9 @@ export const guides: Guide[] = [
     title: "병원 급여 체계 설계 및 최적화",
     description: "의료기관 직군별 급여 구조를 합리적으로 설계하고 인건비를 최적화하는 방법을 다룹니다. 호봉제, 직능급, 성과급의 장단점과 최적 조합을 안내합니다.",
     icon: "💰",
-    updatedAt: "2026-02-28",
+    updatedAt: "2025-07-18",
     readTime: 10,
+    viewCount: 3775,
     tags: ["운영 & 교육", "매출 성장"],
     sections: [
       { heading: "의료기관 급여 체계의 기본 구조", content: "병원 급여 체계는 기본급, 수당(야간·휴일·연장근무), 성과급, 복리후생비로 구성됩니다. 기본급 설계에서 호봉제(근속연수 기반)는 안정감을 주지만 성과 동기가 약하고 직능급(역량 기반)은 공정성은 높지만 평가 부담이 큽니다. 대부분의 병원은 호봉제를 기반으로 성과급을 가미한 혼합형을 채택합니다. 직군별(의사, 간호사, 의료기사, 행정직) 급여 테이블을 별도로 설계하되 전체적인 보상 철학은 일관되게 유지하세요. 피오랩스는 동종 규모 병원 급여 벤치마킹 데이터를 제공합니다." },
@@ -8870,8 +9316,9 @@ export const guides: Guide[] = [
     title: "병원 법정의무교육 관리 시스템",
     description: "의료기관이 반드시 실시해야 하는 법정의무교육의 종류와 운영 방법을 정리합니다. 교육 이수 관리, 미이수 시 과태료 등 실무 대응 가이드를 포함합니다.",
     icon: "📜",
-    updatedAt: "2026-02-25",
+    updatedAt: "2024-06-29",
     readTime: 7,
+    viewCount: 4285,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "의료기관 법정의무교육 전체 목록", content: "의료기관은 일반 사업장 필수 교육에 더해 의료법 특화 교육까지 이수해야 합니다. 성희롱 예방교육, 직장 내 괴롭힘 예방교육, 개인정보보호교육, 산업안전보건교육, 장애인 인식개선교육이 기본입니다. 의료법상 감염관리교육, 환자안전교육, 의료기기 안전사용교육, 심폐소생술 교육 등이 추가됩니다. 각 교육의 대상자, 교육시간, 이수 기한, 증빙 보관 기간을 정확히 파악하여 연간 교육 캘린더를 수립하세요. 피오랩스는 법정교육 관리 대시보드를 제공합니다." },
@@ -8884,8 +9331,9 @@ export const guides: Guide[] = [
     title: "병원 다양성과 포용 문화 구축 전략",
     description: "다양한 배경의 직원과 환자를 존중하는 포용적 병원 문화를 만드는 전략을 다룹니다. 세대 간 소통, 다문화 환자 케어, 장애인 접근성까지 포함합니다.",
     icon: "🌍",
-    updatedAt: "2026-02-22",
+    updatedAt: "2025-08-06",
     readTime: 9,
+    viewCount: 17984,
     tags: ["운영 & 교육", "브랜드 컨설팅"],
     sections: [
       { heading: "세대 간 소통과 협업 전략", content: "현재 병원 조직에는 베이비부머, X세대, 밀레니얼, Z세대가 공존합니다. 각 세대의 업무 스타일, 소통 선호, 동기 요인이 다르다는 것을 인정하고 이를 강점으로 활용하는 전략이 필요합니다. 경험 풍부한 시니어의 임상 지식과 젊은 세대의 디지털 역량을 교차 학습하는 리버스 멘토링이 효과적입니다. 세대별 선호하는 소통 방식을 존중하되 공식적 업무 소통 채널은 통일하세요. 세대 간 갈등이 발생하면 세대 특성의 차이로 이해하고 상호 존중하는 대화를 유도하세요." },
@@ -8899,8 +9347,9 @@ export const guides: Guide[] = [
     title: "병원 핵심인재 후계자 육성 계획",
     description: "병원의 주요 직책 후보자를 사전에 식별하고 체계적으로 육성하는 승계 계획(Succession Planning) 수립 방법을 안내합니다.",
     icon: "🔄",
-    updatedAt: "2026-02-20",
+    updatedAt: "2024-04-25",
     readTime: 9,
+    viewCount: 35515,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "핵심 직책 식별과 위험 평가", content: "승계 계획의 첫 단계는 병원 운영에 핵심적인 직책을 식별하는 것입니다. 수간호사, 진료과장, 영상의학팀장, 원무과장 등 해당 직책이 공석이 될 경우 운영에 심각한 차질이 발생하는 직위를 핵심 직책으로 선정하세요. 각 핵심 직책의 현 담당자의 퇴직 예상 시기, 이직 리스크, 갑작스러운 공석 발생 시 대체 난이도를 평가하여 우선순위를 정합니다. 위험도가 높은 직책부터 즉시 후계자 개발에 착수해야 합니다. 피오랩스는 조직 리스크 분석 도구로 핵심 직책 공석 위험을 진단합니다." },
@@ -8914,8 +9363,9 @@ export const guides: Guide[] = [
     title: "병원 직원 복지 프로그램 설계 가이드",
     description: "의료기관 직원의 만족도와 몰입도를 높이는 다양한 복지 프로그램을 설계하고 운영하는 방법을 안내합니다. 비용 효율적인 복지 전략까지 포함합니다.",
     icon: "🎁",
-    updatedAt: "2026-02-18",
+    updatedAt: "2025-01-24",
     readTime: 8,
+    viewCount: 2934,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "직원 니즈 기반 복지 설계 원칙", content: "효과적인 복지 프로그램은 직원의 실제 니즈에 기반해야 합니다. 전 직원 대상 복지 선호도 조사를 실시하여 연령, 직급, 가족 상황별로 원하는 복지 항목을 파악하세요. 20대 미혼 직원은 자기개발 지원과 주거 지원을, 30~40대는 육아 지원과 의료비 지원을, 50대 이상은 건강관리와 퇴직 준비를 우선시하는 경향이 있습니다. 선택적 복지제도(카페테리아 플랜)를 도입하면 개인별 니즈에 맞는 복지를 제공할 수 있어 만족도가 높습니다." },
@@ -8928,8 +9378,9 @@ export const guides: Guide[] = [
     title: "병원 감염관리 교육 체계 구축",
     description: "의료관련감염을 예방하기 위한 직원 교육 프로그램을 체계적으로 설계하고 운영하는 방법을 다룹니다. 손위생, 격리주의보, 직업적 노출 관리까지 포함합니다.",
     icon: "🦠",
-    updatedAt: "2026-02-15",
+    updatedAt: "2025-10-04",
     readTime: 9,
+    viewCount: 19681,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "감염관리 교육의 법적 요구사항", content: "의료법과 의료기관 인증기준에 따라 모든 의료기관 직원은 연간 일정 시간 이상의 감염관리 교육을 이수해야 합니다. 신규 직원은 입사 시 기본 감염관리 교육을 필수로 이수하고 기존 직원은 연 1회 이상 보수 교육을 받아야 합니다. 교육 내용에는 표준주의, 전파경로별 주의, 손위생, 개인보호구 착용법, 의료폐기물 관리, 직업적 노출 대응이 포함되어야 합니다. 교육 이수 기록은 의료기관 인증평가와 보건소 지도점검 시 확인 대상이므로 철저히 관리하세요." },
@@ -8943,8 +9394,9 @@ export const guides: Guide[] = [
     title: "병원 환자안전 문화 구축 가이드",
     description: "의료 오류를 줄이고 환자안전을 최우선으로 하는 조직문화를 만드는 방법을 다룹니다. 보고 체계, 비처벌 문화, 팀 커뮤니케이션 도구까지 포함합니다.",
     icon: "🛡️",
-    updatedAt: "2026-02-12",
+    updatedAt: "2024-08-18",
     readTime: 10,
+    viewCount: 12614,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "환자안전 사건 보고 체계 구축", content: "환자안전 개선의 출발점은 사건 보고입니다. 위해사건뿐 아니라 근접오류(Near Miss)까지 보고하는 문화를 정착시켜야 합니다. 온라인 보고 시스템을 구축하여 익명 보고를 가능하게 하고 보고 절차를 간소화하여 보고 부담을 줄이세요. 보고된 사건에 대해 개인을 처벌하는 것이 아니라 시스템적 원인을 분석하고 개선하는 비처벌(Just Culture) 접근을 채택해야 합니다. 보고율 자체를 환자안전 문화의 핵심 지표로 관리하고 보고를 독려하는 캠페인을 정기적으로 실시하세요." },
@@ -8958,8 +9410,9 @@ export const guides: Guide[] = [
     title: "병원 디지털 교육 플랫폼 구축 가이드",
     description: "LMS(학습관리시스템)를 활용한 병원 직원 교육의 디지털 전환 방법을 안내합니다. 콘텐츠 제작, 이수 관리, 효과 측정까지 포함합니다.",
     icon: "💻",
-    updatedAt: "2026-02-10",
+    updatedAt: "2026-01-03",
     readTime: 8,
+    viewCount: 10154,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "병원용 LMS 선정 기준", content: "의료기관에 적합한 LMS(Learning Management System)를 선정할 때는 모바일 접근성, 동영상 강의 지원, 퀴즈/평가 기능, 이수 현황 자동 집계, 법정교육 관리 기능 등을 확인하세요. 의료 콘텐츠 특화 기능(의료 영상 재생, 시뮬레이션 모듈)이 있으면 더욱 좋습니다. 클라우드 기반 SaaS 형태가 초기 구축 비용이 낮고 유지보수 부담이 적습니다. 기존 EMR이나 인사 시스템과의 연동 가능성도 반드시 확인하세요. 무료 체험 기간을 활용하여 실제 직원 사용성을 테스트한 후 도입을 결정하세요." },
@@ -8972,8 +9425,9 @@ export const guides: Guide[] = [
     title: "병원 직장 내 괴롭힘 예방 매뉴얼",
     description: "의료기관에서 발생할 수 있는 직장 내 괴롭힘을 예방하고 발생 시 적절히 대응하는 매뉴얼을 제공합니다. 법적 의무, 신고 절차, 피해자 보호까지 다룹니다.",
     icon: "🚫",
-    updatedAt: "2026-02-08",
+    updatedAt: "2024-04-26",
     readTime: 9,
+    viewCount: 1979,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "의료기관 특유의 괴롭힘 유형 이해", content: "병원은 위계적 구조, 높은 스트레스, 감정노동이 복합적으로 작용하여 괴롭힘이 발생하기 쉬운 환경입니다. 의사-간호사 간 언어폭력, 선배 간호사의 태움 문화, 과도한 업무 전가, 휴가 사용 방해, 개인 사생활 간섭 등이 대표적입니다. 수술실, 응급실 등 폐쇄적 공간에서의 괴롭힘은 외부에 알려지기 어려워 더욱 주의가 필요합니다. 괴롭힘의 개념과 구체적 사례를 전 직원에게 교육하여 가해 행위를 인지하고 자발적으로 중단하도록 유도해야 합니다." },
@@ -8987,8 +9441,9 @@ export const guides: Guide[] = [
     title: "MZ세대 의료진 관리 전략",
     description: "병원에 입사하는 MZ세대 직원의 특성을 이해하고 이들의 역량을 최대한 발휘시키는 관리 전략을 제시합니다. 동기부여, 소통, 유연근무까지 포함합니다.",
     icon: "📱",
-    updatedAt: "2026-02-05",
+    updatedAt: "2024-08-14",
     readTime: 8,
+    viewCount: 4050,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "MZ세대 의료인의 직업 가치관 이해", content: "MZ세대 의료인은 이전 세대와 다른 직업 가치관을 가지고 있습니다. 워라밸을 중시하고 수직적 위계보다 수평적 소통을 선호하며 의미 있는 일과 개인적 성장을 추구합니다. 희생과 헌신을 강요하는 전통적 의료 문화에 대한 거부감이 강하며 불합리한 관행에 대해 목소리를 내는 것을 두려워하지 않습니다. 이러한 특성을 문제로 보지 않고 조직 혁신의 동력으로 활용하는 관점 전환이 필요합니다. 그들의 목소리에 귀 기울이면 오래된 비효율을 개선하는 실마리를 찾을 수 있습니다." },
@@ -9002,8 +9457,9 @@ export const guides: Guide[] = [
     title: "병원 원장을 위한 노동법 기초 가이드",
     description: "의료기관 운영에 필수적인 근로기준법, 최저임금법, 직장 내 괴롭힘 금지법 등 핵심 노동법 지식을 쉽게 정리합니다.",
     icon: "⚖️",
-    updatedAt: "2026-02-02",
+    updatedAt: "2024-05-09",
     readTime: 11,
+    viewCount: 9925,
     tags: ["운영 & 교육", "개원 컨설팅"],
     sections: [
       { heading: "근로계약서 작성과 필수 기재사항", content: "모든 직원과 서면 근로계약서를 작성하는 것은 법적 의무입니다. 임금, 근로시간, 휴일, 연차유급휴가, 업무 내용, 근무 장소를 반드시 기재하고 1부를 직원에게 교부해야 합니다. 미작성 시 500만원 이하의 벌금이 부과됩니다. 수습 기간, 비밀유지 조항, 경업금지 조항 등은 합리적 범위 내에서 설정하세요. 특히 간호사의 경우 야간근무, 교대근무 조건을 상세히 기재하여 후속 분쟁을 예방하세요. 계약 갱신이나 근무조건 변경 시에도 서면 합의가 필요합니다." },
@@ -9018,8 +9474,9 @@ export const guides: Guide[] = [
     title: "병원 크로스 트레이닝 프로그램 가이드",
     description: "직원들이 타 부서·타 직무를 경험하는 크로스 트레이닝으로 업무 유연성과 팀워크를 강화하는 방법을 안내합니다.",
     icon: "🔀",
-    updatedAt: "2026-01-30",
+    updatedAt: "2026-01-01",
     readTime: 7,
+    viewCount: 17172,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "크로스 트레이닝의 목적과 효과", content: "크로스 트레이닝은 직원이 자신의 주 업무 외에 다른 부서나 직무를 경험하는 교육 방식입니다. 인력 부족 시 대체 투입이 가능해지고 부서 간 상호 이해가 높아져 협업 품질이 향상됩니다. 직원 개인에게는 경력 다양성과 새로운 역량 개발의 기회가 됩니다. 예를 들어 접수 직원이 수납 업무를 익히거나 외래 간호사가 검사실 업무를 경험하면 환자 동선 전체를 이해하게 되어 서비스 품질이 올라갑니다. 다만 전문성이 높은 임상 업무는 자격 요건을 반드시 확인하세요." },
@@ -9032,8 +9489,9 @@ export const guides: Guide[] = [
     title: "병원 퇴직 면담(Exit Interview) 운영 가이드",
     description: "퇴직 직원으로부터 조직 개선의 핵심 정보를 얻는 퇴직 면담의 설계와 운영, 데이터 분석 활용법을 안내합니다.",
     icon: "🚪",
-    updatedAt: "2026-01-28",
+    updatedAt: "2024-04-29",
     readTime: 7,
+    viewCount: 91220,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "퇴직 면담의 전략적 가치", content: "퇴직 면담은 조직의 문제점을 가장 솔직하게 들을 수 있는 기회입니다. 재직 중에는 말하기 어려웠던 조직문화, 관리자 리더십, 보상 불만, 업무 프로세스 문제 등을 퇴직자는 비교적 솔직하게 이야기합니다. 체계적으로 수집된 퇴직 면담 데이터는 이직 방지 전략, 조직문화 개선, 채용 프로세스 개선에 직접적으로 활용할 수 있습니다. 단 퇴직 면담을 형식적으로 운영하면 아무런 인사이트도 얻을 수 없으므로 진정성 있는 경청이 핵심입니다." },
@@ -9046,8 +9504,9 @@ export const guides: Guide[] = [
     title: "병원 채용 브랜딩 전략 가이드",
     description: "우수 인재가 지원하고 싶은 매력적인 병원 이미지를 구축하는 채용 브랜딩 전략을 안내합니다. SNS 활용, 직원 후기, 채용 페이지 최적화까지 포함합니다.",
     icon: "✨",
-    updatedAt: "2026-01-25",
+    updatedAt: "2024-05-16",
     readTime: 8,
+    viewCount: 6248,
     tags: ["운영 & 교육", "브랜드 컨설팅"],
     sections: [
       { heading: "채용 브랜딩의 개념과 중요성", content: "채용 브랜딩(Employer Branding)은 구직자에게 우리 병원이 일하기 좋은 곳이라는 인식을 심어주는 전략입니다. 간호사 구인난이 심화되는 상황에서 채용 브랜딩은 선택이 아닌 필수입니다. 강력한 채용 브랜드를 가진 병원은 지원자 수가 많아 우수 인재를 선별할 수 있고 채용 비용이 절감되며 입사 후 조기 이직률도 낮습니다. 채용 브랜딩은 환자를 대상으로 한 병원 브랜드와 구직자를 대상으로 한 고용주 브랜드를 구분하여 전략적으로 접근해야 합니다." },
@@ -9061,8 +9520,9 @@ export const guides: Guide[] = [
     title: "병원 회의 문화 개선 실전 가이드",
     description: "비효율적인 회의를 줄이고 생산적인 회의 문화를 만드는 구체적 방법을 제시합니다. 회의 유형별 운영법, 디지털 도구 활용, 의사결정 기법까지 포함합니다.",
     icon: "🗣️",
-    updatedAt: "2026-01-22",
+    updatedAt: "2025-01-27",
     readTime: 7,
+    viewCount: 2345,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "불필요한 회의 줄이기", content: "병원 관리자의 하루 중 상당 시간이 회의에 소비됩니다. 먼저 모든 정기 회의의 필요성을 재검토하세요. 정보 공유만을 위한 회의는 이메일이나 메신저로 대체하고 의사결정이나 브레인스토밍이 필요한 안건만 회의로 다루세요. 회의 전 안건 목록과 필요 자료를 사전 배포하여 회의 시간을 단축하세요. 참석 인원도 의사결정에 직접 관여하는 최소 인원으로 제한하고 나머지는 회의록 공유로 대체하세요. 피오랩스는 회의 효율화 컨설팅을 통해 월 평균 30% 이상의 회의 시간 절감을 달성합니다." },
@@ -9075,8 +9535,9 @@ export const guides: Guide[] = [
     title: "병원 감정노동자 보호 프로그램",
     description: "환자·보호자 응대 과정에서 감정노동에 노출되는 병원 직원을 체계적으로 보호하고 지원하는 프로그램 구축법을 안내합니다.",
     icon: "💙",
-    updatedAt: "2026-01-20",
+    updatedAt: "2025-10-05",
     readTime: 9,
+    viewCount: 36964,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "감정노동의 실태와 영향", content: "병원 직원은 아픈 환자, 불안한 보호자, 진료 대기 불만, 의료비 분쟁 등 강한 감정적 상황에 지속적으로 노출됩니다. 산업안전보건법에서도 고객응대근로자 보호 의무를 규정하고 있으며 의료기관도 이에 해당합니다. 감정노동은 우울, 불안, 수면장애, 신체 증상(두통, 소화불량)으로 이어질 수 있으며 장기적으로는 직무 소진과 이직으로 연결됩니다. 감정노동을 개인이 감내해야 할 문제가 아닌 조직이 관리해야 할 직업적 위험으로 인식하는 것이 출발점입니다." },
@@ -9090,8 +9551,9 @@ export const guides: Guide[] = [
     title: "병원 인력 스케줄링 소프트웨어 도입 가이드",
     description: "수작업 근무표 작성의 비효율을 해결하는 스케줄링 소프트웨어의 선정, 도입, 운영 방법을 안내합니다.",
     icon: "📅",
-    updatedAt: "2026-01-18",
+    updatedAt: "2025-08-12",
     readTime: 7,
+    viewCount: 4495,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "스케줄링 소프트웨어 도입 필요성", content: "병원 근무표 작성은 교대근무, 휴가, 자격요건, 법적 제한, 직원 선호 등 다수의 변수를 고려해야 하는 복잡한 작업입니다. 수작업으로 작성하면 담당자의 업무 부담이 크고 공정성 시비가 발생하기 쉽습니다. 스케줄링 소프트웨어를 도입하면 알고리즘이 최적의 배치를 자동 산출하여 담당자의 시간을 절약하고 공정성 논란을 줄일 수 있습니다. 직원이 모바일 앱으로 근무표를 확인하고 교환 요청을 할 수 있어 편의성도 크게 향상됩니다." },
@@ -9104,8 +9566,9 @@ export const guides: Guide[] = [
     title: "신규 의사(봉직의) 조직 안착 가이드",
     description: "새로 합류한 봉직의가 빠르게 조직에 적응하고 진료 역량을 발휘할 수 있도록 돕는 체계적 통합 프로그램을 안내합니다.",
     icon: "🩺",
-    updatedAt: "2026-01-15",
+    updatedAt: "2024-11-05",
     readTime: 9,
+    viewCount: 8434,
     tags: ["운영 & 교육", "개원 컨설팅"],
     sections: [
       { heading: "봉직의 온보딩의 특수성", content: "봉직의 온보딩은 일반 직원과 다른 특수성이 있습니다. 의사는 높은 전문성을 갖추고 있으나 해당 병원의 운영 방식, 장비 특성, 직원 구성, 환자층에 대한 이해가 부족합니다. 또한 기존 의료진과의 관계 형성, 진료 스타일 조율, 병원 시스템(EMR, 처방 시스템) 적응이 필요합니다. 봉직의의 조기 이탈은 채용 비용, 환자 유실, 팀 사기 저하 등 큰 손실을 초래하므로 체계적인 온보딩 투자가 반드시 필요합니다. 피오랩스는 봉직의 온보딩 프로그램 설계를 지원합니다." },
@@ -9119,8 +9582,9 @@ export const guides: Guide[] = [
     title: "병원 연간 교육 계획 수립 가이드",
     description: "법정의무교육, 직무교육, 리더십교육 등 병원에서 필요한 모든 교육을 연간 계획으로 체계화하는 방법을 안내합니다.",
     icon: "📆",
-    updatedAt: "2026-01-12",
+    updatedAt: "2026-02-03",
     readTime: 8,
+    viewCount: 1118,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "교육 니즈 분석과 우선순위 설정", content: "효과적인 연간 교육 계획은 체계적인 교육 니즈 분석에서 시작합니다. 법정의무교육 요구사항, 의료기관 인증 기준, 직원 역량 갭 분석, 전년도 환자 불만 데이터, 의료사고 보고, 관리자 의견 등을 종합하여 교육 니즈를 도출하세요. 도출된 니즈를 필수 교육(법적 의무), 핵심 교육(환자안전·CS), 선택 교육(경력개발)으로 분류하고 예산과 시간 제약을 고려하여 우선순위를 설정합니다. 피오랩스는 교육 니즈 진단 도구와 연간 교육 계획 템플릿을 제공합니다." },
@@ -9134,8 +9598,9 @@ export const guides: Guide[] = [
     title: "병원 직원 동기부여 프로그램 가이드",
     description: "금전적 보상 외에 직원의 내재적 동기를 높이는 다양한 프로그램과 전략을 소개합니다. 인정 문화, 자율성 부여, 의미 부여 등을 포함합니다.",
     icon: "🔥",
-    updatedAt: "2026-01-10",
+    updatedAt: "2024-11-05",
     readTime: 8,
+    viewCount: 6038,
     tags: ["운영 & 교육", "매출 성장"],
     sections: [
       { heading: "내재적 동기부여의 세 가지 핵심 요소", content: "자기결정이론(SDT)에 따르면 인간의 내재적 동기는 자율성(Autonomy), 유능감(Competence), 관계성(Relatedness)의 세 가지 기본 욕구가 충족될 때 높아집니다. 병원 환경에서 자율성은 업무 방식의 선택권과 의사결정 참여를, 유능감은 역량 개발 기회와 성과 인정을, 관계성은 팀워크와 소속감을 의미합니다. 이 세 가지를 충족시키는 방향으로 조직 시스템을 설계하면 금전적 보상 없이도 높은 동기를 유지할 수 있습니다." },
@@ -9149,8 +9614,9 @@ export const guides: Guide[] = [
     title: "병원 파트타임 인력 관리 가이드",
     description: "시간제 근무자, 대체 인력, 아르바이트 등 비정규 인력을 효과적으로 관리하고 법적 리스크를 줄이는 방법을 안내합니다.",
     icon: "⏰",
-    updatedAt: "2026-01-08",
+    updatedAt: "2024-07-29",
     readTime: 8,
+    viewCount: 8392,
     tags: ["운영 & 교육", "개원 컨설팅"],
     sections: [
       { heading: "파트타임 인력 활용 전략", content: "병원 운영에서 파트타임 인력은 비용 효율성과 유연성을 제공합니다. 점심시간 피크, 특정 요일 환자 집중, 시즌별 수요 변동에 맞춰 파트타임 인력을 전략적으로 배치하면 인건비를 최적화할 수 있습니다. 간호조무사, 접수 직원, 물리치료사 등 직군별로 파트타임 적합성을 평가하고 핵심 업무와 보조 업무를 구분하여 파트타임에게 적절한 업무를 배정하세요. 다만 파트타임 인력 비율이 지나치게 높으면 서비스 일관성이 떨어지므로 전체 인력의 20~30%를 넘지 않는 것이 좋습니다." },
@@ -9163,8 +9629,9 @@ export const guides: Guide[] = [
     title: "병원 관리자의 성과 코칭 스킬 가이드",
     description: "부서장, 수간호사 등 관리자가 팀원의 성과를 이끌어내는 코칭 대화법과 피드백 기술을 익히는 방법을 안내합니다.",
     icon: "🎓",
-    updatedAt: "2026-01-05",
+    updatedAt: "2025-05-08",
     readTime: 9,
+    viewCount: 35296,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "코칭과 관리의 차이 이해", content: "관리(Management)는 업무를 지시하고 통제하는 것이라면 코칭(Coaching)은 질문을 통해 상대방 스스로 답을 찾도록 돕는 것입니다. 의료 현장에서는 긴급 상황에서의 지시적 관리와 일상적 업무에서의 코칭적 접근을 상황에 따라 유연하게 전환해야 합니다. 코칭은 직원의 자율성과 역량을 개발하여 장기적으로 조직의 성과를 높이는 투자입니다. 관리자가 코칭 역량을 갖추면 직원의 문제해결 능력이 향상되고 관리자 자신의 업무 부담도 줄어드는 효과가 있습니다." },
@@ -9178,8 +9645,9 @@ export const guides: Guide[] = [
     title: "병원 인재 평가센터(AC) 운영 가이드",
     description: "승진 후보자나 핵심인재를 다각도로 평가하는 평가센터(Assessment Center) 방법론을 의료기관에 적용하는 방법을 안내합니다.",
     icon: "🏆",
-    updatedAt: "2026-01-02",
+    updatedAt: "2024-07-04",
     readTime: 9,
+    viewCount: 9038,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "평가센터(AC)의 개념과 장점", content: "평가센터(Assessment Center)는 시뮬레이션, 역할극, 그룹 토론, 프레젠테이션 등 다양한 과제를 통해 후보자의 역량을 다면적으로 평가하는 방법입니다. 면접이나 서류 심사보다 예측 타당도가 높아 승진, 핵심인재 선발, 관리자 후보 평가에 적합합니다. 복수의 훈련된 평가자가 사전 정의된 역량 기준으로 평가하므로 객관성과 공정성이 담보됩니다. 의료기관에서는 수간호사 승진, 진료과장 선발, 팀장 후보 평가 등에 활용할 수 있습니다." },
@@ -9193,8 +9661,9 @@ export const guides: Guide[] = [
     title: "병원 지식관리 시스템(KMS) 구축 가이드",
     description: "의료기관의 암묵지를 형식지로 전환하고 조직 지식을 체계적으로 관리·공유하는 시스템 구축 방법을 안내합니다.",
     icon: "📚",
-    updatedAt: "2025-12-28",
+    updatedAt: "2024-01-14",
     readTime: 8,
+    viewCount: 21574,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "병원 지식관리의 필요성", content: "병원에는 베테랑 직원의 노하우, 반복되는 환자 대응 사례, 효과적인 업무 프로세스 등 귀중한 암묵지가 축적되어 있습니다. 이런 지식이 체계화되지 않으면 핵심 인력의 퇴사와 함께 사라지고 신규 직원은 같은 시행착오를 반복하게 됩니다. 지식관리시스템(KMS)을 구축하면 조직 지식의 축적, 검색, 공유가 가능해져 업무 효율이 높아지고 의료 서비스의 일관성이 유지됩니다. 특히 병원 인증평가 대비 자료 관리에도 KMS가 매우 유용합니다." },
@@ -9207,8 +9676,9 @@ export const guides: Guide[] = [
     title: "병원 직원 몰입도 서베이 운영 가이드",
     description: "직원 몰입도를 측정하고 개선하는 체계적인 서베이 설계, 실시, 분석, 후속 조치 방법을 안내합니다.",
     icon: "📊",
-    updatedAt: "2025-12-25",
+    updatedAt: "2026-01-24",
     readTime: 8,
+    viewCount: 4201,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "몰입도 서베이 설계 원칙", content: "직원 몰입도(Employee Engagement) 서베이는 직원이 조직에 대해 느끼는 애착, 열정, 헌신의 수준을 측정합니다. Gallup Q12나 커스텀 설문지를 활용하되 병원 환경에 맞게 문항을 조정하세요. 핵심 측정 영역으로 직무 만족도, 관리자 리더십, 팀워크, 성장 기회, 보상 공정성, 조직문화, 환자 케어 자부심 등을 포함하세요. 문항 수는 30~40개가 적정하며 10분 이내에 완료할 수 있도록 설계하세요. 익명성을 철저히 보장하여 솔직한 응답을 유도하는 것이 핵심입니다." },
@@ -9222,8 +9692,9 @@ export const guides: Guide[] = [
     title: "병원 근무 환경 개선 가이드",
     description: "직원의 신체적·심리적 건강을 보호하고 업무 효율을 높이는 물리적 근무 환경 개선 방법을 안내합니다.",
     icon: "🏢",
-    updatedAt: "2025-12-22",
+    updatedAt: "2026-04-02",
     readTime: 7,
+    viewCount: 1229,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "직원 휴게공간 설계와 운영", content: "피로가 축적되는 의료 현장에서 적절한 휴식은 업무 효율과 환자 안전의 필수 조건입니다. 직원 휴게실은 진료 공간과 분리된 조용한 장소에 설치하고 편안한 소파, 적절한 조명, 음료 시설, 충전 설비를 구비하세요. 야간근무자를 위한 수면실(리클라이너, 암막 커튼, 백색소음기)도 가능하면 마련하세요. 휴게시간에 실제로 쉴 수 있도록 환자 호출이나 업무 연락에서 벗어나는 것을 보장하는 운영 규칙이 중요합니다. 쾌적한 휴게공간은 직원 만족도의 기본입니다." },
@@ -9236,8 +9707,9 @@ export const guides: Guide[] = [
     title: "병원 자원봉사 및 사회공헌 프로그램 가이드",
     description: "직원의 사회적 가치 실현과 병원 이미지 제고를 동시에 달성하는 자원봉사 및 사회공헌 프로그램 운영법을 안내합니다.",
     icon: "🤲",
-    updatedAt: "2025-12-20",
+    updatedAt: "2025-04-22",
     readTime: 7,
+    viewCount: 6930,
     tags: ["운영 & 교육", "브랜드 컨설팅"],
     sections: [
       { heading: "병원 사회공헌의 전략적 가치", content: "병원의 사회공헌 활동은 지역사회와의 신뢰 구축, 병원 브랜드 이미지 제고, 직원 자부심 향상이라는 복합적 가치를 가집니다. 무료 건강검진, 건강강좌, 의료봉사, 취약계층 진료 지원 등 병원의 핵심 역량과 연계된 사회공헌이 가장 효과적입니다. CSR 활동을 병원 경영 전략과 연계하여 브랜드 가치를 높이는 CSV(Creating Shared Value) 관점으로 접근하세요. 활동 내용을 병원 홈페이지, SNS, 지역 매체를 통해 알리면 마케팅 효과도 거둘 수 있습니다." },
@@ -9250,8 +9722,9 @@ export const guides: Guide[] = [
     title: "병원 변화관리(Change Management) 전략",
     description: "시스템 전환, 조직 개편, 프로세스 변경 등 병원 내 변화를 성공적으로 이끄는 체계적 변화관리 방법론을 안내합니다.",
     icon: "🔄",
-    updatedAt: "2025-12-18",
+    updatedAt: "2024-11-15",
     readTime: 10,
+    viewCount: 30344,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "변화 저항의 원인 이해", content: "병원 조직의 변화 저항은 자연스러운 현상입니다. 의료인은 환자 안전을 이유로 검증되지 않은 변화에 보수적인 경향이 있으며 이는 합리적 우려일 수 있습니다. 저항의 주요 원인은 변화의 필요성에 대한 이해 부족, 새로운 방식에 대한 불안감, 기존 권한이나 역할의 변화에 대한 두려움, 과거 실패한 변화 경험의 트라우마 등입니다. 저항을 억압하기보다 경청하고 공감하면서 우려를 해소하는 것이 성공적 변화관리의 핵심입니다. 피오랩스는 변화관리 전문 컨설팅을 제공합니다." },
@@ -9265,8 +9738,9 @@ export const guides: Guide[] = [
     title: "병원 인턴십·실습 프로그램 설계 가이드",
     description: "간호대학생, 의료기사 실습생 등을 위한 체계적인 인턴십 프로그램을 설계하여 우수 인재를 조기에 확보하는 방법을 안내합니다.",
     icon: "🎒",
-    updatedAt: "2025-12-15",
+    updatedAt: "2024-12-10",
     readTime: 8,
+    viewCount: 8138,
     tags: ["운영 & 교육", "개원 컨설팅"],
     sections: [
       { heading: "인턴십의 전략적 가치", content: "병원 인턴십 프로그램은 단순한 교육 의무가 아닌 채용 파이프라인 구축의 핵심 전략입니다. 실습 기간 동안 학생의 역량과 조직 적합성을 직접 확인할 수 있어 채용 정확도가 높아지고 실습생은 병원 문화를 미리 경험하여 입사 후 적응이 빠릅니다. 우수한 인턴십 경험을 제공하는 병원은 학교와 학생들 사이에서 좋은 평판이 형성되어 지원자 풀이 자연스럽게 확대됩니다. 인턴십을 통해 채용한 직원의 초기 이직률이 일반 채용보다 30% 이상 낮다는 연구 결과도 있습니다." },
@@ -9280,8 +9754,9 @@ export const guides: Guide[] = [
     title: "병원 행정직 재택근무 도입 가이드",
     description: "의료기관 행정·경영지원 부서의 재택근무 도입을 위한 정책 수립, 보안 관리, 성과 관리 방법을 안내합니다.",
     icon: "🏠",
-    updatedAt: "2025-12-12",
+    updatedAt: "2024-09-24",
     readTime: 7,
+    viewCount: 3131,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "병원 행정직 재택근무의 가능성과 한계", content: "임상 직군은 현장 근무가 필수이지만 행정, 경영기획, 마케팅, 인사, 회계 등 지원 부서는 재택근무가 가능한 업무가 상당합니다. 재택근무 가능 업무와 현장 필수 업무를 명확히 구분하고 하이브리드 근무(주 2~3일 재택, 2~3일 출근) 형태로 도입하는 것이 현실적입니다. 재택근무 도입은 채용 경쟁력 향상, 직원 만족도 증가, 사무공간 비용 절감 등의 이점이 있습니다. 다만 팀 소통 저하, 보안 리스크, 업무 모니터링 어려움 등의 과제를 사전에 대비해야 합니다." },
@@ -9294,8 +9769,9 @@ export const guides: Guide[] = [
     title: "간호사 임상 경력 개발 프로그램(Clinical Ladder)",
     description: "간호사의 임상 역량에 따른 단계별 경력개발 체계(Clinical Ladder)를 구축하여 전문성 향상과 장기근속을 유도하는 방법을 안내합니다.",
     icon: "🪜",
-    updatedAt: "2025-12-10",
+    updatedAt: "2024-01-11",
     readTime: 9,
+    viewCount: 2235,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "Clinical Ladder의 개념과 효과", content: "Clinical Ladder(임상 사다리)는 간호사가 관리직으로 가지 않더라도 임상 전문가로서 성장할 수 있는 경력 경로를 제공하는 시스템입니다. 일반 간호사에서 숙련 간호사, 전문 간호사, 마스터 간호사 등 단계별 역량 수준을 정의하고 각 단계에 맞는 역할, 책임, 보상을 차등화합니다. 이를 통해 간호사의 전문성 향상 동기를 높이고 임상 현장에서의 장기근속을 유도할 수 있습니다. 관리직 중심의 일원적 승진 구조에서 벗어나 다양한 성장 경로를 제공하는 것이 핵심입니다." },
@@ -9309,8 +9785,9 @@ export const guides: Guide[] = [
     title: "병원 안전사고 보고 체계 구축 가이드",
     description: "직원 안전사고(주사침 찔림, 낙상, 폭행 등)의 보고, 분석, 예방 체계를 구축하는 방법을 안내합니다. 산업안전보건법 대응 포함.",
     icon: "🚨",
-    updatedAt: "2025-12-08",
+    updatedAt: "2025-10-16",
     readTime: 8,
+    viewCount: 2121,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "직원 안전사고의 유형과 현황", content: "병원 직원이 경험하는 안전사고는 주사침 찔림, 혈액·체액 노출, 근골격계 손상, 미끄러짐·낙상, 환자·보호자 폭행, 화학물질 노출 등 다양합니다. 한국산업안전보건공단 자료에 따르면 의료기관은 서비스업 중 산업재해 발생률이 높은 업종에 속합니다. 사고 발생 시 적절한 보고와 조치가 이루어지지 않으면 직원의 건강 피해가 확대되고 동일 사고가 반복됩니다. 산업안전보건법에 따라 사업주는 안전보건관리 체계를 구축하고 사고 예방 조치를 해야 하며 중대재해 발생 시 즉시 노동부에 보고해야 합니다." },
@@ -9323,8 +9800,9 @@ export const guides: Guide[] = [
     title: "의료팀 효과적 커뮤니케이션 교육",
     description: "의사-간호사-행정직 간 소통 오류를 줄이고 팀 협업을 강화하는 커뮤니케이션 교육 프로그램을 설계하는 방법을 안내합니다.",
     icon: "💬",
-    updatedAt: "2025-12-05",
+    updatedAt: "2024-08-15",
     readTime: 9,
+    viewCount: 2670,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "의료 현장 소통 오류의 위험성", content: "의료 현장의 소통 오류는 환자 안전에 직접적 위협이 됩니다. 처방 전달 오류, 인수인계 누락, 응급 상황 보고 지연 등은 심각한 의료사고로 이어질 수 있습니다. WHO에 따르면 의료사고의 약 70%가 소통 오류와 관련되어 있습니다. 의사와 간호사 간 권위 기울기(Authority Gradient)로 인해 간호사가 의문사항을 제기하지 못하는 것이 대표적인 소통 장벽입니다. 조직 차원에서 소통의 중요성을 인식하고 체계적 교육을 통해 소통 역량을 높이는 것이 필수적입니다." },
@@ -9338,8 +9816,9 @@ export const guides: Guide[] = [
     title: "의료기관 윤리적 의사결정 프레임워크",
     description: "환자 케어, 인사 관리, 경영 운영에서 발생하는 윤리적 딜레마를 체계적으로 해결하는 의사결정 프레임워크를 제공합니다.",
     icon: "🧭",
-    updatedAt: "2025-12-02",
+    updatedAt: "2025-12-29",
     readTime: 9,
+    viewCount: 8633,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "의료기관에서의 윤리적 딜레마 유형", content: "병원 경영에서는 다양한 윤리적 딜레마가 발생합니다. 환자 케어 영역에서는 치료 중단 결정, 환자 자기결정권과 의료적 판단의 충돌, 의료자원 배분 등이 있습니다. 인사 영역에서는 내부 고발자 보호, 직원 간 차별 문제, 성과가 낮은 직원의 해고 결정 등이 발생합니다. 경영 영역에서는 수익 추구와 공익 사이의 균형, 제약사와의 관계, 마케팅 윤리 등이 쟁점이 됩니다. 이러한 딜레마에 대해 일관된 의사결정 기준을 마련하는 것이 조직의 윤리적 정체성을 확립하는 길입니다." },
@@ -9353,8 +9832,9 @@ export const guides: Guide[] = [
     title: "병원 유연근무제 도입 가이드",
     description: "시차출퇴근, 탄력근무, 압축근무 등 다양한 유연근무 형태를 의료기관에 도입하는 방법과 법적 요건을 안내합니다.",
     icon: "🕐",
-    updatedAt: "2025-11-28",
+    updatedAt: "2025-09-12",
     readTime: 8,
+    viewCount: 26974,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "의료기관에 적용 가능한 유연근무 유형", content: "24시간 운영이 필수인 병원에서도 유연근무 도입이 가능합니다. 시차출퇴근제(코어타임 유지, 시작·종료 시간 선택), 탄력근무제(주별·월별 근무시간 조정), 압축근무(주 4일 근무+장시간), 파트타임 전환 옵션 등이 적용 가능합니다. 외래 진료 직원은 진료 시간에 맞춘 시차출퇴근이, 행정직은 코어타임 기반 유연근무가 현실적입니다. 야간근무자에게는 야간 전용 조 편성으로 생체리듬 안정을 도모하는 것도 유연근무의 일환입니다." },
@@ -9367,8 +9847,9 @@ export const guides: Guide[] = [
     title: "병원 직원 건강관리 프로그램 가이드",
     description: "의료기관 직원의 건강을 체계적으로 관리하여 근무 역량을 유지하고 산재를 예방하는 프로그램 구축 방법을 안내합니다.",
     icon: "❤️",
-    updatedAt: "2025-11-25",
+    updatedAt: "2026-03-23",
     readTime: 7,
+    viewCount: 1202,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "직원 건강검진 확대와 관리", content: "산업안전보건법에 따라 사업주는 직원에게 정기 건강검진을 실시해야 합니다. 법정 건강검진 외에 병원 특화 항목(결핵 검사, B형 간염 항체 검사, 근골격계 검진 등)을 추가하여 직원 건강을 보다 촘촘하게 관리하세요. 야간근무자에게는 특수건강진단 대상 여부를 확인하고 해당 시 추가 검진을 제공하세요. 검진 결과를 개인별로 관리하고 이상 소견 발견 시 전문 진료 연계와 업무 조정을 신속하게 진행하세요. 직원 건강관리는 산재 예방과 생산성 유지의 기본입니다." },
@@ -9381,8 +9862,9 @@ export const guides: Guide[] = [
     title: "병원 직무역량 모델 개발 가이드",
     description: "의료기관 직군별 필요 역량을 체계적으로 정의하고 채용, 교육, 평가에 일관되게 적용하는 역량 모델 개발 방법을 안내합니다.",
     icon: "🧩",
-    updatedAt: "2025-11-22",
+    updatedAt: "2024-09-27",
     readTime: 10,
+    viewCount: 2566,
     tags: ["운영 & 교육", "개편 컨설팅"],
     sections: [
       { heading: "역량 모델의 개념과 활용 범위", content: "역량 모델(Competency Model)은 각 직무에서 우수한 성과를 내기 위해 필요한 지식, 기술, 태도, 행동의 집합을 체계적으로 정의한 것입니다. 역량 모델은 채용(어떤 역량을 가진 사람을 뽑을 것인가), 교육(어떤 역량을 개발할 것인가), 평가(어떤 역량을 기준으로 평가할 것인가), 경력개발(어떤 역량이 승진에 필요한가)의 네 가지 HR 영역을 하나의 기준으로 통합하는 강력한 도구입니다. 역량 모델이 없으면 채용 기준, 교육 내용, 평가 항목이 각기 달라 인사관리의 일관성이 떨어집니다." },
@@ -9397,8 +9879,9 @@ export const guides: Guide[] = [
     description:
       "네이버 블로그 상위노출을 위한 병원 콘텐츠 최적화 전략. 키워드 선정부터 C-Rank 알고리즘 대응, 의료광고 심의를 준수하는 블로그 운영법까지 총정리합니다.",
     icon: "📝",
-    updatedAt: "2026-04-01",
+    updatedAt: "2024-11-23",
     readTime: 12,
+    viewCount: 76904,
     tags: ["병원 마케팅", "매출 성장"],
     sections: [
       {
@@ -9429,8 +9912,9 @@ export const guides: Guide[] = [
     description:
       "구글 검색광고와 디스플레이 광고를 활용한 병원 마케팅 실전 가이드. 키워드 입찰 전략부터 의료 카테고리 광고 정책, ROAS 최적화까지 상세히 다룹니다.",
     icon: "🔍",
-    updatedAt: "2026-03-28",
+    updatedAt: "2025-03-06",
     readTime: 11,
+    viewCount: 14964,
     tags: ["병원 마케팅", "매출 성장"],
     sections: [
       {
@@ -9461,8 +9945,9 @@ export const guides: Guide[] = [
     description:
       "틱톡 숏폼 콘텐츠를 활용한 병원 마케팅 전략. MZ세대 환자 타겟팅, 의료 콘텐츠 기획법, 알고리즘 활용, 의료광고 규제 대응까지 실전 노하우를 공유합니다.",
     icon: "🎵",
-    updatedAt: "2026-03-25",
+    updatedAt: "2024-09-07",
     readTime: 10,
+    viewCount: 26237,
     tags: ["병원 마케팅", "브랜드 컨설팅"],
     sections: [
       {
@@ -9493,8 +9978,9 @@ export const guides: Guide[] = [
     description:
       "카카오맵에 병원을 등록하고 상위 노출시키는 방법. 카카오 비즈니스 계정 설정부터 후기 관리, 사진 최적화, 카카오톡 채널 연동까지 단계별로 안내합니다.",
     icon: "🗺️",
-    updatedAt: "2026-03-30",
+    updatedAt: "2024-10-27",
     readTime: 9,
+    viewCount: 26879,
     tags: ["병원 마케팅", "개원 컨설팅"],
     sections: [
       {
@@ -9525,8 +10011,9 @@ export const guides: Guide[] = [
     description:
       "인스타그램 릴스를 활용한 병원 마케팅 전략. 릴스 알고리즘 이해부터 의료 콘텐츠 기획, 촬영 팁, 해시태그 전략, 환자 전환 유도까지 실전 노하우를 담았습니다.",
     icon: "🎬",
-    updatedAt: "2026-04-02",
+    updatedAt: "2025-07-11",
     readTime: 11,
+    viewCount: 13678,
     tags: ["병원 마케팅", "브랜드 컨설팅"],
     sections: [
       {
@@ -9557,8 +10044,9 @@ export const guides: Guide[] = [
     description:
       "유튜브 숏츠를 활용한 의사 개인 브랜딩 전략. 채널 콘셉트 설정부터 숏츠 제작, 구독자 확보, 병원 매출 연계까지 원장님의 온라인 영향력을 키우는 방법을 안내합니다.",
     icon: "🎥",
-    updatedAt: "2026-03-27",
+    updatedAt: "2025-10-13",
     readTime: 10,
+    viewCount: 49159,
     tags: ["브랜드 컨설팅", "병원 마케팅"],
     sections: [
       {
@@ -9589,8 +10077,9 @@ export const guides: Guide[] = [
     description:
       "네이버 스마트플레이스를 활용한 병원 온라인 가시성 극대화 전략. 프로필 최적화, 예약 기능 활용, 후기 관리, 통계 분석까지 단계별로 상세 안내합니다.",
     icon: "📍",
-    updatedAt: "2026-04-03",
+    updatedAt: "2025-11-06",
     readTime: 10,
+    viewCount: 3700,
     tags: ["병원 마케팅", "개원 컨설팅"],
     sections: [
       {
@@ -9621,8 +10110,9 @@ export const guides: Guide[] = [
     description:
       "네이버, 카카오, 구글 등 주요 플랫폼별 병원 후기 대응 전략. 긍정 후기 활용법부터 부정 후기 위기 관리, 악성 후기 법적 대응까지 체계적으로 정리합니다.",
     icon: "💬",
-    updatedAt: "2026-03-29",
+    updatedAt: "2024-07-22",
     readTime: 13,
+    viewCount: 34293,
     tags: ["병원 마케팅", "운영 & 교육"],
     sections: [
       {
@@ -9658,8 +10148,9 @@ export const guides: Guide[] = [
     description:
       "의료광고 사전심의 절차와 심의 통과를 위한 실전 팁. 심의 기준, 자주 반려되는 사유, 심의 통과율을 높이는 콘텐츠 작성법을 의료광고법 기반으로 정리합니다.",
     icon: "✅",
-    updatedAt: "2026-03-26",
+    updatedAt: "2024-09-29",
     readTime: 14,
+    viewCount: 2759,
     tags: ["병원 마케팅", "운영 & 교육"],
     sections: [
       {
@@ -9690,8 +10181,9 @@ export const guides: Guide[] = [
     description:
       "네이버 검색광고(SA) 계정 개설부터 키워드 선정, 광고 소재 작성, 입찰 전략, 성과 분석까지. 병원에 최적화된 네이버 검색광고 운영 방법을 단계별로 안내합니다.",
     icon: "💻",
-    updatedAt: "2026-04-01",
+    updatedAt: "2024-01-08",
     readTime: 13,
+    viewCount: 11150,
     tags: ["병원 마케팅", "매출 성장"],
     sections: [
       {
@@ -9722,8 +10214,9 @@ export const guides: Guide[] = [
     description:
       "카카오톡 채널을 활용한 병원 고객관리(CRM) 자동화 전략. 친구 추가 유도, 자동 응답 설정, 알림톡 활용, 세그먼트 마케팅까지 환자 관리 효율을 극대화하는 방법입니다.",
     icon: "💛",
-    updatedAt: "2026-03-31",
+    updatedAt: "2024-01-14",
     readTime: 11,
+    viewCount: 34962,
     tags: ["운영 & 교육", "매출 성장"],
     sections: [
       {
@@ -9754,8 +10247,9 @@ export const guides: Guide[] = [
     description:
       "검색엔진 최적화로 병원 홈페이지 유입을 늘리는 실전 체크리스트. 기술 SEO, 온페이지 최적화, 로컬 SEO, 모바일 최적화까지 병원에 필요한 SEO 항목을 총정리합니다.",
     icon: "🌐",
-    updatedAt: "2026-03-28",
+    updatedAt: "2024-12-19",
     readTime: 12,
+    viewCount: 11486,
     tags: ["병원 마케팅", "매출 성장"],
     sections: [
       {
@@ -9786,8 +10280,9 @@ export const guides: Guide[] = [
     description:
       "네이버 플레이스 광고(지역소상공인 광고)를 활용한 병원 상위 노출 전략. 광고 세팅, 입찰 전략, 성과 측정, 자연 검색과의 시너지 효과까지 실전 가이드입니다.",
     icon: "📌",
-    updatedAt: "2026-04-02",
+    updatedAt: "2024-09-16",
     readTime: 10,
+    viewCount: 8651,
     tags: ["병원 마케팅", "매출 성장"],
     sections: [
       {
@@ -9818,8 +10313,9 @@ export const guides: Guide[] = [
     description:
       "병원 광고 랜딩페이지의 전환율을 높이는 UX/UI 설계 전략. 히어로 섹션, 신뢰 요소, CTA 배치, A/B 테스트까지 실전에서 검증된 전환율 최적화 기법을 공유합니다.",
     icon: "🖥️",
-    updatedAt: "2026-03-27",
+    updatedAt: "2024-06-29",
     readTime: 11,
+    viewCount: 12057,
     tags: ["병원 마케팅", "매출 성장"],
     sections: [
       {
@@ -9850,8 +10346,9 @@ export const guides: Guide[] = [
     description:
       "메타(페이스북·인스타그램) 광고를 활용한 병원 마케팅 가이드. 캠페인 구조 설계, 타겟 오디언스 설정, 의료광고 정책 준수, 리드 광고 활용법까지 실전 전략을 다룹니다.",
     icon: "📘",
-    updatedAt: "2026-03-30",
+    updatedAt: "2024-02-29",
     readTime: 12,
+    viewCount: 17687,
     tags: ["병원 마케팅", "매출 성장"],
     sections: [
       {
@@ -9882,8 +10379,9 @@ export const guides: Guide[] = [
     description:
       "이메일 마케팅 자동화로 환자 재방문율을 높이는 전략. 이메일 수집 방법, 세그멘테이션, 자동화 시나리오 설계, 개인정보보호법 준수까지 체계적으로 안내합니다.",
     icon: "📧",
-    updatedAt: "2026-03-26",
+    updatedAt: "2024-11-22",
     readTime: 10,
+    viewCount: 16798,
     tags: ["운영 & 교육", "매출 성장"],
     sections: [
       {
@@ -9914,8 +10412,9 @@ export const guides: Guide[] = [
     description:
       "체계적인 블로그 운영을 위한 콘텐츠 캘린더 수립 방법. 연간·월간·주간 계획 수립, 콘텐츠 유형별 배분, 시즌별 주제 선정, 외주 관리까지 실전 운영 노하우를 공유합니다.",
     icon: "📅",
-    updatedAt: "2026-04-01",
+    updatedAt: "2024-03-09",
     readTime: 9,
+    viewCount: 12500,
     tags: ["병원 마케팅", "운영 & 교육"],
     sections: [
       {
@@ -9946,8 +10445,9 @@ export const guides: Guide[] = [
     description:
       "구글 비즈니스 프로필(구 구글 마이비즈니스)로 병원 검색 노출을 높이는 방법. 프로필 설정, 게시물 활용, 리뷰 관리, 구글 맵 상위 노출 전략을 상세히 안내합니다.",
     icon: "🏢",
-    updatedAt: "2026-03-29",
+    updatedAt: "2025-03-30",
     readTime: 10,
+    viewCount: 7725,
     tags: ["병원 마케팅", "개원 컨설팅"],
     sections: [
       {
@@ -9978,8 +10478,9 @@ export const guides: Guide[] = [
     description:
       "팟캐스트를 활용한 의사 개인 브랜딩과 병원 마케팅 전략. 팟캐스트 기획, 녹음 장비, 플랫폼 배포, 청취자 확보, 환자 전환까지 시작부터 운영까지 안내합니다.",
     icon: "🎙️",
-    updatedAt: "2026-03-25",
+    updatedAt: "2024-08-05",
     readTime: 10,
+    viewCount: 1306,
     tags: ["브랜드 컨설팅", "병원 마케팅"],
     sections: [
       {
@@ -10010,8 +10511,9 @@ export const guides: Guide[] = [
     description:
       "인플루언서와 협업하여 병원을 홍보하는 방법. 인플루언서 선정 기준, 계약 조건, 의료광고법 준수, 성과 측정까지 인플루언서 마케팅의 A to Z를 정리합니다.",
     icon: "🤝",
-    updatedAt: "2026-03-31",
+    updatedAt: "2025-02-16",
     readTime: 11,
+    viewCount: 88079,
     tags: ["병원 마케팅", "브랜드 컨설팅"],
     sections: [
       {
@@ -10042,8 +10544,9 @@ export const guides: Guide[] = [
     description:
       "네이버 카페에서 병원 브랜드를 알리는 커뮤니티 마케팅 전략. 지역 맘카페, 건강 카페 활용법부터 자체 카페 운영, 커뮤니티 규칙 준수까지 실전 가이드입니다.",
     icon: "☕",
-    updatedAt: "2026-04-02",
+    updatedAt: "2025-04-08",
     readTime: 9,
+    viewCount: 16774,
     tags: ["병원 마케팅", "브랜드 컨설팅"],
     sections: [
       {
@@ -10074,8 +10577,9 @@ export const guides: Guide[] = [
     description:
       "AI 챗봇을 활용한 병원 온라인 상담 자동화 전략. 챗봇 도입 장점, 주요 솔루션 비교, 시나리오 설계, 환자 만족도를 높이는 운영법까지 상세히 안내합니다.",
     icon: "🤖",
-    updatedAt: "2026-03-28",
+    updatedAt: "2025-09-15",
     readTime: 11,
+    viewCount: 913,
     tags: ["운영 & 교육", "매출 성장"],
     sections: [
       {
@@ -10106,8 +10610,9 @@ export const guides: Guide[] = [
     description:
       "효과적인 병원 홍보 영상 제작 방법. 기획부터 촬영, 편집, 배포까지 단계별 가이드와 함께 의료광고법을 준수하는 영상 콘텐츠 제작 노하우를 공유합니다.",
     icon: "🎞️",
-    updatedAt: "2026-03-30",
+    updatedAt: "2024-08-21",
     readTime: 12,
+    viewCount: 13070,
     tags: ["브랜드 컨설팅", "병원 마케팅"],
     sections: [
       {
@@ -10138,8 +10643,9 @@ export const guides: Guide[] = [
     description:
       "다음(카카오) 검색에서 병원 노출을 높이는 SEO 전략. 다음 검색 알고리즘 특성, 카카오맵 연동, 티스토리 활용, 브런치 마케팅까지 카카오 생태계 마케팅을 총정리합니다.",
     icon: "🔎",
-    updatedAt: "2026-04-01",
+    updatedAt: "2024-01-06",
     readTime: 10,
+    viewCount: 650,
     tags: ["병원 마케팅", "매출 성장"],
     sections: [
       {
@@ -10170,8 +10676,9 @@ export const guides: Guide[] = [
     description:
       "구글 디스플레이 네트워크(GDN)를 활용한 병원 배너 광고 전략. 타겟팅 설정, 배너 디자인, 리마케팅 캠페인, 성과 분석까지 실전 운영법을 안내합니다.",
     icon: "🖼️",
-    updatedAt: "2026-03-27",
+    updatedAt: "2026-02-19",
     readTime: 10,
+    viewCount: 6724,
     tags: ["병원 마케팅", "매출 성장"],
     sections: [
       {
@@ -10202,8 +10709,9 @@ export const guides: Guide[] = [
     description:
       "네이버·구글·카카오 지도 검색에서 병원을 상위 노출시키는 로컬 SEO 전략. 맵팩 알고리즘, NAP 일관성, 로컬 인용, 후기 전략까지 지도 검색 최적화의 모든 것을 다룹니다.",
     icon: "📊",
-    updatedAt: "2026-03-31",
+    updatedAt: "2025-07-20",
     readTime: 13,
+    viewCount: 19648,
     tags: ["병원 마케팅", "매출 성장"],
     sections: [
       {
@@ -10239,8 +10747,9 @@ export const guides: Guide[] = [
     description:
       "카카오톡 오픈프로필을 활용한 병원 비대면 상담 운영법. 프로필 설정, 상담 응대 매뉴얼, 개인정보 보호, 전환 유도까지 카카오톡 기반 환자 상담 체계를 안내합니다.",
     icon: "💬",
-    updatedAt: "2026-03-26",
+    updatedAt: "2024-07-01",
     readTime: 9,
+    viewCount: 4152,
     tags: ["운영 & 교육", "병원 마케팅"],
     sections: [
       {
@@ -10271,8 +10780,9 @@ export const guides: Guide[] = [
     description:
       "SMS·MMS 문자 마케팅으로 환자와 소통하는 방법. 정보통신망법 준수, 발송 시점 최적화, 콘텐츠 작성법, 성과 측정까지 병원 문자 마케팅의 모든 것을 다룹니다.",
     icon: "📱",
-    updatedAt: "2026-04-02",
+    updatedAt: "2025-02-12",
     readTime: 9,
+    viewCount: 7420,
     tags: ["병원 마케팅", "운영 & 교육"],
     sections: [
       {
@@ -10303,8 +10813,9 @@ export const guides: Guide[] = [
     description:
       "예산이 제한된 개원 초기에 네이버 모두(modoo) 홈페이지로 병원 웹사이트를 무료로 제작하는 방법. 템플릿 활용, SEO 설정, 예약 기능 연동까지 단계별로 안내합니다.",
     icon: "🏠",
-    updatedAt: "2026-03-29",
+    updatedAt: "2024-01-12",
     readTime: 8,
+    viewCount: 18089,
     tags: ["개원 컨설팅", "병원 마케팅"],
     sections: [
       {
@@ -10335,8 +10846,9 @@ export const guides: Guide[] = [
     description:
       "네이버 톡톡을 활용한 병원 실시간 온라인 상담 체계 구축. 톡톡 설정, 자동 응답, 상담원 배정, 성과 관리까지 네이버 톡톡 운영의 모든 것을 안내합니다.",
     icon: "💚",
-    updatedAt: "2026-03-28",
+    updatedAt: "2024-09-28",
     readTime: 9,
+    viewCount: 44892,
     tags: ["운영 & 교육", "매출 성장"],
     sections: [
       {
@@ -10367,8 +10879,9 @@ export const guides: Guide[] = [
     description:
       "프로그래매틱 광고를 활용한 병원 정밀 타겟팅 전략. 프로그래매틱 광고의 원리, DSP 선택, 건강 관심 오디언스 타겟팅, 의료광고 정책 준수까지 전문 가이드를 제공합니다.",
     icon: "🎯",
-    updatedAt: "2026-03-30",
+    updatedAt: "2024-08-24",
     readTime: 11,
+    viewCount: 18124,
     tags: ["병원 마케팅", "매출 성장"],
     sections: [
       {
@@ -10399,8 +10912,9 @@ export const guides: Guide[] = [
     description:
       "유튜브 롱폼(긴 영상) 콘텐츠를 활용한 병원 마케팅 전략. 채널 구독자 확보, 영상 기획, 유튜브 SEO, 광고 수익까지 장기적 브랜드 자산을 구축하는 방법을 안내합니다.",
     icon: "📺",
-    updatedAt: "2026-04-01",
+    updatedAt: "2025-05-08",
     readTime: 12,
+    viewCount: 9714,
     tags: ["브랜드 컨설팅", "병원 마케팅"],
     sections: [
       {
@@ -10431,8 +10945,9 @@ export const guides: Guide[] = [
     description:
       "온라인 도구를 활용한 경쟁 병원 분석 방법론. 검색 키워드 분석, SNS 벤치마킹, 광고 모니터링, 후기 분석까지 데이터 기반의 경쟁 전략 수립 가이드입니다.",
     icon: "🔬",
-    updatedAt: "2026-03-27",
+    updatedAt: "2024-05-15",
     readTime: 11,
+    viewCount: 26304,
     tags: ["병원 마케팅", "개편 컨설팅"],
     sections: [
       {
@@ -10463,8 +10978,9 @@ export const guides: Guide[] = [
     description:
       "홈페이지 방문 후 이탈한 잠재 환자를 다시 잡는 리타겟팅 광고 전략. 픽셀 설치, 오디언스 세그먼트, 채널별 리타겟팅, 성과 최적화까지 실전 가이드입니다.",
     icon: "🔄",
-    updatedAt: "2026-03-31",
+    updatedAt: "2025-10-30",
     readTime: 10,
+    viewCount: 1690,
     tags: ["병원 마케팅", "매출 성장"],
     sections: [
       {
@@ -10495,8 +11011,9 @@ export const guides: Guide[] = [
     description:
       "병원 콘텐츠 마케팅의 투자 대비 수익(ROI)을 측정하는 방법. 핵심 KPI 설정, 트래킹 시스템 구축, 채널별 성과 비교, 경영진 보고서 작성법까지 체계적으로 안내합니다.",
     icon: "📈",
-    updatedAt: "2026-04-02",
+    updatedAt: "2024-07-03",
     readTime: 10,
+    viewCount: 15628,
     tags: ["병원 마케팅", "매출 성장"],
     sections: [
       {
@@ -10527,8 +11044,9 @@ export const guides: Guide[] = [
     description:
       "온라인 평판이 환자 유치에 미치는 영향과 체계적인 관리 전략. 평판 모니터링, 위기 대응, 긍정적 이미지 구축, 평판 회복까지 병원 온라인 평판 관리의 모든 것입니다.",
     icon: "⭐",
-    updatedAt: "2026-03-29",
+    updatedAt: "2025-04-09",
     readTime: 13,
+    viewCount: 1076,
     tags: ["브랜드 컨설팅", "병원 마케팅"],
     sections: [
       {
@@ -10564,8 +11082,9 @@ export const guides: Guide[] = [
     description:
       "네이버 GFA를 활용한 병원 배너 광고 전략. 캠페인 설정, 타겟팅 옵션, 소재 제작, 의료광고 심의 적용, 성과 최적화까지 네이버 디스플레이 광고의 실전 가이드입니다.",
     icon: "🟩",
-    updatedAt: "2026-03-26",
+    updatedAt: "2026-01-01",
     readTime: 11,
+    viewCount: 16356,
     tags: ["병원 마케팅", "매출 성장"],
     sections: [
       {
@@ -10596,8 +11115,9 @@ export const guides: Guide[] = [
     description:
       "쓰레드와 X(구 트위터)를 활용한 병원 마케팅 전략. 텍스트 기반 플랫폼의 특성을 살린 의료 콘텐츠 기획, 바이럴 전략, 의사 개인 브랜딩 방법을 안내합니다.",
     icon: "🧵",
-    updatedAt: "2026-04-03",
+    updatedAt: "2025-07-01",
     readTime: 9,
+    viewCount: 26563,
     tags: ["브랜드 컨설팅", "병원 마케팅"],
     sections: [
       {
@@ -10628,8 +11148,9 @@ export const guides: Guide[] = [
     description:
       "병원 규모와 목표에 맞는 온라인 마케팅 예산 수립 방법. 채널별 예산 배분, 시기별 예산 조정, ROI 기반 예산 최적화, 예산 규모별 추천 전략까지 상세히 안내합니다.",
     icon: "💰",
-    updatedAt: "2026-03-30",
+    updatedAt: "2025-07-20",
     readTime: 12,
+    viewCount: 68428,
     tags: ["병원 마케팅", "매출 성장"],
     sections: [
       {
@@ -10660,8 +11181,9 @@ export const guides: Guide[] = [
     description:
       "구글 애널리틱스 4(GA4)를 병원 홈페이지에 설치하고 활용하는 방법. 설치 방법, 전환 이벤트 설정, 맞춤 보고서 작성, 데이터 기반 마케팅 의사결정까지 실전 가이드입니다.",
     icon: "📊",
-    updatedAt: "2026-04-01",
+    updatedAt: "2024-06-19",
     readTime: 11,
+    viewCount: 85728,
     tags: ["병원 마케팅", "운영 & 교육"],
     sections: [
       {
@@ -10692,8 +11214,9 @@ export const guides: Guide[] = [
     description:
       "네이버 파워링크(검색광고 최상단)를 활용한 병원 광고 운영 전략. 입찰 구조 이해, 품질지수 관리, 확장소재 활용, 비용 효율 극대화까지 실전 최적화 기법을 다룹니다.",
     icon: "🔗",
-    updatedAt: "2026-03-28",
+    updatedAt: "2025-12-29",
     readTime: 10,
+    viewCount: 1317,
     tags: ["병원 마케팅", "매출 성장"],
     sections: [
       {
@@ -10724,8 +11247,9 @@ export const guides: Guide[] = [
     description:
       "핀터레스트를 활용한 병원 비주얼 마케팅 전략. 건강 인포그래픽, 시술 정보 핀, 보드 구성법, 핀터레스트 SEO까지 이미지 기반 플랫폼에서의 병원 마케팅 방법을 안내합니다.",
     icon: "📌",
-    updatedAt: "2026-03-25",
+    updatedAt: "2025-08-30",
     readTime: 9,
+    viewCount: 16349,
     tags: ["브랜드 컨설팅", "병원 마케팅"],
     sections: [
       {
@@ -10756,8 +11280,9 @@ export const guides: Guide[] = [
     description:
       "네이버 밴드를 활용한 병원 환자 커뮤니티 구축과 운영 전략. 밴드 개설, 회원 관리, 콘텐츠 운영, 환자 재방문 유도까지 밴드 기반 CRM 전략을 안내합니다.",
     icon: "👥",
-    updatedAt: "2026-04-02",
+    updatedAt: "2025-10-11",
     readTime: 9,
+    viewCount: 13918,
     tags: ["운영 & 교육", "매출 성장"],
     sections: [
       {
@@ -10788,8 +11313,9 @@ export const guides: Guide[] = [
     description:
       "병원 마케팅에서 A/B 테스트를 활용하여 전환율을 높이는 방법. 테스트 설계, 실행, 분석까지 광고 소재, 랜딩페이지, 이메일 등 채널별 A/B 테스트 실전 노하우를 공유합니다.",
     icon: "🧪",
-    updatedAt: "2026-03-27",
+    updatedAt: "2024-12-17",
     readTime: 10,
+    viewCount: 8094,
     tags: ["병원 마케팅", "매출 성장"],
     sections: [
       {
@@ -10820,8 +11346,9 @@ export const guides: Guide[] = [
     description:
       "QR코드로 병원의 오프라인 마케팅을 온라인과 연결하는 방법. QR코드 제작, 활용 시나리오, 트래킹 설정, 실전 사례까지 O2O 마케팅 전략을 체계적으로 안내합니다.",
     icon: "📲",
-    updatedAt: "2026-03-31",
+    updatedAt: "2025-07-22",
     readTime: 8,
+    viewCount: 17584,
     tags: ["병원 마케팅", "매출 성장"],
     sections: [
       {
@@ -10852,8 +11379,9 @@ export const guides: Guide[] = [
     description:
       "유료 광고(PPC)와 자연 검색(SEO)의 장단점을 비교하고, 병원 상황에 맞는 최적 조합을 찾는 방법. 단계별 마케팅 믹스, 예산 배분, 장기 전략 수립 가이드입니다.",
     icon: "⚖️",
-    updatedAt: "2026-04-03",
+    updatedAt: "2025-02-07",
     readTime: 11,
+    viewCount: 15345,
     tags: ["병원 마케팅", "매출 성장"],
     sections: [
       {
@@ -10884,8 +11412,9 @@ export const guides: Guide[] = [
     description:
       "환자가 건강 정보를 검색하는 마이크로 모먼트(순간적 필요)를 포착하여 마케팅하는 전략. 환자 검색 의도 분석, 모먼트별 콘텐츠 매칭, 모바일 최적화까지 실전 가이드입니다.",
     icon: "⚡",
-    updatedAt: "2026-03-29",
+    updatedAt: "2024-09-18",
     readTime: 10,
+    viewCount: 3146,
     tags: ["병원 마케팅", "브랜드 컨설팅"],
     sections: [
       {
@@ -10916,8 +11445,9 @@ export const guides: Guide[] = [
     description:
       "쿠팡 광고 플랫폼을 활용하여 병원 연계 건강기능식품과 의료기기를 판매하는 전략. 쿠팡 광고 세팅, 키워드 입찰, 상품 상세페이지 최적화, 매출 연계까지 안내합니다.",
     icon: "🛒",
-    updatedAt: "2026-03-30",
+    updatedAt: "2025-02-18",
     readTime: 10,
+    viewCount: 37321,
     tags: ["병원 마케팅", "매출 성장"],
     sections: [
       {
@@ -10948,8 +11478,9 @@ export const guides: Guide[] = [
     description:
       "AI 스피커와 스마트폰 음성 검색에 대응하는 병원 마케팅 전략. 음성 검색 트렌드, 대화형 키워드 최적화, 구조화 데이터 활용, FAQ 콘텐츠 전략까지 미래형 SEO 가이드입니다.",
     icon: "🗣️",
-    updatedAt: "2026-04-01",
+    updatedAt: "2025-09-06",
     readTime: 10,
+    viewCount: 19268,
     tags: ["병원 마케팅", "브랜드 컨설팅"],
     sections: [
       {
@@ -10980,8 +11511,9 @@ export const guides: Guide[] = [
     description:
       "병원 건강 뉴스레터를 통한 환자 관계 강화 전략. 구독자 확보, 뉴스레터 콘텐츠 기획, 발송 자동화, 개인정보보호법 준수까지 병원 뉴스레터 운영의 모든 것을 다룹니다.",
     icon: "📰",
-    updatedAt: "2026-03-28",
+    updatedAt: "2024-07-11",
     readTime: 10,
+    viewCount: 7417,
     tags: ["운영 & 교육", "매출 성장"],
     sections: [
       {
