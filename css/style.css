@@ -161,7 +161,7 @@ strong { font-weight: 700; }
 .hero {
     position: relative;
     width: 100%;
-    height: 734px;
+    height: 820px;
     overflow: hidden;
 }
 .hero-slider {
@@ -177,7 +177,7 @@ strong { font-weight: 700; }
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(180deg, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.55) 40%, rgba(0,0,0,0.75) 100%);
+    background: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.4) 30%, rgba(0,0,0,0.7) 60%, rgba(0,0,0,0.9) 100%);
     z-index: 2;
 }
 .hero-overlay {
@@ -202,6 +202,7 @@ strong { font-weight: 700; }
     display: flex;
     align-items: center;
     padding-left: 8%;
+    padding-bottom: 0;
 }
 .hero-slide-logo {
     margin-bottom: 16px;
@@ -826,6 +827,10 @@ strong { font-weight: 700; }
     backdrop-filter: blur(4px);
 }
 
+.review-highlight {
+    color: #fff;
+    font-weight: 700;
+}
 /* -- Reviews Section -- */
 .sec-reviews {
     background: #0063ff;
@@ -2389,11 +2394,11 @@ body.loading .kakao-float-btn { transform: translateY(100px); opacity: 0; }
     .btn-estimate { display: none; }
     .mobile-menu { padding-top: 90px; }
 
-    .hero { height: 500px; }
+    .hero { height: 560px; }
     .hero-title-line { font-size: 32px; }
     .hero-subtitle { font-size: 14px; }
     .hero-subtitle-area { margin-top: 16px; }
-    .hero-slide-content { padding-left: 20px; }
+    .hero-slide-content { padding-left: 20px; padding-bottom: 60px; }
     .scroll-indicator { display: none; }
 
     .section { padding: 80px 0; }
